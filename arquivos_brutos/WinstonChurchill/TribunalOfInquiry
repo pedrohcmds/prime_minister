@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Tribunal Of Inquiry - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-10-27">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-10-27/debates/9d8279cf-84d8-4948-a0f2-f9853814de52/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/65b6b93c-b962-4d6a-91d2-ff4c1199fa29"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-10-27">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-10-27/debates/eb54ff0b-533e-4074-bb93-e7415d588210/RecallOfArmyAndAirForcePensionersBill" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Tribunal Of Inquiry
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1948-10-27/debates/5caed72d-577c-4e00-a9ba-f28af37f3eca/GovernmentBusiness(Precedence)" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2776025" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>27 October 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 457</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-b102407c-183f-4d31-bc80-79f8e01d94f7">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b102407c-183f-4d31-bc80-79f8e01d94f7">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b102407c-183f-4d31-bc80-79f8e01d94f7">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b102407c-183f-4d31-bc80-79f8e01d94f7">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b102407c-183f-4d31-bc80-79f8e01d94f7" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-b102407c-183f-4d31-bc80-79f8e01d94f7">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, <blockquote><q>"That it is expedient that a Tribunal be established for inquiring into a definite matter of urgent public importance, that is to say—Whether there is any justification for allegations that payments, rewards or other considerations have been sought, offered, promised, made or received by or to Ministers of the Crown or other public servants in connection with licences or permissions required under any enactment, regulation or order or in connection with the withdrawal of any prosecution and, if so, in what circumstances the transactions took place and what persons were involved therein."</q></blockquote> In moving the Motion that stands on the Order Paper in the names of my right hon. Friends the Chancellor of the Exchequer, the Home Secretary and myself, I regret that I should have to ask the House to interrupt the Debate on the Address and to consider this Motion. The House will no doubt expect me to state the reasons which have led the Government to ask the House to approve it. In the latter part of August last, my right hon. Friend the President of the Board of Trade was informed by officials of the Board that allegations had been made that the Parliamentary Secretary and other Ministers and officials had been offered or had received bribes in respect of the withdrawal of a prosecution against a certain firm of football pool promoters and in respect of the allocation of paper to the same firm.<p></p> The President of the Board of Trade at once consulted my right hon. Friend the Chancellor of the Exchequer, who <span id="88" class="column-number" data-column-number="88"></span> was acting for me in my absence, and it was agreed that my noble Friend the Lord Chancellor should be asked to inquire into the allegations. The Metropolitan Police had in the meantime been informed by the Board of Trade of the allegations and were asked to make inquiries. It so happened that the Metropolitan Police were already making inquiries on their own initiative into information which had been brought to their notice relating to suggestions that a licence to import amusements machinery could be obtained by bribing Ministers or Government officials. In the course of the inquiries, it transpired that there were two other matters which seemed to involve similar allegations. One related to a proposal for the flotation of a public company and the other to a proposed application for a building licence. All these allegations could be traced back to the activities of a certain alien. The statements which had been taken by the police were placed before the Lord Chancellor who, after making such other inquiries as he thought fit, reported to me.<p></p> After considering what the Lord Chancellor told me, I came to the conclusion that the right course to adopt was to refer the whole matter for investigation to a Tribunal of Inquiry, clothed with all the powers of the Tribunals of Inquiry (Evidence) Act, 1921, and, as the House will remember, a statement was issued by the Government on 8th October stating that they proposed to move the necessary Motions in both Houses of Parliament to set up the Tribunal at the earliest possible moment. If the House approves the Motion, a Tribunal will be set up with the terms of reference embodied in the Motion; and the Tribunal will, of course, have full discretion as to how they will interpret those terms of reference. Nevertheless, I think it may be of some assistance to the House if I explain the considerations which His Majesty's Government had in mind in framing the Motion in the form in which it appears on the Order Paper.<p></p> As I have already indicated, the allegations which have been brought to the notice of His Majesty's Government relate to four specific matters: (1) a proposal relating to an application for a licence to import a quantity of amusements machinery; (2) a proposal relating <span id="89" class="column-number" data-column-number="89"></span> to an application for a building licence; (3) a proposal relating to permission to issue capital on the formation of a public company operating football pools; and (4) the withdrawal of a prosecution for contravention of the Paper Control Order by a firm of football pool promoters, and representations made by that firm for an increased allocation of paper. Certain individuals figure in some but not others of these four allegations; but as I have said, they all centre upon the activities of a certain alien, and it is clearly right that the whole of the circumstances connected with all four allegations and that man's activities should be considered by the same Tribunal.<p></p> The Government have carefully considered whether these four allegations which I have mentioned should be set out in the terms of reference, and whether the Inquiry should be specifically limited to these four matters. The Government decided against this course, since they are anxious not to limit unduly the scope of the inquiry, and not so to frame the terms of reference as to prevent the Tribunal from inquiring into relevant matters which would not be specifically covered by more limited terms of reference. I feel sure that the House will agree that this is the right course to take. It may happen that matters will be brought to the notice of the Tribunal which are in no way connected with the four specific allegations or the activities of the alien to whom I have referred. It must be for the Tribunal themselves to decide whether any such matters are appropriate to the scope of their inquiry, and it will always be open to the Tribunal to recommend that any matter which they think is not appropriate for their consideration shall be dealt with by other means. It will be remembered that the Act under which the Tribunal will be set up makes provision for an inquiry into a definite matter of urgent public importance, and it would be inconsistent with this provision to have a general roving inquiry.<p></p> There is one further matter with which the House will expect me to deal—the bearing of this Inquiry on any criminal proceedings. For their part, His Majesty's Government are, and always have been, most anxious that the fullest public investigation should be made at the earliest possible moment into any allegations reflecting on the purity of <span id="90" class="column-number" data-column-number="90"></span> public administration. Democracy cannot thrive in an atmosphere of suspicion and distrust. It may be that, as a result of the inquiries now being conducted by the police under the direction of the Director of Public Prosecutions, criminal proceedings are contemplated, or may in fact be instituted. This is a matter within the exclusive province of the Attorney, General.<p></p> If proceedings have been, or are about to be, instituted when the Tribunal has been set up, it will be for the Tribunal who will be seized of the whole matter, to consider the appropriate course of action, and no doubt they will ensure that the interests of justice are safeguarded and that neither the prosecution nor the defence of any person prosecuted will be prejudiced by the Inquiry. If, on the other hand, no prosecution is launched or contemplated, the Inquiry will proceed; but it must not be thought that the fact that an Inquiry of this nature has been held will prevent the institution of criminal proceedings in the future should sufficient evidence subsequently come to light, whether as a result of the Inquiry or otherwise. It is for this reason that the Act of 1921 expressly provides that any witness before the Tribunal is entitled to the same immunities and privileges as if he were a witness before the High Court; that is to say, he need not answer a question if the answer is likely to incriminate him.<p></p> The Tribunal will be presided over by one of His Majesty's Judges, who will have associated with him two eminent lawyers. The Tribunal will have all the powers of a High Court to enforce the attendance of witnesses and the production of documents. In accordance with the practice adopted in previous Inquiries, the Treasury Solicitor has been instructed to place his services at the disposal of the Tribunal. He will act upon the instructions of the Tribunal and take such steps as they may direct him to take for the purpose of bringing before the Tribunal all the evidence which the Tribunal think is relevant to the Inquiry. I should add that the Act of 1921 expressly provides that the Tribunal shall not refuse to allow the public to be present at any of the proceedings of the Tribunal unless, in the opinion of the Tribunal, it is in the public interest expedient so to do for reasons connected with the subject matter of the Inquiry or <span id="91" class="column-number" data-column-number="91"></span> the nature of the evidence given. The Act also gives the Tribunal power to allow representation before them, by counsel or solicitor or otherwise, of any person appearing to them to be interested.<p></p> At this stage I do not think it right that I should say more. If both Houses of Parliament approve of the Motion, the House may rest assured that there will be a thorough and searching public inquiry into all the allegations which have been made. The Report of the Tribunal of Inquiry will in due course be laid before Parliament, and if there were a general desire to discuss it arrangements would no doubt be made.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b102407c-183f-4d31-bc80-79f8e01d94f7" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-b102407c-183f-4d31-bc80-79f8e01d94f7">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e248f257-45c5-4446-a96c-9765c1251364">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e248f257-45c5-4446-a96c-9765c1251364">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e248f257-45c5-4446-a96c-9765c1251364">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e248f257-45c5-4446-a96c-9765c1251364">
+                Mr. Churchill (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e248f257-45c5-4446-a96c-9765c1251364" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-e248f257-45c5-4446-a96c-9765c1251364">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is refreshing to feel that there is no difference of any kind between the two sides of the House upon the statement which the Prime Minister has just made. Whatever differences we may have, there is no doubt that this House of Commons has shown itself most vigilant in matters affecting the honour of Members or Ministers in questions of breach of confidence or questions of breach of privilege, or in questions of the character which are now brought to our notice. No Parliament has shown itself more vigorous and forward in this matter, and we have no complaint whatever to make of the course which the Prime Minister has proposed.<p></p> We consider that the fullest latitude should be given to the Tribunal; that the Tribunal in itself will be satisfactory for the purpose; that the arrangements for fitting in the work of the Tribunal with any prosecutions it may be necessary to launch in the Criminal Courts are well conceived; and that the lines which differentiate the subjects which it will be proper to inquire into with regard to any wider body of allegations which may be noticeable in the course of the proceedings are well drawn and well expressed in the Prime Minister's statement. We are, therefore, in entire accord with the proposals put forward and will give our immediate support to His Majesty's Government in the matter.<p></p> I have only one thing more to say, and it is that I feel that, in view of the fact that there is no difference of any kind between us, and for other reasons of a higher character, Members of Parliament should in this interval set an <span id="92" class="column-number" data-column-number="92"></span> example by not indulging in gossip or the wide diffusion of names and other scandalous matters. We have confidence in the course which the Government have proposed, and we shall await the result of the inquiry. We have good hopes that it will vindicate completely the honour and reputation of individuals, and if not of individuals, then at any rate of the system by which we carry on our Government.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e248f257-45c5-4446-a96c-9765c1251364" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-e248f257-45c5-4446-a96c-9765c1251364">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2b8f6100-8c04-401e-9ece-650a01cebee3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2b8f6100-8c04-401e-9ece-650a01cebee3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2b8f6100-8c04-401e-9ece-650a01cebee3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2b8f6100-8c04-401e-9ece-650a01cebee3">
+                Mr. Clement Davies (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2b8f6100-8c04-401e-9ece-650a01cebee3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-2b8f6100-8c04-401e-9ece-650a01cebee3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am sure that every Member of the House will approve of the action which has been taken by the Government and of the Motion proposed by the Prime Minister. It is not only the right and proper course to take, but it is in the best interests of the country and of those against whom suspicion has been drawn.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2b8f6100-8c04-401e-9ece-650a01cebee3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-2b8f6100-8c04-401e-9ece-650a01cebee3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+                Mr. Blackburn (Birmingham, King's Norton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-80f32fd0-4889-476d-bc5a-b301a4b7a437" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I hope the House will bear with me if I put forward a slightly different point of view. I personally take the view that the correct procedure at the beginning was to treat every one concerned in exactly the same way as if they had been ordinary private individuals. It seems to me that the papers should have been sent to the Director of Public Prosecutions as an individual entirely devoid of any kind of political bias. If he considered it was his duty to take proceedings, he would then have taken those proceedings.<p></p> I think that the remarks made by the Prime Minister at the end of his speech may cover the point I shall put forward. There is a very grave danger indeed in instituting a procedure of this kind. This kind of procedure is very unfair indeed to the people who are accused, and it is even more unfair to people whose names may be incidentally mentioned. It is the right of every British citizen, if anyone wishes to prosecute him, that he can be brought before the magistrates, and then, under the very strict conditions of our criminal law, an investigation is made. But, under this procedure people can be brought before this Tribunal and evidence given which would be inadmissible before any ordinary tribunal, and, what is even more unfair, there is the whole floodlight of Press publicity brought to bear upon it.<p></p> The last occasion in our minds is that of Mr. J. H. Thomas. I should like to <span id="93" class="column-number" data-column-number="93"></span> refer to what the Conservative Attorney-General, Sir Donald Somervell, said on that occasion. He gave two reasons for deciding that there was to be no prosecution of Mr. J. H. Thomas. The first reason was the technical one, and the second reason was that it would be wrong to bring a prosecution in view of the fact that the evidence had been obtained by this means—I think the word "continental" was used.<p></p> It seems to me that it is dangerous to the individual who happens to be a Member of Parliament or to be associated with a Member of Parliament that he should be put into a different situation from that of any other individual in the country who is entitled to protection. In the case of Mr. J. H. Thomas, it resulted in a decision not to prosecute someone who might otherwise have been prosecuted. The present Chancellor of the Exchequer made a speech on that occasion and suggested that Mr. Thomas should have been prosecuted. He entirely disagreed with the point of view put forward by the then Attorney-General. Although I speak with diffidence, I think it was the general opinion of the legal profession at that time that this kind of procedure is unfair to the accused as compared with the normal procedure.<p></p> Finally, I suggest that it is very important, as the Prime Minister has said, that we should set an example in this matter. It seems to me that if, after a prosecution has been instituted, the House feel that there should be a general inquiry, then it would be a very proper thing to have a general inquiry. But what a dangerous situation we may find ourselves involved in; because how can we have a prosecution of an individual proceeding at the same time as an inquiry decided upon by this House? Before the House decides to have an inquiry, the Director of Public Prosecutions ought to state whether he wants to prosecute anyone or not. That is an opinion which I hold very strongly. It seems to me that the Prime Minister's remarks may have that effect, because when the Tribunal meet they may say that they have no intention of going into this matter until they know whether the Director of Public Prosecutions wants to prosecute, which seems to me to be the correct course to take in this case.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-80f32fd0-4889-476d-bc5a-b301a4b7a437" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-10-27/debates/65b6b93c-b962-4d6a-91d2-ff4c1199fa29/TribunalOfInquiry#contribution-80f32fd0-4889-476d-bc5a-b301a4b7a437">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-719fc6cd-92cc-4477-81b3-fcc8a4ec4ef6'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="94" class="column-number column-only" data-column-number="94"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-863e217a-750e-4857-b28c-b946d1354bf2'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>"That it is expedient that a Tribunal be established for inquiring into a definite matter of urgent public importance, that is to say—Whether there is any justification for allegations that payments, rewards or other con siderations have been sought, offered, promised, made or received by or to Ministers of the Crown or other public servants in connection with licences or permissions required under any enactment, regulation or order or in connection with the withdrawal of any prosecution and, if so, in what circumstances the transactions took place and what persons were involved therein."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

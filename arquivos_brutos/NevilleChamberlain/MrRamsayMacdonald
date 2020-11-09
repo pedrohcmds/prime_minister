@@ -1,0 +1,567 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Mr Ramsay Macdonald - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1937-11-10">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1937-11-10/debates/2f9169fe-94e1-4140-b9df-258ca27c922a/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/95e6c060-9544-4956-9eeb-e18dc9c6e5aa"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1937-11-10">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1937-11-10/debates/3a5d5d89-a239-4ce6-ad1f-4563463bf1c5/Journalists(Registration)Bill" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Mr Ramsay Macdonald
+            </div>
+
+            <div class="right-arrow">
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2656532" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>10 November 1937</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 328</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1801" class="column-number column-only" data-column-number="1801"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+                The Prime Minister (Mr. Chamberlain)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3f27b7ea-1e23-4e70-a4a3-e6190725470b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">beg to move, "That this House do now adjourn."<p></p> Hon. Members in all parts of the House will have learned this morning with a sense of shock of the sudden and unexpected death, last night, on board ship, of Mr. Ramsay MacDonald. The House will desire to pay its last tribute this afternoon to the memory of an ex-Prime Minister, to one who was a Member of this House for nearly the space of a generation, who was for long the leader of the Labour party and in his later years head of the National Government. Assuredly the name and fame of Mr. MacDonald will be associated with the events of 1931, and only two days ago Lord Baldwin paid him a notable tribute in connection with that time. Nevertheless. I do not propose now to dwell upon that phase, for the obvious reason that Mr. MacDonald's action in 1931 aroused controversies the bitterness of which has not yet died away, and this afternoon we shall not desire to dwell upon controversies, but rather upon things on which we can all agree.<p></p> It is not for me to enter upon the part which Mr. MacDonald played in the foundation of the Labour party, but when he entered this House in 1906 the man who had spent his early years in a Highland village in poverty and with but few facilities for education, except of an elementary character, had already established a national reputation and had become a political force. I myself first saw him in 1922, when he returned to the House after an absence of four years, and it was some time after that, after he became Prime Minister for the first time, that I ever spoke to him. But, of course, later on I was to serve under hire as a Member of the National Government and our contact became close. It is of the impressions that he made upon me that I would like to speak a little this afternoon.<p></p> Mr. MacDonald had great natural gifts—his handsome presence, his agreeable voice, that strong appreciation of duty which he had, whether it were in his own native hills or whether it showed itself in his passion for human art in the realm of pictures, in which he took so much delight. But I think that the strongest impression he made upon my mind was <span id="1802" class="column-number" data-column-number="1802"></span> that of his courage, physical and moral. He showed his moral courage on many occasions, when in pursuance of his convictions he set himself in opposition to his own friends and to public opinion in the country. I admired greatly his fortitude under the affliction of failing eyesight, when he submitted to painful operations and to increasing disabilities without hesitation and without murmuring.<p></p> Another characteristic which strongly impressed me was his ability to handle an international gathering, an ability which was all the more remarkable because he spoke no other language than his own, and, as far as I know, he understood very little of any other tongue. It was my privilege to serve under him at two such gatherings—at the Lausanne Conference in 1932 and again at the London Economic Conference in 1933. There he seemed to be completely at home, and I could not but feel astonished at the wide range of his international acquaintance and the easy terms which he seemed to have established with almost all who took part in those conferences. I suppose it could be said with truth that no British statesman of his time had a wider personal knowledge of international figures than Mr. MacDonald. For myself, as a colleague of Mr. MacDonald, I never received anything but kindness and consideration from him, and I can echo the words that were used by Lord Baldwin the other day when he said "He could not wish for a better chief."<p></p> His end was one which any of us might envy, but to his family our sympathy goes out in their loss, and especially to that daughter who was accompanying him on what was to have been a happy holiday, and who is now left to perform the last sad offices for her father. Just before he sailed Mr. MacDonald told a reporter that he was going "to seek the most elusive of all forms of happiness—rest." Mr. Speaker, he has found what he went out to seek, and there perhaps we may leave him.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3f27b7ea-1e23-4e70-a4a3-e6190725470b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-3f27b7ea-1e23-4e70-a4a3-e6190725470b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3c853333-a778-4a54-a99f-fae6e61b603d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3c853333-a778-4a54-a99f-fae6e61b603d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3c853333-a778-4a54-a99f-fae6e61b603d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3c853333-a778-4a54-a99f-fae6e61b603d">
+                Mr. Attlee
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3c853333-a778-4a54-a99f-fae6e61b603d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-3c853333-a778-4a54-a99f-fae6e61b603d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I would like, on behalf of all my friends on these Benches and of myself, to express our sincere sympathy with the family of Mr. MacDonald in the great loss which has suddenly come upon them. I know how close were the bonds <span id="1803" class="column-number" data-column-number="1803"></span> of affection between members of that family, and I recall also at this time the gracious personality of the wife and helpmeet of whom he wrote that famous memorial. This House also has sustained a great loss in the death of one of its most distinguished Members. He was a great Parliamentary figure who had been for the greater part of 30 years prominent in our Debates, a man who held for more than seven years the high office of the first Minister of the Crown.<p></p> Since the War, we have seen the passing of five Prime Ministers, and the circumstances of their death have been very different. Lord Rosebery lived on until the task and the contest in which he had been engaged had passed away. The scenes in which he played his part had already become history. Mr. Bonar Law was taken from the world within a few months of relinquishing the Premiership. Mr. MacDonald has been given only a little more than two years of comparative rest since he laid down the burden of the Premiership. He had, so to speak, hardly left the battlefield. It is never very easy, while the controversies in which a man has been engaged are still live issues, to judge fairly either his actions or his character. Strong feelings obscure the judgment; the mists of battle prevent clear vision. This is so especially when there has been a parting of the ways between old associates. The events of the last six years are too near to us to allow a right perspective. The actions of Mr. MacDonald in the year 1931, and afterwards, made a breach between him and Members on this side too deep to be closed. Personal relations of long standing were broken, never to be renewed. Our opinion on those events must necessarily differ from that of hon. Members on the other side, and they must inevitably affect our judgment of the man and the course of his life in the last six years. We can only leave those things to the historians in the future and to their judgment, which may well depend upon the course of history in this country and the world.<p></p> For myself, I will follow the example of the Prime Minister in abstaining from any attempt to deal with those years or to assess Mr. MacDonald in those years. I would not like to say anything which might give a wound on this occasion. I would not like to fail in generosity to the <span id="1804" class="column-number" data-column-number="1804"></span> dead or in justice to the living. I would rather turn to the earlier and happier days. Mr. MacDonald started life without any advantages of wealth, influence or position. He had to make his way and earn his living in a hard world. He had to gain a wide education for himself at the same time, and it was due to his determination and his own qualities that he was able to rise to so high a position and to accomplish so much. For nearly 40 years he was one of the chief advocates of the cause of Socialism in this country and he was for many years one of the leading members of the Independent Labour party. He was one of the three or four men most responsible for the creation and development of the Labour party. With his striking personality, great powers of oratory and effective literary style, he spread the gospel of Socialism at a time when its adherents were few and weak, and their opponents strong and, apparently, impregnably entrenched. He added to those other qualities a gift for organisation and for political strategy. For many years he spent himself freely, working at intense pressure. His activities were not confined to domestic circles, and he travelled widely. As the Prime Minister said, he acquired a great knowledge of the personalities on the Continent and the rest of the world. He was a well-known figure abroad before he was prominent here, and his international interests led him to be an ardent advocate of peace.<p></p> He endured unpopularity during the War with great fortitude. Perhaps it is some little achievement that, in 1924, when bearing the double burden of Prime Minister and Foreign Secretary, he sought to bring appeasement to a distracted world. He will always be remembered for his services on behalf of the workers. On these benches we shall always like to think of him as he was in the fullness of his powers, fighting against odds in the cause in which he believed.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3c853333-a778-4a54-a99f-fae6e61b603d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-3c853333-a778-4a54-a99f-fae6e61b603d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c01e08c0-a5eb-4668-a610-fc9dca552475">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c01e08c0-a5eb-4668-a610-fc9dca552475">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c01e08c0-a5eb-4668-a610-fc9dca552475">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c01e08c0-a5eb-4668-a610-fc9dca552475">
+                Sir Archibald Sinclair
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c01e08c0-a5eb-4668-a610-fc9dca552475" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-c01e08c0-a5eb-4668-a610-fc9dca552475">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I rise to associate my hon. Friends and myself with the moving and impressive tributes which have been paid by the Leader of the House and the Leader of the Opposition to the memory of Mr. Ramsay MacDonald. For two long periods in the last 20 years of his public life, Mr. Ramsay MacDonald was the centre of fierce controversy and the object of <span id="1805" class="column-number" data-column-number="1805"></span> ruthless criticism. The merits of those controversies will be judged by posterity, and they do not to-day concern us. Let us now remember only this: that in his public life Mr. Ramsay MacDonald bore himself with dignity, with generosity and understanding towards those who differed from him, and with proud and indomitable courage, which was the more admirable in a man who was by nature so finely sensitive.<p></p> One of my most vivid recollections of the short time during which I had the honour of serving under him as Prime Minister is of a morning when, struggling against the infirmity of his sight, but, as the Prime Minister has said, without murmuring and completely absorbed in the business, he worked with us until the last moment, when he had to leave the Cabinet to undergo a delicate and dangerous operation on his eyes. That <span id="1806" class="column-number" data-column-number="1806"></span> was characteristic, for he never spared himself—indeed, he spent himself—in the service of the State and of this House.<p></p> He was a great Scotsman who rose by qualities of mind and force of character to high estate, but who remained rooted in the soil of his native parish, in his home in Moray, and in the love of his devoted family, to whom our sympathy flows out this day. So let us unite in saluting the memory of a man whose gifts of leadership and oratory enriched the public life of his generation and who shrank from no sacrifice of effort, popularity, friendship, pain, or health, in the pursuit of his vision and in the service of his country.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c01e08c0-a5eb-4668-a610-fc9dca552475" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-11-10/debates/95e6c060-9544-4956-9eeb-e18dc9c6e5aa/MrRamsayMacdonald#contribution-c01e08c0-a5eb-4668-a610-fc9dca552475">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5259eaea-e615-46af-8dec-0dab7b067cae'>
+            
+<p class="">Question, "That this House do now adjourn," put, arid agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b7406b68-81b7-4950-b442-4467011abd51'>
+            
+<p class="">Adjourned accordingly at Ten Minutes after Four o'Clock,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

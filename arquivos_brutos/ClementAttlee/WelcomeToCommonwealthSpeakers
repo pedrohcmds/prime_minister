@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Welcome To Commonwealth Speakers - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1950-10-26">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1950-10-26/debates/4057004d-7b7f-4274-822f-687115f95227/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/4721e745-e14f-4443-b10a-7d9a3c151e23"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1950-10-26">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1950-10-26/debates/aef30ec9-eb9b-4a46-ac90-21e18d1c9880/HouseOfCommons" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Welcome To Commonwealth Speakers
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1950-10-26/debates/3da4eb49-054a-4381-8917-05501ace6fa0/AddressToHisMajesty" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3050997" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>26 October 1950</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 478</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-62870cce-3395-4cfc-81e0-55126a47963d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-62870cce-3395-4cfc-81e0-55126a47963d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-62870cce-3395-4cfc-81e0-55126a47963d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-62870cce-3395-4cfc-81e0-55126a47963d">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-62870cce-3395-4cfc-81e0-55126a47963d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-62870cce-3395-4cfc-81e0-55126a47963d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>then took the Chair and said</em>: Before I call on the Prime Minister to move a Motion, I should like, with the permission of the House, and as Speaker of the House of Commons, to welcome formally my fellow Speakers, Presiding Officers and representatives from overseas, as well as our guests from home, including Members of the war-time Parliament, the architect and some of the workmen who have rebuilt this Chamber.<p></p> I should explain that normally no one is admitted to the Galleries until we have finished our daily Prayers. They may well be called our family Prayers. But it is fitting on this unique occasion, seeing that <span id="2930" class="column-number" data-column-number="2930"></span> we all belong to one great family of nations, that our Prayers this morning should be witnessed and shared by representatives from every part of our great Commonwealth family.<p></p> I should also explain that the Speaker's Chaplain, the Rev. Prebendary Cheshire, read our usual Prayers, but the Dean of Westminster, the Very Rev. Alan Don, read a Prayer specially composed for this ceremony of dedication. He was asked by me to do this because he was Speaker's Chaplain during the whole of the last war and also took part in the official laying of the foundation stone of this building. I feel that all Members of that war-time Parliament will approve of my choice.<p></p> Finally, may I, as your Speaker, welcome all my fellow Members back to their old home. It will seem new to many, but none the less it is our true home, for here have been fought, and will be fought, I trust, those Parliamentary battles which have so enhanced the fame of the British House of Commons. Our first act on coming home has been one of worship and of dedication and in all humbleness of heart I pray, "May the Almighty God bless our home."</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-62870cce-3395-4cfc-81e0-55126a47963d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-62870cce-3395-4cfc-81e0-55126a47963d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0926f46f-feed-42c2-ac3a-12270c8abcfb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I desire to move the Motion standing in my name and in the names of the right hon. Gentleman the Leader of the Opposition and the right hon. and learned Gentleman the Member for Montgomery (Mr. C. Davies). The Motion is as follows: <blockquote><q>That this House welcomes the Speakers, Presiding Officers and other representatives of the countries of the British Commonwealth and Empire who have come from overseas to join in the ceremonies on the occasion of the opening of the new Chamber; expresses its thanks to their Legislatures and peoples for the generous gifts with which the Chamber is adorned; and assures them that their presence on this day will be a source of inspiration in the years to come.</q></blockquote> It is a great honour to make the first speech in the new Chamber, and I am sure I am voicing the opinions of all of us in thanking you, Sir, for that welcome which you gave to your fellow Members. It is, I think, fitting that the Motion which I am moving should be wholly uncontroversial, for I am quite sure that every Member of this House is delighted that on this auspicious occasion we should have with us the representatives of so many countries of the British Common- <span id="2931" class="column-number" data-column-number="2931"></span> wealth. I am sure also that, in approving this Motion, as I am sure right hon. and hon. Members will do, they will feel certain that they are representing the views of their constituents of all parties.<p></p> The 28 Legislatures whose Presiding Officers we welcome here today are scattered throughout the world in every continent. Some of the countries from which they come are small islands; others are great continents. They comprise men and women of many races, but they all belong to one great democratic family. Some of these Legislatures have long histories. The Tynwald of the Isle of Man goes back into the mists of time, and the Legislatures of some of the West Indian Islands and Gambia came into being in those stormy days of the Stuarts, when this Parliament was asserting the rights of the people. Others, such as that of Pakistan, have had but a few years of existence.<p></p> Whether young or old, whether situated in the tropics or the temperate zone, they all have a close family resemblance. In every one of them there is freedom of debate and the clash of opinions, and they all draw their inspiration from our history. They are all examples of the most successful method ever devised of combining effective government by the majority with full respect for the views of the minority. A Member of a Legislature of the British Commonwealth visiting a sister State and attending the Legislature at once feels at home. The procedure is familiar and he knows the rules of the game, whatever local variations there may be. We are glad that the Speakers and Presiding Officers from overseas will accompany you, Sir, and the Members of the House to Westminister Hall to attend His Majesty the King, the symbol of the unity of the Commonwealth and Empire.<p></p> In this House we are surrounded by the tokens of affection which have been sent from all over the Commonwealth to adorn our Chamber from no fewer than 45 different countries. You, Sir, are sitting in the Chair presented by Australia. The Serjeant at Arms sits in the chair which is the gift of Ceylon. The Table comes from Canada, the boxes from New Zealand, the chairs at the Table from South Africa, the Bar of the House from Jamaica. We pass through doors given by India and Pakistan. Chairs and tables, lamps and clocks, and many other articles of use and <span id="2932" class="column-number" data-column-number="2932"></span> beauty, are reminders of the generosity of our fellow citizens in other lands.<p></p> The Motion assures our friends that their presence on this day will be an inspiration in years to come. This is indeed, a memorable occasion, and all of us who are privileged to be here this morning may count ourselves fortunate that, in the changes and chances of our Parliamentary life, this great event has found us representing here our respective constituencies. Today will indeed dwell in all our memories.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0926f46f-feed-42c2-ac3a-12270c8abcfb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-0926f46f-feed-42c2-ac3a-12270c8abcfb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-122b34c8-a614-4ac4-98ce-4f06aa1aa958" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to second the Motion.<p></p> In rising today at a somewhat mature time in my life to make my maiden speech in this House, I feel, Mr. Speaker, that I ought not to conceal from you that I have a past. I have many memories of the air space in which we sit, now enclosed afresh in its traditional garments; in fact, I think I was the last person to speak here until today, and I have a lively recollection of the support and stern enthusiasm with which my remarks were then received.<p></p> There has, no doubt, been some change in the seating arrangements, for, so far as my recollection serves, I sat on the other side of the House. The Prime Minister and his principal colleagues sat beside me there. It seemed to me a very good and satisfactory way of carrying on our affairs. But then came a loud explosion, or perhaps that explosion was later on. So many things happened at the time that it was a little difficult to keep track of them, and my recollection may well be at fault. Anyhow, here we all are again, and, if everything is not entirely to our liking, we have, at any rate, much to be thankful for.<p></p> The Prime Minister spoke of the Parliamentary systems shared in common by so many of us represented here, and how they combine the effective Government of the majority with full respect for the views of the minority. That certainly is a high ideal towards which we should all perseveringly strive.<p></p> I can also congratulate His Majesty's Government upon many features of the new Chamber which they have erected. When I think of all that lies above us, around us and beneath us, it seems to me that, so far as accommodation is con- <span id="2933" class="column-number" data-column-number="2933"></span> cerned, His Majesty's Ministers have managed to combine in a singularly harmonious manner the greatest need of the greatest number with a reasonable preservation of the privileges of the deserving few.<p></p> It gives me great pleasure to support the Motion which the Prime Minister has commended to us in his admirable and eloquent speech. We are proud today to have with us the Speakers and representatives of so many famous States and Governments of the British Empire and Commonwealth of Nations. We rejoice that they are with us to see our phoenix rising again from its ashes, and we wish them all the same good luck should they at any time be exposed to similar vicissitudes.<p></p> There is no doubt that the assembly of the Speakers of so many free and fairly elected Parliaments on this historic occasion shows a new link of unity and mutual comprehension which has sprung into being in our worldwide society and family. It is our hope, Sir, which perhaps we may be pardoned for expressing upon an occasion for rejoicing such as this, that the tolerant, flexible, yet enduring relationship which binds us all together by ties which none could put on paper but are dear to all, may some day be expanded to cover all the peoples and races of the world in a sensible, friendly and unbreakable association, and so give mankind, for the first time, their chance of enjoying the personal freedom which is their right and the material wellbeing which science and peace can so easily place at their disposal.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-122b34c8-a614-4ac4-98ce-4f06aa1aa958" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-122b34c8-a614-4ac4-98ce-4f06aa1aa958">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+                Mr. Clement Davies  (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-68d483e0-9bb8-4721-8ebc-9c2fd03fd791" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">This is a moment, Sir, of deep emotion to every one of us here assembled this morning, and it is significant that the first matter which comes before us in this new Chamber is a Motion relating to the countries who form the British Commonwealth of Nations. It marks, as the Prime Minister and the right hon. Gentleman the Member for Woodford (Mr. Churchill) have already observed, the close ties of relationship, of friendship and affection which bind us together as one people. Differences of race, creed or colour do not divide us, but rather they serve to emphasise the nature and the strength of our unity. The intangible family ties, almost indefinable, which unite us. grow stronger as the member nations grow out- <span id="2934" class="column-number" data-column-number="2934"></span> wardly more independent. It is almost a paradox, for it seems that the greater the individual independence, the greater is the mutual dependence.<p></p> We are deeply grateful to all these Governments, Legislatures and peoples for their timely and generous gifts, now part of our Chamber, which will remind future generations of the unity of all these peoples dwelling in the five continents of the world, and will recall that we stood together as one in time of peril when the freedom of man was threatened.<p></p> We are also grateful, Sir, to the Speakers, the Presiding Officers and other representatives of those countries for coming here to join with us in celebrating the opening of this our Chamber. We, the Members of this House, extend to each and all of them that warmth of welcome that the best of mothers extends to her splendid and affectionate children.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-68d483e0-9bb8-4721-8ebc-9c2fd03fd791" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-68d483e0-9bb8-4721-8ebc-9c2fd03fd791">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+                Earl Winterton  (Horsham)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0a42a525-ed85-4005-9526-5fdcfa98f61a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker, I am deeply conscious of the time-limit which you have so admirably imposed upon all of us on this occasion. Indeed, a little bird has whispered in my ear that some hon. Members on the back benches would be quite glad if that time-limit could be permanently imposed, because it would greatly increase the opportunity of those hon. Members to catch your eye.<p></p> I am honoured to speak on this historic and unique occasion in the dual capacity of Father of the House and Chairman of the Select Committee on the Rebuilding of the House, and as one who has visited often, and has many friends in, four Dominions and who has been to a number of Colonies, I warmly join in the welcome to our overseas friends. One thing which we could not and did not foresee in our deliberations in the Select Committee is the extraordinary profusion and value of gifts from Commonwealth and Empire Legislatures for the new Chamber.<p></p> It is as has already been said, a value of great magnitude, not only physical but in sentiment, for these 45 countries of the Commonwealth have an immense variety of population, constitution and point of view, and these gifts symbolise the uniqueness of the Commonwealth principle of unity in diversity; uniqueness, at any rate, today, because I for one cannot contemplate at this moment the nations of U.N.O. presenting as a <span id="2935" class="column-number" data-column-number="2935"></span> joint gift a President's Chair to Premier Stalin or a set of books on Magna Carta and the Bill of Rights to the Congressional Library in Washington.<p></p> Sir, as you have observed, this is a great and unique family occasion, and I should like to conclude my observations by saying, in my capacity as the Father of the House, "Long may the Commonwealth family flourish."</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0a42a525-ed85-4005-9526-5fdcfa98f61a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-10-26/debates/4721e745-e14f-4443-b10a-7d9a3c151e23/WelcomeToCommonwealthSpeakers#contribution-0a42a525-ed85-4005-9526-5fdcfa98f61a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6cf1bce7-193f-4d0c-8e73-07bd1fdf8a38'>
+            
+<p class="">Question put, and agreed to <em>nemine contradicente</em>.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d3116b4d-7a73-4ac1-a4a6-bab96ace72c4'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>That this House welcomes the Speakers, Presiding Officers and other representatives of the countries of the British Commonwealth and Empire who have come from overseas to join in the ceremonies on the occasion of the opening of the new Chamber; expresses its thanks to their Legislatures and peoples for the generous gifts with which the Chamber is adorned and assures them that their presence on this day will be a source of inspiration in the years to come.</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5494903f-307e-4582-86b6-965fd452dd32'>
+            
+<p class=""><em>Sitting suspended until 2.45 p.m</em>.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

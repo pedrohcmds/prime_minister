@@ -1,0 +1,734 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>The King's Illness - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1951-10-04">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1951-10-04/debates/7981d562-8fe9-4c7f-bf59-27cc142656f8/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/280f43ec-c8d3-4540-a421-5bb1ea565cf2"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1951-10-04">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1951-10-04/debates/4411e8d0-9df4-475b-b1f7-fb7261ca37df/DeathOfAMember" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                The King&#39;s Illness
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1951-10-04/debates/2cccc597-9b4f-4bb8-92ec-45d19b2d6a60/Prorogation" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3135367" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>04 October 1951</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 491</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-143ae8e6-8863-43d4-9da8-7e4cf4d82142" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker, since we last met we have all been under the shadow of a great anxiety in the illness of His Majesty the King, and I am sure that it would be fitting that the present Parliament should not end without an expression of our sympathy, our understanding, and of the loyalty of his faithful Commons to His Majesty the King.<p></p> I know that I speak for the whole House in expressing our sorrow and concern at the King's illness. I think there were few of us who realised when he was taken ill how serious this was. We have all been heartened by the success of the operation, and day by day the bulletins have been encouraging. We must all earnestly pray that that progress will be maintained and will lead to a speedy recovery.<p></p> Sir, since the King came to the Throne 15 years ago, he has shown the greatest sense of devotion to the onerous duties of his high office. I know how closely he follows everything that affects his subjects in this country and in the whole of the Commonwealth. He showed steadfast <span id="1726" class="column-number" data-column-number="1726"></span> courage in the dangers of war, he is showing an equal fortitude in enduring ill-health, and his qualities have endeared him to us all. His illness has aroused the sympathy of everyone in this country and, indeed, all over the world.<p></p> We can be thankful that he is supported by the loving care of Her Majesty the Queen and the Royal family and by the affection of all his people. Devotion to the Throne is not a matter of some mere constitutional necessity; it springs from a genuine and deep affection for the person of His Majesty. I know that everyone in this House feels deep sympathy with the Queen and the Royal Family, and we share with them the earnest hope that His Majesty may be restored to full health and vigour.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-143ae8e6-8863-43d4-9da8-7e4cf4d82142" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-143ae8e6-8863-43d4-9da8-7e4cf4d82142">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-07296c27-29f3-4617-a980-03e9b05ba10d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-07296c27-29f3-4617-a980-03e9b05ba10d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-07296c27-29f3-4617-a980-03e9b05ba10d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-07296c27-29f3-4617-a980-03e9b05ba10d">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-07296c27-29f3-4617-a980-03e9b05ba10d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-07296c27-29f3-4617-a980-03e9b05ba10d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Hear, hear.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-07296c27-29f3-4617-a980-03e9b05ba10d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-07296c27-29f3-4617-a980-03e9b05ba10d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ce3721a4-6229-49b0-9281-7bc9d3075e24" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I associate myself and those who sit on this side of the House fully with the well chosen words which the Prime Minister has just used. We have all felt a very great and prolonged sense of anxiety since the full extent of the serious illness of His Majesty was made known; and he has certainly had the prayers of all his subjects in the ordeals through which he has passed.<p></p> It is quite true, as the Prime Minister said, that the Monarchy in this country does not depend only upon the Constitution, but it is upborne by the perennial and ever-flowing love of the people; and rarely has that been demonstrated more plainly and clearly than in the case of the present occupant of the Throne. He has had to bear years of very great anxiety and peril, and has shared to the full the ordeals to which his subjects were exposed.<p></p> We all sing often the National Anthem, but there is one word in it which seems to be singularly fitting to our present sovereign when we say "God save our <em>noble</em> King," for such he has always been. May we trust and pray that his health will be restored and his reign prolonged, and that he will always be in every sense the sovereign of all his peoples</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ce3721a4-6229-49b0-9281-7bc9d3075e24" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-ce3721a4-6229-49b0-9281-7bc9d3075e24">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+                Mr. Clement Davies
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I be associated, on behalf of my colleagues and myself, with what has been said so well by the Prime Minister and by the right hon. Gentleman? In every home not only throughout this country, but in <span id="1727" class="column-number" data-column-number="1727"></span> every home throughout the Commonwealth and Empire, there were heavy hearts when we heard of the serious illness of His Majesty the King. In every one of those homes we waited with deep anxiety, and we now express our profound gratitude at the success of the operation and the steady progress His Majesty is making towards recovery.<p></p> Their Majesties have year by year attracted to themselves a feeling which is far warmer, as the Prime Minister said, than loyalty. We have for them a deep, sincere and abiding affection. We know that they have dedicated themselves to their people, and we know that they have never spared themselves in their devotion.<p></p> In presenting our humble duty, we wish to assure Her Majesty the Queen, Her Majesty Queen Mary, Their Royal Highnesses the Princesses, and all the members of the Royal Family, of our sincere and heartfelt sympathy. There is in these anxious days, as the right hon. Gentleman has just said, a more fervent feeling in our thoughts and hearts as we repeat the words of the National Anthem. Our earnest prayer is: May God preserve the King and restore him in full health to his people.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-ed60e8ac-620c-4ee9-b1c7-598c3ad622ce">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+                Mr. Maclay
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-caa55eb4-2cca-426a-a9e0-998e0946cf36" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The National Liberals throughout the country and my colleagues in this House would wish me to join in this expression of loyal devotion to His Majesty the King. Our thoughts and prayers, like those of all the nation, are with His Majesty and with all the members of the Royal Family in their time of anxiety. If men and women in Scotland dare to claim a special warmth and sympathy for Her Majesty the Queen, it is only because we have a very natural feeling that we have a special right to do so. We hope and pray that His Majesty will make a rapid recovery to full health.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-caa55eb4-2cca-426a-a9e0-998e0946cf36" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-caa55eb4-2cca-426a-a9e0-998e0946cf36">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cb4c2588-734f-4dbd-9fa5-64e6aef458cc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Speaking in my capacity as Father of the House, and on the precedents which have always taken place on an occasion of this kind when the Father of the House has spoken, I should like to associate myself with the <span id="1728" class="column-number" data-column-number="1728"></span> very eloquent observations made by the Prime Minister, the Leader of the Opposition, the Leader of the Liberal Party and the Leader of the National Liberal Party.<p></p> I should like to go a step further. Those of us, on either side of the House, who have held office, who have been in a Cabinet, and who have come into official contact with His Majesty, have always enjoyed, in addition, the great advantage of His Majesty's personal friendship, which, if I may say so, is a very great honour, not only because of the great position which the King occupies, but because of his fine character and personality.<p></p> Speaking purely for myself, without consultation with anybody and without necessarily binding anybody, I confess, as one who has the honour of enjoying His Majesty's friendship, that I am concerned at the appalling strain which is placed upon the King himself and upon the members of his devoted family at the present time by the number of functions which they are expected to attend. They are infinitely greater in number than those which were expected of the then sovereign when I first entered this House in the reign of King Edward VII. This is obviously a delicate matter, which it would be most inappropriate for me to pursue further on this occasion, but I feel that I am justified in calling attention to it and that it is a matter which might well form the subject of consideration by His Majesty's advisers.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cb4c2588-734f-4dbd-9fa5-64e6aef458cc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-cb4c2588-734f-4dbd-9fa5-64e6aef458cc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-60886d88-72c3-4136-b760-c309974a994d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-60886d88-72c3-4136-b760-c309974a994d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-60886d88-72c3-4136-b760-c309974a994d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-60886d88-72c3-4136-b760-c309974a994d">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-60886d88-72c3-4136-b760-c309974a994d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-60886d88-72c3-4136-b760-c309974a994d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As there is a minute or two before Black Rod comes, perhaps I might be allowed to say that, not knowing that anything was going to be said in the House of Commons about the King's illness, I, without authority, I admit, wrote to the King's Private Secretary and said that I thought it would be the wish of the present House of Commons to express sympathy with the Queen in the King's illness. I have received a letter from Sir Alan Lascelles, the King's Private Secretary, saying that the Queen asks me to thank hon. Members for their sympathy and their earnest wish for the King's early and complete recovery. I thought I would report that to the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-60886d88-72c3-4136-b760-c309974a994d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-10-04/debates/280f43ec-c8d3-4540-a421-5bb1ea565cf2/TheKingSIllness#contribution-60886d88-72c3-4136-b760-c309974a994d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

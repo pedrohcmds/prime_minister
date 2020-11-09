@@ -1,0 +1,928 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Election Of Speaker - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1950-03-01">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1950-03-01/debates/2fe6122f-15cd-40b9-8ffa-3ccfea20e9c3/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/d753afb5-d6ca-4202-b9d3-16721ba83209"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1950-03-01">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1950-03-01/debates/4dd3ff63-fec6-437c-a723-375fe956dcc3/HouseOfCommons" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Election Of Speaker
+            </div>
+
+            <div class="right-arrow">
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2980873" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>01 March 1950</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 472</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="2" class="column-number column-only" data-column-number="2"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+                Mr. Kirkwood  (Dunbarton, East)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">(<em>addressing himself to the Clerk of the House, who, standing up, pointed to him and then sat down</em>): I have the honour to propose, <blockquote><q>" That Colonel the Right Hon. Douglas Clifton Brown do take the Chair of this House as Speaker."</q></blockquote> A long and not always quiet experience of this House has taught me that to be a perfect Speaker a man must have four qualifications. First, a complete knowledge of the Rules of Procedure of the House. Second, a full acquaintanceship of the Members and their temperaments and an absolute impartiality in his attitude towards them. Third, a mind so attuned to the spirit of justice that, without conscious effort, his decisions will be fair to every aspect of every problem. Fourth, patience that knows no limit and good humour that never grows weary.<p></p> When I consider the extraordinary composition of this House as a result of the recent General Election, I feel that no Speaker of the past had more need of the four qualifications I have mentioned than he who is about to be elected. I know, and the Members who have served in the late Parliament also know, that Colonel Clifton Brown has these four qualifications in abundant measure as well as others of a more personal character. [Hear, hear.]</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-b6e56f09-55d5-4e6f-956e-d8d0830d8a3c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2228e3f8-0396-407f-9944-3213497a50fb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2228e3f8-0396-407f-9944-3213497a50fb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2228e3f8-0396-407f-9944-3213497a50fb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2228e3f8-0396-407f-9944-3213497a50fb">
+                Colonel Sir Charles MacAndrew  (Ayr and Bute, Northern)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2228e3f8-0396-407f-9944-3213497a50fb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-2228e3f8-0396-407f-9944-3213497a50fb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Sir Frederic, I beg to second the Motion which has been moved by my old friend, the right hon. <span id="3" class="column-number" data-column-number="3"></span> Member for Dunbarton, East (Mr. Kirkwood), and I am sure it will be the wish of his many friends now that he has recovered after his recent operation that he will long enjoy good health. The right hon. and gallant Member for Hex-ham (Colonel D. Clifton Brown) has served this House as Speaker now for seven years, and, as we have just heard, he possesses all the qualities that are needed for that high office. We have proof of that.<p></p> I think he has another quality which perhaps does not come in the category of those four but is equally useful, and that is, as I have appreciated very much, his skill in quickly mastering at the beginning of the last Parliament the names of so many new Members. I feel sure that in this new Parliament with so many new faces he will again master them in very quick time. I do not think the right hon. and gallant Gentleman ever had this difficulty, but I remember the late Speaker Fitzroy having difficulty in pronouncing a name. I refer to the present Lord Mansfield who has now inherited a seat in another place. He was elected to this House as the Member for Perth some 20 years ago. The name that he used at that time was a well-known place near Perth, and it was famous because it was the seat where the Scottish Kings used to be crowned. The first time Speaker Fitzroy had occasion to call the new Member for Perth, he said: "Lord Scone." I was sitting next to an Englishman, and I suppose that by something I said I indicated my surprise. He said to me "Yes, it is funny that the Speaker does not know that it should be pronounced 'Scōne.' "It may be that the Speaker was a bit unlucky because I cannot imagine that there are many one-syllable names that have three correct pronunciations.<p></p> The right hon. and gallant Gentleman has now represented Hexham for more than 30 years, and I am sure that all of us in whatever part of the House we sit were delighted on Thursday to hear of his overwhelming majority. [Hear, hear.] I personally was not very much surprised, because although Hexham is south of the Border they are pretty far north up there. In fact, many in Hexham are north of some living in Scotland. I used to know Hexham fairly well many <span id="4" class="column-number" data-column-number="4"></span> years ago when I had more courage and carried less weight, because I used to attend pretty regularly the race meetings on the Yarridge heights. I have at home a most lovely silver soup tureen which was presented by the inhabitants of Hexham. It is a trophy which I treasure very highly. I must admit that it has been out of use for some time, because rightly or wrongly I absolutely refuse to clean silver.<p></p> It is impossible for any Speaker of this House, however skilful and however wise, to call all those who wish to speak, and therefore I think people should remember that the shorter their speeches the more chances they have of being called. It is very tedious for us on the benches to sit through long and tiresome speeches, but it must be much worse for the occupant of the Chair who has not only to listen but to try to appear interested at the same time.<p></p> I have heard innumerable criticisms of speeches made in this House, but I have never heard a speech adversely criticised for being too short. My own rule is to be as short as possible, and I have never had any cause to complain about not being called. I have no intention of breaking my rule today. I wholeheartedly commend the Motion, and if it would not appear arrogant I should like to remind the House that it has been moved and seconded by two Scotsmen, and we both come from the West of Scotland.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2228e3f8-0396-407f-9944-3213497a50fb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-2228e3f8-0396-407f-9944-3213497a50fb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-140d9676-c664-4b5b-b4b6-e040baf2cdc9'>
+            
+<p class=""><em>The House then unanimously called</em> COLONEL DOUGLAS CLIFTON BROWN <em>to the Chair.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+                Colonel Douglas Clifton Brown  (Hexham)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">(<em>who was received with general cheers</em>): I rise to submit myself to the will of the House. I wish to thank the right hon. Gentleman who proposed me and also to say how glad I am to see him back well and strong after his illness. I should like to thank him for what he has said, and I should like also to thank the seconder of the Motion for the kind things he said about me. I realise now, although I had not realised before, that they are two Scotsmen from the west. I realised that they were Scotsmen because I live very close to Scotland, and I hope I may almost consider myself a neighbour. After all, it just shows what an important place Scotland is. Later on, I believe the Prime Minister and the Leader of the Opposition will take part. <span id="5" class="column-number" data-column-number="5"></span> They represent England. I believe that the Leader of the Liberal Party will also speak, and he represents Wales. In any case, my proposer's first name is David, and today is St. David's Day. So Wales comes into the picture.<p></p> I should like to thank the leaders of all three parties, because although I had opposition in the Election they gave me their support. It could not be unopposed but perhaps—I do not know—it is unlikely that an unopposed return could happen to the Speaker nowadays. After all, when votes are so close, as they are in the House, one vote in one constituency is of prime importance. Naturally, some electors do not want to have to elect one who might be called a non-combatant. In view of the fact that I shall not present myself at the next General Election, whenever that may be, I may say that I appreciate that there are a certain number of disgruntled people who think that perhaps they are not being represented because the Speaker does not vote, who think that they are being deprived of a vote if an unopposed return is threatened. I think that is a delicate matter which perhaps ought to be borne in mind.<p></p> This is the third time you have done me the honour to propose and second me for the Speakership of this House. It is a very great honour indeed, I can assure you, and I very humbly submit myself to the will of the House. My seconder said that perhaps I might be quick at learning the names of Members. I shall do my level best; I do not think there are quite so many new faces this time as there were in the last Parliament. Anyhow, I warn hon. Members that if they suddenly find me looking at the book and looking at them very hard, it is not because I am going to call them to order; it is because I am trying to put new faces to new names and new names to new faces.<p></p> As Speaker I have duties to perform. My seconder mentioned the Rules and my proposer said that I knew them by heart. Yes, there are Rules and we have to obey them, but I want every Member, especially every new Member, to regard the Speaker not as a schoolmaster but as a friend. I do not want this afternoon to talk like a schoolmaster talking to new boys—and new girls. I want them to realise that the Speaker is one who is anxious to help; he has to be <span id="6" class="column-number" data-column-number="6"></span> obeyed, he has to see that the Rules are obeyed, but not with the authority of Rules behind him. When I was a young soldier I was taught by a very wise commanding officer that to be readily obeyed one has to be perfectly esteemed, and that is the spirit in which I endeavour to carry out my duties in the Chair.<p></p> My last word is that, quite frankly, I attach great importance to the pageantry of Parliament. This little ceremony which we go through now, when I resist my proposer and seconder, has its links with the past. Every one of the things we do arc part of history and in carrying on and building up this House of Commons we are merely following on the paths of our forebears. This House of Commons, this Parliament, is a very human institution. It can mould itself, it can change, but the spirit of Parliament is always the same—service of the people and representation of the people. As Speaker I must be careful to see that no unruly remarks are cast across the Floor, that there is fair play between every party, that freedom of speech is secured for everyone and that minorities have their rights; these are some of the things that have made our Parliament great and which make it the envy of the world. It will be my duty and endeavour to the best of my ability to see that its Rules are observed.<p></p> These are difficult times in which we live. I end by recalling that at the end of the war, when I lit the light on Big Ben, I said I hoped it was a sign that the representatives of a free people were assembled in free Debate, and that was the sure hope of a sorely troubled world. I have put my views before you, I have tried to say exactly what is in my mind. In all humility, I now submit myself to your will.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-9e68004e-3b5f-4ace-9400-d8b0dcdc2a1d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e7a54c27-95e5-4fd1-aef8-8d6dfa306445'>
+            
+<p class=""><em>The House then having again unanimously called</em> COLONEL DOUGLAS CLIFTON BROWN <em>to the Chair, he was taken out of his place and conducted to the Chair by</em> MR. KIRKWOOD <em>and</em> COLONEL SIR CHARLES MACANDREW.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+                Mr. Speaker-Elect
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">(<em>standing on the upper step</em>): Before taking my seat, I wish to thank the House most sincerely for the great honour which it has done me in electing me once again to the Chair, the greatest honour that the House of Commons can confer on one of its Members.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-fe88352f-f8b8-48b3-b7b4-fbaab815dfd6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="7" class="column-number column-only" data-column-number="7"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+                Mr. Speaker-Elect
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-96353bb4-8e4d-482d-a4e3-1958f3df71f8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>sat down in the Chair.</em></p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-96353bb4-8e4d-482d-a4e3-1958f3df71f8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-96353bb4-8e4d-482d-a4e3-1958f3df71f8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-df3d9306-38d2-45ad-89f6-1aaa216486f3'>
+            
+<p class=""><em>Then the Mace</em> ( <em>which, before, lay under the Table</em>) <em>was placed upon the Table.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-68caf76c-a482-4dde-8678-a03ab0632c67">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-68caf76c-a482-4dde-8678-a03ab0632c67">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-68caf76c-a482-4dde-8678-a03ab0632c67">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-68caf76c-a482-4dde-8678-a03ab0632c67">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-68caf76c-a482-4dde-8678-a03ab0632c67" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-68caf76c-a482-4dde-8678-a03ab0632c67">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker-Elect, by long established custom it is the privilege of the Prime Minister to be the first to congratulate you on your re-election to your high and responsible office and it gives me great pleasure to do so, both on my own behalf and on behalf of my friends who sit on this side of the House. It gives me special pleasure because on the last occasion, owing to public duties in another place—at Potsdam—I was unable to be present to felicitate you.<p></p> For seven years you have presided over our deliberations and I think your experience is unique, because at the beginning of that period the major parties in this House were all together in one Government. That was one extreme. Today, you have a House that is more evenly divided than any House has been for the last 100 years. This is the third time you have received this signal tribute of confidence of your fellow Members. The majority of Members of this House have had experience of your conduct in the Chair; they know and appreciate your impartiality and fairness, your patience, your knowledge, and your knowledge not only of the letter but, I think, still more important, of the spirit of the Rules and regulations and conventions under which our proceedings are conducted. I am quite sure that the new Members, as they gain that knowledge, will share that appreciation. Very soon they will, as the older Members do, as you said, regard you as a friend and not merely as an impartial umpire.<p></p> I said that the House is more evenly divided between the main parties than ever before. I think it is, therefore, especially agreeable that the first act, the first Business, of this House, should be one in which it acts with unanimity. There are fewer small minority groups in this House than in any of the Houses of which I have been a Member, but your duty to protect minorities and preserve the rights of individual Members remains, and we know that you will always do it.<p></p> I should have said, Sir, that the undying tradition of this House is so <span id="8" class="column-number" data-column-number="8"></span> strong that despite all changes of persons it never loses its essential character; it is always recognisably the same thing, but every Parliament has its own distinctive characteristics. I should not like to speculate on what the characteristics of this House will be; nor should I like to speculate about the parliamentary weather to come; I should hardly think it would be "set fair"; it may be "stormy," "stormy with fair intervals," or "unsettled." But I can assure you, Sir, on behalf of all my colleagues that, recognising as we do the supreme importance of the authority of the Chair, we shall at all times do our utmost to support it.<p></p> I have heard a Speaker proposed many times, but I do not think I have ever heard the Motion proposed and seconded more felicitously than it has been today. On this occasion, although the mover and seconder both came from Scotland, it is undoubted that they were chosen to represent both Scotland, England, Wales and Northern Ireland, and the wish of us all is that you may enjoy strength and health to carry out the onerous task which your fellow Members have laid upon you.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-68caf76c-a482-4dde-8678-a03ab0632c67" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-68caf76c-a482-4dde-8678-a03ab0632c67">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-69e8fbd9-d099-4a2e-8d84-212069f45370">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-69e8fbd9-d099-4a2e-8d84-212069f45370">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-69e8fbd9-d099-4a2e-8d84-212069f45370">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-69e8fbd9-d099-4a2e-8d84-212069f45370">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-69e8fbd9-d099-4a2e-8d84-212069f45370" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-69e8fbd9-d099-4a2e-8d84-212069f45370">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker-Elect, I have much pleasure in associating myself fully with the words which the Prime Minister has used in offering you the congratulations of the House of Commons. I had the honour at the beginning of the last Parliament of fulfilling the same task as I do now. We have moved on into a new Assembly, very narrowly balanced—an Assembly which has not yet had an opportunity of showing what its essential characteristics are; but we must always remember that the character of every House of Commons is not measured simply by adding up the numbers of the different Members in the different parties, that personality develops, and that although we have been absorbed in our own affairs lately we are living in a world full of anxiety and storm. I hope and trust that this Parliament, in spite of its even and also profound divisions, will, nevertheless, not lose its consciousness of the vast world that has grown up about us or of our own immense difficulties of maintaining the standard of life of our people.<p></p><span id="9" class="column-number" data-column-number="9"></span> Sir, I feel quite sure that whatever liveliness our Debates may develop—and I agree with the Prime Minister that one cannot predict an indefinite "set fair" in these affairs—your experience, not only as Speaker but as Chairman of Committees, will be of immense value to us all. We all admire your qualities of courtesy, kindness and humour, and the deep sense of and desire for justice which animates your actions, and I gladly join with the Prime Minister in offering you, on behalf of all those who sit on this side of the House, our most sincere congratulations on having once again received what is the highest honour a British commoner can be given, namely, election as Speaker of the House of Commons. I wish and trust that you will have a happy and successful period, and that your health may be equal to the strain and burden of the long Debates. We feel quite sure that the liberties of Parliament will be safely guarded in your hands.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-69e8fbd9-d099-4a2e-8d84-212069f45370" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-69e8fbd9-d099-4a2e-8d84-212069f45370">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+                Mr. Clement Davies  (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-25f2a893-412d-4eb3-9597-b47691e4b6f4" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker-Elect, may I join with the Prime Minister and the right hon. Gentleman the Member for Woodford (Mr. Churchill) in expressing very sincerely, on behalf of myself and my colleagues, our felicitations and congratulations to you on attaining that great office, with the full assent of every Member of the House, for the third time? We who have had experience of you in past Parliaments have learned to admire and respect you, and we know, as you very <span id="10" class="column-number" data-column-number="10"></span> rightly pointed out, that you are the friend of every one of us, to whom we can turn for assistance and guidance at all times. Sir, you are also the protector of minorities and of individual Members, and we know from our experience that their rights are in safe keeping in your hands. On behalf of all of us I tender my warmest congratulations.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-25f2a893-412d-4eb3-9597-b47691e4b6f4" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-25f2a893-412d-4eb3-9597-b47691e4b6f4">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+                Mr. Maclay  (Renfrew, Western)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Mr. Speaker-Elect, my colleagues and I on this bench also will not let this occasion pass without adding our most sincere congratulations and, what is more, our thanks to you for consenting, however reluctantly, to take on once more the all-important and arduous duties which go with your high office. We know from experience the great qualities you bring to the conduct of the Chair, and have reason to value very highly your constant regard for the rights of minorities and of every shade of opinion to have their fair hearing. We thank you for that, and for many other things besides, and we all wish you continued success.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1950-03-01/debates/d753afb5-d6ca-4202-b9d3-16721ba83209/ElectionOfSpeaker#contribution-a39b4c57-e7a6-4ea2-9ef2-6a5dff6c8d63">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ac69cc8c-2466-4a27-ac30-9655827f7e08'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. Herbert Morrison.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2c5106aa-3f8a-4cb6-b888-280267d1070f'>
+            
+<p class="">Mr. SPEAKER-ELECT <em>thereupon put the Question, which being agreed to, the House adjourned accordingly until Tomorrow, and</em> Mr. SPEAKER-ELECT <em>went away without the Mace before him.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6b16d19d-9d19-4ccd-b94c-af950e6231d8'>
+            
+<p class="">House adjourned at Eighteen Minutes past Three o'Clock.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

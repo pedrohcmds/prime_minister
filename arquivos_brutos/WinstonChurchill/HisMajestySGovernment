@@ -1,0 +1,2202 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>His Majesty's Government - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1940-05-13">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1940-05-13/debates/053da443-20fc-458a-9d92-3a0e27239da2/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/8954756e-525b-448e-bb4d-5cc77d60aaf1"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1940-05-13">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1940-05-13/debates/697074dc-769a-47db-9f42-73c114f4c340/EnemyParachuteTroops" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                His Majesty&#39;s Government
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1940-05-13/debates/8cfd74a8-e2b1-4e9f-9b34-255a626ecc29/BusinessOfTheHouse" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1209343" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>13 May 1940</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 360</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1501" class="column-number column-only" data-column-number="1501"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b9ba0bca-400c-4d20-82cf-d9458dbe5cce'>
+            
+<p class="">2.54 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, <blockquote><q>"That this House welcomes the formation of a Government representing the united and inflexible resolve of the nation to prosecute the war with Germany to a victorious conclusion."</q></blockquote> On Friday evening last I received His Majesty's Commission to form a new Administration. It was the evident wish and will of Parliament and the nation that this should be conceived on the broadest possible basis and that it should include all parties, both those who supported the late Government and also the parties of the Opposition. I have completed the most important part of this task. A War Cabinet has been formed of five Members, representing, with the Opposition Liberals, the unity of the nation. The three party Leaders have agreed to serve, either in the War Cabinet or in high executive office. The three Fighting Services have been filled. It was necessary that this should be done in one single day, on account of the extreme urgency and rigour of events. A number of other positions, key positions, were filled yesterday, and I am submitting a further list to His Majesty to-night. I hope to complete the appointment of the principal Ministers during to-morrow. The appointment of the other Ministers usually takes a little longer, but I trust that, when Parliament meets again, this part of my task will be completed, and that the administration will be complete in all respects.<p></p> I considered it in the public interest to suggest that the House should be summoned to meet to-day. Mr. Speaker agreed, and took the necessary steps, in accordance with the powers conferred upon him by the Resolution of the House. At the end of the proceedings to-day, the Adjournment of the House will be proposed until Tuesday, 21st May, with, of course, provision for earlier meeting, if need be. The business to be considered during that week will be notified to Members at the earliest opportunity. I now invite the House, by the Motion which stands in my name, to record its approval of the steps taken and to declare its confidence in the new Government.<p></p> To form an Administration of this scale and complexity is a serious undertaking in <span id="1502" class="column-number" data-column-number="1502"></span> itself, but it must be remembered that we are in the preliminary stage of one of the greatest battles in history, that we are in action at many other points in Norway and in Holland, that we have to be prepared in the Mediterranean, that the air battle is continuous and that many preparations, such as have been indicated by my hon. Friend below the Gangway, have to be made here at home. In this crisis I hope I may be pardoned if I do not address the House at any length to-day. I hope that any of my friends and colleagues, or former colleagues, who are affected by the political reconstruction, will make allowance, all allowance, for any lack of ceremony with which it has been necessary to act. I would say to the House, as I said to those who have joined this Government: "I have nothing to offer but blood, toil, tears and sweat."<p></p> We have before us an ordeal of the most grievous kind. We have before us many, many long months of struggle and of suffering. You ask, what is our policy? I will say: It is to wage war, by sea, land and air, with all our might and with all the strength that God can give us; to wage war against a monstrous tyranny never surpassed in the dark, lamentable catalogue of human crime. That is our policy. You ask, what is our aim? I can answer in one word: It is victory, victory at all costs, victory in spite of all terror, victory, however long and hard the road may be; for without victory, there is no survival. Let that be realised; no survival for the British Empire, no survival for all that the British Empire has stood for, no survival for the urge and impulse of the ages, that mankind will move forward towards its goal. But I take up my task with buoyancy and hope. I feel sure that our cause will not be suffered to fail among men. At this time I feel entitled to claim the aid of all, and I say, "Come then, let us go forward together with our united strength."</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-f03873fc-31e4-41ff-bf8c-6d1b7241ecbe">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6ce51bcd-6fa4-4635-8e4c-a003c748c282'>
+            
+<p class="">3.1 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-bc1a7823-6757-4e27-9211-34a281a6da6f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-bc1a7823-6757-4e27-9211-34a281a6da6f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-bc1a7823-6757-4e27-9211-34a281a6da6f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-bc1a7823-6757-4e27-9211-34a281a6da6f">
+                Mr. Lees-Smith  (Keighley)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-bc1a7823-6757-4e27-9211-34a281a6da6f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-bc1a7823-6757-4e27-9211-34a281a6da6f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I have been asked by my colleagues on this occasion to follow the Prime Minister because it is fitting that there should be a response to the striking, stirring and noble words which he has addressed to the nation. I have also been asked to do so in order to say immediately that, of course, we support this Motion. May I say as a result of one observation which the Prime Minister made, that we give our most sin- <span id="1503" class="column-number" data-column-number="1503"></span> cere good wishes to the new Ministers in a task and a burden which are as heavy as have ever been imposed upon any group of statesmen in the course of our history.<p></p> I think I should state to the House in a few words why we have adopted the policy, the change of policy, that has been shown in the last few days. On Tuesday of last week we initiated a Debate for the purpose of expressing the opinion that the more vigorous conduct of the war required a reconstruction of the Government. Last Wednesday morning, after the first day's Debate, we decided, as a result of the nature of that Debate, that on that night we would test the view of the House as to whether they agreed with our opinion. As a result of that Debate the reconstruction of the Government was begun, and when we were asked whether we would accept our responsibility in taking a share in that reconstruction we decided that it is not by shirking responsibility that we shall defeat Hitler.<p></p> Perhaps I may say to the House that the Labour Party has rather an elaborate constitution, and it has been laid down that matters such as these shall be decided by a Party conference consisting of hundreds of delegates elected from all over the country. As I heard the Lord Privy Seal tell that conference this morning, the Executive of the Labour Party felt that this was no time for dithering; they therefore took the responsibility of making the decision and decided to ask for the ratification of the Conference when it met. By good fortune the Conference met this morning at Bournemouth, and when I left the Lord Privy Seal was addressing it. Perhaps the House might be interested to know that the decision of the National Executive has been ratified at Bournemouth by a majority of 2,400,000 to 170,000, the minority being smaller than that at any by-election which has been fought since the beginning of the war. If I may say so, I have a little more time than the Prime Minister, and so I have been able to put some reflections together. That appears to me to be a supreme example of national unity.<p></p> I am reminded of a conversation which I had five years ago with a representative from Germany. When Hitler first came into power he sent to this country two or three of his friends who were very closely <span id="1504" class="column-number" data-column-number="1504"></span> in touch with him to have a talk with British politicians. I had an interview with one of them, and I remember that in this conversation he said to me, "If there is a war with Germany what attitude will Labour adopt?" I said to him, "You will find that there will be more complete unity than in any war in which this country has ever engaged, and Labour will support the nation 100 per cent." I remember that when I said that to him he threw up his hands and said: "Don't you see that that unity which you have already secured in this country is that which the Fuhrer is imposing on us in Germany?"<p></p> That is what is meant by the war for liberty. We have had unity by discussion, persuasion, good will and good sense, instead of unity by the concentration camp, the rubber truncheon and the executioner's block. The Prime Minister uttered a profound statement when he suggested that if Hitler wins this war he will impose that type of unity upon us by methods more dreadful than he employs in Poland, Czecho-Slovakia and in Germany itself. As I believe the Lord President of the Council suggested in his broadcast, if Hitler imagined for a moment that the Debate and the Division last week showed any signs of lack of unity, let him contemplate what has happened in the last few days. I cannot imagine that at any period of our lives any of us has ever experienced or passed through days more dramatic than those since the House adjourned. In that time the tremendous moment of the war has come. The first death struggle has begun. While this has been going on we have established a new War Cabinet, and, as the Prime Minister said, with new Defence Ministers all at their posts, between Wednesday and Saturday night, within three days. I do not believe that there is any other form of government which could have carried through so great a change so smoothly and in so short a space of time. It convinces me that our form of Parliamentary government is the most civilised in peace and is the most formidable weapon of control in war.<p></p> There is one other reflection which I would like to make. For many years I have been compelled to read Herr Hitler deriding and despising our Parliamentary government as decadent. Now <span id="1505" class="column-number" data-column-number="1505"></span> we can give him the reply. The Nazi system has been in existence for about seven years, and when, like our Parliamentary system, it has weathered the storms for about 700 years, we can begin to argue which, when the great test comes, will have the bigger staying power.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-bc1a7823-6757-4e27-9211-34a281a6da6f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-bc1a7823-6757-4e27-9211-34a281a6da6f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-04a3a713-e59d-4cf4-a3d0-ce3e165d587c'>
+            
+<p class="">3.11 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+                Sir Percy Harris  (Bethnal Green, South-West)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6e2bae0f-2f9f-496f-88a4-339a764a6f00" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I rise, on behalf of my hon. Friends, to express our confidence in and to give our support to, the new Government. The Prime Minister has two qualities which are essential to win the war:vigour and imagination. The Government and the nation are going to prove to the world that a democracy can, more effectively than its enemies, wage a totalitarian war. We are convinced that a free Parliament, instead of being a source of weakness, is a source of strength, and provides that safety valve for the free expression of opinion which enables the Government more effectively to carry out its great duties. The Nazis will learn that it is dangerous to drive criticism underground. The presence of our Leader in the Government gives the Liberal party in the House, and in the county, a special confidence in it.<p></p> We cannot fight a war on ordinary party lines, but the House of Commons has still great duties to perform. It has still to ventilate grievances arising out of the war, and, where necessary, to provide constructive criticism. Last week we had effective proof of the power of the House of Commons, and the future will prove that it can use that power with discretion and wisdom. The former Prime Minister, now the Lord President of the Council, set a splendid example, in the best Parliamentary traditions, by regular attendance and by periodic statements on the progress of the war. The new Prime Minister is essentially a House of Commons man, and I hope he will maintain that tradition, even though it means a heavy burden and great responsibility. National unity—and, I take it, the new Government is a symbol of national unity—will not only encourage our own people and the Dominions beyond the seas, but will be a stimulus to our Allies in their gallant effort to preserve their liberties. Norway, Holland, Belgium, and Poland are laid waste by the invaders. Our people are ready to endure any sacrifice in order to <span id="1506" class="column-number" data-column-number="1506"></span> destroy this danger to civilisation and to secure the ultimate victory of a righteous cause.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6e2bae0f-2f9f-496f-88a4-339a764a6f00" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-6e2bae0f-2f9f-496f-88a4-339a764a6f00">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-fe18036d-9bf0-4e5e-84ae-c3a0b4a4111b'>
+            
+<p class="">3.15 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+                Mr. Spens  (Ashford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-537c33ea-1b6e-458d-ac7d-9349f8ac80d6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As one who voted in favour of the late Prime Minister on Wednesday last and one who since the outbreak of the war has resolutely supported the late Government in its efforts, I want to be one of the first to welcome the new Government. The line I have taken since the outbreak of the war has been this: I believe it is absolutely essential for the Executive in power, of whatever complexion it be, if the war is to be won, to have the maximum support of the people of this country. I believe that what happened last Wednesday night merely brought to a conclusion an episode which some of us had foreseen from the very beginning of the war. Where you have big parties, with great strength in the country, opposing the Executive in the conduct of a war, it is impossible for the Executive to get from the country the full war effort which is necessary if the war is to be won. I do not complain of that; it is one of the things we are fighting for, that everyone should be able to express his own opinion. Opinions have been very freely expressed during the last six or seven months in this country, and, not once or twice, but on many occasions, the Executive has been very seriously embarrassed by the expression of opinion in this country on the conduct of the war. That phase in the conduct of the war has come to an end, and I thank Heaven that it has.<p></p> I am absolutely certain that if this war is to be won, we must have a coalition of all the main bodies of pro-war opinion in this country. Without it, we shall never get the full effort from the people of this country. Under this new Government, that is what we who are determined that this war shall be won expect from all who are supporters of the new Government. Of course, following the splendid example which our leader, the Lord President of the Council, set us and everyone in the country in his broadcast, I assure my right hon. Friend the Prime Minister and all his colleagues that, whatever we on the back benches on this side of the House can do, by supporting them, to help in winning the war, we intend to do. Blood or tears or toil or labour, we shall give most gladly. I have the <span id="1507" class="column-number" data-column-number="1507"></span> greatest pleasure on this occasion in supporting the Motion before the House, the object of which is to defeat the enemy, whom we are all determined to defeat.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-537c33ea-1b6e-458d-ac7d-9349f8ac80d6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-537c33ea-1b6e-458d-ac7d-9349f8ac80d6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ecb6e9a8-a745-4de6-97a3-af43572f8afb'>
+            
+<p class="">3.19 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-da682243-01db-49fd-81a3-d494c0b32508">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-da682243-01db-49fd-81a3-d494c0b32508">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-da682243-01db-49fd-81a3-d494c0b32508">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-da682243-01db-49fd-81a3-d494c0b32508">
+                Mr. Maxton  (Glasgow, Bridgeton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-da682243-01db-49fd-81a3-d494c0b32508" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-da682243-01db-49fd-81a3-d494c0b32508">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I rise to oppose the Motion, because it conflicts with every political belief that I have ever held, and because it conflicts with the principles upon which I was elected to this House of Commons. I do not approve of the reconstructed Government. I view with great regret the fact that right hon. and hon. Gentlemen above the Gangway have agreed to cross the Floor of the House and to become part of His Majesty's Government. Their spokesman from the Front Bench paid tribute to Parliament as a great institution, and said that reconstruction of this sort, in face of the circumstances, could not have occurred in any other country. We know that it has been common form in France during all the time that there have been parliaments there. France has a great belief that by changing a few men round about, something new and strange may happen. I have never believed that the strength of the House of Commons lay in the fact that there was one body of men with certain principles upon which they were united on one side, opposed by another body with a different set of principles on the other, and that the clash of these two principles in debate and discussion—[<em>Interruption.</em>]. I would like to go back over it and show how the position in which we are to-day is due entirely to the fact that this mistake was made in the last war policy. The years from 1918 to 1939, when war broke out again, the wasted years, were, in my view largely due to the fact that the then existent parties coalesced and merged their principles, and then, at the conclusion of hostilities, there were left all sorts of individual rancours sapping all party principles, and there was no Government in this country that could face the creation of a new Europe that should have been created after the heavy cost that was paid for victory on the last occasion.<p></p> I congratulate the right hon. Gentleman upon having achieved the highest political governmental position in this country. His personality no one can deny, his courage no one can deny, and—I am getting more and more fatalist—it <span id="1508" class="column-number" data-column-number="1508"></span> was written in the book of fate, say, perhaps on the battlefield of Blenheim or some place, that he would one day be Prime Minister of this country, and perhaps it will be a comfort that he has got it now. But frankly, I cannot see the wonderful motive power that has been produced by the transference of the relative positions of the two right hon. Gentle men opposite. It is the most amazing thing to me. I watched the fights of last week in this House from some consider able distance. I was 400 miles away. I do not think it was a pretty spectacle. I do not think that what has happened since makes it any prettier. It is very easy for the right hon. Gentleman above the Gangway to say that last week was fine and that this week was fine, and to white wash the whole business. Last week was not fine. I was taking part in a by-election in the West of Scotland facing audiences of all different kinds and complexions, and the one thing that struck me last Tuesday and Wednesday was the calm, serious, sober way in which the electorate listened even to points of view that were obnoxious to the majority. They were calm and serious because—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-da682243-01db-49fd-81a3-d494c0b32508" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-da682243-01db-49fd-81a3-d494c0b32508">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-eaeb5208-9cee-420c-a93c-b847762706cf">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-eaeb5208-9cee-420c-a93c-b847762706cf">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-eaeb5208-9cee-420c-a93c-b847762706cf">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-eaeb5208-9cee-420c-a93c-b847762706cf">
+                Earl Winterton  (Horsham)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-eaeb5208-9cee-420c-a93c-b847762706cf" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-eaeb5208-9cee-420c-a93c-b847762706cf">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">:Wait until the bombs fall and then they will take a very different attitude.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-eaeb5208-9cee-420c-a93c-b847762706cf" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-eaeb5208-9cee-420c-a93c-b847762706cf">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+                Mr. Maxton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cf897424-84a4-49b6-8fb3-d4daf6ae26c7" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am quite satisfied that my fellow citizens in the West of Scotland will not get the wind up either. We were calm and serious while the right hon. Gentleman was making hysterical speeches on the Floor of the House of Commons. It does not require any great courage to attack the late Prime Minister. He was in an awkward spot and the jackals gathered around. It was their night to howl, and they howled, and now we have a new Government—a Government of all the talents—[An Hon. Member: "And you are howling"] I put it to the House whether my utterances here can be described as howling. [An Hon. Member: "We might say 'whining'."] No, I do not think even that is a decent description. My hon. and right hon. Friends above the Gangway are a little bit nervy to-day. The excitement started over the fact that the Norwegian business had not been such a success as was expected. The Government came under serious criticism. [Hon. Members: "No."] I understood so. But, I can still read. I heard that the Navy <span id="1509" class="column-number" data-column-number="1509"></span> came under serious criticism. [Hon. Members: "No."] I heard it from behind me. And so we make the First Lord of the Admiralty into the Prime Minister, and the right hon. Gentleman the Member for Hillsborough (Mr. Alexander) First Lord of the Admiralty, so that in future there shall be no dubiety about the pugnacious, belligerent nature of the First Lord.<p></p> I cannot see what has happened to justify any change of attitude on my part. We are in this position to-day because of 22 years of wasted opportunity, 22 years of time, when this country was practically, for 20 years out of those 22, under the control of Governments not essentially differing in position or personnel from this one, and now you say this is going to create an entirely new orientation. The only difference is that the Prime Minister cuts out of his speech any reference to the possibilities of peace short of wholesale slaughter. I and my hon. Friends believe that the overwhelming mass of the people of this world, Germany included, are against the slaughter method of life, and I believe that that great force, mainly a working-class force, throughout the world—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cf897424-84a4-49b6-8fb3-d4daf6ae26c7" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-cf897424-84a4-49b6-8fb3-d4daf6ae26c7">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+                Mr. Logan  (Liverpool, Scotland)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4850bb02-c560-43bf-918e-0d2ca9afffc7" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">:Surely you do not see that in Germany?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4850bb02-c560-43bf-918e-0d2ca9afffc7" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-4850bb02-c560-43bf-918e-0d2ca9afffc7">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-42762921-69b2-46e9-983f-aa9aaf117a5b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-42762921-69b2-46e9-983f-aa9aaf117a5b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-42762921-69b2-46e9-983f-aa9aaf117a5b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-42762921-69b2-46e9-983f-aa9aaf117a5b">
+                Mr. Maxton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-42762921-69b2-46e9-983f-aa9aaf117a5b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-42762921-69b2-46e9-983f-aa9aaf117a5b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I can see people in Germany to-day, people that were my comrades and the comrades of hon. and right hon. Members above the Gangway, and I do not believe that they have deserted their principles.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-42762921-69b2-46e9-983f-aa9aaf117a5b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-42762921-69b2-46e9-983f-aa9aaf117a5b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+                Miss Wilkinson  (Jarrow)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2014e39e-78c4-4c92-bf26-6e4f7a5597f4" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">:They have gone to the concentration camps.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2014e39e-78c4-4c92-bf26-6e4f7a5597f4" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-2014e39e-78c4-4c92-bf26-6e4f7a5597f4">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+                Mr. Maxton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-102bfbda-8a66-4353-b89c-ee8ac49fcbd6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The function of a political working-class movement is to mobilise that anti-war opinion throughout the world and make it effective in the affairs of humanity. [<em>Interruption.</em>] I could make, if I were sitting there, all these cheap, irrelevant interruptions as well as anybody else, and I regret to say that I have frequently done it, but the fact remains that shouting about Hitler will not kill a single German, nor will it save a single Britisher. I admit to-day all the difficulties that face the people who hold anti-war beliefs; I admit all the difficulties that face those people who hold democratic beliefs, and the difficulties that face the efforts of the people who believe that the world must be reconstructed on a <span id="1510" class="column-number" data-column-number="1510"></span> different social basis, but I stand by those principles of freedom and social equality. Principles are not any better for being thrown overboard, and although I admit all the difficulties, can we not have freedom without the young men of Europe being slaughtered—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-102bfbda-8a66-4353-b89c-ee8ac49fcbd6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-102bfbda-8a66-4353-b89c-ee8ac49fcbd6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-8b63fee2-692e-45f3-905c-b022bf480dc8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8b63fee2-692e-45f3-905c-b022bf480dc8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8b63fee2-692e-45f3-905c-b022bf480dc8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8b63fee2-692e-45f3-905c-b022bf480dc8">
+                Viscountess Astor
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8b63fee2-692e-45f3-905c-b022bf480dc8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-8b63fee2-692e-45f3-905c-b022bf480dc8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">How?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8b63fee2-692e-45f3-905c-b022bf480dc8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-8b63fee2-692e-45f3-905c-b022bf480dc8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+                Mr. Maxton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8c59affb-e4ed-44e4-9a92-42f02c326cc1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I say to the Noble Lady that now you have got us to this particular point I cannot show you how, but I can tell you what the principles are and tell you that just as the right hon. Gentleman got his chance last week so the chance of those who stand by these principles now will also come and that something better will come out of this slaughter and general folly.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8c59affb-e4ed-44e4-9a92-42f02c326cc1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-8c59affb-e4ed-44e4-9a92-42f02c326cc1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-adf86991-e979-4b2f-8035-ef85316b26b4'>
+            
+<p class="">3.32 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-09c57a04-3f5d-46e2-ab94-17e572266be2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-09c57a04-3f5d-46e2-ab94-17e572266be2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-09c57a04-3f5d-46e2-ab94-17e572266be2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-09c57a04-3f5d-46e2-ab94-17e572266be2">
+                Mr. Lloyd George  (Carnarvon Boroughs)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-09c57a04-3f5d-46e2-ab94-17e572266be2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-09c57a04-3f5d-46e2-ab94-17e572266be2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Perhaps I may be permitted, as the senior Member of this House, to say a few words in support of this Motion. May I, as one of the oldest friends of the Prime Minister in this House—I think on the whole that we have the longest friendship in politics in spite of a great many differences of opinion—congratulate him personally upon his succession to the Premiership. But that is a small matter. I congratulate the country upon his elevation to the Premiership at this very, very critical and terrible moment. If I may venture to say so, I think the Sovereign exercised a wise choice. We know the right hon. Gentleman's glittering intellectual gifts, his dauntless courage, his profound study of war, and his experience in its operation and direction—perhaps the reverse. He is think it is fortunate that he should have been put in a position of supreme authority. I do not know that it is altogether a matter of personal congratulation—perhaps the reverse. He is exercising his supreme responsibility at a graver moment and in times of greater jeopardy than have ever confronted a British Minister for all time. We all, from the bottom of our hearts, wish him well. The friends of freedom and of human right throughout the world will wish him God speed; their hopes are centred in him now because it will depend upon him more than on any of his associates. I am not criticising now, because the man who has got the supreme direction is the man upon whom most of the responsi- <span id="1511" class="column-number" data-column-number="1511"></span> bility depends. May I say that their prayers will be for him and that, in my judgment, the sacrifices of Britain and her Empire will be at his disposal.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-09c57a04-3f5d-46e2-ab94-17e572266be2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-09c57a04-3f5d-46e2-ab94-17e572266be2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2f15a466-1b49-48b0-a24e-5be72ff56b29'>
+            
+<p class="">3.36 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-a05e4527-93eb-482c-a7d7-7924d456d583">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a05e4527-93eb-482c-a7d7-7924d456d583">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a05e4527-93eb-482c-a7d7-7924d456d583">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a05e4527-93eb-482c-a7d7-7924d456d583">
+                Mr. Lambert  (South Molton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a05e4527-93eb-482c-a7d7-7924d456d583" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-a05e4527-93eb-482c-a7d7-7924d456d583">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I, as an old colleague of the Prime Minister, congratulate him on his high position, and warmly wish him good fortune in his great enterprise, on the success of which the very existence of Britain as a free country depends. Last week we had, fortunately, a political and not a military crisis, and one feels that the military situation even last week was well in hand. Might I express this view, that the late Prime Minister has shown fine self-sacrificing patriotism and that he will stand forth in this crisis as a great Englishman? There is one point I would like to make. My right hon. Friend, under whom I served, has the advantage of Labour colleagues. I want to ask: Do they come in as free men or are they subject to an outside body? I think it is rather important that we should know. I hope, indeed, that they will exercise their discretion freely without any reference to outside politics. I do not wish to enter into a polemical controversy, although of course, one could do it. I wish to ask about the political balance of the Government founded on the association of the Liberal Nationals. I hoped that my right hon. Friend would have been able to secure the services of some of my colleagues, because I feel certain that a contribution by the Liberal National party would be an advantage to my right hon. Friend in his great enterprise.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a05e4527-93eb-482c-a7d7-7924d456d583" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-a05e4527-93eb-482c-a7d7-7924d456d583">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7a194cd1-e78b-47c0-959e-a43fc5be4e91'>
+            
+<p class="">3.39 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+                Mr. Austin Hopkinson  (Mossley)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c07fc6e0-e312-4071-baec-aeeebed7d1e2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As one who has served and loved this House for more than 20 years perhaps I might, as an Independent Member, make one or two remarks on this occasion. My point is this: A special responsibility seems to lie at the present time upon those Members of this House who are not attached to any of the political parties. It is quite obvious that it is the view of the House and the country that it is in the national interest that all political parties in the State should range themselves behind the leadership of the present Prime Minister. But this involves a special responsibility on those whose criticisms of the Government cannot possibly be <span id="1512" class="column-number" data-column-number="1512"></span> of comfort to the enemy—I mean those of us who do not belong to any organised party in this House. Therefore, although there are precious few hon. Members in the House who, like myself, have no party attachments or loyalties, I hope they will endeavour, as far as they can, to exercise that useful power of criticism which is really the main function of the House of Commons. There is undoubtedly great danger in the present circumstances, as there was during the last war, that an effort for national unity may mean the destruction to all intents and purposes of our Parliamentary system. It is to avoid that that I have risen to-day to remind hon. Members, not only independent Members but Members of other parties, that we are taking a very grave, though in my opinion a necessary, risk at the present moment.<p></p> May I address one word to the hon. Member for Bridgeton (Mr. Maxton)?It seems to me that on this occasion, as on previous occasions in a national crisis, the hon. Member has shown a lack of appreciation of the true spirit of democracy. He knows perfectly well that the present arrangement is equally as repugnant to me as it is to him, but the principle of democracy is this. Having striven, as I have, for years to prevent this thing from happening and as the majority of our colleagues here, and undoubtedly the majority of the people in the country, are of the opinion that it is the wisest and best solution in the face of the national danger, it is for him, as it is for me, as true democrats, to give every assistance in our power, to put our personal predilections and opinions entirely in the background, and see if we can help. I think every Member of this House knows this, that from my boyhood onward everything that I had, my money, my blood and my energy, have been poured out for the sake of England, and I hope that the hon. Member and his friends will, if they cannot take an effective part in the Government of the country, at any rate see if they too cannot make some sort of sacrifice for the country which gave them birth.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c07fc6e0-e312-4071-baec-aeeebed7d1e2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-c07fc6e0-e312-4071-baec-aeeebed7d1e2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-bd8c360a-cb71-49f4-9236-f38f156e41b4'>
+            
+<p class="">3.43 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-956baace-e59e-4fa6-955b-d47a00d976a5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-956baace-e59e-4fa6-955b-d47a00d976a5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-956baace-e59e-4fa6-955b-d47a00d976a5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-956baace-e59e-4fa6-955b-d47a00d976a5">
+                Sir Stafford Cripps  (Bristol, East)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-956baace-e59e-4fa6-955b-d47a00d976a5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-956baace-e59e-4fa6-955b-d47a00d976a5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I do not desire to make any criticism of the right hon. Gentleman or his Government, favourable or otherwise. The proof <span id="1513" class="column-number" data-column-number="1513"></span> of the pudding will be in the experience of its eating. I should like to ask the right hon. Gentleman to consider one point, which I regard as very urgent in view of the situation that is created by the new national Government. The whole of our procedure and practice in the House of Commons is built up on the basis of having an effective, organised Opposition. Indeed, the arrangement of the Time Table is through the usual channels. Supply Days and many other matters are organised in that way. There is a serious danger, if we have a House of Commons with substantially only one party in it, of the House of Commons being no longer interested in Votes and being less interested in the administration of the affairs of the country. I believe myself that our democratic machinery has long required an overhaul. I believe there are many ways in which it could be made more effective and work more smoothly, but there is at the present time a very serious danger of getting a breakdown of the machinery altogether, and I ask the Prime Minister either to consider this matter himself—I do not suppose he has the time—or to set up a small committee of this House to consider what alterations in procedure may be necessary in view of the altered circumstances in which the House now finds itself. [Hon. Members: "No."] Some hon. Members say "No," but the party to which they belong has pledged its support to the Government—I am only saying what their Leader stated at the beginning of the Debate—and I should be extremely surprised to hear from any of them that they have not pledged their support to the Government. I am not complaining of that, but I am asking that the new situation which has arisen should be considered. It will be extremely difficult for the House to perform its day-to-day functions if the Government is the sole party in the House. I ask the House to give that matter its consideration and to see whether some methods can be devised by which we may make our democracy more and not less effective than in the past.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-956baace-e59e-4fa6-955b-d47a00d976a5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-956baace-e59e-4fa6-955b-d47a00d976a5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-0aecffee-1e00-49b7-b0ea-9f2df2a29096'>
+            
+<p class="">3.46 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-edfe6777-65d4-4e32-992c-1f47443dd20b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-edfe6777-65d4-4e32-992c-1f47443dd20b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-edfe6777-65d4-4e32-992c-1f47443dd20b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-edfe6777-65d4-4e32-992c-1f47443dd20b">
+                Mr. George Balfour  (Hampstead)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-edfe6777-65d4-4e32-992c-1f47443dd20b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-edfe6777-65d4-4e32-992c-1f47443dd20b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I want to refer to one portion of the speech made by the right hon. Member for Keighley (Mr. Lees-Smith). I ask hon. Members to accept my assurance that <span id="1514" class="column-number" data-column-number="1514"></span> what I say has nothing of a controversial character about it. I only wish to put on record the remarks of the right hon. Member to the effect that his three right hon. Colleagues had joined the Government before the arrangement was con firmed by the Labour Party Conference; before they were free to accept. In that event I want to put before the House this one simple point, and I am sure I shall have the general agreement of the House. Members of Parliament have always understood that this is the great free Parliament of the people and that we are answerable only and solely to the electors. That is the point which I wish to put on record to-day, and that whenever this House departs from this principle and hon. Members are answerable to another outside body—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-edfe6777-65d4-4e32-992c-1f47443dd20b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-edfe6777-65d4-4e32-992c-1f47443dd20b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-904bd039-339b-4be2-b66e-2681a76e8d95">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-904bd039-339b-4be2-b66e-2681a76e8d95">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-904bd039-339b-4be2-b66e-2681a76e8d95">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-904bd039-339b-4be2-b66e-2681a76e8d95">
+                Mr. J. J. Davidson  (Maryhill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-904bd039-339b-4be2-b66e-2681a76e8d95" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-904bd039-339b-4be2-b66e-2681a76e8d95">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">If there is an Electricity Bill before the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-904bd039-339b-4be2-b66e-2681a76e8d95" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-904bd039-339b-4be2-b66e-2681a76e8d95">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+                Mr. Balfour
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-40da8d02-6164-4561-9f0e-9555b9f60eb0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">For my part I am answer able to no one but the electors. If any hon. Member deserts that principle and allows any private interest to intervene, if any hon. Member is answerable to any other outside body in performing his duties in this House, he deserves to be turned out. If there is any departure from this principle the whole structure of our parliamentary system breaks down. I hope in less arduous times that the principle will be re-established in full Session that no Member has a right to be answer able to any outside corporate body. I trust that the time is not far distant when in perfect harmony we may be able to debate that principle.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-40da8d02-6164-4561-9f0e-9555b9f60eb0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-40da8d02-6164-4561-9f0e-9555b9f60eb0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-a76fb1a5-b792-41d5-a78b-40aa1ceabf4f'>
+            
+<p class="">3.49 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-76c1030e-1440-4553-9029-dc3ca423661f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-76c1030e-1440-4553-9029-dc3ca423661f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-76c1030e-1440-4553-9029-dc3ca423661f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-76c1030e-1440-4553-9029-dc3ca423661f">
+                Mr. Benjamin Smith  (Rotherhithe)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-76c1030e-1440-4553-9029-dc3ca423661f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-76c1030e-1440-4553-9029-dc3ca423661f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I join with other Members of the House in supporting the new Government. The right hon. Gentleman the Prime Minister said it would be the determination of the Government to wage war with every means in their power. Whatever form of coalition may be brought about, I take it that no Member's voice will be silenced, where fair criticism is to be levelled against any Minister or even against the Prime Minister himself, and I want to bring before the House and the Government one consideration. The Government, in my opinion, will stand or fall by their power to produce the goods which are necessary for winning the war. In my view the last Government failed to do that. I do not wish to go into <span id="1515" class="column-number" data-column-number="1515"></span> details, but everybody knows that there is a lamentable shortage of things of which our Armed Forces are much in need. I put it to the Prime Minister and the new Government that their first duty must be to eliminate any and every interest which stands in the way of giving us all the production necessary for the prosecution of the war. It is not unnatural that <blockquote><q>"where your treasure is, there will your heart be also,"</q></blockquote> and it is not unnatural that people in control of various industries should be looking ahead and keeping in mind the possibilities of peace time. At this moment, however, it is the winning of the war that matters, and any interest which dares to stand in the way of achieving that end should be ruthlessly swept aside. I believe that this new Government will be judged on its capacity to eliminate that type of person from this country. When I was at sea we had an old story of a parson who went to the skipper of a ship which was foundering and asked, "What shall I do to be saved?" The skipper said, "Jump into the long-boat and pull like blazes." It seems to me that we have jumped into the long-boat and, having jumped into the long-boat, I want to see the Government "pull like blazes," for the successful prosecution of the war.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-76c1030e-1440-4553-9029-dc3ca423661f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-76c1030e-1440-4553-9029-dc3ca423661f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-934ad028-24cb-4cbb-b447-6471bce38ce5'>
+            
+<p class="">3.52 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+                Sir Irving Albery  (Gravesend)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f1208d69-ee9a-4357-a842-2f2b18eaa1da" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I, like, I suppose, every other Member of the House, will do everything I can to give support to the new Government to win this war, but there are one or two things which I should like to say to-day because I want to get them off my chest, so that I may be able to start with a clean slate. I believe that a great many Members of the House, and certainlya great number of people in the country, strongly resent the manner in which the Debates were conducted and the Vote taken last week. I think many people realised then and realise now that nothing could be better for this country at the present time than that we should have in office a Government representative of all parties and uniting the nation. There is, however, a suitable time to make changes and there are suitable ways of making changes, and I cannot help feeling the strongest resentment against the action of certain Privy <span id="1516" class="column-number" data-column-number="1516"></span> Councillors and others who follow them, in turning what should have been a Debate on the conduct of affairs in Norway, into a political manoeuvre.<p></p> My right hon. Friend the Lord President of the Council can rest assured that, when the history of this time comes to be written, he will be given his due, and if the present Prime Minister carries this country forward to victory, as we all hope and pray he will, it will still be largely due to the policy which was followed by my right hon. Friend. I shudder to think of what the position to-day would be if we had at present 100,000or 200,000 of our troops tied up in Norway with a large portion of our merchant fleet required for their supplies, and a large portion of our Navy required to safeguard their communications. I wanted to get that off my chest and, having done so, I dismiss it from my mind, as I am sure others who feel like me will also dismiss those matters from their minds and give their loyal support to the new Government.<p></p> The great difference between the Government which has passed and the Government which takes its place was emphasised in the last words of the Prime Minister when he said "My policy is a policy of war." The policy of the Lord President of the Council was a policy of peace and he pursued it. I do not mean by that that he did not do all he could to make war, but we all know that his great ambition was to save this country from war and to maintain peace. Even in the maintenance of peace, although he did it, I am sure without any political objective and without any desire to deceive Hitler, he served his country. We have only to consider what would have been the case if we had been involved in war six or nine months ago, as we might well have been had it not been for my right hon. Friend. The present Prime Minister will find no wiser, no stauncher, no more loyal counsellor than the Lord President of the Council, just as he will find no more loyal supporters than the followers of the Lord President of the Council.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f1208d69-ee9a-4357-a842-2f2b18eaa1da" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-f1208d69-ee9a-4357-a842-2f2b18eaa1da">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-45c64c04-b471-4cf3-87c0-1271a098795e'>
+            
+<p class="">3.56 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+                Colonel Gretton  (Burton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d91296be-27e7-4b5d-9e2f-ad625e4c33bc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As one who seldom addresses this House, may I venture to remind hon. and right hon. Gentlemen, my colleagues in all parts of the House, that there is before us a Motion <span id="1517" class="column-number" data-column-number="1517"></span> which asks us to express our confidence in the present Government? The enemy is almost battering at our gates. We are facing a severe and dangerous crisis. May I venture then to say in the fewest possible words, that we should best serve the interests of our country, both at home and abroad, by not indulging in a long Debate this afternoon? In whatever part of the House we may sit to-day, we should all be prepared to march forward as a united body and to accord to the Government that confidence for which they ask. If we are to meet the crisis which confronts us to-day, we want unity, cohesion and determination. I, for one, shall unhesitatingly give my vote in favour of confidence in the new Government.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d91296be-27e7-4b5d-9e2f-ad625e4c33bc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-d91296be-27e7-4b5d-9e2f-ad625e4c33bc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0249259c-eee8-4913-a888-79f3176cf7b6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0249259c-eee8-4913-a888-79f3176cf7b6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0249259c-eee8-4913-a888-79f3176cf7b6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0249259c-eee8-4913-a888-79f3176cf7b6">
+                Mr. Tinker  (Leigh)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0249259c-eee8-4913-a888-79f3176cf7b6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-0249259c-eee8-4913-a888-79f3176cf7b6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>rose</em>—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0249259c-eee8-4913-a888-79f3176cf7b6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-0249259c-eee8-4913-a888-79f3176cf7b6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ded50661-342e-4a6d-b08d-23f73fbcf1e2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Divide.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ded50661-342e-4a6d-b08d-23f73fbcf1e2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ded50661-342e-4a6d-b08d-23f73fbcf1e2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-419ce719-90af-42af-be96-7b321f161732'>
+            
+<p class="">3.58 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+                Mr. Tinker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e8d0d817-4c6b-4348-bc58-30dd7026bef0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">This is a grave moment for all of us. It is easy for certain hon. Members to call out "Divide, "but there are some of us who wish to express our feelings. For those of us who sit on these benches the present position is one of very serious moment. We were sent here to alter the social structure of the country. Hon. Members opposite were sent here to oppose us and to maintain the present social structure. But above that issue, there has arisen a menace which transcends everything else, and the question arises: What are we to do in face of that menace? Are we, at this moment in our history, faced with the gravest peril, to force our individual opinions on the House, or are we to think first of the good of the country and the interests of civilisation? I regard this afternoon as one of the gravest moments of my life. I am asked by this Motion to fall into line with all the parties with whom I have been in opposition. It is a difficult position. I see no other course open to me but to agree with the Motion. There have been two opinions on the war in this House. A very large body of opinion has been in favour of the prosecution of the war. We on these benches have given our support to the Government on that, but there has been a small body of opinion which has been, honestly I believe, against the war. We ought not to use an occasion like this to appear as critics of parties who are now <span id="1518" class="column-number" data-column-number="1518"></span> joining with the Government to bring about a successful prosecution of the war.<p></p> If we, the Labour party, honestly believe that the winning of the war is the greatest thing, then in honesty to our convictions we must join with every party to carry it through to victory. That is why this afternoon, in the full knowledge of what it means, I give my full support to the Motion. But I want to urge on all Members of the House that we must not forget the social reforms that will be necessary at the same time as we are carrying on the war, and when we of this party bring forward Measures that mean much to our people, I hope those who have been opposed to us in the past will examine them in that light. If they tell us that there is something that we ought not to press forward at this stage, then, speaking for myself and, I think, many others of our people, we shall readily examine the reasons why they think such things should not be carried now. We have to keep together in this matter. If Hitler succeeds in beating us, then all that we stand for, freedom and the right to live our own lives, will be swept away, and it is because of that and of what would happen in that event that I will give the whole of my support to whatever Government pledges itself to try and beat Germany and what she stands for. Therefore, I support the Motion.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e8d0d817-4c6b-4348-bc58-30dd7026bef0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-e8d0d817-4c6b-4348-bc58-30dd7026bef0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ef7b25b1-1d09-4fb2-b37a-f88c1ca10548'>
+            
+<p class="">4.3 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-ab441401-5670-4794-99fa-25f7c3eaff0e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ab441401-5670-4794-99fa-25f7c3eaff0e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ab441401-5670-4794-99fa-25f7c3eaff0e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ab441401-5670-4794-99fa-25f7c3eaff0e">
+                Major Sir Philip Colfox  (Dorset, Western)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ab441401-5670-4794-99fa-25f7c3eaff0e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ab441401-5670-4794-99fa-25f7c3eaff0e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As one who has been an almost silent back bencher in this House for a good many years, and who voted last Wednesday night in favour of continuing the late Government, I want to say a few words. I do not wish to disguise from anybody my opinion that it would have been very much better, in the interests of the country, if my leader, the late Prime Minister, had remained the Prime Minister of a reconstructed Government, but that has not happened. He decided—and no one can criticise him for the decision—that he had to resign, and a new Government under a new Prime Minister is put forward. Although I, in common with a great many other people, regret that that decision was taken, yet it is absolutely essential that there shall be national unity, and since my leader is supporting and forming part of the new Government, I, personally, shall do all that I can to support the new Government and the Motion which is now before the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ab441401-5670-4794-99fa-25f7c3eaff0e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ab441401-5670-4794-99fa-25f7c3eaff0e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1519" class="column-number column-only" data-column-number="1519"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4241cc5c-81d5-40a5-8ec9-92923af700ed'>
+            
+<p class="">4.4 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+                Mr. S. O. Davies  (Merthyr)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Everybody appreciates how difficult it is for one to reorientate his mind and assimilate the implications of what has just taken place. Hon. Members on the Government Benches may perhaps appreciate the anxieties that are felt on this side, and our misgivings. We cannot dismiss entirely from our memories how disastrous Coalition Governments have been in the past, and it is absurd that we should be expected to overlook all that they have meant in the days gone by. We ended the last Great War with a Coalition Government in power. I happened then to be very closely associated with the mining industry, and I remember distinctly the catastrophic consequences that were brought to bear on the miners at that time. We on this side have always been conscious of the great gulf that divides us in political, economic and social matters from the other side of the House. It is a gulf that some of us believe will never be bridged until radical changes take place in the social structure of this country. We have contended, and needless to say we shall continue to contend, that hon. Members opposite represent a society that we con-consider to be harsh and cruel, a society that dominates the class which has placed every Member on this side of the House here to represent it and to challenge that form of society. We know its incredible meanness, and we know the appalling dangers and insecurities of the form of society which exists at this moment, while this war is going on, for the poorer classes of this country.<p></p> Frankly, I do not envy the step that my right hon. Friends have taken, and I have a strong suspicion that that step will not add to their happiness. We shall await to see whether the injustices of this form of society will continue. No change of personnel will affect them unless a radical change in viewpoint is adopted by the Coalition Government. I shall probably be told that this is only a temporary expedient, determined by the exigencies of the war, but we must question, and we shall continue to question, how our resources in this country, human and material, are to be mobilised with a view to winning the war. We regard with considerable anxiety the fact that if the war is to be continued on the basis of a form of society that is <span id="1520" class="column-number" data-column-number="1520"></span> decrepit, and that is divided from top to bottom, once you step outside this House, with its class domination, with its inhibitions and its contradictions, if these are to be perpetuated during this war, we at any rate must dread the appalling consequences. If this is a war for democracy, it can be waged and won only when democracy is experienced by our own people, for a mere change of personnel will not end the devastating economic crises that we know so much about. It will not in itself end unemployment and insecurity or bring greater comfort to the old age pensioners, those veterans of industry.<p></p> I should like to ask whether this change will remove from the Statute Book of this country the Trade Disputes Act. [Hon. Members: "Oh!"] I am entitled to ask that before I support the Motion on the Paper. I want to try and get a line on the implications of the step that has been taken, and so far I have very little guidance as to what we call the home front is concerned. I must repeat, Is it to be understood that that instrument, placed on the Statute Book with the deliberate intention of crippling and destroying the political power of the great trade unions of this country, is to be removed? Is that part of the bargain that has been struck? I am entitled to an answer to that question, if anything like co-operation across the Floor of this House is expected. I am also entitled to ask whether the present contemptible Workmen's Compensation Bill which is before the House is to be withdrawn, or whether it is to be imposed upon the crippled workers of industry, who are represented by most of us on this side? A mere Coalition will not necessarily end the present unconscionable profiteering that is going on in the manufacture of arms, in the food supplies, and in the essentials of the very life of the people of the country. Have the Government started on a reorientation as far as those demands are concerned? Can there in fact be anything approaching co-operation in the political arena while all the present economic and social injustices prevail? My answer to that question is "No."<p></p> I shall be told that the only thing that matters is that the war should be won. We are of the opinion that this war will not be won by stultifying and hamstringing opinion in this House of Commons, <span id="1521" class="column-number" data-column-number="1521"></span> and we shall most strenuously fight against any attempt to stifle fair and constructive criticism from these benches. We shall not willingly accept anything approaching voluntary totalitarianism, if that is the price of the Coalition that has been established. I draw some consolation from the fact that the working-class movement of this country has not been built up by a few individuals, however distinguished their service might have been. This movement of ours, which we will protect and fight for with all the strength and the jealous regard of which we are capable, was ushered into being by barbaric and intolerable conditions, and it will remain in being, wars or no wars, until those conditions will have been removed. We have never believed that those conditions can be destroyed by any magic, such as—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-6e7bda07-f1ca-460f-8b00-a8bc8bb6e08b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+                Mr. Marcus Samuel  (Putney)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-be64244d-e9ea-45b2-bf47-bb0997c9384f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Might I ask the hon. Member whether he read the Question put last Wednesday by the hon. Member for West Leyton (Mr. Sorensen) to the Minister of Information <blockquote><q>"whether he will arrange for the fuller world appreciation of the best British characteristics by the dissemination of facts concerning the development of our social services, the progress and benefits of democratic trade unionism, political associations and local government, and the preservation of religious, political and literary freedom, especially in comparison with totalitarian and other States where this does not prevail or has been substantially destroyed?"—[OFFICIAL REPORT, 8th May, 1940; col. 1218, Vol. 360.]</q></blockquote></p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-be64244d-e9ea-45b2-bf47-bb0997c9384f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-be64244d-e9ea-45b2-bf47-bb0997c9384f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+                Mr. Davies
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ba5bf850-952e-41ca-bdde-7e45a89f3fce" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I shall express no opinion upon the profound contribution which the hon. Member has just made to the Debate. As I was saying before I</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ba5bf850-952e-41ca-bdde-7e45a89f3fce" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-05-13/debates/8954756e-525b-448e-bb4d-5cc77d60aaf1/HisMajestySGovernment#contribution-ba5bf850-952e-41ca-bdde-7e45a89f3fce">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 Division content-container " id='contribution-42ddd157-732d-4733-8b1b-653e86d0834f'>
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" Division "></span>
+
+<p class="Division"><division></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td align="center"></p><p class="Division">  <b>Division No. 62.]</b></p><p class="Division"> </td></p><p class="Division"> <td align="center"></p><p class="Division">  <b>AYES.</b></p><p class="Division"> </td></p><p class="Division"> <td align="right"></p><p class="Division">  <b>[4.20 p.m.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Acland, Sir R. T. D.</td></p><p class="Division"> <td>Beamish, Rear-Admiral T. P. H.</td></p><p class="Division"> <td>Brown, Brig.-Gen. H. C. (Newbury)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Acland-Troyte, Lt.-Col. G. J.</td></p><p class="Division"> <td>Beauchamp, Sir B. C.</td></p><p class="Division"> <td>Bull, B. B.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, D. (Consett)</td></p><p class="Division"> <td>Beaumont, H. (Batley)</td></p><p class="Division"> <td>Burgin, Rt. Hon. E. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, D. M. (Poplar, S.)</td></p><p class="Division"> <td>Beaumont, Hon. R. E. B. (Portsm'h)</td></p><p class="Division"> <td>Burton, Col. H. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adamson, Jennie L. (Dartford)</td></p><p class="Division"> <td>Beechman, N. A.</td></p><p class="Division"> <td>Butcher, H. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Albery, Sir Irving</td></p><p class="Division"> <td>Benn, Rt. Hon. W. W.</td></p><p class="Division"> <td>Butler, Rt. Hon. R. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Alexander, Rt. Hon. A. V. (H'lsbr.)</td></p><p class="Division"> <td>Bennett, Sir E. N.</td></p><p class="Division"> <td>Caine, G. R. Hall-</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Alexander, Brig.-Gen. Sir W.</td></p><p class="Division"> <td>Bernays, R. H.</td></p><p class="Division"> <td>Campbell, Sir E. T.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Allen, Col. J. Sandeman (B'knhead)</td></p><p class="Division"> <td>Bird, Sir R. B.</td></p><p class="Division"> <td>Carver, Major W. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Amery, Rt. Hon. L. C. M. S.</td></p><p class="Division"> <td>Blair, Sir R.</td></p><p class="Division"> <td>Cary, R. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ammon, C. G.</td></p><p class="Division"> <td>Blaker, Sir R.</td></p><p class="Division"> <td>Cassells, T.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Anderson, F. (Whitehaven)</td></p><p class="Division"> <td>Boles, Lt.-Col. D. C.</td></p><p class="Division"> <td>Cazalet, Thelma (Islington, E.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Anderson, Rt. Hn. Sir J. (Sc'h Univ's)</td></p><p class="Division"> <td>Boothby, R. J. G.</td></p><p class="Division"> <td>Cazalet, Major V. A. (Chippenham)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Apsley, Lord</td></p><p class="Division"> <td>Bossom, A. C.</td></p><p class="Division"> <td>Chamberlain, Rt. Hn. N. (Edgb't'n)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Aske, Sir R. W.</td></p><p class="Division"> <td>Boulton, W. W.</td></p><p class="Division"> <td>Channon, H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Assheton, R.</td></p><p class="Division"> <td>Bracken, B.</td></p><p class="Division"> <td>Chapman, A. (Rutherglen)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Astor, Major Hon. J. J. (Dover)</td></p><p class="Division"> <td>Braithwaite, Major A. N. (Buckrose)</td></p><p class="Division"> <td>Chapman, Sir S. (Edinburgh, S.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Astor, Viscountess (Plymouth, Sutton)</td></p><p class="Division"> <td>Brass, Sir W.</td></p><p class="Division"> <td>Charleton, H. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Attlee, Rt. Hon. C. R.</td></p><p class="Division"> <td>Broad, F. A.</td></p><p class="Division"> <td>Chater, D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Baldwin-Webb, Col. J.</td></p><p class="Division"> <td>Broadbridge, Sir G. T.</td></p><p class="Division"> <td>Chorlton, A. E. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Balfour, G. (Hampstead)</td></p><p class="Division"> <td>Brocklebank, Sir Edmund</td></p><p class="Division"> <td>Churchill, Rt. Hon. Winston S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Balfour, Capt. H. H. (Isle of Thanet)</td></p><p class="Division"> <td>Bromfield, W.</td></p><p class="Division"> <td>Clarke, Colonel R. S. (E. Grinstead)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Barnes, A. J.</td></p><p class="Division"> <td>Brooke, H. (Lewisham, W.)</td></p><p class="Division"> <td>Clynes, Rt. Hon. J. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bartlett, C. V. O.</td></p><p class="Division"> <td>Brown, C. (Mansfield)</td></p><p class="Division"> <td>Cobb, Captain E. C. (Preston)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Baxter, A. Beverley</td></p><p class="Division"> <td>Brown, Rt. Hon. E. (Leith)</td></p><p class="Division"> <td>Cocks, F. S.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"></division></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1522" class="column-number column-only" data-column-number="1522"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c44f8b99-3e44-47cd-a250-a2e51f502e3e'>
+            
+<p class="">was interrupted, we have never believed that the conditions to which I have referred can be destroyed or removed by any magic, such as by walking 12 feet across the Floor of this House. We shall watch this Government critically and anxiously. Their task presumably is to mobilise the men and resources at our disposal; but will they be able to do it? I am confident that they will not be able to do it unless the dead hand of the past is removed, and until the crippling weight of organised profiteering is lifted and the "patriotism limited"of high finance, of the money changers and gamblers on our stock exchanges is completely eliminated. These are the powers—and we have no illusions about this—which brought Nazism into being and the powers which will bring Nazism into being in this or any other country if their dominion is to last much longer. We on these benches are as prepared to fight Nazism as is any representative in any part of this House, whether that Nazism is partially concealed in this country or blatantly open elsewhere. We shall do so, but not at the price of sacrificing the principles which have ever been dear to us, namely, the interests of our own people who have placed us in this House.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-89a59768-7b65-4628-b0eb-c8e6746380ac'>
+            
+<p class="">Question put,</p><p class=""> <blockquote><q>"That this House welcomes the formation of a Government representing the united and inflexible resolve of the nation to prosecute the war with Germany to a victorious conclusion."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c25e65f4-23d4-4d70-9c07-1d58fddb4d4a'>
+            
+<p class="">The House divided: Ayes, 381; Noes, o.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1523" class="column-number column-only" data-column-number="1523"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 Division content-container " id='contribution-96ab1c07-bb22-49d5-ab4a-5ec269b216ff'>
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" Division "></span>
+
+<p class="Division"><division></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td>Colfox, Major Sir W. P.</td></p><p class="Division"> <td>Harbord, Sir A.</td></p><p class="Division"> <td>Milner, Major J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Collindridge, F.</td></p><p class="Division"> <td>Harland, H. P.</td></p><p class="Division"> <td>Mitchell, Col. H. (Brentf'd &amp; Chisw'k)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Colman, N. C. D.</td></p><p class="Division"> <td>Harris, Sir P. A.</td></p><p class="Division"> <td>Mitcheson, Sir G. G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Colville, Rt. Hon. John</td></p><p class="Division"> <td>Haslam, Henry (Horncastle)</td></p><p class="Division"> <td>Molson, A. H. E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cooper, Rt. Hn. T. M. (E'nburgh, W.)</td></p><p class="Division"> <td>Hayday, A.</td></p><p class="Division"> <td>Moore, Lieut.-Col. Sir T. C. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Courtauld, Major J. S.</td></p><p class="Division"> <td>Hely-Hutchinson, M. R.</td></p><p class="Division"> <td>Moore-Brabazon, Lt.-Col. J. T. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cranborne, Viscount</td></p><p class="Division"> <td>Henderson, J. J. Craik (Leeds, N.E.)</td></p><p class="Division"> <td>Moreing, A. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Craven-Ellis, W.</td></p><p class="Division"> <td>Henderson, T. (Tradeston)</td></p><p class="Division"> <td>Morgan, J. (York, W.R., Doncaster)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Critchley, A.</td></p><p class="Division"> <td>Heneage, Lieut.-Colonel A. P.</td></p><p class="Division"> <td>Morris, J. P. (Salford, N.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Croft, Brig.-Gen. Sir H. Page</td></p><p class="Division"> <td>Hepburn, P. G. T. Buchan-</td></p><p class="Division"> <td>Morris-Jones, Sir Henry</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Crooke, Sir J. Smedley</td></p><p class="Division"> <td>Hepworth, J.</td></p><p class="Division"> <td>Morrison, G. A. (Scottish Univ's.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Crookshank, Capt. Rt. Hon. H. F. C.</td></p><p class="Division"> <td>Herbert, A. P. (Oxford U.)</td></p><p class="Division"> <td>Morrison, Rt. Hon. H. (Hackney, S.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cross, R. H.</td></p><p class="Division"> <td>Hicks, E. G.</td></p><p class="Division"> <td>Morrison, R. C. (Tottenham, N.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Crowder, J. F. E.</td></p><p class="Division"> <td>Higgs, W. F.</td></p><p class="Division"> <td>Morrison, Rt. Hon. W. S. (Cirencester)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cruddas, Col. B.</td></p><p class="Division"> <td>Hoare, Rt. Hon. Sir S.</td></p><p class="Division"> <td>Mort, D. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Culverwell, C. T.</td></p><p class="Division"> <td>Holdsworth, H.</td></p><p class="Division"> <td>Muff, G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Daggar, G.</td></p><p class="Division"> <td>Holmes, J. S.</td></p><p class="Division"> <td>Munro, P.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davidson, Viscountess</td></p><p class="Division"> <td>Horabin, T. L.</td></p><p class="Division"> <td>Nall, Sir J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davidson, J. J. (Maryhill)</td></p><p class="Division"> <td>Hore-Belisha, Rt. Hon. L.</td></p><p class="Division"> <td>Nathan, Colonel H. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davies, Clement (Montgomery)</td></p><p class="Division"> <td>Horsbrugh, Florence</td></p><p class="Division"> <td>Nicolson, Hon. H. G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davies, Major Sir G. F. (Yeovil)</td></p><p class="Division"> <td>Howitt, Dr. A. B.</td></p><p class="Division"> <td>Nield, B. E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davison, Sir W. H.</td></p><p class="Division"> <td>Hudson, Capt. A. U. M. (Hack., N.)</td></p><p class="Division"> <td>O'Neill, Rt. Hon. Sir Hugh</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>De Chair, S. S.</td></p><p class="Division"> <td>Hudson, Rt. Hon. R. S. (Southport)</td></p><p class="Division"> <td>Orr-Ewing, I. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Denman, Hon. R. D.</td></p><p class="Division"> <td>Hulbert, Squadron-Leader N. J.</td></p><p class="Division"> <td>Paling, W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dobbie, W.</td></p><p class="Division"> <td>Hume, Sir G. H.</td></p><p class="Division"> <td>Palmer, G. E. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dodd, J. S.</td></p><p class="Division"> <td>Hunter, T.</td></p><p class="Division"> <td>Parker, J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Doland, G. F.</td></p><p class="Division"> <td>Hurd, Sir P. A.</td></p><p class="Division"> <td>Pearson, A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Donner, P. W.</td></p><p class="Division"> <td>Jagger, J.</td></p><p class="Division"> <td>Peat, C. U.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dorman-Smith, Col. Rt. Hon. Sir R. H.</td></p><p class="Division"> <td>Jarvis, Sir J. J.</td></p><p class="Division"> <td>Perkins, W. R. D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Douglas, F. C. R.</td></p><p class="Division"> <td>Jenkins, A. (Pontypool)</td></p><p class="Division"> <td>Pethick-Lawrence, Rt. Hon. F. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Drewe, C.</td></p><p class="Division"> <td>Jenkins, Sir W. (Neath)</td></p><p class="Division"> <td>Pickthorn, K. W. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duckworth, W. R. (Moss Side)</td></p><p class="Division"> <td>Joel, D. J. B.</td></p><p class="Division"> <td>Plugge, Capt. L. F.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duggan, H. J.</td></p><p class="Division"> <td>John, W.</td></p><p class="Division"> <td>Ponsonby, Col. C. E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duncan, Rt. Hon. Sir A. R.</td></p><p class="Division"> <td>Jones, Sir G. W. H. (S'k N'w'gt'n)</td></p><p class="Division"> <td>Power, Sir J. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duncan, J. A. L. (Kensington, N.)</td></p><p class="Division"> <td>Jones, L. (Swansea W.)</td></p><p class="Division"> <td>Pownall, Lt.-Col. Sir Assheton</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dunglass, Lord</td></p><p class="Division"> <td>Jowitt, Rt. Hon. Sir W. A.</td></p><p class="Division"> <td>Price, M. P.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dunn, E. (Rother Valley)</td></p><p class="Division"> <td>Kerr, Lt.-Col. Charles (Montrose)</td></p><p class="Division"> <td>Profumo, J. D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Eckerslay, P. T.</td></p><p class="Division"> <td>Kerr, H. W. (Oldham)</td></p><p class="Division"> <td>Pym, L. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ede, J. C.</td></p><p class="Division"> <td>Kerr, Sir J. Graham (Scottish Univ.)</td></p><p class="Division"> <td>Quibell, D. J. K.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Edmondson, Major Sir J.</td></p><p class="Division"> <td>Kimball, L.</td></p><p class="Division"> <td>Ramsbotham, Rt. Hon. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Elliot, Rt. Hon. W. E.</td></p><p class="Division"> <td>Kirby, B. V.</td></p><p class="Division"> <td>Rankin, Sir R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Elliston, Capt. G. S.</td></p><p class="Division"> <td>Knox, Major-General Sir A. W. F.</td></p><p class="Division"> <td>Rathbone, Eleanor (English Univ's.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Emrys-Evans, P. V.</td></p><p class="Division"> <td>Lamb, Sir J. Q.</td></p><p class="Division"> <td>Rathbone, J. R. (Bodmin)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Entwistle, Sir C. F.</td></p><p class="Division"> <td>Lambert, Rt. Hon. G.</td></p><p class="Division"> <td>Rawson, Sir Cooper</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Erskine, Lord</td></p><p class="Division"> <td>Law, R. K. (Hull, S.W.)</td></p><p class="Division"> <td>Reed, A. C. (Exeter)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Erskine-Hill, A. G.</td></p><p class="Division"> <td>Lawson, J. J.</td></p><p class="Division"> <td>Reed, Sir H. S. (Aylesbury)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Etherton, Ralph</td></p><p class="Division"> <td>Leach, W.</td></p><p class="Division"> <td>Reid, J. S. C. (Hillhead)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Evans, D. O. (Cardigan)</td></p><p class="Division"> <td>Lees-Jones, J.</td></p><p class="Division"> <td>Reid, W. Allan (Derby)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Evans, E. (Univ. of Wales)</td></p><p class="Division"> <td>Leighton, Major B. E. P.</td></p><p class="Division"> <td>Richards, R. (Wrexham)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Findlay, Sir E.</td></p><p class="Division"> <td>Lennox-Boyd, A. T. L.</td></p><p class="Division"> <td>Riley, B.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fleming, E. L.</td></p><p class="Division"> <td>Leonard, W.</td></p><p class="Division"> <td>Roberts, W. (Cumberland, N.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Foot, D. M.</td></p><p class="Division"> <td>Leslie, J. R.</td></p><p class="Division"> <td>Robertson, D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fox, Sir G. W. G.</td></p><p class="Division"> <td>Levy, T.</td></p><p class="Division"> <td>Robinson, J. R. (Blackpool)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Frankel, D.</td></p><p class="Division"> <td>Lewis, O.</td></p><p class="Division"> <td>Ropner, Colonel L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fraser, Captain Sir Ian</td></p><p class="Division"> <td>Liddall, W. S.</td></p><p class="Division"> <td>Ross Taylor, W. (Woodbridge)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fremantle, Sir F. E.</td></p><p class="Division"> <td>Lindsay, K. M.</td></p><p class="Division"> <td>Royds, Admiral Sir P. M. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fyfe, D. P. M.</td></p><p class="Division"> <td>Little, Sir E. Graham-</td></p><p class="Division"> <td>Ruggles-Brise, Colonel Sir E. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gardner, B. W.</td></p><p class="Division"> <td>Llewellin, Colonel J. J.</td></p><p class="Division"> <td>Russell, Sir Alexander</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>George, Rt. Hon. D. Lloyd (Carn'v'n)</td></p><p class="Division"> <td>Lloyd, G. W. (Ladywood)</td></p><p class="Division"> <td>Salmon, Sir I.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>George, Major G. Lloyd (Pembroke)</td></p><p class="Division"> <td>Loftus, P. C.</td></p><p class="Division"> <td>Salt, E. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>George, Megan Lloyd (Anglesey)</td></p><p class="Division"> <td>Logan, D. G.</td></p><p class="Division"> <td>Salter, Sir J. Arthur (Oxford U.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gibbins, J.</td></p><p class="Division"> <td>Lucas, Major Sir J. M.</td></p><p class="Division"> <td>Samuel, M. R. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gibson, Sir C. G. (Pudsey and Otley)</td></p><p class="Division"> <td>Lyons, A. M.</td></p><p class="Division"> <td>Sanderson, Sir F. B.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gibson, R. (Greenock)</td></p><p class="Division"> <td>Mabane, W. (Huddersfield)</td></p><p class="Division"> <td>Schuster, Sir G. E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Glyn, Major Sir R. G. C.</td></p><p class="Division"> <td>MacAndrew, Colonel Sir C. G.</td></p><p class="Division"> <td>Seely, Sir H. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Goldie, N. B.</td></p><p class="Division"> <td>McCallum, Major D.</td></p><p class="Division"> <td>Selley, H. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gower, Sir R. V.</td></p><p class="Division"> <td>MacDonald, Rt. Hon. M. (Ross)</td></p><p class="Division"> <td>Shakespeare, G. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Graham, Captain A. C. (Wirral)</td></p><p class="Division"> <td>Macdonald, Capt. P. (Isle of Wight)</td></p><p class="Division"> <td>Shaw, Captain W. T. (Forfar)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grant-Ferris, Flight-Lieutenant R.</td></p><p class="Division"> <td>McEwen, Capt. J. H. F.</td></p><p class="Division"> <td>Shepperson, Sir E. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grenfell, D. R.</td></p><p class="Division"> <td>McKie, J. H.</td></p><p class="Division"> <td>Shute, Colonel Sir J. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gretton, Col. Rt. Hon. J.</td></p><p class="Division"> <td>Macmillan, H. (Stockton-on-Tees)</td></p><p class="Division"> <td>Silkin, L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gridley, Sir A. B.</td></p><p class="Division"> <td>MacMillan, M. (Western Isles)</td></p><p class="Division"> <td>Simmonds, O. E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Griffiths, G. A. (Hemsworth)</td></p><p class="Division"> <td>Magnay, T.</td></p><p class="Division"> <td>Smith, Ben (Rotherhithe)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grigg, Sir E. W. M.</td></p><p class="Division"> <td>Mainwaring, W. H.</td></p><p class="Division"> <td>Smith, Bracewell (Dulwich)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grimston, R. V.</td></p><p class="Division"> <td>Maitland, Sir Adam</td></p><p class="Division"> <td>Smith, Rt. Hon. H. B. Lees-(K'ly)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gritten, W. G. Howard</td></p><p class="Division"> <td>Makins, Brigadier-General Sir Ernest</td></p><p class="Division"> <td>Smith, Sir R. W. (Aberdeen)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Groves, T. E.</td></p><p class="Division"> <td>Mander, G. le M.</td></p><p class="Division"> <td>Smith, T. (Normanton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Guest, Lieut.-Colonel H. (Drake)</td></p><p class="Division"> <td>Manningham-Buller, Sir M.</td></p><p class="Division"> <td>Smithers, Sir W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gunston, Capt. Sir D. W.</td></p><p class="Division"> <td>Marsden, Captain A.</td></p><p class="Division"> <td>Snadden, W. McN.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hacking, Rt. Hon. Sir D. H.</td></p><p class="Division"> <td>Martin, J. H.</td></p><p class="Division"> <td>Somervell, Rt. Hon. Sir Donald</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hall, G. H. (Aberdare)</td></p><p class="Division"> <td>Mason, Lt.-Col. Hon. G. K. M.</td></p><p class="Division"> <td>Somerville, Sir A. A. (Windsor)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hambro, A. V.</td></p><p class="Division"> <td>Mayhew, Lt.-Col. J.</td></p><p class="Division"> <td>Southby, Commander Sir A. R. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hammersley, S. S.</td></p><p class="Division"> <td>Medlicott, Captain F.</td></p><p class="Division"> <td>Spens, W. P.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hannah, I. C.</td></p><p class="Division"> <td>Mellor, Sir J. S. P. (Tamworth)</td></p><p class="Division"> <td>Stanley, Rt. Hon. Oliver (W'm'l'd)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hannon, Sir P. J. H.</td></p><p class="Division"> <td>Mills, Major J. D. (New Forest)</td></p><p class="Division"> <td>Stewart, J. Henderson (Fife, E.)</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"> <hs_ColumnNumber column="1524" /></p><p class="Division"> <hs_ColumnNumber column="1525" /></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td>Storey, S.</td></p><p class="Division"> <td>Tufnell, Lieut.-Commander R. L.</td></p><p class="Division"> <td>Williams, C. (Torquay)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Strauss, H. G. (Norwich)</td></p><p class="Division"> <td>Viant, S. P.</td></p><p class="Division"> <td>Williams, E. J. (Ogmore)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Stuart, Lord C. Crichton- (N'thw'h)</td></p><p class="Division"> <td>Wakefield, W. W.</td></p><p class="Division"> <td>Williams, Sir H. G. (Croydon, S.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Stuart, Rt. Hon. J. (Moray and Nairn)</td></p><p class="Division"> <td>Walkden, A. G.</td></p><p class="Division"> <td>Williams, T. (Don Valley)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Sueter, Rear-Admiral Sir M. F.</td></p><p class="Division"> <td>Wallace, Capt. Rt. Hon. Euan</td></p><p class="Division"> <td>Windsor, W. (Hull, C.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Summerskill, Dr. Edith</td></p><p class="Division"> <td>Ward, Lieut.-Col. Sir A. L. (Hull)</td></p><p class="Division"> <td>Windsor-Clive, Lieut.-Colonel G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Sutcliffe, H.</td></p><p class="Division"> <td>Ward, Irene M. B. (Wallsend)</td></p><p class="Division"> <td>Winterton, Rt. Hon. Earl</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Tasker, Sir R. I.</td></p><p class="Division"> <td>Warrender, Sir V.</td></p><p class="Division"> <td>Wise, A. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Tate, Mavis C.</td></p><p class="Division"> <td>Waterhouse, Captain C.</td></p><p class="Division"> <td>Wolmer, Rt. Hon. Viscount</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Taylor, Captain C. S.</td></p><p class="Division"> <td>Webbe, Sir W. Harold</td></p><p class="Division"> <td>Womersley, Sir W. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Taylor, Vice-Adm. E. A. (Padd., S.)</td></p><p class="Division"> <td>Wedgwood, Rt. Hon. J. C.</td></p><p class="Division"> <td>Wood, Rt. Hon. Sir Kingsley</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Taylor, R. J. (Morpeth)</td></p><p class="Division"> <td>Wells, Sir Sydney</td></p><p class="Division"> <td>Woods, G. S. (Finsbury)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Thomas, J. P. L.</td></p><p class="Division"> <td>Weston, W. G.</td></p><p class="Division"> <td>Wragg, H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Thomson, Sir J. D. W.</td></p><p class="Division"> <td>White, Sir Dymoke (Fareham)</td></p><p class="Division"> <td>Wright, Wing-Commander J. A. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Thorne, W.</td></p><p class="Division"> <td>Whiteley, Major J. P. (Buckingham)</td></p><p class="Division"> <td>Young, A. S. L. (Partick)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Thurtle, E.</td></p><p class="Division"> <td>Whiteley, W. (Blaydon)</td></p><p class="Division"> <td></td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Tinker, J. J,</td></p><p class="Division"> <td>Wickham, Lt.-Col. E. T. R.</td></p><p class="Division"> <td>TELLERS FOR THE AYES.—</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Tomlinson, G.</td></p><p class="Division"> <td>Wilkinson, Ellen</td></p><p class="Division"> <td>Captain Margesson and Sir</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td></td></p><p class="Division"> <td></td></p><p class="Division"> <td>Charles Edwards.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td colspan="3" align="center"></p><p class="Division">  <b>NOES.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td colspan="3" align="center"></p><p class="Division">  <b>NIL.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td></td></p><p class="Division"> <td></td></p><p class="Division"> <td>TELLERS FOR THE NOES.—</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td></td></p><p class="Division"> <td></td></p><p class="Division"> <td>Mr. Maxton and Mr. Stephen.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"></division></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-633a31e9-d1f7-41bc-bc88-08ba7ce5ace2'>
+            
+<p class="">Resolved,</p><p class=""> <blockquote><q>"That this House welcomes the formation of a Government representing the united and inflexible resolve of the nation to prosecute the war with Germany to a victorious conclusion."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

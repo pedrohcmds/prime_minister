@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>French Fleet - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1940-07-04">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1940-07-04/debates/bd7492a5-ed5b-48d9-8326-4af752ee17b9/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1940-07-04/debates/b570a562-6a6a-4d12-8a14-3fe1f44a9232/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1940-07-04/debates/72ced85c-25ea-4826-ba98-c0c01aa6d122/WarSituation">
+                                    <span class="commons">War Situation</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/5b3e0cdc-25db-4ee3-bd4c-bc0a26f94395"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1940-07-04">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1940-07-04/debates/31811be6-5380-4479-8c2f-e9c5e81031f3/TreasuryAndSubordinateDepartments" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                French Fleet
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1940-07-04/debates/3ca30a63-a241-477b-ab18-04961ecfaf18/SecretSession" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1235039" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-07-04/debates/5b3e0cdc-25db-4ee3-bd4c-bc0a26f94395/FrenchFleet">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>04 July 1940</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 362</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9ae5042d-67f6-45b6-9336-695c83cf4e55'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Captain Margesson.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1f1a6031-90dc-403d-818a-703cf375410d'>
+            
+<p class="">3.54 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1940-07-04/debates/5b3e0cdc-25db-4ee3-bd4c-bc0a26f94395/FrenchFleet#contribution-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is with sincere sorrow that I must now announce to the House the measures which we have felt bound to take in order to prevent the French Fleet from falling into German hands. When two nations are fighting together under long and solemn alliance against a common foe, one of them may be stricken down and overwhelmed, and may be forced to ask its Ally to release it from its obligations. But the least that could be expected was that the French Government, in abandoning the conflict and leaving its whole weight to fall upon Great Britain and the British Empire, would have been careful not to inflict needless injury upon their faithful comrade, in whose final victory the sole chance of French freedom lay, and lies.<p></p><span id="1044" class="column-number" data-column-number="1044"></span> As the House will remember, we offered to give full release to the French from their Treaty obligations, although these were designed for precisely the case which arose, on one condition, namely, that the French Fleet should be sailed for British harbours before the separate armistice negotiations with the enemy were completed. This was not done, but on the contrary, in spite of every kind of private and personal promise and assurance given by Admiral Darlan to the First Lord and to his Naval colleague the First Sea Lord of the British Admiralty, an armistice was signed which was bound to place the French Fleet as effectively in the power of Germany and its Italian following as that portion of the French Fleet which was placed in our power when many of them, being unable to reach African ports, came into the harbours of Portsmouth and Plymouth about 10 days ago. Thus I must place on record that what might have been a mortal injury was done to us by the Bordeaux Government with full knowledge of the consequences and of our dangers, and after rejecting all our appeals at the moment when they were abandoning the Alliance, and breaking the engagements which fortified it.<p></p> There was another example of this callous and perhaps even malevolent treatment which we received, not indeed from the French nation, who have never been and apparently never are to be consulted upon these transactions, but from the Bordeaux Government. This is the instance. There were over 400 German air pilots who were prisoners in France, many of them, perhaps most of them, shot down by the Royal Air Force. I obtained from M. Reynaud a personal promise that these pilots should be sent for safe keeping to England, and orders were given by him to that effect; but when M. Reynaud fell, these pilots were delivered over to Germany in order, no doubt, to win favour for the Bordeaux Government with their German masters, and to win it without regard to the injury done to us. The German Air Force already feels acutely the shortage of high grade pilots, and it seemed to me particularly odious, if I may use the word, that these 400 skilled men should be handed over with the sure knowledge that they would be used to bomb this country, and thus force our airmen to shoot them down for the second time over. Such wrongful <span id="1045" class="column-number" data-column-number="1045"></span> deeds I am sure will not be condoned by history, and I firmly believe that a generation of Frenchmen will arise who will clear their national honour from all countenance of them.<p></p> I said last week that we must now look with particular attention to our own salvation. I have never in my experience seen so grim and sombre a question as what we were to do about the French Fleet discussed in a Cabinet. It shows how strong were the reasons for the course which we thought it our duty to take, that every Member of the Cabinet had the same conviction about what should be done and there was not the slightest hesitation or divergence among them, and that the three Service Ministers, as well as men like the Minister of Information and the Secretary of State for the Colonies, particularly noted for their long friendship with France, when they were consulted were equally convinced that no other decision than that which we took was possible. We took that decision, and it was a decision to which, with aching hearts but with clear vision, we unitedly carne. Accordingly early yesterday morning, 3rd July, after all preparations had been made, we took the greater part of the French Fleet under our control, or else called upon them, with adequate force, to comply with our requirements. Two battleships, two light cruisers, some submarines, including a very large one, the "Surcouf," eight destroyers and approximately 200 smaller but extremely useful minesweeping and anti-submarine craft, which lay for the most part at Portsmouth and Plymouth, though there were some at Sheerness, were boarded by superior forces, after brief notice had been given wherever possible to their captains.<p></p> This operation was successfully carried out without resistance or bloodshed except in one instance. A scuffle arose through a misunderstanding in the submarine "Surcouf," in which one British leading seaman was killed and two British officers and one rating wounded and one French officer killed and one wounded. For the rest, the French sailors in the main cheerfully accepted the end of a period of uncertainty. A considerable number, 800 or 900, have expressed an ardent desire to continue the war, and some have asked for British nationality. This we are ready to grant without prejudice to the other Frenchmen, <span id="1046" class="column-number" data-column-number="1046"></span> numbered by thousands, who prefer to fight on with us as Frenchmen. All the rest of those crews will be immediately repatriated to French ports, if the French Government are able to make arrangements for their reception by permission of their German rulers. We are also repatriating all French troops who were in this country, excepting those who, of their own free will, have volunteered to follow General de Gaulle in the French forces of liberation of whom he is chief. Several French submarines have also joined us independently, and we have accepted their services.<p></p> Now I turn to the Mediterranean. At Alexandria, where a strong British battle fleet is lying, there are, besides a French battleship, four French cruisers, three of them modern 8-inch gun vessels, and a number of smaller ships. These have been informed that they cannot be permitted to leave harbour and thus fall within the power of the German conquerors of France. Negotiations and discussions, with the details of which I need not trouble the House, have necessarily been taking place, and measures have now been taken to ensure that those ships, which are commanded by a very gallant Admiral, shall be sunk or otherwise made to comply with our wishes. The anguish which this process has, naturally, caused to the British and French naval officers concerned may be readily imagined, when I tell the House that only this morning, in the air raid upon Alexandria by Italian aircraft, some of the French ships fired heavily and effectively with us against the common enemy. We shall, of course, offer the fullest facilities to all French officers and men at Alexandria who wish to continue the war, and will provide for them and maintain them during the conflict. We have also promised to repatriate all the rest, and every care in our power will be taken, if they allow it, for their safety and their comfort. So much for Alexandria.<p></p> But the most serious part of the story remains. Two of the finest vessels of the French Fleet, the "Dunkerque" and the "Strasbourg," modern battle cruisers much superior to "Scharnhorst" and "Gneisenau"—and built for the purpose of being superior to them—lay with two battleships, several light cruisers and a number of destroyers and submarines and other vessels at Oran and <span id="1047" class="column-number" data-column-number="1047"></span> at its adjacent military port of Mers-El-Kebir on the Northern African shore of Morocco. Yesterday morning, a carefully chosen British officer, Captain Holland, lately Naval Attaché in Paris, was sent on in a destroyer and waited upon the French Admiral Gensoul. After being refused an interview, he presented the following document, which I will read to the House. The first two paragraphs of the document deal with the general question of the Armistice, which I have already explained in my own words. The fourth paragraph begins as follows: This is the operative paragraph: <blockquote><q>"It is impossible for us, your comrades up to now, to allow your fine ships to fall into the power of the German or Italian enemy. We are determined to fight on to the end, and if we win, as we think we shall, we shall never forget that France was our Ally, that our interests are the same as hers and that our common enemy is Germany. Should we conquer, we solemnly declare that we shall restore the greatness and territory of France. For this purpose, we must make sure that the best ships of the French Navy are not used against us by the common foe. In these circumstances, His Majesty's Government have instructed me"—</q></blockquote> That is, the British Admiral— <blockquote><q>"to demand that the French Fleet now at Mers-El-Kebir and Oran shall act in accordance with one of the following alternatives: <li>(<em>a</em>) Sail with us and continue to fight for victory against the Germans and Italians.</li><li>(<em>b</em>) Sail with reduced crews under our control to a British port. The reduced crews will be repatriated at the earliest moment.</li></q></blockquote><blockquote><q>If either of these courses is adopted by you, we will restore your ships to France at the conclusion of the war or pay full compensation, if they are damaged meanwhile.</q></blockquote><blockquote><q>(<em>c</em>) Alternatively, if you feel bound to stipulate that your ships should not be used against the Germans or Italians unless these break the Armistice, then sail them with us with reduced crews, to some French port in the West Indies, Martinique, for instance, where they can be demilitarised to our satisfaction or he perhaps entrusted to the United States and remain safe until the end of the war, the crews being repatriated.</q></blockquote><blockquote><q>If you refuse these fair offers, I must, with profound regret, require you to sink your ships within six hours.</q></blockquote><blockquote><q>Finally, failing the above, I have the orders of His Majesty's Government to use whatever force may be necessary to prevent your ships from falling into German or Italian hands."</q></blockquote> We had hoped that one or other of the alternatives which we presented would have been accepted, without the necessity of using the terrible force of a British battle squadron. Such a squadron arrived <span id="1048" class="column-number" data-column-number="1048"></span> before Oran two hours after Captain Holland and his destroyer. This battle squadron was commanded by Vice-Admiral Somerville, an officer who distinguished himself lately in the bringing-off of over 100,000 Frenchmen during the evacuation from Dunkirk. Admiral Somerville was further provided, besides his battleships, with a cruiser force and strong flotillas. All day the parleys continued, and we hoped until the afternoon that our terms would be accepted without bloodshed. However, no doubt in obedience to the orders dictated by the Germans from Wiesbaden, where the Franco-German Armistice Commission is in session, Admiral Gensoul refused to comply and announced his intention of fighting. Admiral Somerville was therefore ordered to complete his mission before darkness fell, and at 5.53 p.m. he opened fire upon this powerful French Fleet, which was also protected by its shore batteries. At 6 p.m. he reported that he was heavily engaged. The action lasted for some 10 minutes and was followed by heavy attacks from our naval aircraft, carried in the "Ark Royal." At 7.20 p.m. Admiral Somerville forwarded a further report, which stated that a battle cruiser of the "Strasbourg" class was damaged and ashore; that a battleship of the "Bretagne" class had been sunk, that another of the same class had been heavily damaged, and that two French destroyers and a seaplane carrier, "Commandant Teste," were also sunk or burned.<p></p> While this melancholy action was being fought, either the battle cruiser "Strasbourg" or the "Dunkerque," one or the other, managed to slip out of harbour in a gallant effort to reach Toulon or a North African port and place herself under German control, in accordance with the Armistice terms of the Bordeaux Government—though all this her crew and captain may not have realised. She was pursued by aircraft of the Fleet Air Arm and hit by at least one torpedo. She may have been joined by other French vessels from Algiers, which were well placed to do so and to reach Toulon before we could overtake them. She will, at any rate, be out of action for many months to come.<p></p> I need hardly say that the French ships were fought, albeit in this unnatural cause, with the characteristic courage of the French Navy, and every <span id="1049" class="column-number" data-column-number="1049"></span> allowance must be made for Admiral Gensoul and his officers who felt themselves obliged to obey the orders they received from their Government and could not look behind that Government to see the German dictation. I fear the loss of life among the French and in the harbour must have been heavy, as we were compelled to use a severe measure of force and several immense explosions were heard. None of the British ships taking part in the action was in any way affected in gun-power or mobility by the heavy fire directed upon them. I have not yet received any reports of our casualties, but Admiral Somerville's Fleet is, in all military respects, intact and ready for further action. The Italian Navy, for whose reception we had also made arrangements and which is, of course, considerably stronger numerically than the Fleet we used at Oran, kept prudently out of the way. However, we trust that their turn will come during the operations which we shall pursue to secure the effectual command of the Mediterranean.<p></p> A large proportion of the French Fleet has, therefore, passed into our hands or has been put out of action or otherwise withheld from Germany by yesterday's events. The House will not expect me to say anything about other French ships which are at large except that it is our inflexible resolve to do everything that is possible in order to prevent them falling into the German grip.<p></p> I leave the judgment of our action, with confidence, to Parliament. I leave it to the nation, and I leave it to the United States. I leave it to the world and to history.<p></p> Now I turn to the immediate future. We must, of course, expect to be attacked, or even invaded, if that proves to be possible—it has not been proved yet—in our own island before very long. We are making every preparation in our power to repel the assaults of the enemy, whether they be directed upon Great Britain, or upon Ireland, which all Irishmen, without distinction of creed or party, should realise is in imminent danger. These again are matters upon which we have clear views. These preparations are constantly occupying our toil from morn till night, and far into the night. But, although we have clear views, it would not, I think, be profitable for us to discuss <span id="1050" class="column-number" data-column-number="1050"></span> them in public, or even, so far as the Government are concerned, except under very considerable reserve, in a private session. I call upon all subjects of His Majesty, and upon our Allies, and well-wishers—and they are not a few—all over the world, on both sides of the Atlantic, to give us their utmost aid. In the fullest harmony with our Dominions, we are moving through a period of extreme danger and of splendid hope, when every virtue of our race will be tested, and all that we have and are will be freely staked. This is no time for doubt or weakness. It is the supreme hour to which we have been called.<p></p> I will venture to read to the House a message which I have caused to be sent to all who are serving in positions of importance under the Crown, and if the House should view it with sympathy, I should be very glad to send a copy of it to every Member for his own use, not that such exhortations are needed. This is the message: <blockquote><q>"On what may be the eve of an attempted invasion or battle for our native land, the Prime Minister desires to impress upon all persons holding responsible positions in the Government, in the Fighting Services, or in the Civil Departments, their duty to maintain a spirit of alert and confident energy. While every precaution must be taken that time and means afford, there are no grounds for supposing that more German troops can be landed in this country, either from the air or across the sea, than can be destroyed or captured by the strong forces at present under arms The Royal Air Force is in excellent order and at the highest strength it has yet attained. The German Navy was never so weak, nor the British Army at home so strong as now. The Prime Minister expects all His Majesty's servants in high places to set an example of steadiness and resolution. They should check and rebuke expressions of loose and ill-digested opinion in their circles, or by their subordinates. They should not hesitate to report, or if necessary remove, any officers or officials who are found to be consciously exercising a disturbing or depressing influence, and whose talk is calculated to spread alarm and despondency. Thus alone will they be worthy of the fighting men, who, in the air, on the sea, and on land, have already met the enemy without any sense of being outmatched in martial qualities."</q></blockquote> In conclusion, I feel that we are entitled to the confidence of the House and that we shall not fail in our duty, however painful. The action we have already taken should be, in itself, sufficient to dispose once and for all of the lies and rumours which have been so industriously <span id="1051" class="column-number" data-column-number="1051"></span> spread by German propaganda and Fifth Column activities that we have the slightest intention of entering into negotiations in any form and through any channel with the German and Italian Governments. We shall, on the contrary, prosecute the war with the utmost vigour by all the means that are open to us until the righteous purposes for which we entered upon it have been fulfilled.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1940-07-04/debates/5b3e0cdc-25db-4ee3-bd4c-bc0a26f94395/FrenchFleet#contribution-b36ab8f6-d3c3-4eb8-9e60-c29301721ed2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

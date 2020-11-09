@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>British Note To Germany - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1939-09-01">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1939-09-01/debates/537f269d-1d39-441f-b1d8-759327131196/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1939-09-01/debates/8464c12b-477c-4388-96a9-9f8d1fe5bfd4/GermanAttackOnPoland">
+                                    <span class="commons">German Attack On Poland</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/a0053dfc-54d3-4539-8278-475d81636ce1"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1939-09-01">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1939-09-01/debates/29c1701c-04d0-496d-9caf-40e70aaf4c78/HouseOfCommons" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                British Note To Germany
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1939-09-01/debates/28e7030b-0420-4cf8-a6a3-bc8fad7b4361/VoteOfCredit1939" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2944846" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>01 September 1939</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 351</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e750ea21-84a6-4cda-8750-06e979c6bc3a'>
+            
+<p class="">PRIME MINISTER'S ANNOUNCEMENT.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-312d4b5d-8495-43c0-9b97-0d27641c53cd'>
+            
+<p class="">Motion made, and Question proposed.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-eba20e41-e702-4d73-9d00-67cea1f3b255'>
+            
+<p class=""><blockquote><q>" That the following provisions shall have effect with respect to the Business of this day's Sitting: — <li> I. Immediately on the Order of the Day for Committee of Supply being read Mr. Speaker shall leave the Chair without putting any question and a Resolution in the Committee of Supply for a vote of credit, and a Resolution in the Committee of Ways and Means authorising the issue out of the Consolidated Fund of a sum to make good any amount thereby voted, may be moved with-out notice, and such Resolution when reported from those Committees respectively may be forthwith considered by the House.</li><li>II. Any Bill to which this Order applies may without leave or notice be brought in or presented by a Minister of the Crown and forthwith considered and passed through all its stages on the same day, and the requirements of Standing Orders Nos. 64 and 68 and of the Practice of the House relating to the imposition of charges upon the people shall be deemed to have been complied with in respect of any provisions of the Bill or of any Amendments thereto moved by a Minister of the Crown which authorise expenditure or the imposition of any such charge. <ul><li>Immediately after any Bill to which this Order applies has been read a second time it shall be considered in Committee of the whole House.</li></ul></li><li> III. This Order applies to any Bill brought in upon a Resolution reported from the Committee of Ways and Means under paragraph I of this Order and to any of the following Bills, that is to say: — <ul><li>A Bill to amend the law with respect to the application and financing of the Exchange Equalisation Account; to make postal orders and certain bank notes temporarily legal tender; and to make provision with respect to certain loans granted by the Bank of England.</li><span id="126" class="column-number" data-column-number="126"></span><li>A Bill to apply prize law to aircraft; to amend and explain the enactments relating to prize; and to provide for purposes connected with the matters aforesaid.</li><li>A Bill to amend the Government of India Act, 1935.</li><li>A Bill to confer on courts certain powers in relation to remedies in respect of the non-payment of money and the non-performance of obligations (including powers in relation to bankruptcy and winding-up proceedings), and to make provision for purposes connected with the matters aforesaid.</li><li>A Bill to amend the law with respect to the conditions of service of members of the armed forces of the Crown.</li><li>A Bill to provide for controlling the importation, exportation and carriage coastwise of goods and the shipment of goods as ships stores; to provide for facilitating the enforcement of the law relating to the matters aforesaid and the law relating to trading with the enemy; and to provide for purposes connected with the matters aforesaid.</li><li>A Bill to impose restrictions on certain transactions in respect of ships and aircraft and parts of aircraft; and for purposes connected with the matter aforesaid.</li><li>A Bill to continue and amend the Rent and Mortgage Interest Restrictions Acts, 1920 to 1938.</li><li>A Bill to modify the rights and liabilities of landlords, tenants and other persons interested in land damaged by war.</li><li>A Bill to empower local authorities to make fit for housing purposes buildings damaged by war, and for purposes connected therewith.</li><li>A Bill to provide for the repair of buildings used for purposes essential to the welfare of the civil population, and the reinstatement of the plant of undertakings carried on for such purposes, where the buildings or plant are damaged by war.</li><li>A Bill to provide for compensation in respect of action taken on behalf of His Majesty in the exercise of certain emergency powers; and for purposes connected with the matter aforesaid.</li><li>A Bill to make provision with respect to Regional Commissioners and other persons appointed for the purpose of securing the co-ordination of measures of civil defence.</li><li>A Bill to make provision with respect to Ministers appointed in connection with the prosecution of war.</li><li>A Bill to modify the rights and liabilities of persons interested in land in Scotland damaged by war. — (<em>King's Recommendation signified</em>.) — [The Prime Minister.]</li></ul></li></q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8012d456-c634-403a-a76f-05d8b1c9cca7'>
+            
+<p class="">6.5 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+                 The Prime Minister (Mr. Chamberlain)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f88b0807-dbf3-48b2-906b-5d4425fa1704" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">:I do not propose to say many words tonight. The time has come when action rather than speech is required. Eighteen months ago in this House I prayed that the responsibility might not fall upon me to ask this country to accept the awful <span id="127" class="column-number" data-column-number="127"></span> arbitrament of war. I fear that I may not be able to avoid that responsibility. But, at any rate, I cannot wish for conditions in which such a burden should fall upon me in which I should feel clearer than I do to-day as to where my duty lies. No man can say that the Government could have done more to try to keep open the way for an honourable and equitable settlement of the dispute between Germany and Poland. Nor have we neglected any means of making it crystal clear to the German Government that if they insisted on using force again in the manner in, which they had used it in the past we were resolved to oppose them by force. Now that all the relevant documents are being made public we shall stand at the bar of history knowing that the responsibility for this terrible catastrophe lies on the shoulders of one man—the German Chancellor, who has not hesitated to plunge the world into misery in order to serve his own senseless ambitions.<p></p> I would like to thank the House for the forbearance which they have shown on two recent occasions in not demanding from me information which they recognised I could not give while these negotiations were still in progress. I have now had all the correspondence with the German Government put into the form of a White Paper. On account of mechanical difficulties I am afraid there are still but a few copies available, but I understand that they will be coming in relays while the House is sitting. I do not think it is necessary for me to refer in detail now to these documents, which are already past history. They make it perfectly clear that our object has been to try and bring about discussions of the Polish-German dispute between the two countries themselves on terms of equality, the settlement to be one which safeguarded the independence of Poland and of which the due observance would be secured by international guarantees. There is just one passage from a recent communication, which was dated 30th August, which I should like to quote, because it shows how easily the final clash <span id="128" class="column-number" data-column-number="128"></span> might have been avoided had there been the least desire on the part of the German Government to arrive at a peaceful settlement. In this document we said: <blockquote><q>" His Majesty's Government fully recognise the need for speed in the initiation of discussions and they share the apprehensions of the Chancellor arising from the proximity of two mobilised armies standing face to face. They would accordingly most strongly urge that both parties should undertake that during the negotiations no aggressive military movements should take place. His Majesty's Government feel confident that they could obtain such an undertaking from the Polish Government if the German Government would give similar assurances."</q></blockquote> That telegram, which was repeated to Poland, brought an instantaneous reply from the Polish Government, dated 31st August, in which they said: <blockquote><q>" The Polish Government are also prepared on a reciprocal basis to give a formal guarantee in the event of negotiations taking place that Polish troops will not violate the frontiers of the German Reich provided a corresponding guarantee is given regarding the non-violation of the frontiers of Poland by troops of the German Reich."</q></blockquote> We never had any reply from the German Government to that suggestion, one which, if it had been followed, might have saved the catastrophe which took place this morning. In the German broadcast last night, which recited the 16 points of the proposals which they have put forward, there occurred this sentence: <blockquote><q>" In these circumstances the Reich Government considers its proposals rejected."</q></blockquote> I must examine that statement. I must tell the House what are the circumstances. To begin with let me say that the text of these proposals has never been communicated by Germany to Poland at all. The history of the matter is this. On Tuesday, 29th August, in replying to a Note which we had sent to them, the German Government said, among other things, that they would immediately draw up proposals for a solution acceptable to themselves and <blockquote><q>" will, if possible, place these at the disposal of the British Government before the arrival of the Polish negotiator."</q></blockquote> It will be seen by examination of the White Paper that the German Govern- <span id="129" class="column-number" data-column-number="129"></span> ment had stated that they counted upon the arrival of a plenipotentiary from Poland in Berlin on the 30th, that is to say, on the following day. In the meantime, of course, we were awaiting these proposals. The next evening, when our Ambassador saw Herr von Ribbentrop, the German Foreign Secretary, he urged upon the latter that when these proposals were ready—for we had heard no more about them—he should invite the Polish Ambassador to call and should hand him the proposals for transmission to his Government. Thereupon, reports our Ambassador, in the most violent terms Herr von Ribbentrop said he would never ask the Ambassador to visit him. He hinted that if the Polish Ambassador asked him for an interview it might be different.<p></p> The House will see that this was on Wednesday night, which, according to the German statement of last night, is now claimed to be the final date after which no negotiation with Poland was acceptable. It is plain, therefore, that Germany claims to treat Poland as in the wrong because she had not by Wednesday night entered upon discussions with Germany about a set of proposals of which she had never heard.<p></p> Now what of ourselves? On that Wednesday night, at the interview to which I have just referred, Herr von Ribbentrop produced a lengthy document which he read out in German, aloud, at top speed. Naturally, after this reading our Ambassador asked for a copy of the document, but the reply was that it was now too late, as the Polish representative had not arrived in Berlin by midnight. And, so, Sir, we never got a copy of those proposals, and the first time we heard them —we heard them—was on the broadcast last night. Well, Sir, those are the circumstances in which the German Government said that they would consider that their proposals were rejected. Is it not clear that their conception of a negotiation was that on almost instantaneous demand a Polish plenipotentiary should go to Berlin—where others had been before him—and should there receive a statement of demands to be accepted in their <span id="130" class="column-number" data-column-number="130"></span> entirety or refused? I am not pronouncing any opinion upon the terms themselves, for I do not feel called upon to do so. The proper course, in our view—in the view of all of us—was that these proposals should have been put before the Poles, who should have been given time to consider them and to say whether, in their opinion, they did or did not infringe those vital interests of Poland which Germany had assured us on a previous occasion she intended to respect. Only last night the Polish Ambassador did see the German Foreign Secretary, Herr von Ribbentrop. Once again he expressed to him what, indeed, the Polish Government had already said publicly, that they were willing to negotiate with Germany about their disputes on an equal basis. What was the reply of the German Government? The reply was that without another word the German troops crossed the Polish frontier this morning at dawn and are since reported to be bombing open towns. [An HON. MEMBER: "Gas? "] In these circumstances there is only one course open to us. His Majesty's Ambassador in Berlin and the French Ambassador have been instructed to hand to the German Government the following document: <blockquote><q>" Early this morning the German Chancellor issued a proclamation to the German Army which indicated clearly that he was about to attack Poland. Information which has reached His Majesty's Government in the United Kingdom and the French Government indicates that German troops have crossed the Polish frontier and that attacks upon Polish towns are proceeding. In these circumstances it appears to the Governments of the United Kingdom and of France that by their action the German Government have created conditions, namely, an aggressive act of force against Poland threatening the independence of Poland, which call for the implementation by the Governments of the United Kingdom and of France of the undertaking to Poland to come to her assistance. I am accordingly to inform your Excellency that unless the German Government are prepared to give His Majesty's Government satisfactory assurances that the German Government have suspended all aggressive action against Poland and are prepared promptly to withdraw their forces from Polish territory, His Majesty's Government in the United Kingdom will without hesitation fulfil their obligations to Poland."</q></blockquote><span id="131" class="column-number" data-column-number="131"></span> [An HON. MEMBER: "Time limit? ".] If a reply to this last warning is unfavourable, and I do not suggest that it is likely to be otherwise, His Majesty's Ambassador is instructed to ask for his passports. In that case we are ready. Yesterday, we took further steps towards the completion of our defensive preparations. This morning we ordered complete mobilisation of the whole of the Royal Navy, Army and Royal Air Force. We have also taken a number of other measures, both at home and abroad, which the House will not perhaps expect me to specify in detail. Briefly, they represent the final steps in accordance with prearranged plans. These last can be put into force rapidly, and are of such a nature that they can be deferred until war seems inevitable. Steps have also been taken under the powers conferred by the House last week to safeguard the position in regard to stocks of commodities of various kinds.<p></p> The thoughts of many of us must at this moment inevitably be turning back to 1914, and to a comparison of our position now with that which existed then. How do we stand this time? The answer is that all three Services are ready, and that the situation in all directions is far more favourable and reassuring than in 1914, while behind the fighting Services we have built up a vast organisation of Civil Defence under our scheme of Air-Raid Precautions. As regards the immediate man-power requirements, the Royal Navy, the Army and the Royal Air Force are in the fortunate position of having almost as many men as they can conveniently handle at this moment. There are, however, certain categories of service in which men are immediately required both for Military and Civil Defence. These will be announced in detail through the Press and the B.B.C. The main and most satisfactory point to observe is that there is to-day no need to make an appeal in a general way for recruits such as was issued by Lord Kitchener 25 years ago. That appeal has been anticipated by many months, and the men are already available.<p></p><span id="132" class="column-number" data-column-number="132"></span> So much for the immediate present. Now we must look to the future. It is essential in the face of the tremendous task which confronts us, more especially in view of our past experiences in this matter, to organise our man-power this time upon as methodical, equitable and economical a basis as possible. We, therefore, propose immediately to introduce legislation directed to that end. A Bill will be laid before you which for all practical purposes will amount to an expansion of the Military Training Act. Under its operation all fit men between the ages of 18 and 41 will be rendered liable to military service if and when called upon. It is not intended at the outset that any considerable number of men other than those already liable shall be called up, and steps will be taken to ensure that the man-power essentially required by industry shall not be taken away.<p></p> There is one other allusion which I should like to make before I end my speech, and that is to record my satisfaction, and the satisfaction of His Majesty's Government, that throughout these last days of crisis Signor Mussolini also has been doing his best to reach a solution.<p></p> It now only remains for us to set our teeth and to enter upon this struggle, which we ourselves earnestly endeavoured to avoid, with determination to see it through to the end. We shall enter it with a clear conscience, with the support of the Dominions and the British Empire, and the moral approval of the greater part of the world. We have no quarrel with the German people, except that they allow themselves to be governed by a Nazi Government. As long as that Government exists and pursues the methods it has so persistently followed during the last two years, there will be no peace in Europe. We shall merely pass from one crisis to another, and see one country after another attacked by methods which have now become familiar to us in their sickening technique. We are resolved that these methods must come to an end. If out of the struggle we again re-establish in the world the rules of good faith and <span id="133" class="column-number" data-column-number="133"></span> the renunciation of force, why, then even the sacrifices that will be entailed upon us will find their fullest justification.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f88b0807-dbf3-48b2-906b-5d4425fa1704" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-f88b0807-dbf3-48b2-906b-5d4425fa1704">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ce3cb4f5-bc37-4b43-96d5-bc3d0dc266e4'>
+            
+<p class="">6.30 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+                Mr. Arthur Greenwood
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9574f0dd-6ffa-41ad-9fa4-baea47668804" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I was not a Member of this House as some hon. and right hon. Members were 25 years ago, when we were confronted with a similar struggle. That was a grave time, but this is an even graver time. This is the turning point in human history, and we are now facing a situation which, in the history of mankind, has never been faced before in this country. The die is cast. It has been my privilege and my very heavy responsibility to act, on the last two occasions this House has met, as spokesman for my party and the movement which I represent. On both occasions I endeavoured to put clearly and briefly the attitude which we, as a party, have taken. I epitomised the very solemn declarations made by British Labour in recent years. What I then said still holds. I withdraw nothing as to our criticisms of Government policy in the past, and our views as to the heavy responsibility which lies upon them as factors in creating the present situation; but to-day that is past history. We are facing a new situation, and on the two occasions on which I have addressed the House I put our constructive attitude. I now reaffirm, and say, for the third time in this House during the present crisis, that British Labour stands by its pledged word. We shall, at whatever cost, in the interests of the liberty of the world in the future, use all our resources to defend ourselves and others against aggression.<p></p> The right hon. Gentleman appears to have left another loophole. His communication gives the German Government an opportunity of withdrawal. There can now be no withdrawal, and in any event this nation is in honour bound. I would read Article I of the Anglo-Polish Treaty, an Article which bears only one meaning. It reads: <blockquote><q>" Should one of the contracting Powers become engaged in hostilities with a European Power in consequence of aggression by the latter against that contracting party, the other contracting party will, at once—"</q></blockquote><span id="134" class="column-number" data-column-number="134"></span> at once— <blockquote><q>" give the contracting party engaged in hostilities all the support and assistance in its power."</q></blockquote> The Prime Minister's words have been firm. He has uttered words from which he cannot, and I am sure he would not wish to, escape, but we are building our hopes upon sand, if we think that the German Government are going to give any kind of favourable response to the appeal which has been made. The act of aggression has already taken place. Herr Hitler has put himself grievously in the wrong. He has become the arch-enemy of mankind. He has been guilty not merely of the gravest, basest treachery to this Government and this people; he has been guilty of the basest treachery to all peoples to whom in the past he has given promises. The right hon. Gentleman quoted almost the exact words which I used in the House on Tuesday. I said that the issue of peace and war rested in the hands of one man. I am glad that the right hon. Gentleman has to-night put it equally emphatically.<p></p> I never thought that I should quote with approval from a document of which Herr Hitler was the author, but in the proclamation to the Army which he issued at 6 o'clock this morning he said: <blockquote><q>" In order to put an end to this lunacy I have no other choice than to meet force with force from now on."</q></blockquote> That is a sentiment echoed by practically every Member of this House. Then he goes on to say: <blockquote><q>" I should like to assure the whole world that November, 1918, will never repeat itself."</q></blockquote> With that I entirely agree. And that brings me to what we are to fight about.<p></p> The party to which I belong, which may have faults but which can never be accused of cowardice, will issue its statement to-night to this country and to the world on the view it takes. That view, I think, is the view which I have expressed on previous occasions. I quote just one sentence: <blockquote><q>" The British Labour Movement therefore calls upon all its members to stand solidly behind it in resistance to aggression."</q></blockquote><span id="135" class="column-number" data-column-number="135"></span> From that attitude we shall never depart. We shall enter the struggle without passion against people. I was glad when the Prime Minister used words which we had used in our official declaration. We have no quarrel with the German people; but while we have no passion against people we shall enter this struggle with a grim determination to overthrow and destroy that system of government which has trampled on freedom and crucified men and women—many of them friends of my own—and which has brought the world back to the jackboot of the old Prussianism. In the process of this struggle there will be far-reaching social and economic changes which at the moment no man can foresee, but out of the smoking ruins of the struggle will arise a new order of society. Once the gunfire ceases and the roll of the war drums dies away, after the greatest price mankind in all its history has ever paid to learn its lesson, dictatorship will have been destroyed for ever and organised labour here, and elsewhere in other lands besides ourselves, will play its part in building a new world from which war will be banished and in which a new order will be established.<p></p> There is a view among those who are now our enemies that might is right. I believe that right is might. I believe that at long last right must win, whether it be internationally or whether it be nationally. There is in the human spirit something which may be tortured and which may be temporarily suppressed but which can never be destroyed, and that is its determination to keep alive and keep fully aflame the lamp of liberty. My last words are these: I look forward, as we all do, with a very sad heart and with a sorrow that none of us can express, regarding the sufferings which must fall upon hundreds of millions of people, but, however great the suffering, however poignant the agony and whatever the sacrifice may be, I know in my heart that freedom and mankind's hope for the future cannot be quenched. I know that liberty will prevail;</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9574f0dd-6ffa-41ad-9fa4-baea47668804" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-9574f0dd-6ffa-41ad-9fa4-baea47668804">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="136" class="column-number column-only" data-column-number="136"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d63d7aa7-5781-46f3-b881-76e8960a8adb'>
+            
+<p class="">6.43 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-1b171910-2172-4425-a608-11f1d0e255bd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1b171910-2172-4425-a608-11f1d0e255bd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1b171910-2172-4425-a608-11f1d0e255bd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1b171910-2172-4425-a608-11f1d0e255bd">
+                Sir Archibald Sinclair
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1b171910-2172-4425-a608-11f1d0e255bd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-1b171910-2172-4425-a608-11f1d0e255bd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Prime Minister has spoken this afternoon almost the gravest words that a statesman can utter. He has spoken not only for himself and for his party, and not only for the Government of which he is the head, but for the nation as a whole; and my hon. Friends and I support him in the stand which he is now taking. The issue we are debating this afternoon is that of peace or war, the gravest that can come before Parliament; but we are not starting a war. In the height of our controversies last year, when many of us were strongly criticising the Prime Minister's policy and methods, I not only made it clear that I did not doubt, but I paid a positive tribute to, the Prime Minister's unsparing devotion to the cause of peace. During recent weeks the Government have left nothing undone to contribute towards a freely negotiated and peaceful settlement of Germany's claims on Poland. It was not Britain, it was not France, it was not Poland that refused to come to the table to negotiate; it was Herr Hitler.<p></p> It is now abundantly clear that the war started not this morning in Poland, but three years ago with the occupation of the Rhineland, the war to establish the domination of Nazi Germany in Europe and in the world, the war in which successive, and temporarily successful, moves have been played in Spain, Austria, Czecho-Slovakia and, last of all, in Russia. Every move has strengthened the forces of aggression and weakened those of law, reason, negotiation and peace. Now, if Poland were to be obliterated, not for the first time, from the map of Europe, Nazi denomination would be established, directly or indirectly, over every country in Europe East of the Rhine, its resources would be strengthened by theirs, and France and Britain would be left alone either to receive its onslaught or to submit to the extinction of liberty in Europe. I am not going to take up the time of the House in discussing what the Prime Minister himself refrained from discussing, the terms of the German broadcast last night. Suffice it to say that if a powerful <span id="137" class="column-number" data-column-number="137"></span> nation is to be allowed to order a weaker nation to send to its capital city a plenipotentiary, empowered to discuss and conclude a settlement of a dispute on terms of which its own government is in ignorance, that is government by force and ultimatum; and when such things are happening—and, as the Prime Minister said this afternoon, so long as the Nazi government exists in Germany—there can be no freedom, order or peace in Europe.<p></p> Now, vigorous action must be taken by us, in conjunction with our Allies, to sustain the common cause of freedom. It is essential, therefore, that ample powers should be given to the Government, and therefore my hon. Friends and I will support the Bills which have been introduced into the House today. It is also essential that an instrument of government should be created, free enough from the routine work of administration to plan ahead and strong enough to act vigorously and swiftly. It is necessary that we should make the best use of those great resources of man-power and material which we have at our disposal. While it was in one respect gratifying that the Prime Minister was able to tell us that there were so many men volunteering that the fighting Services had as many as they could at the present time handle, it is very important that those fighting Services should be themselves in a position to handle increasing numbers as quickly as possible. Hence, the necessity for a War Cabinet.<p></p> Let us, too, in this solemn moment set the goal of our endeavour clearly before us: not the aggrandisement of our country and Empire, not merely the defeat of Nazi tyranny. Tyranny has been defeated before, aggression has been defeated before, dictatorship has been defeated before; and it has sprung up again. Let us keep before us the necessity for constructive effort, for the creation in Europe of that new order which, before the emergence of National Socialism in Germany, we were beginning slowly, with many setbacks, but on the whole not unsuccessfully, to build, an order based not on the sanctions of power politics but on <span id="138" class="column-number" data-column-number="138"></span> the moral law, in which freedom, justice and equality of economic opportunity will be guaranteed to nations great and small alike.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1b171910-2172-4425-a608-11f1d0e255bd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-01/debates/a0053dfc-54d3-4539-8278-475d81636ce1/BritishNoteToGermany#contribution-1b171910-2172-4425-a608-11f1d0e255bd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-eff04ca9-3476-44d7-9156-e7d00a54af29'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6d80d540-b1c6-48a4-8240-c9abd67d9b8c'>
+            
+<p class="">Ordered,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f7cb4007-8507-4634-9f3b-edfe0f9ad2d8'>
+            
+<p class=""><blockquote><q>" That the following provisions shall have effect with respect to the Business of this day's Sitting: — <li> I. Immediately on the Order of the Day for Committee of Supply being read Mr. Speaker shall leave the Chair with out putting any question and a Resolution in the Committee of Supply for a vote of credit, and a Resolution in the Committee of Ways and Means authorising the issue not of the Consolidated Fund of a sum to make good any amount thereby voted, may be moved without notice, and such Resolution when reported from those Committees respectively may be forthwith considered by the House.</li><li>II. Any Bill to which this Order applies may without leave or notice be brought in or presented by a Minister of the Crown and forthwith considered and passed through all its stages on the same day, and the requirements of Standing Orders Nos. 64 and 68 and of the Practice of the House relating to the imposition of charges upon the people shall be deemed to have been complied with in respect of any provisions of the Bill or of any Amendments thereto moved by a Minister of the Crown which authorise expenditure or the imposition of any such charge. <ul><li>Immediately after any Bill to which this Order applies has been read a second time it shall be considered in Committee of the whole House.</li></ul></li><li> III. This Order applies to any Bill brought in upon a Resolution reported from the Committee of Ways and Means under paragraph I of this Order and to any of the following Bills, that is to say: — <ul><li>A Bill to amend the law with respect to the application and financing of the Exchange Equalisation Account; to make postal orders and certain bank notes temporarily legal tender; and to make provision with respect to certain loans granted by the Bank of England.</li><li>A Bill to apply prize law to aircraft; to amend and explain the enactments relating to prize; and to provide for purposes connected with the matters aforesaid.</li><li>A Bill to amend the Government of India Act, 1935.</li><li>A Bill to confer on courts certain powers in relation to remedies in respect of the nonpayment of money and the non-performance of obligations (including powers in relation to bankruptcy and winding-up proceedings), and to make provision for purposes connected with the matters aforesaid.</li><li>A Bill to amend the law with respect to the conditions of service of members of the armed forces of the Crown.</li><span id="139" class="column-number" data-column-number="139"></span><li>A Bill to provide for controlling the importation, exportation and carriage coastwise of goods and the shipment of goods as ships' stores; to provide for facilitating the enforcement of the law relating to the matters aforesaid and the law relating to trading with the enemy; and to provide for purposes connected with the matters aforesaid.</li><li>A Bill to impose restrictions on certain transactions in respect of ships and aircraft and parts of aircraft; and for purposes connected with the matter aforesaid.</li><li>A Bill to continue and amend the Rent and Mortgage Interest Restrictions Acts, 1920 to 1938.</li><li>A Bill to modify the rights and liabilities of landlords, tenants and other persons interested in land damaged by war.</li><li>A Bill to empower local authorities to make fit for housing purposes buildings damaged by war, and for purposes connected therewith.</li><li>A Bill to provide for the repair of buildings used for purposes essential to the welfare of the civil population, and the reinstatement of the plant of undertakings carried on for such purposes, where the buildings or plant are damaged by war.</li><li>A Bill to provide for compensation in respect of action taken on behalf of His Majesty in the exercise of certain emergency powers; and for purposes connected with the matter aforesaid.</li><li>A Bill to make provision with respect to Regional Commissioners and other persons appointed for the purpose of securing the coordination of measures of civil defence.</li><li>A Bill to make provision with respect to Ministers appointed in connection with the prosecution of war.</li><li>A Bill to modify the rights and liabilities of persons interested in land in Scotland damaged by war."</li></ul></li></q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

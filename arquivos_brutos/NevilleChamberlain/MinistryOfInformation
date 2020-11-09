@@ -1,0 +1,1638 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Ministry Of Information - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1939-09-07">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1939-09-07/debates/8a22ab9d-7bfc-452c-b79e-fa44c64ae916/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1939-09-07/debates/a80bbb28-ea23-4994-b97f-a30497cca870/OralAnswersToQuestions">
+                                    <span class="commons">Oral Answers To Questions</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1939-09-07/debates/3b62232a-f992-4a3d-8d3f-a9567c38151a/Warning">
+                                    <span class="commons">Warning</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/683429f6-c0da-4c4f-9fa7-884defb95f1b"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1939-09-07">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1939-09-07/debates/89866bca-7f66-44f4-8309-18850bb649e9/FarEast(Situation)" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Ministry Of Information
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1939-09-07/debates/6c4cebe0-0a3d-40fb-80b6-c78685f127d8/Shops(EmergencyClosing)" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2945521" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>07 September 1939</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 351</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-a2342a7a-fd27-4c3c-8dad-24d345dfcdb4'>
+            
+<p class="">10.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+                 Mr. O. Lewis asked
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-25004ea5-d3f9-4cda-a30b-3ed6aa545faa" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">the Prime Minister which Member of the Government will reply in the House of Commons to questions about the work of the Ministry of Information?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-25004ea5-d3f9-4cda-a30b-3ed6aa545faa" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-25004ea5-d3f9-4cda-a30b-3ed6aa545faa">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+                The Prime Minister (Mr. Chamberlain)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c5232ff3-48b5-4aa3-a674-3f877e7fa13d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">My right hon. Friend the Lord Privy Seal will reply and, without taking any share in the executive responsibility for the Ministry, will keep in close touch with its work in order to represent its point of view both in this House and at the War Cabinet.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c5232ff3-48b5-4aa3-a674-3f877e7fa13d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-c5232ff3-48b5-4aa3-a674-3f877e7fa13d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-27d85a47-f624-4612-bba0-fcc94a84b520">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-27d85a47-f624-4612-bba0-fcc94a84b520">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-27d85a47-f624-4612-bba0-fcc94a84b520">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-27d85a47-f624-4612-bba0-fcc94a84b520">
+                Mr. T. Williams
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-27d85a47-f624-4612-bba0-fcc94a84b520" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-27d85a47-f624-4612-bba0-fcc94a84b520">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the Lord Privy Seal inform us whether Lord Macmillan or Admiral Osborne is the actual Censor?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-27d85a47-f624-4612-bba0-fcc94a84b520" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-27d85a47-f624-4612-bba0-fcc94a84b520">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+                Sir S. Hoare
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-36471468-58b9-4d43-a9bc-0cef7a356d3f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">That question should be put on the Paper.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-36471468-58b9-4d43-a9bc-0cef7a356d3f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-36471468-58b9-4d43-a9bc-0cef7a356d3f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a95f0183-edb1-4905-a02c-25ced6255bd1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a95f0183-edb1-4905-a02c-25ced6255bd1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a95f0183-edb1-4905-a02c-25ced6255bd1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a95f0183-edb1-4905-a02c-25ced6255bd1">
+                Mr. Arthur Greenwood
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a95f0183-edb1-4905-a02c-25ced6255bd1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-a95f0183-edb1-4905-a02c-25ced6255bd1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>(by Private Notice)</em>: asked the Lord Privy Seal whether the Ministry of Information is now in full operation, how it is organised, what are the names of the chief officials, both at headquarters and in any regional organisation, and of the members of any Advisory Council which may have been formed to assist the Minister.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a95f0183-edb1-4905-a02c-25ced6255bd1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-a95f0183-edb1-4905-a02c-25ced6255bd1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="573" class="column-number column-only" data-column-number="573"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+                Sir S. Hoare
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Except for a few posts the Ministry is now fully staffed, and all its divisions are in operation; but it has been in existence for less than a week, and I trust that neither the House nor the public will expect it to be in full working order in so short a time. It is organised in 14 divisions, gathered into four groups, the first dealing with news and Press relations and the censorship; the second with the application of publicity on a geographical basis, covering home, the Empire, U.S.A. and other foreign countries respectively; the third with the production of publicity in the form of films; wireless; literature and art; posters, advertisements, periodicals and pamphlets, etc., respectively, and the fourth with administration and co-ordination. Each division is under a Director, one with the rank of Deputy-Director-General; and the Directors, with the Director-General and Deputy-Director-General, who rank as the Permanent Secretary and Second Secretary respectively of a first-class Government Department, form the Executive Council of the Minister. The Minister is also responsible for publicity in enemy countries, which is dealt with in a separate branch of the Ministry. The Minister is also assisted by an Advisory Council, consisting of representatives of the several political parties, of the newspaper world and broadcasting, of business, of the Trades Union Congress and the cooperative movement, and other general or particular interests. The work of the Ministry at home is organised in a system of regions, corresponding with the regions under the Home Security Scheme, each under a Chief Regional Information Officer. I will circulate in the Official Report the names of the members of the Advisory Council; the members of the Executive Council and their chief divisional assistants; and the Chief Regional Information Officers.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-2cc2ea31-3bdc-4ab8-9c0b-1ee4204192fa">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+                Mr. Thorne
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Are we to take it for granted that this is the Ministry which was responsible for the information broadcast concerning the air-raid warning yesterday? <em>[Laughter.]</em> It is not a laughing matter. A number of people have come to my house whose children are evacuated so far away that they did not know whether the children were affected or not, and it was not possible to find out whether children were in the area where the raid was supposed to have <span id="574" class="column-number" data-column-number="574"></span> happened. I think information of that kind should be given to the public, so that the mothers of children may be assured that there are no bombs flying about in the places where their children are.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-a358e3c9-ffca-4bd5-8dd6-456e6a1de5a2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-234afe47-9242-485e-bff9-245b7c55b450">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-234afe47-9242-485e-bff9-245b7c55b450">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-234afe47-9242-485e-bff9-245b7c55b450">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-234afe47-9242-485e-bff9-245b7c55b450">
+                Sir S. Hoare
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-234afe47-9242-485e-bff9-245b7c55b450" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-234afe47-9242-485e-bff9-245b7c55b450">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I assure the hon. Member that my Noble Friend will look carefully and sympathetically into questions of that kind, but it will be understood that the problem is a very difficult one. Aeroplanes move very swiftly, and there is the danger of giving news to the enemy and so on, but I can assure the hon. Member that it is the general desire of the Minister of Information to give the country as much information as he can, as quickly as he can.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-234afe47-9242-485e-bff9-245b7c55b450" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-234afe47-9242-485e-bff9-245b7c55b450">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3924e90e-0326-494a-9574-bff8085d0451">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3924e90e-0326-494a-9574-bff8085d0451">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3924e90e-0326-494a-9574-bff8085d0451">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3924e90e-0326-494a-9574-bff8085d0451">
+                Mr. Thorne
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3924e90e-0326-494a-9574-bff8085d0451" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-3924e90e-0326-494a-9574-bff8085d0451">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is not suggested that the Germans do not know where they are, when they are flying over?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3924e90e-0326-494a-9574-bff8085d0451" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-3924e90e-0326-494a-9574-bff8085d0451">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+                Mr. Boothby
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ec91821c-1678-4ea1-b080-dd6f45dedc24" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can my right hon. Friend say whether the department of propaganda in enemy countries is a separate department or is under one of the four main divisions which he mentioned at the beginning? I do not think that was made clear.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ec91821c-1678-4ea1-b080-dd6f45dedc24" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-ec91821c-1678-4ea1-b080-dd6f45dedc24">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+                Sir S. Hoare
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c1d7bb07-e67d-4333-a152-bcf30e42b742" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It comes, as far as I remember, directly under the Minister.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c1d7bb07-e67d-4333-a152-bcf30e42b742" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-c1d7bb07-e67d-4333-a152-bcf30e42b742">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2c3ba13e-8170-4093-b457-5558c1b48bda">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2c3ba13e-8170-4093-b457-5558c1b48bda">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2c3ba13e-8170-4093-b457-5558c1b48bda">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2c3ba13e-8170-4093-b457-5558c1b48bda">
+                Mr. Roland Robinson
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2c3ba13e-8170-4093-b457-5558c1b48bda" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-2c3ba13e-8170-4093-b457-5558c1b48bda">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Would my right hon. Friend ask the Ministry of Information to issue public statements without delay after attempted air raids such as we had yesterday, when there were rumours which caused misunderstanding and confusion?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2c3ba13e-8170-4093-b457-5558c1b48bda" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-2c3ba13e-8170-4093-b457-5558c1b48bda">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+                Sir S. Hoare
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-26f2e590-261c-4faf-9f8d-dcd8cab0990e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In a matter of this kind we have to take into account our experience. I agree with my hon. Friend and we are at the moment looking into this question; but again let me point out that the matter is not as simple as it seems at first sight. We are aware of the fact that the country wants information.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-26f2e590-261c-4faf-9f8d-dcd8cab0990e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-26f2e590-261c-4faf-9f8d-dcd8cab0990e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1e0c080d-07b5-480b-be67-134db784a79f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1e0c080d-07b5-480b-be67-134db784a79f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1e0c080d-07b5-480b-be67-134db784a79f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1e0c080d-07b5-480b-be67-134db784a79f">
+                Sir Richard Acland
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1e0c080d-07b5-480b-be67-134db784a79f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-1e0c080d-07b5-480b-be67-134db784a79f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will the right hon. Gentleman realise the importance of winning the battle for the headlines all over the world against General Goering?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1e0c080d-07b5-480b-be67-134db784a79f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-07/debates/683429f6-c0da-4c4f-9fa7-884defb95f1b/MinistryOfInformation#contribution-1e0c080d-07b5-480b-be67-134db784a79f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-a70fa70a-f4ff-4428-a1de-9c0d94f0f3aa'>
+            
+<p class=""><em>Following is the information referred to:</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="575" class="column-number column-only" data-column-number="575"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-997e28a4-d697-47bf-87c4-3b5a0475fe96'>
+            
+<p class=""><em>The Advisory Council of the Minister of Information.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-50645183-b2d7-4998-ab9c-850340fc34b8'>
+            
+<p class="">1. Those who have so far accepted invitations to sit on the advisory Council are:</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8a81481f-f57f-4b82-9821-9bbbe91b2b45'>
+            
+<p class="">Sir Campbell Stuart, G.C.M.G., K.B.E.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-35ab0d07-6d66-4e55-b28f-d525f384c30a'>
+            
+<p class="">W. H. Bailey, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2c6d6724-9c8b-481e-80f9-a3d6d2ce2163'>
+            
+<p class="">Major the Hon. J. J. Astor, M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-edf29d8d-6e90-4ca0-ac88-d61ef906d8ca'>
+            
+<p class="">W. Harold Thomson, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-918296e0-6c2b-4bc2-a64b-af9c11f1e0fc'>
+            
+<p class="">Lord lliffe, C.B.E.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4566dba3-9ef3-4f3d-a50c-e4c9f913282d'>
+            
+<p class="">Professor F. W. Ogilvie, LL.D.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e798ea69-3091-41b7-a877-28a1ca275240'>
+            
+<p class="">Mr. Will Evans.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d6b6555c-1fda-484b-bdfa-f6acddcc1a23'>
+            
+<p class="">Sir Roderick Jones, K.B.E.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-0b934ae9-a79b-4cb9-a317-e671ac0b4ef8'>
+            
+<p class="">The Rt. Hon. the Earl of Elgin and Kincardine, K.C.M.G.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8ddb4266-49f5-4168-b13d-820779a6af2a'>
+            
+<p class="">Major-General Sir James Cooke-Collis, K.R.E.M.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7833e75c-e0cc-4a3c-bc2f-ed1656a939bf'>
+            
+<p class="">The Rt. Hon. Lord Lloyd of Dolobran, G.C.S.I., G.C.I.E., D.S.O.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5c76683e-516b-4e64-a746-89625d50bde6'>
+            
+<p class="">Mrs. Montagu Norman.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1e7345a2-8d5a-44b5-9f14-b4e12ddc86e5'>
+            
+<p class=""><table type="span"></p><p class=""> <tr></p><p class="">  <td colspan="4" align="center"></p><p class=""> <em>Director-General.—</em>The Rt. Hon. The Earl of Perth, G.C.M.G., C.B.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="4" align="center"></p><p class=""> <em>Deputy Director-General.—</em>Mr. A. P. Waterfield, C.B., (see also Division 11 below).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="2" align="center"></p><p class=""> <em>Division.</em></p><p class="">  </td></p><p class="">  <td align="center"></p><p class=""> <em>Director.</em></p><p class="">  </td></p><p class="">  <td align="center"></p><p class=""> <em>Deputy and Assistant Directors.</em></p><p class="">  </td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="2" align="center"></p><p class=""> <em>Group I</em></p><p class="">  </td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>1.</td></p><p class="">  <td>News and Press Relations.</td></p><p class="">  <td>The Hon. Esmond Harmsworth</td></p><p class="">  <td>Mr. T. Clarke (Deputy Director).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Mr. J. H. Brebner, M.B.E. (Assistant Director).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>2.</td></p><p class="">  <td>Censorship</td></p><p class="">  <td>Vice-Admiral C. V. Usborne, C.B., C.M.G.</td></p><p class="">  <td>Rear-Admiral E. C. O. Thomson, C.B., D.S.O. (Deputy Director).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Mr. C. J. Miles, M.B.E. (Assistant Director).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Press Adviser (not yet appointed).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="2" align="center"></p><p class=""> <em>Group II.</em></p><p class="">  </td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>3.</td></p><p class="">  <td>Home Publicity</td></p><p class="">  <td>Professor John Hilton</td></p><p class="">  <td>Mr. H. V. Rhodes.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>4.</td></p><p class="">  <td>Foreign Publicity</td></p><p class="">  <td align="center">*</td></p><p class="">  <td>Colonel Charles Bridge, C.M.G., D.S.O.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>5.</td></p><p class="">  <td>Empire Publicity</td></p><p class="">  <td>Mr. H. V. Hodson</td></p><p class="">  <td align="center">—</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>6.</td></p><p class="">  <td>U.S.A. Publicity</td></p><p class="">  <td>Sir Frederick Whyte, K.C.S.I., LL.D.</td></p><p class="">  <td align="center">—</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="2" align="center"></p><p class=""> <em>Group III.</em></p><p class="">  </td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>7.</td></p><p class="">  <td>Film Publicity</td></p><p class="">  <td>Sir Joseph Ball, K.B.E.</td></p><p class="">  <td>Mr. G. E. G. Forbes.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>8.</td></p><p class="">  <td>Radio and Communications.</td></p><p class="">  <td align="center">*</td></p><p class="">  <td>Mr. H. G. G. Welch (see also Division 11 below).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>9.</td></p><p class="">  <td>Literature and Art</td></p><p class="">  <td>(Temporarily included with Division 10 below).</td></p><p class="">  <td></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>10.</td></p><p class="">  <td>Other Production</td></p><p class="">  <td>Mr. Surrey Dane</td></p><p class="">  <td>Mr. W. G. V. Vaughan.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>11.</td></p><p class="">  <td>Administration</td></p><p class="">  <td>Mr. A.P. Waterfield, C.B. (Also Deputy Director General).</td></p><p class="">  <td>Mr. H. G. G. Welch (Finance) (see also Division 8 above).</p><p class=""></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Mr. B. L. Pearson, D.S.O. (Parliamentary and General).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Mr. D. B. Woodburn (Establishments).</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>12&amp;13</td></p><p class="">  <td>Co-ordination</td></p><p class="">  <td>Mr. Ivison S. Macadam, C.B.E., C.V.O.</td></p><p class="">  <td align="center">—</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td></td></p><p class="">  <td>Mr. Raymond W. Needham, K.C. (also Legal Adviser).</td></p><p class="">  <td></td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>14.</td></p><p class="">  <td>Intelligence</td></p><p class="">  <td>Mr. J. Beresford, C.B.E.</td></p><p class="">  <td>Mr. E. J. W. Jackson.</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="4" align="center">* Appointments to these posts will be made shortly.</td></p><p class=""> </tr></p><p class=""></table></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-cde3ca1c-efef-4432-bc3e-61b3b66253a4'>
+            
+<p class="">3. The names of the Chief Regional Information Officers of the Ministry with their respective regions are:</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-da66318d-3337-4ce3-a826-ebc22b9a1631'>
+            
+<p class="">Region No. 1. Northern (Newcastle)—V. Ewart Berry, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ce309a33-cb03-474a-9f56-b1c894f6479a'>
+            
+<p class="">Region No. 2. North-Eastern (Leeds)— Commander J. B. Adams, C.V.O., C.B.E.,D.S.O.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="576" class="column-number column-only" data-column-number="576"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ea05aadb-d83f-490d-b988-571069f498ab'>
+            
+<p class="">Lady Denman, D.B.E.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-99886b62-b667-4ddf-aa1f-6f4d484bfd4c'>
+            
+<p class="">Lord Cadman, G.C.M.G., D.Sc.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c0411e10-66b9-4737-b5a7-7df1f42eda67'>
+            
+<p class="">Mr. D'Arcy Cooper.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-af8e44b9-7452-4801-b8be-6a2090b8bcb4'>
+            
+<p class="">Captain Malcolm Bullock, M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-35a4838c-3403-4ce1-b824-4f6742d47dea'>
+            
+<p class="">Lieut.-Colonel Charles Kerr, D.S.O.. M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e629cc09-400d-4597-8a15-985bd0ae9082'>
+            
+<p class="">Major A. G. Church, D.S.O., M.C.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f38d4705-4015-4bc4-9cea-c77eff4ffe8e'>
+            
+<p class="">Mr. P. J. Noel-Baker, M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-40782d80-1f7e-4bf4-9dac-c0568e402f41'>
+            
+<p class="">Captain Ernest Evans, M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5b13052e-8162-4542-9295-fc4a6cceaed2'>
+            
+<p class="">Mr. Charles Dukes.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c4f3531d-c568-4c3c-b078-6823b89fb19d'>
+            
+<p class="">Mr. Alfred Barnes, M.P.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e3696454-fbbc-4dd0-98cb-2be02c077f5c'>
+            
+<p class="">The Standing Chairman of the Council, in the absence of the Minister, will be Sir Campbell Stuart, who will also be responsible, under the Minister, for publicity in enemy countries.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-66eef746-730d-476b-bc5b-c8db4d854b91'>
+            
+<p class="">2. The following are the names of the members of the Minister's Executive Council and their chief assistants, with their divisional responsibilities:</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9d2c9768-db56-4fc7-9557-cd5c445dd8a9'>
+            
+<p class="">Region No. 4. Eastern (Cambridge)—Tom D. Copeman, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1dcfada5-6955-4b60-8b66-87006bd0fed0'>
+            
+<p class="">Region No. 6. Southern (Reading)—W. Tomkinson, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-531e90a5-4368-47fa-b09b-112b2471e9aa'>
+            
+<p class="">Region No. 7. South-Western (Bristol)— Jas. L. Palmer, Esq., F.R.G.S.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-287b3c4c-1136-481a-9397-c2c1d9b0dccc'>
+            
+<p class="">Region No. 8. Wales (Cardiff)—Sir Robert J. Webber, J.P.. D.L., F.Z.S., F.S.A.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="577" class="column-number column-only" data-column-number="577"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1577bafe-9768-4154-9025-3d5eae27f229'>
+            
+<p class="">Region No. 9. Midland (Birmingham)—Sir Arthur Willert, K.B.E.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1f8f86de-f9be-42bd-911c-14f2462d8fe7'>
+            
+<p class="">Region No. 10. North-Western (Manchester) —Sir Ernest D.Simon.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-36a3aad0-b3c5-4570-8b09-10affb5d697d'>
+            
+<p class="">Region No. 11. Scotland (Edinburgh) — James Willock, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-48307ad4-b3d7-46dc-a971-d3618e146219'>
+            
+<p class="">Region No. 12. South-Eastern (Tunbridge Wells) —H. R. Pratt-Boorman, Esq.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2a12d0cc-1921-4e2e-9fe5-64b64f140004'>
+            
+<p class="">Other appointments are pending.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,807 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Air Ministry (Administration) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1945-03-07">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1945-03-07/debates/9098e5b3-113b-47d9-9d93-1bda170403ff/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1945-03-07/debates/74662be1-1dd0-472c-984d-a65674a3839a/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/0094a643-2e1e-457d-8166-0468c34926ac"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1945-03-07">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1945-03-07/debates/f184c3bb-b77f-4a55-8fa0-ebd71fae5b48/NavySupplementaryEstimate1944" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Air Ministry (Administration)
+            </div>
+
+            <div class="right-arrow">
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2006342" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>07 March 1945</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 408</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-31959379-d8e9-43ea-854d-819decfecf59'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. Cary.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-30cab0f2-43d4-4d03-b4f2-f3343d500b14'>
+            
+<p class="">8.36 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-8f701306-766c-4349-b285-e7bf186923b3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8f701306-766c-4349-b285-e7bf186923b3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8f701306-766c-4349-b285-e7bf186923b3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8f701306-766c-4349-b285-e7bf186923b3">
+                Earl Winterton  (Horsham and Worthing)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8f701306-766c-4349-b285-e7bf186923b3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-8f701306-766c-4349-b285-e7bf186923b3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am sure the House will be sensible, as I am, of the consideration shown by the Prime Minister in waiting through a long and most important Debate in order to reply to the points which the hon. and learned Member for Carmarthen (Mr. Hughes) and I are about to make. I shall speak for about nine minutes and the hon. and learned Gentleman for four or five, leaving half the time for the right hon. Gentleman to reply. My case is not one for or against the Government, nor is it for or against the hon. Member for Mossley (Mr. A. Hopkinson) but a case concerned with the procedure and the rights of the House. I am solely concerned with what the, hon. and learned Gentleman and I claim is the proper procedure when charges of the kind are made. The only bias that I will show is to say that I hope, if the procedure we advocate is adopted, the result of it will be to find that the charges against the Secretary of State and the Ministry are disproved. I hope that will be the case.<p></p><span id="2185" class="column-number" data-column-number="2185"></span> I should like to deal with what I conceive to be, judging from the answers given to the Questions, the points which the Prime Minister will make against the suggestion that there should be a Select Committee. The first, I imagine, will be that there has been an inquiry. I say on that that I can conceive of no more dangerous precedent to set up than, when a charge of a serious character is brought against a Minister and a Ministry, to say that, because a Government committee has investigated the charge, there is no need for any other inquiry. The result in subsequent Parliaments might be that when we have the ordinary process of Government and opposition the opposition might have an overwhelming case. It might charge a Minister with fraud and dishonesty and the Government of the day would say, "We have investigated this case. Our Law Officers have examined it and there is nothing in it. What right have the opposition to ask for an inquiry. In the days of the great Churchill Government exactly the same form of inquiry was refused."<p></p> That would be a most serious precedent to create. The second point that I suggest may be made is that the charges are too indefinite. I do not think that that contention can be maintained after what was said by the hon. Gentleman yesterday. I do not know if the House is aware of what he said. It was that he definitely charged the right hon. Gentleman with interfering with the conduct of a court martial. Could there be a more serious charge than that made on the Floor of this House? I am sure the Prime Minister would be perfectly entitled to say that these charges should be placed on a sheet of paper, or two sheets, and sent to him. I suggest that possibly another point may be made by him. He might say that charges, however grave, brought by a single Member of this House ought not to be the subject of an inquiry by a Select Committee. I do not think such a contention would be on strong ground. There are many examples in the past, one of the most famous being that of Mr. Plimsoll, who for years brought certain charges in this House, and eventually the action he advocated was taken.<p></p> The Prime Minister might take another line, though I suggest it would be extremely difficult, even for him, with all his knowledge of Parliamentary procedure, to do so and to keep in Order. <span id="2186" class="column-number" data-column-number="2186"></span> He might take the line that one must have regard to the credibility of a particular Member and that the Member in question was not a person to whose credibility we should attach much importance. Lastly, the argument might be taken, and, indeed, has been taken in the answer which was given on more than one occasion, that it will be wrong in the midst of the greatest war of all time to submit Ministers and high officers to the burden of being examined by a Select Committee. I say that such an argument would be contrary to the whole moral basis of democratic government and British justice, which rests on the assurance that no subject of the Crown is immune from the process of judicial inquiry because of the high position he occupies.<p></p> I come in conclusion to my contention. I propose to put only one, and I think it is the most powerful one of all. It is that the only way to stop charges being made constantly in this House by the hon. Member below the Gangway—and incidentally they have been made in another place also—with much gossip in other places directed against General Critchley, who must be presumed to be a distinguished servant of the Crown, and against the alleged condonation of his alleged ill-conduct by the Secretary of State, is by having an inquiry. I am getting sick and tired—and I speak for a good many other Members—of what is a most distasteful procedure. Again and again we have the hon. Gentleman getting up and making these charges, some definite and some less definite, and the right hon. Gentleman the Secretary of State adopting the role of a sort of Roman senator, banging the Box and saying: "These charges are all untrue; I and my officers have investigated them, and there is nothing more to be said on the subject." We ought to put an end to it, because it is doing a mischief inside and outside the House. The only way to do that is by the ordinary process, which this House always adopts in such circumstances, of having a Select Committee. In saying this I consider that I am being a good and candid friend of the Government.<p></p> I apologise to the House for appearing to make an egoistic, although not an egotistic, point. The Prime Minister applied an epithet to me on the last occasion when I raised the matter. It was widely reported in the British and foreign Press, and it is necessary, therefore, for me to <span id="2187" class="column-number" data-column-number="2187"></span> explain my position. I am, as is well known, a most enthusiastic, 100 per cent. supporter of the Government. I am very happy and contented where I am, and I want nothing out of this from this Government or from any other Government. I am not in the position which my right hon. Friend and I have known certain people to be in, in the course of our long careers, of having some grievances against the Government. I am not, and no one knows it better than my right hon. Friend, suffering from any motive of pique or resentment because I have been an unsuccessful aspirant or mendicant for high office. I think, in the circumstances, that "cowardly" as an appellation of my action is one which, terminologically speaking, is wholly inaccurate. I hope that when my right hon. Friend comes to reply he will find a more appropriate epithet for what I consider to be my perfectly proper and legitimate action in bringing this matter to his attention and to the attention of the House. I can assure him of one thing; whatever invective he chooses to direct against me, nothing will prevent me from being a 100 per cent. supporter of this Government. Finally, I have never, in my 40 years' membership of this House, been deterred from putting a point affecting its right procedure by the disapprobation of any Prime Minister, however powerful he may be.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8f701306-766c-4349-b285-e7bf186923b3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-8f701306-766c-4349-b285-e7bf186923b3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3fd8365e-02ee-48db-9af0-e4648c550683'>
+            
+<p class="">8.47 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-a51f523d-7310-446e-bd49-50eb916baf7b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a51f523d-7310-446e-bd49-50eb916baf7b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a51f523d-7310-446e-bd49-50eb916baf7b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a51f523d-7310-446e-bd49-50eb916baf7b">
+                Mr. Meelwyn Hughes  (Carmarthen)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a51f523d-7310-446e-bd49-50eb916baf7b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-a51f523d-7310-446e-bd49-50eb916baf7b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On 19th December I came to this House to listen to what I thought was the concluding stages of a Debate upon the Forestry Commission. Instead, I found myself listening to a speech by the hon. Member for Mossley (Mr. Hopkinson). His speech lasted for a considerable time, and although the hon. Member disavowed any intention of bringing any allegations, the implications which he made to my mind were perfectly clear. He alleged that the British Overseas Airways Corporation, which is responsible to the Air Ministry who are responsible in turn to this House, had in fact prepared fraudulent balance sheets, and that the Air Ministry were cognisant of that and had condoned the production of those balance sheets.<p></p> He referred to the transactions that had taken place in a training wing about the sale of bacon, with which we are not con- <span id="2188" class="column-number" data-column-number="2188"></span> cerned, but he went on further to say that, in spite of replies that had been given, the full truth had not been given; in other words, that the Air Ministry again were concealing the full facts of the situation. He went further and said—these are the innuendoes from the hon. Member's speech—that there had been in the Air Ministry and on the part of the Secretary of State for Air, a conspiracy to defeat the ends of justice; beyond that, that those who had participated in this conspiracy had been rewarded for so participating. The final innuendo was that the Secretary of State for Air and the Air Ministry had been responsible for improperly bringing the legal advisers of the Crown in, to cover those misdeeds. Those are the insinuations that came to my mind as I listened to his speech.<p></p> I waited for the reply from the Minister. We had an inept, incomplete and unsatisfying reply. I know nothing of the merits on one side or the other. I am not concerned with the Secretary of State for Air or with the hon. Member for Mossley. I went straight out into the Library and drafted a Private Notice Question. That Private Notice Question was not accepted, and I drafted a Motion. [<em>That a Select Committee be appointed to investigate the allegations made in this House on</em> 19<em>th December,</em> 1944, <em>by the hon. Member for Mossley concerning irregularities in the administration of the Air Ministry.</em>] To that Motion I have taken signatures of Members in all parts of the House, including that of the Noble Lord who has preceded me. I could have had any number of signatures to it. I was only concerned to get a number of signatures, to show that this was a matter for the House of Commons to inquire into.<p></p> There are these allegations, and we find a reply for which I can find no comparison except the old classic case of instructions to counsel to defend for wounding with intent, robbery with violence and indecent assault, to which there was no defence at all, winding up with the instructions "Counsel is instructed to laugh it out of court." That was the defence propounded by the Air Minister on that occasion. In those circumstances, I submit that the request that we make for a Select Committee is, indeed, the only proper method by which Parliament can satisfy itself as to what is the right or the wrong of this matter.<p></p><span id="2189" class="column-number" data-column-number="2189"></span> That is the only way. That is the only tribunal. I am not deterred by the fact that the hon. Member for Mossley, when he began, said he would give no specific accusations, and yesterday said he had them plain before the House. I am not deterred by the fact that, at one time, he asked for a judicial inquiry, and now wants a Select Committee. On the other hand, I am reinforced by the attitude taken in this matter by the right hon. Gentleman the Secretary of State for Air. Why is it the replies to these accusations have come forth to us piece by piece, section by section, delay after delay? There is nobody who has ever sat on a judicial tribunal, who does not know what value is to be attached to a witness with whom one has to take a long time to extract the truth. We have had this delay. We have had a great deal of material, some of it, I agree, which completely satisfies us, and provides an answer to the accusations put forward, but not the whole. And because not the whole has been answered, I ask the right hon. Gentleman to accede to our request and give us the only proper tribunal which can elucidate these matters—a Select Committee.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a51f523d-7310-446e-bd49-50eb916baf7b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-a51f523d-7310-446e-bd49-50eb916baf7b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-fbdf0b6e-4e7d-46dd-89fc-140c182585a3'>
+            
+<p class="">8.53 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">This brief discussion on the Adjournment is certainly not a time to go into merits, and although both the speakers who have addressed the House have recited certain charges that have been made, there has been no attempt to go into merits, and I certainly do not propose to do so. The Noble Lord has not attempted to go into merits. In fact I gather that his position is that he takes no responsibility for the charges. They may be true, they may be false, they may be exaggerated; but however it may be, he raises only the issue of principle, of Parliamentary usage and custom. As that is an important issue, I feel it my duty to deal with it myself, because although I am not the Father of the House I have been here a good deal longer than the Father.<p></p> I am a little astonished that there does not seem to be more general realisation of what the Parliamentary usage is about Select Committees in respect of personal charges made against Ministers. Nothing could be more clear than the Parliamentary usage. I will reduce it to the simplest terms. The Government advise the House, <span id="2190" class="column-number" data-column-number="2190"></span> and the House decides. The Government advise the House whether there should or should not be a Select Committee, and the House decides. The idea that there is any automatic procedure or bounden duty to take a particular course is utterly devoid of foundation. The three last cases of charges against Ministers which were made the subject of debate as to whether there should be a Select Committee or not were the Marconi case in 1912, where the Government proposed a Committee and the House accepted it, without a Division, after prolonged agitation and consideration on both sides; the Maurice case in 1918, where the Opposition proposed a Motion for a Select Committee and the House rejected it on the advice of the Government; and the Campbell case in 1924, where the Opposition proposed and the House accepted, the Motion for a Select Committee. The Government then resigned. In all these cases it is clear that the Government took their view and had the right to take their view, and the Opposition took, and had the right to take, their view; and the House decided what was to happen.<p></p> All these were in the days of party Government, when responsible bodies of men, working together in all the long-established groupings of a party, considered most maturely the merits and the proportions of the charges and took a collective decision. The Government of the day either accepted this decision or rejected it. Now the party system is in abeyance, and the Noble Lord asks us to lay down a new rule to the effect that when any charge is made by any Member against any Minister's honour or integrity, the Government of the day are bound automatically to use their powers to appoint a Select Committee. No contention could be more absurd. It would be most injurious to the House, and absolutely contrary to its traditions if such a rule were made. So far as His Majesty's Government are concerned, we refuse to countenance it. We have not only to think of this Debate, of this particular case or occasion; we have to think of the future. If this principle were adopted it would be open in future for any single Member, however irresponsible, however mischievous, however malignant, to bring any charge, however ill-founded, however worthless, however trivial, against any Minister; and thereupon, automatically, the whole ponderous machinery of a Select <span id="2191" class="column-number" data-column-number="2191"></span> Committee would be set in motion. I can imagine even that in days of party strife and-faction, when feelings run high and a score against the Government is a good thing to bring off, there might be a regular racket among half a dozen Members to bring charges against half a dozen Ministers, or to fling insults against them; and then, automatically, there would be half a dozen Select Committees sitting upstairs, investigating the charges and insults which had been made. Such a procedure would bring the whole principle of Select Committees into contempt, and might tend to rob Parliament of an invaluable weapon in its armoury. The fact is, that the Government remains master of its own conduct, and the House itself, the master of the Government, must decide for itself what action to take.<p></p> In this case, I have myself, personally, looked into the charges made both in what is called the "Farm Case" or the "Regents Park Case," and also about the general management of the British Overseas Airways Corporation, and, with the full agreement of the Cabinet, I have told the House that, in our opinion, there are no grounds for appointing a Select Committee. That is our position, and that is our advice to the House. I shall be asked "Will you give the House an opportunity to debate on a Motion the position which the Government have taken up? Will you give them the opportunity?" If it were the general desire of the House to discuss any matter under the sun, I should take pains to meet their wishes, but proof must be furnished—adequate proof must be furnished—of this general desire. In the days of party strife the Leader of the Opposition, in consultation with his colleagues, would usually express it, but, now, there is no Leader of the Opposition. The Government is a Government of all three parties at the present time, and, consequently, we have to ascertain whether a substantial body of Members desire, and think it sufficiently important, that this matter of the Select Committee should be debated and that time should be given for the Motion.<p></p> I say that if any substantial body of hon. Members wish for time to be given, or if there is a general desire made known through the usual channels, or if the larger parties in the House take it up as a matter on which they wish that such <span id="2192" class="column-number" data-column-number="2192"></span> an opportunity should be given, certainly we shall agree to find the time. I hope that the House will feel that this is a right and sensible way of dealing with the matter. The Government have the responsibility of advising the House, and if there is a substantial desire to challenge the Government's view, then a Debate can take place and the matter will be carried to its proper conclusion in a Division.<p></p> In this case, I am quite certain, and take upon myself the full responsibility of advising the House, that there is no sufficient case, no case worthy of investigation at all, and that it would be injurious to the House if the machinery of the Select Committee were invoked. I take it upon myself to say that, so far as we are concerned, we shall oppose that course, but, if the House in great body feels alarmed and feels that grave derelictions of duty have taken place on the part of the Secretary of State for Air, and that I, as Prime Minister, and my colleagues, are all condoning and conniving at some guilty act—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-5f5972dd-d0f5-4aa1-a4da-87d4fca4f08c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ca779ad1-c6fb-4840-82a8-07a26596235f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ca779ad1-c6fb-4840-82a8-07a26596235f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ca779ad1-c6fb-4840-82a8-07a26596235f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ca779ad1-c6fb-4840-82a8-07a26596235f">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ca779ad1-c6fb-4840-82a8-07a26596235f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-ca779ad1-c6fb-4840-82a8-07a26596235f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, no.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ca779ad1-c6fb-4840-82a8-07a26596235f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-ca779ad1-c6fb-4840-82a8-07a26596235f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-beb4f15c-c92c-49b4-af8c-39d4fe589054" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">But that is the proposition.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-beb4f15c-c92c-49b4-af8c-39d4fe589054" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-beb4f15c-c92c-49b4-af8c-39d4fe589054">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, no.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-ccb6ca5d-8a2d-42fe-8035-c418934bfa9e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-df3e8164-0821-4096-9088-0e6c2de3b529">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-df3e8164-0821-4096-9088-0e6c2de3b529">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-df3e8164-0821-4096-9088-0e6c2de3b529">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-df3e8164-0821-4096-9088-0e6c2de3b529">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-df3e8164-0821-4096-9088-0e6c2de3b529" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-df3e8164-0821-4096-9088-0e6c2de3b529">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">How do the hon. Members say, "No, no"? If we are challenged, if we advise against a Select Committee and we are challenged, the reason is because our solemn statement, given in all honesty and good faith, is challenged and doubted by the House. I am not blaming the Noble Lord; I should not hesitate to express my view contrary to the Government if I were free to do so, but to pretend that there have been deployed any sufficient grounds or any sufficient evidence or to pretend that there is at the present time any great body of Parliamentary opinion in favour of a Select Committee is, in my view, quite incorrect.<p></p> I have only two more minutes to speak, and I will devote them to my Noble Friend, the Father of the House. There are two aspects of his conduct in this matter which surprise me. The first I have already touched upon—the foolishness of the rule which he seeks to establish, of the automatic reference of any charge to a Select Committee. Such a lack of Parliamentary comprehension is <span id="2193" class="column-number" data-column-number="2193"></span> lamentable in one who possesses unique claims to be our guide and mentor. The second is the levity which has allowed my Noble Friend to lend his weight to a demand for a Select Committee on the outpourings of the hon. Member for Mossley (Mr. A. Hopkinson) without ever having taken the slightest trouble to find out for himself whether any substance lies behind them. On both those grounds, his action is to be deplored. He is a comparatively young Father of the House; he has many years of life before him. We still hope they may be years of useful life in this House, but unless in the future his sagacity and knowledge of the House <span id="2194" class="column-number" data-column-number="2194"></span> are found to be markedly superior to what he has exhibited to-day, I must warn him that he will run a very grave risk of falling into senility before he is overtaken by old age.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-df3e8164-0821-4096-9088-0e6c2de3b529" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-03-07/debates/0094a643-2e1e-457d-8166-0468c34926ac/AirMinistry(Administration)#contribution-df3e8164-0821-4096-9088-0e6c2de3b529">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b83eaafb-7723-4ff9-820a-9e311bf20439'>
+            
+<p class=""><em>It being half an hour after the conclusion of Business exempted from the provisions of the Standing Order (Sittings of the House),</em> Mr. DEPUTY-SPEAKER <em>adjourned the House, without Question put, pursuant to the Standing Order, as modified for this Session by the Order of the House of</em> 30 <em>th November.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-bb0713d8-81c6-46a3-9234-8a9383bd6b69'>
+            
+<p class="">Adjourned accordingly at Six Minutes after Nine o'Clock.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

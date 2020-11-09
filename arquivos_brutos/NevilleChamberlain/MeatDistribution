@@ -1,0 +1,756 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Meat Distribution - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-03-05">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-03-05/debates/62478c52-ccd4-4a7c-ae8d-20c1bfbfc53a/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1948-03-05/debates/7054f517-122a-44e4-a009-b2b41499af30/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/465fe2c3-e713-4c7d-87e2-80f39cb15fd2"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-03-05">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-03-05/debates/c2656cb2-97c3-4af5-bd35-bea5ad7e1877/SixthSchedule%E2%80%94(TransitionalProvisions)" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Meat Distribution
+            </div>
+
+            <div class="right-arrow">
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2679626" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>05 March 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 448</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="760" class="column-number column-only" data-column-number="760"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-220f2602-c01a-4d32-9609-edc9304cee8c'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. Snow.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4fe7b6cd-07bc-4727-9855-7025cc53074b'>
+            
+<p class="">3.59 P.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+                Mr. Bowden  (Leicester, South)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is the customary practice in this House for an hon. Member to declare his interest if he has one in the subject under Debate. As far as this particular Debate is concerned, I can declare that I have no financial interest in either the wholesale or the retail distribution of meat. Nevertheless, I am exceedingly interested in the matter. Some few weeks ago I had an opportunity of addressing two Parliamentary Questions to the Minister of Food, and so I obtained certain information. That whetted my appetite. I have since then made certain inquiries, and the result, to my mind, at least, is somewhat startling. It will be necessary for me, very briefly, to run over the present system of meat distribution. The present method is roughly this. In the case of home-Produced meat, the cattle are first graded either for immediate slaughtering——</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-eef2695b-2ac1-4d7b-a5e5-b446c4cab89d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-affee9d2-fc3d-4784-89cc-26976c37daa3'>
+            
+<p class=""><em>It being Four o'Clock, the Motion for the Adjournment of the House lapsed without Question put.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e6a55177-1ecc-4b71-b3f3-9327f78fd4be'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. Snow.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+                Mr. Bowden
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The cattle are first graded for immediate slaughtering and distribution, or for fattening or for stock purposes. The cattle graded for slaughtering are conveyed to the Ministry of Food controlled abattoirs and there prepared for distribution to the butchers' shops and thence to the general public. The meat, however, is not passed directly from the abattoirs of the slaughtering companies to the retail butchers, but is passed through a link in this distribution chain known as the "W.M.S.A.s"—the Wholesale Meat Suppliers Associations. There are II of these associations, one for each region of the Ministry of Food. I said that the meat "passed" through this link. In fact, however, in a good many cases, this is purely a paper transaction, and the meat is not physically passed at all. The buying groups of the retail butchers, formed by themselves, whose staffs are paid for by them and officered by the retail butchers, do the actual distributing of the meat to the general public or the <span id="761" class="column-number" data-column-number="761"></span> catering establishments. In the case of imported meat, the procedure is something similar. The imported meat comes in from the importing associations, again through the W.M.S.A.s, to the retail buying groups.<p></p> My object today is to endeavour to get some additional information about the working of the W.M.S.A.s, and to find out whether they are an essential link in meat distribution. I may be wrong, but they seem to have developed a most remunerative type of racket which, between their inception in 1940 and the present day, has given these associations an amazing financial result. To quote the words that we knew during the war, they seem to have "built up an empire of their own."<p></p> I am informed that these associations are composed of meat wholesalers who-were engaged in the wholesale distribution of meat in 1938. Some were exceedingly large firms—very large undertakings, indeed. Some were quite small; perhaps, retail butchers having each six shops, who slaughtered their own meat. Many of them were of such size that they had a great deal of foreign capital invested in them. As wholesalers, purely and simply, they went out of business in 1940 with meat rationing. They have since been entitled to some form of compensation based on their 1938 turnover because they are no longer engaged in the slaughtering of meat and in the wholesale trade. Many of the people who at that time—in 1940—were wholesalers have obtained employment in the W.M.S.A.s as abattoir managers, scalesmen, clerks, and so on—as, indeed, they are entitled to. For this work that they are now doing they receive salaries or wages—as they should do. Where the W.M.S.A.s actually handle the meat and distribute it to the retailers' groups, they receive, in addition, a remuneration of a halfpenny per pound on the meat handled. These cases are rare in comparison with the business as a whole. I have already said that most of their transactions are purely book-keeping transactions, the invoicing of the meat coming from the slaughter houses, or from the importing companies, and the charging out to the retail buying groups of the meat as it is passed out.<p></p> The system of remuneration of these associations is to me somewhat vague. I <span id="762" class="column-number" data-column-number="762"></span> hope that the hon. Lady, the Parliamentary Secretary, when she replies, will give details. It is on the basis of the weight of meat handled in the year 1938, in relation to the amount of meat handled at the present time. It is so arranged as to cover all current overhead expenses plus an amount which is about 1¾ per cent, of their turnover in 1938, as compensation for going out of business in 1940 when rationing started. The wholesaler who in 1938 had a turnover of, say, £1,000 per week—not a large wholesaler by any means—would receive in compensation, because he no longer carries out that work today, something like £18 a week. He will have received that amount every week since 1940, although in 1940 he may have gone out of the trade and be at the present time engaged in something quite different. If, however, he is still in the employ of the Wholesale Meat Associations in any way, he receives a salary as well as his compensation of £18 a week. In seven years, on the 1938 weekly turnover of £1,000 per week, he would have received something like £6,300 in compensation. I want to know if this sort of thing is to go on so long as meat rationing continues, which, at the moment, would appear to be likely for some time.<p></p> A firm which in 1938 was both a wholesaler and retailer would presumably draw compensation for going out of business as a wholesaler while still carrying on as a retailer. It is a fact that retail butchers immediately before the war were experiencing a rather trying time—at least most of them were—and those with several shops who slaughtered their own meat found that to be an advantage. It is right that they should have some sort of compensation, but to my mind it is not right that their retail business, which may be better than in 1938, should bring in one form of income, and, at the same time, they should get compensation for something which they have not lost at all—something which is done for them by the Ministry of Food. This method of payment does give this result, and, to say the least of it, it is over-generous, particularly when one takes into consideration the number of small businessmen who in 1939–40 went completely out of business —retail butchers among them—to join the Armed Forces, and who received no compensation other than something at the end of the war to enable them to start again.<p></p><span id="763" class="column-number" data-column-number="763"></span> I find, as a result of my Questions, that in the two years 1946–47 the W.M.S.As. have been paid £3,666,838. As a point of interest, I have the balance sheet for the last full year of one of these associations. I will not weary the House by going through the whole of it, but their total income was £383,369, of which members' subscriptions were £48, and commission earned through the Ministry of Food £383,316. Their expenditure was two-thirds on salaries, wages, rent, lighting, heating, etc., and the remaining surplus of income over expenditure for distribution to members was £146,216—to distribute to their members in that region for what purpose? Simply because they are not now performing in 1948 some of the functions they were performing in 1938. Apart from the cost of the present scheme, these associations seem to be quite unnecessary links in the distribution of meat today. The retailers groups whom I do not represent, and whom I know very little about, could, I am sure, take over much of the work that the W.M.S.As. are doing, and they are already doing the work through organisations which they themselves have set up and for which they are paying. The result would be a saving not only in money but in manpower.<p></p> Perhaps my hon. Friend, when she replies, will tell us whether any dollars are involved in the payments that are made to the large South American and North American firms who have capital invested in the wholesale meat companies which are part of the Wholesale Meat Supply Association. I do not think we should hold the present Minister of Food responsible for this system. He did not initiate it, but he is certainly responsible for perpetuating it, and I hope that as a result of this Debate today the Minister will see whether something cannot be done to bring this system more into line with what we are hoping to do, indeed what we are doing already, to cut down unnecessary expenditure and prevent waste of manpower.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-9da320d3-8aee-4b99-abdf-d8e6ebdb76e8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9ab853c8-af4e-49f7-a941-b497d4d588b0'>
+            
+<p class="">4.11 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-b56257e9-bc7e-4647-a998-eef4ae35a756">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b56257e9-bc7e-4647-a998-eef4ae35a756">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b56257e9-bc7e-4647-a998-eef4ae35a756">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b56257e9-bc7e-4647-a998-eef4ae35a756">
+                Mr. Baldwin  (Leominster)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b56257e9-bc7e-4647-a998-eef4ae35a756" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-b56257e9-bc7e-4647-a998-eef4ae35a756">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I do not imagine that the W.M.S.As. will want any support from me, but when these matters are raised in the House, I think it is only fair to present both sides of the picture. We must remember that the W.M.S.As. <span id="764" class="column-number" data-column-number="764"></span> were dealing with food distribution in this country before the war. When the Ministry of Food was formed, it was necessary to create certain machinery to continue that distribution, and the W.M.S.As., with their offices and staffs, were called in to assist. I think it is true to say that they have received sometimes considerable amounts of money with perhaps little justification, but this was a war measure, and if we start looking at other industries which also received something for doing not very much we shall get into a very wide field.<p></p> I do not think it is fair to single out this branch of the industry now, but when we tackle the whole system I hope we shall get the support of the hon. Member for South Leicester (Mr. Bowden) in cutting down expenses, not only in the Ministry of Food, but all along the line in the Civil Service. Until we get rid of the huge octopus which is strangling this country we shall never get anywhere. Many members of the W.M.S.As. are doing useful work in distribution, and possibly the Parliamentary Secretary can tell us exactly what they are doing. Some day we hope that rationing will not be necessary. If we do away with this branch of food distribution, and suddenly stop rationing, and then want to bring into existence the prewar system, we shall be in difficulties. It is easy to say that a certain change is necessary. We have had a report from the Lucas Committee, which made that statement, but I am not prepared to accept the fact that these links are unnecessary until somebody can prove to me to what extent they are unnecessary.<p></p> I hope the hon. Lady will take no steps, at the moment, to deal with this matter, because we shall soon be debating the whole system of marketing in this country. That will be the time to tackle the question of whether the W.M.S.A.s are necessary or not. I do not think it is fair that statements such as, "This is a racket" should be made about this business, because it is not a racket. It was the deliberate policy of the Government of the day to bring into existence this machinery. Unfortunately, it has not been found possible to dispense with rationing and, therefore, that machinery must continue to exist. The W.M.S.A.s have been no better done by than those firms which, during the war, were paid on a cost-plus basis. This is all <span id="765" class="column-number" data-column-number="765"></span> part of the system I want to see dispensed with as soon as possible, and I hope we shall have the assistance of the hon. Member for South Leicester in reducing those expenses at the proper time.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b56257e9-bc7e-4647-a998-eef4ae35a756" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-b56257e9-bc7e-4647-a998-eef4ae35a756">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-fd3629d1-ca1d-4081-a613-176af93a185b'>
+            
+<p class="">4.15 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+                Mr. Ronald Chamberlain  (Norwood)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Very briefly, I wish to support what my hon. Friend the Member for South Leicester (Mr. Bowden) has said. I support him, because, like him, I and many Members in this House are rather fogged about the exact situation. I am not suggesting, in the words of the hon. Member for Leominster (Mr. Baldwin), that this is in the nature of a "racket," but it is something which the public does not understand. May I say that I also have no interest in this matter, other than the public interest. On 18th February, I asked the Parliamentary Secretary: What were the net amounts handed over to the meat importers' and to the wholesalers' organisations in respect of the year 1946–47? Leaving out the importers with whom we are not concerned at the moment, she informed me that £1,733,146 had been handed over in respect of that year. I also asked whether an early termination of this wartime arrangement was contemplated, to which she gave me the very brief and clear answer, "No, Sir." I then asked, in a supplementary question, whether these payments were not purely a matter of tribute and not for any goods and services rendered. The Parliamentary Secretary replied: <blockquote><q>"I cannot understand my hon. Friend. Of course these payments cover services. These men are responsible for distributing meat throughout the country, and these are payments to them for their services.—"<span id="vol447_col1164" class="cross-reference" data-house-id="1" data-column-number="1164" data-volume-number="447">[OFFICIAL REPORT, 18th February, 1948; Vol. 447, c. 1164.]</span></q></blockquote> I quite appreciate that these are payments nominally for services rendered, but to leave it there means that the issue is entirely obscure. The Parliamentary Secretary was kind enough to give some information in a letter which she sent to me on 19th December. She informs me that the wholesalers are formed into eight companies, not II as my hon. Friend suggested, on a geographical basis, to carry out distribution. These associations are remunerated by a commission, the amount of which depends on the tonnage handled. Furthermore, some members of the asso- <span id="766" class="column-number" data-column-number="766"></span> ciations carry out executive functions, and the salaries they receive are offset against the commissions paid to these associations. Putting the information contained in this letter with the information contained in the answer to my Question, it would appear that the gross remuneration in respect of that one year was £3,666,838, and the net remuneration £1,733,146. I gather that the difference between these figures represents the salaries and expenses paid, namely, £1,933,692. The figure we are interested in is this net amount being paid to these organisations, namely, £1,733,146.<p></p> As far as I can gather, and this is the point in which I am particularly interested, this is purely compensatory payment for loss of business, and in respect of which there are, as far as I can make out, no services rendered; in other words, the amount is compensation for business lost because of wartime arrangements. The hon. Member for Leominster admitted that this money was probably being paid out with very little justification. His argument was that there was no firm justification for this, but that there was likewise no firm justification for many other similar payments being made. I do not think that that is a very strong case or grounds on which to argue. I appreciate that this arrangement had to be made in wartime, but as I suggested in my supplementary question, we should have a terminal date for these payments. I hope that the Parliamentary Secretary will reconsider the suggestion contained in the answer to my supplementary question, that this would go on indefinitely, because I feel that it cannot be justified on any grounds whatsoever.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-39d05e2c-f0bc-4ffe-9638-2087b74e9b2d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-db2599ca-7c19-4da2-9946-47a53408ef58'>
+            
+<p class="">4.20 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-13e038c6-e9de-4631-a65a-c716de455b85">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-13e038c6-e9de-4631-a65a-c716de455b85">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-13e038c6-e9de-4631-a65a-c716de455b85">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-13e038c6-e9de-4631-a65a-c716de455b85">
+                The Parliamentary Secretary to the Ministry of Food (Dr. Edith Summerskill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-13e038c6-e9de-4631-a65a-c716de455b85" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-13e038c6-e9de-4631-a65a-c716de455b85">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I can quite understand that my hon Friends the Member for South Leicester. (Mr. Bowden) and the hon. Member for Norwood (Mr. Chamberlain), who have interested themselves in these matters during the last few months, should feel that they should raise this matter on the Adjournment, in order, quite rightly, to ask how long is this going on. That is what the whole of the House would like to know, and I am only too willing to come here this afternoon and to explain to them how this particular machine functions, <span id="767" class="column-number" data-column-number="767"></span> and, as far as I am able at this stage, to tell them the shape of things to come.<p></p> It has already been said here and repeated that we have used the machinery which was functioning very well during the war. That is a fact. When the war broke out and it was necessary to ration foodstuffs, we invited those experienced men, many of whom had devoted their whole lives to the meat industry, to come in and organise themselves in such a way that the meat of the country would reach the consumers, and so that, as far as it was possible never would any consumer be able to say that the meat ration had not been honoured. My hon. Friends who have criticised the organisation will agree with me that it is a veritable triumph that in this country the rations have always been honoured.<p></p> We took this machine of the W.M.S.A. and we adapted it to our use. My hon. Friends' real criticism is that it is too cumbersome. We kept it in its present form, because we did not want it to get rusty. We felt the time might come when it would be necessary for all the Members of the W.M.S.A. to function once more. Hon. Members on both sides of the House hoped that within two years of the end of the war there would be plenty of meat in the world, and these organisations, which were set up during a period of crisis, would have served their purpose and the individuals composing the organisation would be once more functioning in the normal way. That has not happened. Shortages have continued, and my hon. Friend will agree with me that while shortages continue it is vitally important to concentrate administration and to canalise distribution. Therefore, we must have an organisation of some kind, whether it is composed of the W.M.S.A. or not, to handle the meat at the wholesale stage.<p></p> Let me remind the House what this particular link does, and why it is important that it should be efficient and that we should use these men who have had such experience. It is the link between 580 slaughterhouses and 390 cold stores on the one hand, and 45,000 butchers' shops on the other. When one takes into consideration the perishable nature of meat, it is of great importance that these men should be skilled, knowledgeable and have had particular experience such as the men in the W.M.S.A. have had.<p></p><span id="768" class="column-number" data-column-number="768"></span> We invited them, at the beginning of the war, to form themselves into eight associations. My hon. Friend the Member for Norwood was quite right; there are eight associations. In that way the Government would secure premises, staff and experience. When the question of remuneration was discussed, it was decided to remunerate them upon a commission basis. I have been asked what these men do. I have already told the House the measure of their task, and the number of establishments which have been served. They do, in fact, weigh, allocate and distribute the meat to retail committees, that is, meat from home producers and from the importers, who are concerned with bringing meat and offal from exporting countries.<p></p> Let me tell the House the details of the remuneration and how it is arrived at. Our Costings Director examines these figures very frequently. They are also examined by the Public Accounts Committee. We decided to remunerate, first, the reasonable expenses of the association, and secondly, a percentage of the value of the pre-war turnover. We value the tonnage handled'today at a notional prewar figure of £70 a ton, and the remuneration is fixed at 1¾ per cent. The salaries of the men in the association are paid by the association to the directors and the principals. These are met to the extent of one-half out of the balance paid to the members. I agree that all the members of the association are not employed; that is to say, there is an element of compensation. I would remind hon. Members that we are going through a period when these wartime machines are being carefully examined, not only in the meat and livestock world, but in other fields as well.<p></p> What are the alternatives? The first would be to go back to the old method and to allow individuals, now members of the W.M.S.A., to compete with each other. Secondly, the Ministry could take over the functions now performed by the W.M.S.A. Thirdly, we might set up a public corporation. The hon. Member for Leominster (Mr. Baldwin) had already reminded the House that these matters are being considered. I would remind hon. Members that the Lucas Committee has just reported. We are waiting for the Ministry of Agriculture to make an announcement upon the recommendations of that committee. This question, to- <span id="769" class="column-number" data-column-number="769"></span> gether with all the questions that must be considered in the field of marketing, will come under consideration.<p></p> I therefore ask my hon. Friend to regard this period as an interim one during which we must continue to use wartime machines which served us very well during the war. I hope the time will not be far distant when we can make <span id="770" class="column-number" data-column-number="770"></span> some other announcement. At the moment, it is imperative that we use an association which is working smoothly and which has served the public very efficiently.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-13e038c6-e9de-4631-a65a-c716de455b85" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-05/debates/465fe2c3-e713-4c7d-87e2-80f39cb15fd2/MeatDistribution#contribution-13e038c6-e9de-4631-a65a-c716de455b85">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-521de0c9-478a-440a-a065-101e9a0f4cc1'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d29b3b1f-36d6-4603-b03b-4857313e761e'>
+            
+<p class="">Adjourned accordingly at Twenty-nine Minutes past Four o'Clock.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

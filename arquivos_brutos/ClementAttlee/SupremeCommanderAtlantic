@@ -1,0 +1,1920 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Supreme Commander, Atlantic - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1951-02-22">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1951-02-22/debates/49b727c3-65fc-454a-8410-5798e1badb01/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1951-02-22/debates/86382406-ab18-412a-9282-cddbe8919759/OralAnswersToQuestions">
+                                    <span class="commons">Oral Answers To Questions</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1951-02-22/debates/2c3302ed-90e1-4f87-b90d-f143d97e89f3/Agriculture">
+                                    <span class="commons">Agriculture</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/6e40b89e-7f74-4d09-9579-c2cf0da2d813"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1951-02-22">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1951-02-22/debates/63fbf4a7-8d2a-4425-8674-ba9155da0ea8/ForestryCottagesLyndhurst" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Supreme Commander, Atlantic
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1951-02-22/debates/758b92e5-1765-440f-861b-e5def33eac34/RailwaysWagesClaim(Negotiations)" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3085277" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>22 February 1951</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 484</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7922df66-2d87-4fd5-9f01-a3b4caa83254" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">(<em>by Private Notice</em>) asked the Prime Minister whether he has any statement to make about the appointment of a Supreme Sea Commander of the North Atlantic Treaty Organisation.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7922df66-2d87-4fd5-9f01-a3b4caa83254" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-7922df66-2d87-4fd5-9f01-a3b4caa83254">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0565ba48-25c9-40f0-ad16-5447c8059c64">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0565ba48-25c9-40f0-ad16-5447c8059c64">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0565ba48-25c9-40f0-ad16-5447c8059c64">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0565ba48-25c9-40f0-ad16-5447c8059c64">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0565ba48-25c9-40f0-ad16-5447c8059c64" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0565ba48-25c9-40f0-ad16-5447c8059c64">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir. The North Atlantic Treaty Defence Committee have agreed that there should be a Supreme Allied Commander Atlantic and that he should be an American. An American officer has already been nominated for this appointment, and it is expected that an announcement will be made on this matter very shortly.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0565ba48-25c9-40f0-ad16-5447c8059c64" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0565ba48-25c9-40f0-ad16-5447c8059c64">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0b43f643-43e8-46e8-b130-2b74f7e0488b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Were there no British admirals capable of discharging these functions; does not Great Britain lie at the very key of all communications across <span id="1460" class="column-number" data-column-number="1460"></span> the Atlantic with Europe; are not the sea approaches to our island in the event of submarine attack vital to our life; and how is it, with our experience, which is longer and wider than that of any other country, and when we have all agreed with so much pleasure that General Eisenhower should command the Armed Forces on land, that we should have resigned any claim that we may be thought to have, to the command of the sea on the Atlantic?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0b43f643-43e8-46e8-b130-2b74f7e0488b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0b43f643-43e8-46e8-b130-2b74f7e0488b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fc7fe791-96c0-44fd-8559-8792085c1b5d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In an organisation of a number of Powers, as in the North Atlantic Treaty organisation, an appointment is made by those Powers. No Power has an absolute right to dictate its views as to any appointment. I understand that the proposition that an American admiral should be appointed was generally acceptable.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fc7fe791-96c0-44fd-8559-8792085c1b5d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-fc7fe791-96c0-44fd-8559-8792085c1b5d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-05d5370c-32e2-43a1-bae1-f7950bb8421b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Does this not argue a great decline in our influence and in the esteem in which we are held by other countries with whom we are in the most friendly relations? Did the right hon. Gentleman make any effort to put our claims forward in a sober and earnest fashion, or did he simply accept the fact that we are to be brushed out of the way in this matter which, of all others, apart altogether from history and tradition, is vital to our existence?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-05d5370c-32e2-43a1-bae1-f7950bb8421b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-05d5370c-32e2-43a1-bae1-f7950bb8421b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b91cb4a7-e515-4407-ab9f-df531a709f90">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b91cb4a7-e515-4407-ab9f-df531a709f90">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b91cb4a7-e515-4407-ab9f-df531a709f90">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b91cb4a7-e515-4407-ab9f-df531a709f90">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b91cb4a7-e515-4407-ab9f-df531a709f90" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-b91cb4a7-e515-4407-ab9f-df531a709f90">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Answer.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b91cb4a7-e515-4407-ab9f-df531a709f90" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-b91cb4a7-e515-4407-ab9f-df531a709f90">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f063e19b-027c-4a4d-b2f9-91e6c94381c5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Hon. Members must give me a moment to get up; I am perfectly prepared to answer. This matter was, naturally, very fully discussed, but I say again that this is a matter for agreement. The general conclusion was that this was the best appointment. I cannot at the moment say whether there was an elaborate discussion or not, but in any international organisation of this kind, of a number of—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f063e19b-027c-4a4d-b2f9-91e6c94381c5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-f063e19b-027c-4a4d-b2f9-91e6c94381c5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-57ec8955-cf10-415a-a028-7932319a4979">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-57ec8955-cf10-415a-a028-7932319a4979">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-57ec8955-cf10-415a-a028-7932319a4979">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-57ec8955-cf10-415a-a028-7932319a4979">
+                Mr. John Hay
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-57ec8955-cf10-415a-a028-7932319a4979" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-57ec8955-cf10-415a-a028-7932319a4979">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Where is British leadership?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-57ec8955-cf10-415a-a028-7932319a4979" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-57ec8955-cf10-415a-a028-7932319a4979">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d236a816-98ed-4426-a461-8ba6c6cf1743">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d236a816-98ed-4426-a461-8ba6c6cf1743">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d236a816-98ed-4426-a461-8ba6c6cf1743">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d236a816-98ed-4426-a461-8ba6c6cf1743">
+                Mr. James Hudson
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d236a816-98ed-4426-a461-8ba6c6cf1743" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-d236a816-98ed-4426-a461-8ba6c6cf1743">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Not over there, on the other side of the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d236a816-98ed-4426-a461-8ba6c6cf1743" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-d236a816-98ed-4426-a461-8ba6c6cf1743">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In an organisation of a number of countries, it is not possible for one country to insist on its right to some particular office. It is a matter for discussion.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1fbebaae-3b3c-43e2-9af0-9266a0cc3d0a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1461" class="column-number column-only" data-column-number="1461"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1d3dd45f-b614-4c3a-bdb1-602edd0c9998" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It was possible, anyhow, not very long ago, for one country to sink 525 German U-boats compared with 174 by the United States. No one is going to argue that I am hostile to the United States, but I do not think that our country ought to have fallen so far into walks of humility.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1d3dd45f-b614-4c3a-bdb1-602edd0c9998" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1d3dd45f-b614-4c3a-bdb1-602edd0c9998">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+                Mr. John Hynd
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0e456be7-ec7a-46bc-adf6-5c94bbf50495" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Without endorsing what the Leader of the Opposition has Said about the question of substantiating our particular claim, or the credit of any country, or any prior rights of any country in any field, does the Prime Minister not consider that there is a very important psychological question to be considered here, a question which ought to be appreciated by the Americans as much as by ourselves? The world at large is beginning to think that there is something wrong when the Americans have leadership of the Atlantic Forces on land, leadership of the Korean Forces and now, presumably, are to have leadership of yet another Force. I am not arguing the merits or demerits of any claim that any individual American may have, but this is a matter of collective force and world psychology. Will the Prime Minister look into it?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0e456be7-ec7a-46bc-adf6-5c94bbf50495" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0e456be7-ec7a-46bc-adf6-5c94bbf50495">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+                Mr. Somerset de Chair
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">If it is too late to make any further suggestions about the appointment of a supreme Allied naval commander, will the Prime Minister see that the claims of the British Commonwealth to hold the appointment of Allied air commander are considered, when this matter comes up?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-1fbc9d70-81b0-4bce-ba1f-bbc1928828b2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+                Mr. J. Hudson
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-eba22f8c-b4ef-4158-88d9-7fecba08f733" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will the Prime Minister take into account that as we have committed ourselves to the full principle of collective arrangements we cannot now risk the development of illfeeling with America when these arrangements are carried out?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-eba22f8c-b4ef-4158-88d9-7fecba08f733" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-eba22f8c-b4ef-4158-88d9-7fecba08f733">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b9a20516-8018-4b9e-9a6a-4275685073dd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b9a20516-8018-4b9e-9a6a-4275685073dd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b9a20516-8018-4b9e-9a6a-4275685073dd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b9a20516-8018-4b9e-9a6a-4275685073dd">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b9a20516-8018-4b9e-9a6a-4275685073dd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-b9a20516-8018-4b9e-9a6a-4275685073dd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Prime Minister whether this matter is finally settled or whether he will, in view, I think, of the widespread feeling in the House, make a further appeal to the United States to consider this matter in all friendship and loyal feelings of comradeship? As the hon. Member for Attercliffe (Mr. J. Hynd) has said, on the land we welcomed General Eisenhower; the Americans alone have the atomic bomb, which covers a great part of the air, but <span id="1462" class="column-number" data-column-number="1462"></span> here, in this question which is absolutely vital to this island, will he not ask them to give it further consideration? I am only asking that the Prime Minister should believe that they are very ready to treat loyal Allies with all fairness and generosity.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b9a20516-8018-4b9e-9a6a-4275685073dd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-b9a20516-8018-4b9e-9a6a-4275685073dd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-066da163-8d21-42db-9ce7-20cb147b4f75">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-066da163-8d21-42db-9ce7-20cb147b4f75">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-066da163-8d21-42db-9ce7-20cb147b4f75">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-066da163-8d21-42db-9ce7-20cb147b4f75">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-066da163-8d21-42db-9ce7-20cb147b4f75" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-066da163-8d21-42db-9ce7-20cb147b4f75">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I will certainly look into the matter. I cannot say more than that. As I understand it, they have selected the admiral who seems most suitable for this matter. [HON. MEMBERS: "Name."] The name I cannot say. [HON. MEMBERS: "Who are 'they'"?] "They" are the North Atlantic Treaty Organisation. The name has not yet been announced. I will take into full consideration everything that the right hon. Gentleman has said, and will look into the matter.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-066da163-8d21-42db-9ce7-20cb147b4f75" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-066da163-8d21-42db-9ce7-20cb147b4f75">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+                Sir H. Williams
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-922bdf86-adc3-49f4-9526-2ea9e5ed7571" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Who represented us?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-922bdf86-adc3-49f4-9526-2ea9e5ed7571" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-922bdf86-adc3-49f4-9526-2ea9e5ed7571">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d2e6c1f5-6857-4e40-834a-f371dc28eb3c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is late in the day for the Prime Minister of this country to look into the matter. Might I ask him whether he was not consulted beforehand?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d2e6c1f5-6857-4e40-834a-f371dc28eb3c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-d2e6c1f5-6857-4e40-834a-f371dc28eb3c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c8fc8de4-9186-49db-a351-f61e5ded29c2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Answer.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c8fc8de4-9186-49db-a351-f61e5ded29c2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-c8fc8de4-9186-49db-a351-f61e5ded29c2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-47201c58-3991-4391-8c17-9254fc450a23">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-47201c58-3991-4391-8c17-9254fc450a23">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-47201c58-3991-4391-8c17-9254fc450a23">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-47201c58-3991-4391-8c17-9254fc450a23">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-47201c58-3991-4391-8c17-9254fc450a23" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-47201c58-3991-4391-8c17-9254fc450a23">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir, the matter has been very very fully considered. I am saying that I will reconsider it and look into it.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-47201c58-3991-4391-8c17-9254fc450a23" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-47201c58-3991-4391-8c17-9254fc450a23">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5278005a-2a02-4aca-8256-f1deb7d9cc8a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am much obliged to the right hon. Gentleman for saying that he will look into it again and see what can be done.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5278005a-2a02-4aca-8256-f1deb7d9cc8a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-5278005a-2a02-4aca-8256-f1deb7d9cc8a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+                Captain Ryder
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9182676d-fcc4-4988-9841-e18fb3c73ec5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Before this matter is finally decided, can we have a chance to debate the nature of this appointment? To whom is this man to be responsible? What is to be the extent of his command, and the position of the Commanders-in-Chief of the Home Fleet and Coastal Command? Can we have an assurance that our extensive merchant fleet will not pass out of British control?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9182676d-fcc4-4988-9841-e18fb3c73ec5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-9182676d-fcc4-4988-9841-e18fb3c73ec5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cdb74786-d344-44b1-8ab0-6e0c381d5548" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">All these matters will be properly covered when the details of the appointment are announced.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cdb74786-d344-44b1-8ab0-6e0c381d5548" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-cdb74786-d344-44b1-8ab0-6e0c381d5548">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+                Mr. Thurtle
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-05ff6f9f-82a9-4f0f-9e38-84ead63af895" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Has not the Leader of the Opposition, by raising this issue, implied lack of faith in our great American allies—[HON. MEMBERS: "No."]—and is it not deplorable that there should be divisions between America and ourselves over a point like this?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-05ff6f9f-82a9-4f0f-9e38-84ead63af895" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-05ff6f9f-82a9-4f0f-9e38-84ead63af895">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1463" class="column-number column-only" data-column-number="1463"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+                Mr. Collick
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6b8e5661-0f94-42eb-a1b7-23e9e61fd806" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Prime Minister whether any British admiral was nominated for this position?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6b8e5661-0f94-42eb-a1b7-23e9e61fd806" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-6b8e5661-0f94-42eb-a1b7-23e9e61fd806">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+                Mr. Boothby
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Prime Minister said just now that he understood that the Americans had selected an admiral whom they considered most suitable. [HON. MEMBERS: "No."] I would like an assurance that that answer did not imply that we ourselves had no say in the choice or the selection at all, because that implication seemed to give rise to the answer which he gave.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-643b6e8e-9abb-4a89-8dd6-26d50cfd86a0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0c76dc2e-c05a-49ae-864b-b762145581f9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0c76dc2e-c05a-49ae-864b-b762145581f9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0c76dc2e-c05a-49ae-864b-b762145581f9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0c76dc2e-c05a-49ae-864b-b762145581f9">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0c76dc2e-c05a-49ae-864b-b762145581f9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0c76dc2e-c05a-49ae-864b-b762145581f9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Of course we had our say.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0c76dc2e-c05a-49ae-864b-b762145581f9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0c76dc2e-c05a-49ae-864b-b762145581f9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+                Mr. Chetwynd
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0e4b7f58-3b76-4a53-9e1e-0f83e030f861" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In regard to the land Forces, was it not obviously a case of the best man for the job, and will not my right hon. Friend make it clear that the appointment of a naval commander will also be on that principle—the best man for the job, regardless of nationality?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0e4b7f58-3b76-4a53-9e1e-0f83e030f861" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-0e4b7f58-3b76-4a53-9e1e-0f83e030f861">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-199148a6-4566-4e63-87df-e4af6506b866">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-199148a6-4566-4e63-87df-e4af6506b866">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-199148a6-4566-4e63-87df-e4af6506b866">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-199148a6-4566-4e63-87df-e4af6506b866">
+                Major Legge-Bourke
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-199148a6-4566-4e63-87df-e4af6506b866" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-199148a6-4566-4e63-87df-e4af6506b866">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will the Prime Minister bear in mind that his apparent aloofness this afternoon can only give the impression that he has never taken a personal interest in this matter? Will he give an assurance that he will make this his personal business and do his best to ensure that Great Britain is properly represented?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-199148a6-4566-4e63-87df-e4af6506b866" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-199148a6-4566-4e63-87df-e4af6506b866">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+                Sir R. Acland
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-54b556f9-cdae-4fe9-94d3-81fe8dc94354" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is it not a little strange that a statesman who so loudly proclaims his belief in European unity should protest so violently when a decision with which he disagrees is reached by a group of nations, many of them European?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-54b556f9-cdae-4fe9-94d3-81fe8dc94354" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-02-22/debates/6e40b89e-7f74-4d09-9579-c2cf0da2d813/SupremeCommanderAtlantic#contribution-54b556f9-cdae-4fe9-94d3-81fe8dc94354">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

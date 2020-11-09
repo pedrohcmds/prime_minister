@@ -1,0 +1,646 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>U-Boat Warfare - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1939-09-26">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1939-09-26/debates/6cd326fb-036a-4fdf-9cfd-b80b854e8368/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1939-09-26">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1939-09-26/debates/e7f8fb5b-2af6-486f-a2cd-b16e148a89ec/WarSituation" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                U-Boat Warfare
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1939-09-26/debates/1a569d00-048e-4ce2-b659-f93c8c5b5146/WarSituation" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2948342" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>26 September 1939</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 351</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c530dc91-2a0c-467a-aeab-bbad9c36b814'>
+            
+<p class="">4.13 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-1c8162fc-23ad-46ad-90f8-f81847227dda">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1c8162fc-23ad-46ad-90f8-f81847227dda">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1c8162fc-23ad-46ad-90f8-f81847227dda">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1c8162fc-23ad-46ad-90f8-f81847227dda">
+                The First Lord of the Admiralty (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1c8162fc-23ad-46ad-90f8-f81847227dda" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-1c8162fc-23ad-46ad-90f8-f81847227dda">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The war at sea opened with some intensity. All our ships were going about the world in the ordinary way, when they were set upon by lurking U-boats, carefully posted beforehand. In the first week our losses in tonnage were half the weekly losses of the month of April, 1917, which was the peak year of U-boat attack in the late War. That was a very serious proportion. We immediately replied in three ways. First, we set in motion the convoy system. This could be very quickly done for all outgoing ships, but it took a fortnight to organise from the other end the convoys of homeward-bound ships. This system is now in full operation — in full operation both ways. Meanwhile, however, large numbers of ships which had started independently, under the ordinary conditions of peace, had day after day to run the gauntlet of the waiting U-boats with- <span id="1240" class="column-number" data-column-number="1240"></span> out being either armed or escorted, and in consequence a serious, though, I am glad to say, diminishing, toll was exacted. The convoy system is a good and well-tried defence against U-boat attack, but no one can pretend that it is a complete defence. Some degree of risk and a steady proportion of losses must be expected. There are also other forms of attack besides U-boats, attacks from surface craft and from the air, against which we must be on our guard. I can assure the House that every preparation is being made to cope with such attacks, but I must again warn the House that we cannot guarantee immunity and that we must expect further losses.<p></p> Our second reply to the U-boat attack is to arm all our merchant vessels and fast liners with defensive armament against both the U-boat and the aeroplane. For a fortnight past armed ships have been continually leaving the harbours of this island in large numbers. Some go in convoy, some go independently. This applies not only to the United Kingdom, but to our ports all over the world. Thus in a short time the immense Mercantile Marine of the British Empire will be armed. As we usually have 2,000 ships on salt water every day, this is a considerable operation. However, all the guns and equipment are ready at the various arming stations, together with a proportion of trained gunners to man them and to instruct the ordinary seamen. Let me pay my tribute to the care of my predecessors at the Admiralty, who have provided so well for this contingency.<p></p> Our third reply is, of course, the British attack upon the U-boats. This is being delivered with the utmost vigour and intensity. It is a strange experience to me to sit at the Admiralty again, after a quarter of a century, and to find myself moving over the same course, against the same enemy, and in the same months of the year — the sort of thing that one would hardly expect to happen. But it gives me an opporunity of making comparisons which, perhaps, no one else could make, and I see how much greater are the advantages which we possess to-day in coping with the U-boat than we did in the first U-boat campaign 25 years ago. In those days there were moments when the problem seemed well-nigh insoluble. Very often to hunt down a U-boat it was necessary to use a flotilla of 15 or 20 vessels <span id="1241" class="column-number" data-column-number="1241"></span> working together for a whole day on the vaguest indications. Now two destroyers or even one can maintain prolonged and relentless pursuit. A very large number of attacks have been made by our flotillas and hunting craft. Of course, there are many false alarms, some even of a comical character. Still, it is no exaggeration to say that the attacks upon the German U-boats have been five or six times as numerous as in any equal period in the Great War, in which, after all, they did not beat us.<p></p> My right hon. Friend the Prime Minister mentioned last week the figure of six or seven U-boats destroyed. That was, as he said, probably an understatement. Since then we have had some fruitful and hopeful days; but even taking six or seven as a safe figure, that is one-tenth of the total enemy submarine fleet as it existed at the declaration of war destroyed during the first fortnight of the war, and it is probably one-quarter, or perhaps even one-third, of all the U-boats which are being employed actively. All these vessels, those that have been sunk and those that have escaped, have subjected themselves to what is said to be one of the most trying ordeals which men can undergo in wartime. A large proportion never return home, and those who do have grim tales to tell. But the British attack upon the U-boat is only just beginning. Our hunting force is getting stronger every day. By the end of October we expect to have three times the hunting force which was operating at the beginning of the war, while at the same time the number of targets open to U-boats upon the vast expanses of the seas and oceans will be greatly reduced by the use of convoys, and, at the same time, the U-boat means of attacking them will be heavily clogged and fettered.<p></p> In all this very keen and stem warfare the Royal Air Force and the Fleet Air Arm, as the Prime Minister has already mentioned this afternoon, have played an important part both in directing the hunting destroyers upon their quarry and in actually attacking it themselves. It was to bridge the gap between what we had ready at the beginning and what we have ready now that the Admiralty decided to use the aircraft carriers with some freedom in order to bring in the unarmed, unorganised and unconvoyed traffic which was then approaching our <span id="1242" class="column-number" data-column-number="1242"></span> shores in large numbers. Risks have to be run all the time in naval war, and sometimes grievous forfeit is exacted. The "Courageous" was attended by four destroyers, but two had to go to hunt a U-boat attacking a merchant ship towards evening. When the "Courageous" turned into the wind at the dusk in order to enable her own aircraft to alight upon her landing deck, she happened, by what may have been a hundred to one chance or more, to meet a U-boat in her unpredictable course.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1c8162fc-23ad-46ad-90f8-f81847227dda" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-1c8162fc-23ad-46ad-90f8-f81847227dda">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+                Mr. Bellenger
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">But only two destroyers?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-fdd0e6fe-3ae3-4216-84cf-c0d496a6ac12">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1f274d64-7eb8-4ca5-aa48-66571700526e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1f274d64-7eb8-4ca5-aa48-66571700526e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1f274d64-7eb8-4ca5-aa48-66571700526e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1f274d64-7eb8-4ca5-aa48-66571700526e">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1f274d64-7eb8-4ca5-aa48-66571700526e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-1f274d64-7eb8-4ca5-aa48-66571700526e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">But that is the great problem for us — to find destroyers for our many needs, many needs which I cannot mention to the House, which make great demands upon us. This hard stroke of war in no way diminishes our confidence in the methods now at our disposal. On the contrary, our confidence in them has grown with every day they have been employed, and I believe that their potency will become more apparent in proportion as the great numbers of new vessels come into action, and in proportion as our hunting officers get the knack of using depth charges by frequent practice.<p></p> Therefore, I cannot feel at the end of the first three weeks of the naval war that the judgment formed by the Admiralty before the war — which I myself, after having been afforded full opportunity of seeing it at work, endorsed as a private Member — was at fault or stands in any need of revision, except perhaps in a favourable sense. In the first week our losses by U-boat sinkings amounted to 65,000 tons; in the second week, they were 46,000 tons; and in the third week they were 21,000 tons. In the last six days we have lost only 9,000 tons. One must not dwell upon these reassuring figures too much, for war is full of unpleasant surprises, but certainly I am entitled to say that so far as they go these figures do not need to cause any undue despondency or alarm.<p></p> Meanwhile, the whole vast business of our world-wide trade continues without interruption and without appreciable diminution. Great convoys of troops are escorted to their various destinations. The enemy's ships and commerce have been swept from the seas. Over <span id="1243" class="column-number" data-column-number="1243"></span> 2,000,000 tons of German shipping is now sheltering in German, or interned in neutral, harbours. Our system of contraband control, to which my right hon. Friend has just alluded, is being perfected, and so far as the first fortnight of the war is concerned, for which alone I have the figures, we have actually arrested, seized and converted to our own use 67,000 tons more German merchandise than has been sunk in ships of our own. Even in oil —</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1f274d64-7eb8-4ca5-aa48-66571700526e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-1f274d64-7eb8-4ca5-aa48-66571700526e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-814ce01d-c618-462a-b557-c0101303c203">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-814ce01d-c618-462a-b557-c0101303c203">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-814ce01d-c618-462a-b557-c0101303c203">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-814ce01d-c618-462a-b557-c0101303c203">
+                Mr. Benjamin Smith
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-814ce01d-c618-462a-b557-c0101303c203" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-814ce01d-c618-462a-b557-c0101303c203">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">But you have lost the ships.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-814ce01d-c618-462a-b557-c0101303c203" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-814ce01d-c618-462a-b557-c0101303c203">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-915acc0e-9129-4e08-8a81-86c9282e712a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-915acc0e-9129-4e08-8a81-86c9282e712a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-915acc0e-9129-4e08-8a81-86c9282e712a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-915acc0e-9129-4e08-8a81-86c9282e712a">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-915acc0e-9129-4e08-8a81-86c9282e712a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-915acc0e-9129-4e08-8a81-86c9282e712a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">— where we were unlucky in losing some tankers, we have lost 60,000 tons in the first fortnight and gained 50,000 tons from the enemy, apart from the enormous additional stores we have brought safely in in the ordinary way. Again, I reiterate my caution against over-sanguine deductions. We have, however, in fact got more supplies in this country this afternoon than we should have had had no war been declared and no U-boat had come into action. It is not going beyond the limits of prudent statement if I say that at that rate it will take a long time to starve us out.<p></p> I will now deal a little with the character of this warfare. From time to time the German U-boat commanders have tried their best to behave with humanity. We have seen them give good warning and also endeavour to help the crews to find their way to port. One German captain signalled to me personally the position of a British ship which he had just sunk, and urged that rescue should be sent. He signed his message, "German submarine." I was in some doubt at the time as to what address I should direct a reply. However, he is now in our hands, and is treated with all consideration.<p></p> But many cruel and ruthless acts have been done. There was the "Athenia," then later the "Royal Sceptre," whose crew of 32 were left in open boats hundreds of miles from land and are assumed to have perished. Then there was the "Hazelside"— only the day before yesterday — 12 of whose sailors were killed by surprise gunfire, in an ordinary merchant ship, and whose captain died in so gallant a fashion, going <span id="1244" class="column-number" data-column-number="1244"></span> down with his vessel. We cannot at all recognise this type of warfare as other than contrary to all the long acquired and accepted traditions of the sea. We cannot recognise it as other than a violation of the laws of war, to which the Germans themselves have in recent years so lustily subscribed. But it is a measure of the success of our attack upon the U-boats in the last few days that they seem, as the Prime Minister has told us, to prefer neutral shipping or humble fishing boats to our regular merchant ships. Finnish, Dutch, Swedish, Greek, Norwegian and Belgian ships have been sunk on the high seas, in an indiscriminate manner, and with loss of life. In all the far-reaching control, becoming increasingly more effective, which we ourselves are exercising upon the movements of contraband no neutral ship has ever been put in danger, and no law recognised among civilised nations has been contravened. Even when German ships have deliberately sunk themselves to avoid the formalities of the Prize Court we have so far succeeded in rescuing their crews.<p></p> Such is the U-boat war — hard, widespread and bitter, a war of groping and drowning, a war of ambuscade and stratagem, a war of science and seamanship. All the more must we all respect the resolute spirit of the officers and men of the Mercantile Marine who put to sea with alacrity, sure that they are discharging a duty indispensable to the life of their island home.<p></p> What of the future? In the last war the first U-boat attack in the winter of 1914 was beaten off by such primitive measures as we could devise, and thereafter there was a long pause. Then came a terrible change. A much larger number of U-boats were built and launched upon the seas in the summer and autumn of 1917; but by that time we also had great counter-preparations ready. We have made great progress in these counter-preparations at the present time, and if we must expect a renewed and more severe attack at a later stage we have every reason to believe that our arrangement's will be adequate to meet it. Let it be noted that in the late War one-third of the damage done to British and neutral commerce, one-third of the whole vast catalogue of damage from U-boat attack, was due to 25 experienced professional U-boat captains belonging to the old submarine service of Germany. It <span id="1245" class="column-number" data-column-number="1245"></span> would seem from this that it will be much easier for our enemies, who seek our destruction, to build more U-boats than it will be to replace the highly-skilled limited class of professional officers and crews who are now being captured or destroyed.<p></p> Moreover, if we are losing tonnage we are also taking steps to replace it on a far larger scale. Old ships which were laid up are being refitted and prepared for sea. An enormous building programme of new ships of a simple character, capable of being very rapidly built, is already in full career, in fulfilment of the action taken and of the plans made before the war by my right hon. Friend the President of the Board of Trade. We therefore, hope to have a much larger margin in the future to meet new forms of attack or new scales of attack.<p></p> The House will observe that I have confined myself this afternoon entirely to this topic of U-boat warfare. I am not attempting now to deal with any of the other widespread activities of the Royal Navy, or with any other of those grave problems which require vigilance and merit description. As occasion serves, as events suggest, I shall seek other opportunities of making statements to the House. But, after all, the U-boat attack upon British ocean-wide commerce was one of the most heart-shaking hazards of the last war. It seemed during the early months of 1917 that it might compass our total ruin. Only those who lived through it at the summit know what it was like. I was not at that time in office, but my right hon. Friend the Prime Minister of those days, the right hon. Member for Carnarvon Boroughs (Mr. Lloyd George), kept me closely informed, and I watched with a fear that I never felt at any other moment in that struggle the deadly upward movement of the curve of sinkings over the arrival of new construction. That was, in my opinion, the gravest peril which we faced in all the ups and downs of that war. We have no reason, upon the information and experience which are now available, to suppose that such a situation will recur. And if this surmise — and it cannot be more than that — should prove correct, what does it mean? It means that one primary danger is falling into its proper confines, and that amid ill our anxieties we can feel a certain steady measure of assurance that, so far <span id="1246" class="column-number" data-column-number="1246"></span> as the submarine is concerned, the British Empire and all its friends in every quarter of the globe will be able to develop their immeasurable latent force and that the whole strength, wealth, resources and man-power of these many communities can be concentrated in ever growing intensity upon the task we have in hand, in which task we have only to persevere to conquer.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-915acc0e-9129-4e08-8a81-86c9282e712a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-09-26/debates/b9258fd9-1c2a-4b5c-8e5b-9b64c8407585/U-BoatWarfare#contribution-915acc0e-9129-4e08-8a81-86c9282e712a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

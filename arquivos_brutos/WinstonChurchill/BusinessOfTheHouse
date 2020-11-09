@@ -1,0 +1,956 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Business Of The House - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1937-06-17">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1937-06-17/debates/24aaf244-0178-4f19-9629-f8d713278b76/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/b39542e2-57af-4c82-802b-b2c150449b0e"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1937-06-17">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1937-06-17/debates/fe2e5553-0c46-4a51-9fc0-6d39b289054a/QuestionsToMinisters" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Business Of The House
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1937-06-17/debates/b49eab13-3872-4091-acb4-3e47f4603ffa/NewMemberSworn" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2591708" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>17 June 1937</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 325</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+                Mr. Attlee
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Prime Minister what will be the business for next week, and also how far it is proposed to go to-night in the event of the Eleven o'Clock Rule being suspended?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-3ed5f932-7c4b-4eee-b2d9-d3ae7f8bd0d3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-498d6cf2-ad62-429e-8295-e59581d73935">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-498d6cf2-ad62-429e-8295-e59581d73935">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-498d6cf2-ad62-429e-8295-e59581d73935">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-498d6cf2-ad62-429e-8295-e59581d73935">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-498d6cf2-ad62-429e-8295-e59581d73935" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-498d6cf2-ad62-429e-8295-e59581d73935">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The business for next week will be:</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-498d6cf2-ad62-429e-8295-e59581d73935" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-498d6cf2-ad62-429e-8295-e59581d73935">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b651637d-d29a-4590-a9e4-f33f0e42a3f5'>
+            
+<p class="">Monday: —The Charge of National Defence Contribution Resolution will be considered in Committee of Ways and Means.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3956ced2-db45-4287-9e58-78a9881cab9e'>
+            
+<p class="">Tuesday: —Consideration of a Motion relating to the proposed increase in Members' Salaries until about 7.30 p.m. (The terms of the Motion will appear on the Order Paper to-morrow); Third Reading of the Factories Bill; and Report stage of the Charge of National Defence Contribution Resolution.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c456353c-7977-45c4-bdb9-e9175be0f545'>
+            
+<p class="">Wednesday: —Supply; Committee (13th Allotted Day): The Ministry of Labour Vote will be considered, with special reference to the work of the International Labour Office.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f0173645-10c2-4c24-ab90-b9a324b3012a'>
+            
+<p class="">Thursday: —Supply; Committee (14th Allotted Day): The Estimate for the</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 Division content-container " id='contribution-859a75ae-1f5d-4f66-a3b9-cb8c7ebb0442'>
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" Division "></span>
+
+<p class="Division"><division></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td align="center"></p><p class="Division">  <b>Division No. 225.]</b></p><p class="Division"> </td></p><p class="Division"> <td align="center"></p><p class="Division">  <b>AYES.</b></p><p class="Division"> </td></p><p class="Division"> <td align="right"></p><p class="Division">  <b>[3.59 p.m.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Acland-Treyte, Lt.-Col. G. J.</td></p><p class="Division"> <td>Balfour, Capt. H. H. (Isle of Thanet)</td></p><p class="Division"> <td>Braithwaite, Major A. N.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, S. V. T. (Leeds, W.)</td></p><p class="Division"> <td>Balniel, Lord</td></p><p class="Division"> <td>Brass, Sir W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Agnew, Lieut.-Comdr. P. G.</td></p><p class="Division"> <td>Baxter, A. Beverley</td></p><p class="Division"> <td>Briscoe, Capt. R. G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Albery, Sir Irving</td></p><p class="Division"> <td>Beamish, Rear-Admiral T. P. H.</td></p><p class="Division"> <td>Brocklebank, Sir Edmund</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Allen, Col. J. Sandeman (B'knhead)</td></p><p class="Division"> <td>Beaumont, M. W. (Aylesbury)</td></p><p class="Division"> <td>Brown, Col. D. C. (Hexham)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Anderson, Sir A. Garrett (C. of Ldn.)</td></p><p class="Division"> <td>Beaumont, Hon, R. E. B. (Portsm'h)</td></p><p class="Division"> <td>Brown, Rt. Hon. E. (Leith)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Apsley, Lord</td></p><p class="Division"> <td>Beit, Sir A. L.</td></p><p class="Division"> <td>Bullock, Capt. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Aske, Sir R. W,</td></p><p class="Division"> <td>Bennett, Sir E. N.</td></p><p class="Division"> <td>Burgin, Rt. Hon. E. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Assheton, R.</td></p><p class="Division"> <td>Bernays, R. H.</td></p><p class="Division"> <td>Cartland, J. R. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Baillie, Sir A. W. M.</td></p><p class="Division"> <td>Birehall, Sir J. D.</td></p><p class="Division"> <td>Carver, Major W. H.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"></division></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="568" class="column-number column-only" data-column-number="568"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7f42741d-5a50-4d2a-a811-3b926c883374'>
+            
+<p class="">Scottish Board of Health and other Scottish Estimates will be considered.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-756f86d2-b043-45fc-8d34-553b2fe50cf4'>
+            
+<p class="">The business for Friday will be announced later.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-41a160fc-9731-4ae8-8274-478dbfaa0f2e'>
+            
+<p class="">On any day, if there is time, other Orders will be taken.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-eacc12de-cb4f-4ea1-a59c-eaedcf676b1f'>
+            
+<p class="">As to the suspension of the Rule to-night, it is proposed to suspend the Rule in order to make certain that we shall conclude the Report stage of the Factories Bill to-night. We also propose to take the Report stage of the Agricultural Wages (Regulation) (Scotland) [Money] Resolution, which, I think, will be treated as formal.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+                Mr. Attlee
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e9f7aa89-836d-4f4b-b510-39d7570c182c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With regard to Tuesday's business, it is obviously difficult to judge how long the Debate on Members' salaries will take, but I take it that it will not be proposed to take the Third Reading of the Factories Bill, which is very important, at a very late hour that night?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e9f7aa89-836d-4f4b-b510-39d7570c182c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-e9f7aa89-836d-4f4b-b510-39d7570c182c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d6d95658-0e03-413e-b6c6-985ceed5f546">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d6d95658-0e03-413e-b6c6-985ceed5f546">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d6d95658-0e03-413e-b6c6-985ceed5f546">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d6d95658-0e03-413e-b6c6-985ceed5f546">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d6d95658-0e03-413e-b6c6-985ceed5f546" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-d6d95658-0e03-413e-b6c6-985ceed5f546">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, Sir, but I am hoping that we shall be able to get it at a reasonable hour.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d6d95658-0e03-413e-b6c6-985ceed5f546" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-d6d95658-0e03-413e-b6c6-985ceed5f546">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+                Mr. Attlee
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1bb3ad14-1f05-46b2-b478-41b61b70c07d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I further ask the Prime Minister whether the Government propose to give a day for discussion of the proceedings of the Imperial Conference?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1bb3ad14-1f05-46b2-b478-41b61b70c07d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-1bb3ad14-1f05-46b2-b478-41b61b70c07d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e537dd9e-db14-4a4c-9770-083664b7a1c9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I shall be ready to consider that. Perhaps the right hon. Gentleman will discuss the matter through the usual channels.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e537dd9e-db14-4a4c-9770-083664b7a1c9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-e537dd9e-db14-4a4c-9770-083664b7a1c9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c48fff03-956d-49c5-99e6-cadfb42f8997">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c48fff03-956d-49c5-99e6-cadfb42f8997">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c48fff03-956d-49c5-99e6-cadfb42f8997">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c48fff03-956d-49c5-99e6-cadfb42f8997">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c48fff03-956d-49c5-99e6-cadfb42f8997" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-c48fff03-956d-49c5-99e6-cadfb42f8997">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the Prime Minister in a position to give any indication as to when the Indian Budget or its equivalent will be taken?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c48fff03-956d-49c5-99e6-cadfb42f8997" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-c48fff03-956d-49c5-99e6-cadfb42f8997">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f86b3833-e4cf-4906-af63-47a5373efe11">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f86b3833-e4cf-4906-af63-47a5373efe11">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f86b3833-e4cf-4906-af63-47a5373efe11">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f86b3833-e4cf-4906-af63-47a5373efe11">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f86b3833-e4cf-4906-af63-47a5373efe11" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-f86b3833-e4cf-4906-af63-47a5373efe11">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think that is a matter for Committee of Supply.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f86b3833-e4cf-4906-af63-47a5373efe11" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1937-06-17/debates/b39542e2-57af-4c82-802b-b2c150449b0e/BusinessOfTheHouse#contribution-f86b3833-e4cf-4906-af63-47a5373efe11">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-793185e8-3d42-4bae-a1ef-2537f2a01c11'>
+            
+<p class="">Motion made, and Question put,</p><p class=""> <blockquote><q>"That the Proceedings on Government Business be exempted, at this day's Sitting, from the provisions of the Standing Order (Sittings of the House)."—[<em>The Prime Minister.</em>]</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-83eb4b13-796c-4571-a65d-11718952cfe7'>
+            
+<p class="">The House divided: Ayes, 217; Noes, 128.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="569" class="column-number column-only" data-column-number="569"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 Division content-container " id='contribution-dc849236-685f-477a-8a67-0ffba7db7353'>
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" Division "></span>
+
+<p class="Division"><division></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td>Castlereagh, Viscount</td></p><p class="Division"> <td>Higgs, W. F.</td></p><p class="Division"> <td>Pownall, Lt.-Col. Sir Assheton</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cayzer, Sir C. W. (City of Chester)</td></p><p class="Division"> <td>Hills, Major Rt. Hon. J. W. (Ripon)</td></p><p class="Division"> <td>Procter, Major H. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cayzer, Sir H. R. (Portsmouth, S.)</td></p><p class="Division"> <td>Hoare, Rt. Hon. Sir S.</td></p><p class="Division"> <td>Radford, E. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cazalet, Thelma (Islington, E.)</td></p><p class="Division"> <td>Hore-Belisha, Rt. Hon. L.</td></p><p class="Division"> <td>Raikes, H. V. A. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cazalet, Capt. V. A. (Chippenham)</td></p><p class="Division"> <td>Horsbrugh, Florence</td></p><p class="Division"> <td>Ramsbotham, H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Chamberlain, Rt. Hn. N. (Edgb't'n)</td></p><p class="Division"> <td>Howitt, Dr. A. B.</td></p><p class="Division"> <td>Ramsden, Sir E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Channon, H.</td></p><p class="Division"> <td>Hudson, Capt. A. U. M. (Hack., N.)</td></p><p class="Division"> <td>Rayner, Major R. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Chapman, Sir S. (Edinburgh, S.)</td></p><p class="Division"> <td>Hudson, R. S. (Southport)</td></p><p class="Division"> <td>Reid, Sir D. D. (Down)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Chorlton, A. E. L.</td></p><p class="Division"> <td>Hulbert, N. J.</td></p><p class="Division"> <td>Remer, J. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Christie, J. A.</td></p><p class="Division"> <td>Hume, Sir G. H.</td></p><p class="Division"> <td>Rickards, G. W. (Skipton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Churchill, Rt. Hon. Winston S.</td></p><p class="Division"> <td>Hunter, T.</td></p><p class="Division"> <td>Ropner, Colonel L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Clarke, F. E. (Dartford)</td></p><p class="Division"> <td>Hurd, Sir P. A.</td></p><p class="Division"> <td>Ross, Major Sir R. D. (Londonderry)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Clarry, Sir Reginald</td></p><p class="Division"> <td>Inskip, Rt. Hon. Sir T. W. H.</td></p><p class="Division"> <td>Ross Taylor, W. (Woodbridge)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Clydesdale, Marquess of</td></p><p class="Division"> <td>Kerr, H. W. (Oldham)</td></p><p class="Division"> <td>Rowlands, G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cobb, Captain E. C. (Preston)</td></p><p class="Division"> <td>Kerr, J. Graham (Scottish Univs.)</td></p><p class="Division"> <td>Russell, Sir Alexander</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Colville, Lt.-Col. Rt. Hon. D. J.</td></p><p class="Division"> <td>Keyes, Admiral of the Fleet Sir R.</td></p><p class="Division"> <td>Russell, R. J. (Eddisbury)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cooke, J. D. (Hammersmith, S.)</td></p><p class="Division"> <td>Lamb, Sir J. Q.</td></p><p class="Division"> <td>Russell, S. H. M. (Darwen)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cooper, Rt. Hn. T. M. (E'nburgh, W.)</td></p><p class="Division"> <td>Lambert, Rt. Hon. G.</td></p><p class="Division"> <td>Salmon, Sir I.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cox, H. B. T.</td></p><p class="Division"> <td>Latham, Sir P.</td></p><p class="Division"> <td>Salt, E. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Critchley, A.</td></p><p class="Division"> <td>Law, Sir A. J. (High Peak)</td></p><p class="Division"> <td>Samuel, M. R. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Croft, Brig.-Gen. Sir H. Page</td></p><p class="Division"> <td>Leckie, J. A.</td></p><p class="Division"> <td></td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Crooke, J. S.</td></p><p class="Division"> <td>Lees-Jones, J.</td></p><p class="Division"> <td>Sandeman, Sir N. S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cross, R. H.</td></p><p class="Division"> <td>Leighton, Major B. E. P.</td></p><p class="Division"> <td>Sandys, E. D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Cruddas, Col. B.</td></p><p class="Division"> <td>Lennox-Boyd, A. T. L.</td></p><p class="Division"> <td>Selley, H. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Culverwell, C. T.</td></p><p class="Division"> <td>Levy, T.</td></p><p class="Division"> <td>Shakespeare, G. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Davison, Sir W. H.</td></p><p class="Division"> <td>Liddall, W. S.</td></p><p class="Division"> <td>Shaw, Major P. S. (Wavertree)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>De la Bère, R.</td></p><p class="Division"> <td>Lindsay, K. M.</td></p><p class="Division"> <td>Shepperson, Sir E. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Denman, Hon. R. D.</td></p><p class="Division"> <td>Little, Sir E. Graham-</td></p><p class="Division"> <td>Simon, Rt. Hon. Sir J. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Denville, Alfred</td></p><p class="Division"> <td>Llewellin, Lieut.-Col. J. J.</td></p><p class="Division"> <td>Smiles, Lieut.-Colonel Sir W. D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Donner, P. W.</td></p><p class="Division"> <td>Lloyd, G. W.</td></p><p class="Division"> <td>Smith, Sir R. W. (Aberdeen)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dorman-Smith, Major Sir R. H.</td></p><p class="Division"> <td>Lovat-Fraser, J. A.</td></p><p class="Division"> <td>Somerville, A. A. (Windsor)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Dugdale, Captain T. L.</td></p><p class="Division"> <td>Mabane, W. (Huddersfield)</td></p><p class="Division"> <td>Stanley, Rt. Hon. Oliver (W'm'fd)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duggan, H. J.</td></p><p class="Division"> <td>MacAndrew, Colonel Sir C. G.</td></p><p class="Division"> <td>Strauss, E. A. (Southwark, N.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Duncan, J. A. L.</td></p><p class="Division"> <td>McCorquodale, M. S.</td></p><p class="Division"> <td>Strauss, H. G. (Norwich)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Elliot, Rt. Hon. W. E.</td></p><p class="Division"> <td>McEwen, Capt. J. H. F.</td></p><p class="Division"> <td>Stuart, Lord C. Crichton- (N'thw'h)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ellis, Sir G.</td></p><p class="Division"> <td>McKie, J, H.</td></p><p class="Division"> <td>Sueter, Rear-Admiral Sir M. F.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Elliston, Capt. C. S.</td></p><p class="Division"> <td>Macnamara, Capt. J. R. J.</td></p><p class="Division"> <td>Tasker, Sir R. I.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Emery, J. F.</td></p><p class="Division"> <td>Macquisten, F. A.</td></p><p class="Division"> <td>Tate, Mavis C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Emmott, C. E. G. C.</td></p><p class="Division"> <td>Maitland, A.</td></p><p class="Division"> <td>Taylor, Vice-Adm. E. A, (Padd., S.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Emrys-Evans, P. V.</td></p><p class="Division"> <td>Margesson, Capt. Rt. Hon. H. D. R.</td></p><p class="Division"> <td>Thomas, J. P. L.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Entwistle, Sir C. F.</td></p><p class="Division"> <td>Mellor, Sir J. S. P. (Tamworth)</td></p><p class="Division"> <td>Titchfield, Marquess of</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Errington, E.</td></p><p class="Division"> <td>Mills, Sir F. (Leyton, E.)</td></p><p class="Division"> <td>Touch, G. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Everard, W. L.</td></p><p class="Division"> <td>Mills, Major J. D. (New Forest)</td></p><p class="Division"> <td>Tryon, Major Rt. Hon. G. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fildes, Sir H.</td></p><p class="Division"> <td>Mitchell, Sir W. Lane (Streatham)</td></p><p class="Division"> <td>Turton, R. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Fremantle, Sir F. E.</td></p><p class="Division"> <td>Morris, O. T. (Cardiff, E.)</td></p><p class="Division"> <td>Wakefield, W. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Furness, S. N.</td></p><p class="Division"> <td>Morris-Jones, Sir Henry</td></p><p class="Division"> <td>Wallace, Capt. Rt. Hon. Euan</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ganzoni, Sir J.</td></p><p class="Division"> <td>Morrison, G. A. (Scottish Univ's.)</td></p><p class="Division"> <td>Warrender, Sir V.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gilmour, Lt.-Col. Rt. Hon. Sir J.</td></p><p class="Division"> <td>Morrison, Rt. Hon. W. S. (Cirencester)</td></p><p class="Division"> <td>Waterhouse, Captain C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gluckstein, L. H.</td></p><p class="Division"> <td>Munro, P.</td></p><p class="Division"> <td>Watt, G. S. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grattan-Doyle, Sir N.</td></p><p class="Division"> <td>Neven-Spence, Major B. H. H.</td></p><p class="Division"> <td>Wedderburn, H. J. S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gridley, Sir A. B.</td></p><p class="Division"> <td>Nicholson, G. (Farnham)</td></p><p class="Division"> <td>Wells, S. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grigg, Sir E. W. M.</td></p><p class="Division"> <td>Nicolson, Hon. H. G.</td></p><p class="Division"> <td>Wickham, Lt.-Col. E. T. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Grimston, R. V.</td></p><p class="Division"> <td>O'Connor, Sir Terence J.</td></p><p class="Division"> <td>Williams, H. G. (Croydon, S.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Guest, Lieut.-Colonel H. (Drake)</td></p><p class="Division"> <td>O'Neill, Rt. Hon. Sir Hugh</td></p><p class="Division"> <td>Wilson, Lt.-Col. Sir A. T. (Hitchin)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Guest, Maj. Hon. O. (C'mb'rw'll, N.W.)</td></p><p class="Division"> <td>Orr-Ewing, I. L.</td></p><p class="Division"> <td>Windsor-Clive, Lieut.-Colonel G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Guinness, T. L. E. B.</td></p><p class="Division"> <td>Palmer, G. E. H.</td></p><p class="Division"> <td>Winterton, Rt. Hon. Earl</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Gunston, Capt. D. W.</td></p><p class="Division"> <td>Patrick, C. M.</td></p><p class="Division"> <td>Withers, Sir J. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Guy, J. C. M.</td></p><p class="Division"> <td>Peake, O.</td></p><p class="Division"> <td>Wood, Rt. Hon. Sir Kingsley</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hannah, I. C.</td></p><p class="Division"> <td>Peat, C. U.</td></p><p class="Division"> <td>Wright, Squadron-Leader J. A. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hannon, Sir P. J. H.</td></p><p class="Division"> <td>Percy, Rt. Hon. Lord E.</td></p><p class="Division"> <td>Young, A. S. L. (Partick)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Haslam, H. C. (Horncastle)</td></p><p class="Division"> <td>Perkins, W. R. D.</td></p><p class="Division"> <td></td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Haslam, Sir J. (Bolton)</td></p><p class="Division"> <td>Pickthorn, K. W. M.</td></p><p class="Division"> <td></p><p class="Division">  <b>TELLERS FOR THE AYES.</b>—</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Heneage, Lieut.-Colonel A. P.</td></p><p class="Division"> <td>Pilkington, R.</td></p><p class="Division"> <td>Mr. James Stuart and Lieut.-Colonel</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hepburn, P. G. T. Buchan-</td></p><p class="Division"> <td>Porritt, R. W.</td></p><p class="Division"> <td>Sir A. Lambert Ward.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td colspan="3" align="center"></p><p class="Division">  <b>NOES.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Actand, R. T. D. (Barnstaple)</td></p><p class="Division"> <td>Cape, T.</td></p><p class="Division"> <td>Fletcher, Lt.-Comdr. R. T. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, D. (Consett)</td></p><p class="Division"> <td>Cassells, T.</td></p><p class="Division"> <td>Frankel, D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, D. M. (Poplar, S.)</td></p><p class="Division"> <td>Chater, D.</td></p><p class="Division"> <td>Gallacher, W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adamson, W. M.</td></p><p class="Division"> <td>Cluse, W. S.</td></p><p class="Division"> <td>Gardner, B. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Alexander, Rt. Hon. A. V. (H'lsbr.)</td></p><p class="Division"> <td>Clynes, Rt. Hon. J. R.</td></p><p class="Division"> <td>Garro Jones, G. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Amnion, C. G.</td></p><p class="Division"> <td>Cocks, F. S.</td></p><p class="Division"> <td>Gibbins, J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Attlee, Rt. Hon. C. R.</td></p><p class="Division"> <td>Cove, W. G.</td></p><p class="Division"> <td>Graham, D. M. (Hamilton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Banfield, J. W.</td></p><p class="Division"> <td>Daggar, G.</td></p><p class="Division"> <td>Green, W. H. (Deptford)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Barnes, A. J.</td></p><p class="Division"> <td>Dalton, H.</td></p><p class="Division"> <td>Greenwood, Rt. Hon. A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Barr, J.</td></p><p class="Division"> <td>Davidson, J. J. (Maryhill)</td></p><p class="Division"> <td>Griffiths, G. A. (Hemsworth)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Batey, J.</td></p><p class="Division"> <td>Davies, R. J. (Westhoughton)</td></p><p class="Division"> <td>Hall, J. H. (Whitechapel)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Benn, Rt. Hon. W. W.</td></p><p class="Division"> <td>Davies, S. O. (Merthyr)</td></p><p class="Division"> <td>Harvey, T. E. (Eng. Univ's.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bevan, A.</td></p><p class="Division"> <td>Day, H.</td></p><p class="Division"> <td>Henderson, A. (Kingswinford)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Broad, F. A.</td></p><p class="Division"> <td>Dobbie, W.</td></p><p class="Division"> <td>Henderson, J. (Ardwick)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bromfield, W.</td></p><p class="Division"> <td>Dunn, E. (Rother Valley)</td></p><p class="Division"> <td>Henderson, T. (Tradeston)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Brown, Rt. Hon. J. (S. Ayrshire)</td></p><p class="Division"> <td>Ede, J. C.</td></p><p class="Division"> <td>Hills, A. (Pontefract)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Buchanan, G.</td></p><p class="Division"> <td>Edwards, Sir C. (Bedwellty)</td></p><p class="Division"> <td>Hollins, A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Burke, W. A.</td></p><p class="Division"> <td>Evans, D. O. (Cardigan)</td></p><p class="Division"> <td>Jagger, J.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"> <hs_ColumnNumber column="570" /></p><p class="Division"> <hs_ColumnNumber column="571" /></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td>Jones, A. C. (Shipley)</td></p><p class="Division"> <td>Messer, F.</td></p><p class="Division"> <td>Smith, T. (Normanton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Jones, J. J. (Silvertown)</td></p><p class="Division"> <td>Milner, Major J.</td></p><p class="Division"> <td>Sorensen, R. W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Jones, Morgan (Caerphilly)</td></p><p class="Division"> <td>Montague, F.</td></p><p class="Division"> <td>Stephen, C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Kelly, W. T.</td></p><p class="Division"> <td>Morrison, Rt. Hon. H. (Hackney, S.)</td></p><p class="Division"> <td>Stewart, W. J. (H'ght'n-le-Sp'ng)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Kennedy, Rt. Hon. T.</td></p><p class="Division"> <td>Morrison, R. C. (Tottenham, N.)</td></p><p class="Division"> <td>Strauss, G. R. (Lambeth, N.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Kirby, B. V.</td></p><p class="Division"> <td>Naylor, T. E.</td></p><p class="Division"> <td>Taylor, R. J. (Morpeth)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Lansbury, Rt. Hon. G.</td></p><p class="Division"> <td>Paling, W.</td></p><p class="Division"> <td>Thorne, W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Lathan, G.</td></p><p class="Division"> <td>Pethick-Lawrence, Rt. Hon. F. W.</td></p><p class="Division"> <td>Thurtle, E.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Lawson, J. J.</td></p><p class="Division"> <td>Price, M. P.</td></p><p class="Division"> <td>Tinker, J. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Leach, W.</td></p><p class="Division"> <td>Pritt, D. N.</td></p><p class="Division"> <td>Viant, S. P.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Leonard, W.</td></p><p class="Division"> <td>Richards, R. (Wrexham)</td></p><p class="Division"> <td>Walker, J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Leslie, J. R.</td></p><p class="Division"> <td>Ridley, G.</td></p><p class="Division"> <td>Watkins, F. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Logan, D. G.</td></p><p class="Division"> <td>Ritson, J.</td></p><p class="Division"> <td>Watson, W. McL.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Lunn, W.</td></p><p class="Division"> <td>Roberts, Rt. Hon. F. O. (W. Brom.)</td></p><p class="Division"> <td>Welsh, J. C.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Macdonald, G. (Ince)</td></p><p class="Division"> <td>Robinson, W. A. (St. Helens)</td></p><p class="Division"> <td>Westwood, J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>McEntee, V. La T.</td></p><p class="Division"> <td>Rowson, G.</td></p><p class="Division"> <td>White, H. Graham</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>McGhee, H. G.</td></p><p class="Division"> <td>Sanders, W. S.</td></p><p class="Division"> <td>Whiteley, W. (Blaydon)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>McGovern, J.</td></p><p class="Division"> <td>Seely, Sir H. M.</td></p><p class="Division"> <td>Wilkinson, Ellen</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>MacLaren, A.</td></p><p class="Division"> <td>Sexton, T. M.</td></p><p class="Division"> <td>Williams, E. J. (Ogmore)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>MacNeill, Weir, L.</td></p><p class="Division"> <td>Shinwell, E.</td></p><p class="Division"> <td>Williams, T. (Don Valley)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Mainwaring, W. H.</td></p><p class="Division"> <td>Short, A.</td></p><p class="Division"> <td>Woods, G. S. (Finsbury)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Hander, G. le M.</td></p><p class="Division"> <td>Silverman, S. S.</td></p><p class="Division"> <td>Young, Sir R, (Newton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Marklew, E.</td></p><p class="Division"> <td>Simpson, F. B.</td></p><p class="Division"> <td></td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Marshall, F.</td></p><p class="Division"> <td>Smith, Ben (Rotherhithe)</td></p><p class="Division"> <td></p><p class="Division">  <b>TELLERS FOR THE NOES.</b>—</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Mathers, G.</td></p><p class="Division"> <td>Smith, E. (Stoke)</td></p><p class="Division"> <td>Mr. Groves and Mr. Charleton.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Maxton, J.</td></p><p class="Division"> <td>Smith, Rt. Hon. H. B. Lees- (K'ly)</td></p><p class="Division"> <td></td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"></division></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

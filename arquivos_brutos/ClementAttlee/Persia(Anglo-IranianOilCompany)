@@ -1,0 +1,934 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Persia (Anglo-Iranian Oil Company) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1951-05-01">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1951-05-01/debates/857c9df0-ef1f-45b5-bd54-670aad5f372c/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/cffc3232-64cf-4a5a-b311-b3df5ab2eea4"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1951-05-01">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1951-05-01/debates/087b407c-86ba-440a-97d3-34d7c4dffab2/CommonwealthDivisionKorea" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Persia (Anglo-Iranian Oil Company)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1951-05-01/debates/5f0ffe17-3ad9-494f-87ef-14a85a49b130/Supply" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3110798" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>01 May 1951</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 487</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b5b56865-c12e-4439-bc32-80ca9f5d28c2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Foreign Secretary whether he has any statement to make on Persia and the oil supplies?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b5b56865-c12e-4439-bc32-80ca9f5d28c2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-b5b56865-c12e-4439-bc32-80ca9f5d28c2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+                The Secretary of State for Foreign Affairs (Mr. Herbert Morrison)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir. I apologise for the length of this statement, but I fear it is unavoidable.<p></p> The Anglo-Iranian Oil Company's concession in Persia dates from 1911. In the late Shah threatened unilaterally to cancel the concession, and His Majesty's Government took the matter to the Council of the League of Nations. As a result the dispute was settled, and in the present concession was signed. It is valid until 1993, after which the Company's assets in Persia would be transferred without payment to the Persian Government. Article 21 of this concession provides that no change may be made in the position of the Company under the concession, even by legislation, except by agreement between the Persian Government and the Company. Article 22 provides for recourse to arbitration in the event of a dispute between the Government and the Company.<p></p> In 1948 changes in world conditions suggested that some modification of the rates of payment made by the Company to the Government might be justifiable, and the Company therefore offered to negotiate, within the framework of the concession, a revised agreement. After long negotiations an agreement known as a "Supplemental Agreement" was signed in July, 1949. This Agreement was <span id="1009" class="column-number" data-column-number="1009"></span> retroactive in character and under it the Persian Government would have received large increases of royalties per year. The Agreement was retrospective and therefore would have produced immediately a large sum.<p></p> This Agreement required ratification by the Persian Parliament—the Majlis—but neither the then Persian Government, nor its successors was willing to recommend it to the Majlis for ratification until the late Mr. Razmara did so in October, 1950. At no time, however, was the Supplemental Agreement, and the benefits which Persia would have derived under it, explained to the Majlis or to the Persian people, and uninformed opposition to it was consequently allowed free rein. The Oil Commission of the Majlis in due course reported that the Agreement was not in Persia's interests, and eventually Mr. Razmara found it necessary to withdraw it from the Commission.<p></p> The Company then intimated to Mr. Razmara its willingness to discuss a new agreement based, if he preferred it, on the principle of an equal share of profits in Persia. In the meantime, however, an extreme right-wing group of deputies pressed a demand for complete nationalisation of Persia's oil industry. At this point Mr. Razmara was murdered by a fanatic, and, in the confusion arising out of his murder, both the Majlis and the Senate were induced to pass a resolution accepting the principle of the nationalisation of the oil industry, and giving the Oil Commission a period of two months in which to work out means of putting it into effect.<p></p> His Majesty's Government, who had been in close touch with the Company and the Persian Government throughout the negotiations, on 14th March delivered a Note to the Persian Government, which has since been published. The Persian Government on 8th April replied, throwing doubt on the right of His Majesty's Government to intervene in a matter which they held to be the concern only of themselves and of the Company. His Majesty's Government cannot, of course, accept this contention. All this background needs to be borne in mind if the present events are to be seen in their proper perspective.<p></p> The present position is that on 26th April the Oil Commission produced a <span id="1010" class="column-number" data-column-number="1010"></span> series of proposals. These have now been endorsed by the Majlis and Senate. They will then presumably become law. The full text of these proposals is not yet available, but they appear to provide for the assumption of control by the Persian Government over all the Company's assets and operations in Persia, the revenues from which would be regarded as belonging to Persia. The proposals apparently contain some provision for compensation of the Company, to be made by placing a proportion of these revenues in a bank, but these provisions are obscure. The effect of the proposals would seem to involve a complete change in the Company's position as provided for in the existing Concession Agreement, which was made in 1933 and is valid until 1993. This change would moreover be made unilaterally, although the Concession Agreement itself provides that it should not be altered, even by legislative action, otherwise than by agreement with the Company.<p></p> As the House will be aware, the Persian Government under Mr. Hussein Ala resigned immediately after these proposals had been made known and before they had been voted upon by the Majlis. A new Government has now been formed by Dr. Musaddiq, the leader of the Right Wing Group of Deputies known as the National Front.<p></p> I turn now to consideration of the issues involved in this development. During the past 30 years the Anglo-Iranian Oil Company, on the strength of the contractual obligations into which the Persian Government entered with it, has made in Persia an immense investment, which must be assessed in terms not only of money but of scarce materials and technical skill. It has consequently built up an industry which forms the most important element, and the main stabilising factor, in Persia's economy.<p></p> It has provided employment for many tens of thousands of Persians, and has been the means of creating employment for many more. Through this employment many Persians have been able to acquire technical skills which could not otherwise have been available to them. Its record as an employer of labour has been a good one, and the conditions under which its employees live and work are not only far in advance of ordinary <span id="1011" class="column-number" data-column-number="1011"></span> Persian standards, but as the International Labour Office have borne witness, compare favourably with those existing in any part of the Middle East. The benefits which it has been the means of conferring on Persia cannot therefore be measured in terms of money alone.<p></p> All these benefits are now placed in jeopardy. It must not be forgotten that the Company's operations consist not only of extracting oil from the ground, but of the extensive refining operations undertaken in the great Abadan installations and in a widespread marketing organisation, including a great fleet of tankers. It would clearly be a matter of the greatest difficulty for the Persians, even if they were unilaterally to take over production themselves, to acquire the ability to operate and maintain installations.<p></p> Furthermore, by taking over production, they could not acquire the Company's world wide marketing and distribution facilities; which they would find it even more difficult to replace. Any interruption of the Company's operations would inevitably result in unemployment and a creation of just those conditions from which the Communists could profit. The recent disturbances in the Abadan area, which the Persian Government were obliged to repress with a firm hand, were undoubtedly of Communist inspiration and are a timely reminder of their ability to fish in troubled waters.<p></p> I now wish to make clear His Majesty's Government's attitude in the matter. The United Kingdom has a longstanding friendship with Persia, whose political independence and territorial integrity we have consistently helped to preserve and which remain a matter of deep concern to us. Persia's economic life is intimately linked with our own, as her Government well realise. Our only desire is to see Persia, strong, prosperous and independent, and to cooperate with her to these ends in so far as she may desire such co-operation.<p></p> As I have shown, we consider that the continued operations of the Anglo-Iranian Oil Company are vital to Persia's well-being, even as they contribute to our own. We recognise that Persia's evolution, to which we ourselves have contributed and are still contributing, has created a new <span id="1012" class="column-number" data-column-number="1012"></span> situation in which it is natural and right that the Persian people should now take a greater share in the operation of their main industry. But we cannot admit that the contractual obligations under which the Company has operated and has made this great investment in Persia can be abrogated unilaterally.<p></p> Before Mr. Ala resigned, we had, with the full agreement of the Company, authorised His Majesty's Ambassador at Tehran to put to him informally the lines on which we thought a satisfactory agreement between the Persian Government and the Company could be worked out. In general terms, these were based on the principle of association between the Government and the Company, and provided for the transfer of the Company's operations in Persia to a new British Company on the board of which the Persian Government would be represented; for a progressive increase in the already very great proportion of Persians employed by the Company throughout its operations; and for an equal sharing of the profits of these operations between the Persian Government and the new Company. It was not possible for these suggestions to be pursued before the Oil Commission's new proposals were issued and the Ala Government resigned.<p></p> We are still most anxious to settle this matter by negotiation; but we cannot negotiate under duress. We do not, of course, dispute the right of a Government to acquire property in their own country, but we cannot accept that the Company's whole position in Persia should be radically altered by unilateral action, when the Agreement into which the Persian Government freely entered with the Company itself provides against such action. We have no wish that this question should become an issue between ourselves and our Persian friends, and we are only anxious to sit down with them and work out a solution in a reasonable atmosphere. Our longstanding ties of friendship with them and our many mutual interests, political as well as economic, convince us that such a solution can be found.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ccecd0d7-8a1a-4cfb-8bae-6ae04f61e7a8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+                Mr. Somerset de Chair
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ad6b2ab5-1984-4e7e-8141-c5b695434596" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the right hon. Gentleman say, in view of the speed with which events are moving in Persia in connection with this proposed nationalisation, what instructions His Majesty's Government have given to the general <span id="1013" class="column-number" data-column-number="1013"></span> manager of the company, Mr Hardy, if the board arrives to take over the control of the installations at Abadan?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ad6b2ab5-1984-4e7e-8141-c5b695434596" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ad6b2ab5-1984-4e7e-8141-c5b695434596">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+                Mr. Morrison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As I have said, we have made some communication with' His Majesty's Ambassador, and we are communicating again with a view to representations being made to the new Persian Government. They will not yet have received that communication, but they will quite soon. I do not think I should say any more until we get their reaction.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-b8ec87ed-fe62-4b7e-91d0-e99628a7f8a5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d6be56a6-2b81-48c3-8b4a-438123ddcbe1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Perhaps the right hon. Gentleman will be able to make a further statement some time next week?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d6be56a6-2b81-48c3-8b4a-438123ddcbe1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-d6be56a6-2b81-48c3-8b4a-438123ddcbe1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+                Mr. Morrison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-06a3afb9-1889-40bd-a480-5408cf6df0b4" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think that is a reasonable request, and I will certainly do my best in that direction.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-06a3afb9-1889-40bd-a480-5408cf6df0b4" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-06a3afb9-1889-40bd-a480-5408cf6df0b4">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+                Mr. M. Philips Price
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ddffa741-f16f-4dd7-bb7a-843b6d9c26de" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Would it not be possible to put forward counter-proposals which, while accepting nationalisation in principle, would also secure a continuation of oil production and the security of our great investment there, in order that we should retain the initiative which we seem rather to have lost?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ddffa741-f16f-4dd7-bb7a-843b6d9c26de" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ddffa741-f16f-4dd7-bb7a-843b6d9c26de">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c456f6da-dbe8-4993-9133-511a585a847e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c456f6da-dbe8-4993-9133-511a585a847e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c456f6da-dbe8-4993-9133-511a585a847e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c456f6da-dbe8-4993-9133-511a585a847e">
+                Mr. Morrison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c456f6da-dbe8-4993-9133-511a585a847e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-c456f6da-dbe8-4993-9133-511a585a847e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">We have put forward counter-proposals, and we are willing to discuss them in a friendly spirit and with- <span id="1014" class="column-number" data-column-number="1014"></span> out undue dogmatism, so that my hon. Friend's point is really met in that respect. But, on the other hand, the Government cannot accept a situation in which one party to an agreement acts unilaterally without discussion. The things we are after at the moment are friendly discussion and free negotiation.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c456f6da-dbe8-4993-9133-511a585a847e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-c456f6da-dbe8-4993-9133-511a585a847e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+                Lord Dunglass
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">A lot could be said which probably would be better left unsaid to-day, but I confine myself to one question of fact. The right hon. Gentleman said that under Article 22 of the Agreement with the Company, there was machinery for arbitration. To what court would the case be taken?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-cf82aa58-90b1-40e6-8cf4-e50b885ba7c3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ba8364ac-52f0-4def-bb35-c88155fd631d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ba8364ac-52f0-4def-bb35-c88155fd631d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ba8364ac-52f0-4def-bb35-c88155fd631d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ba8364ac-52f0-4def-bb35-c88155fd631d">
+                Mr. Morrison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ba8364ac-52f0-4def-bb35-c88155fd631d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ba8364ac-52f0-4def-bb35-c88155fd631d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Article 22 of the Company's Concession Agreement of 1933 stipulates that any dispute between the Company and the Persian Government in regard to the terms of the concession shall be referred to arbitration. I cannot go any further than that, because it would not be desirable, but it may be that The Hague Court might be involved.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ba8364ac-52f0-4def-bb35-c88155fd631d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-ba8364ac-52f0-4def-bb35-c88155fd631d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+                Mr. Eden
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-99b84a3a-487e-4bca-ac9d-14e9877319d8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As I had something to do with this, may I say that the kind of arbitration was purposely left open, and may I suggest that we should be wise to leave it open, too?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-99b84a3a-487e-4bca-ac9d-14e9877319d8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-01/debates/cffc3232-64cf-4a5a-b311-b3df5ab2eea4/Persia(Anglo-IranianOilCompany)#contribution-99b84a3a-487e-4bca-ac9d-14e9877319d8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

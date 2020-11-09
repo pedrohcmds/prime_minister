@@ -1,0 +1,760 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>General Sikorski - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1943-07-06">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1943-07-06/debates/be1994df-a002-4c5b-8a02-52270d237e5f/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/592bd99e-4f45-4ed3-8ec8-c3685eebe428"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1943-07-06">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1943-07-06/debates/90478ec2-8f78-4b27-904c-f0e30336b0a8/NewMemberSworn" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                General Sikorski
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1943-07-06/debates/848c6631-2dc7-445b-9ca6-a2a712e14102/MessageFromTheLords" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1722847" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>06 July 1943</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 390</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1946" class="column-number column-only" data-column-number="1946"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-61344e90-51c4-4d4c-8a33-b1b8a50941eb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">We learned yesterday that the cause of the United Nations had suffered a most grievous loss. It is my duty to express the feelings of this House and to pay tribute to the memory of a great Polish patriot and staunch ally, General Sikorski. His death in the air crash at Gibraltar was one of the heaviest strokes we have sustained. From the first dark days of the Polish catastrophe and the brutal triumph of the German war machine until the moment of his death on Sunday night he was the symbol and the embodiment of that spirit which has borne the Polish nation through centuries of sorrow and is unquenchable by agony.<p></p> When the organised resistance of the Polish Army in Poland was beaten down, Sikorski's first thought was to organise all Polish elements in France to carry on the struggle, and a Polish Army of over 80,000 men presently took its station on the French fronts. This Army fought with the utmost resolution in the disastrous' battles of 1940. Part fought its way out in good order into Switzerland and is to-day interned there. Part marched resolutely to the sea and reached this Island. Here General Sikorski had to begin his work again. He persevered unwearied and undaunted. The powerful Polish Forces which have now been accumulated and equipped in this country and in the Middle East, to the latter of whom his last visit was paid, now await with confidence and ardour the tasks which lie ahead.<p></p> General Sikorski commanded the devoted loyalty of the Polish people, now tortured and struggling in Poland itself. He personally directed that movement of resistance which has maintained a ceaseless warfare against German oppression in spite of sufferings as terrible as any nation has ever endured, and this resistance will grow in power until, at the approach of liberating Armies, it will exterminate the German ravagers of the homeland.<p></p> I was often brought into contact with General Sikorski in those years of war. I had a high regard for him and admired his poise and calm dignity amid so many trials and baffling problems. He was a man of remarkable pre-eminence, both as a statesman and a soldier. His agree- <span id="1947" class="column-number" data-column-number="1947"></span> ment with Marshal Stalin of 30th July, 1941, was an outstanding example of his political wisdom. Until the moment of his death he lived in the conviction that all else must be subordinated to the needs of the common struggle and in the faith that a better Europe will arise in which a great and independent Poland will play an honourable part. We British here and throughout the Commonwealth and Empire, who declared war on Germany because of Hitler's invasion of Poland and in fulfilment of our guarantee, feel deeply for our Polish allies in their new loss. We express our sympathy to them, we express our confidence in their immortal qualities and we proclaim our resolve that General Sikorski's work as Prime Minister and commander-in-chief shall not have been done in vain. The House would, I am sure, wish also that their sympathy should be conveyed to Madame Sikorska, who dwells here in England and whose husband and daughter have both been simultaneously killed on duty.<p></p> The House has also sustained a personal loss in the death which you, Mr. Speaker, have announced from the Chair of two more of our Members, the hon. and gallant Member for Chippenham (Colonel Cazalet) and the hon. and gallant Member for Buckingham (Brigadier Whiteley), for whom many of us cherished warm feelings of friendship and who were held in respect by all. The list of Members who have given their lives in this second struggle against German aggression is lengthening, but when our House of Commons is rebuilt we shall take care to inscribe their names and titles on its panels to be an example to future generations not unworthy of those we have ourselves received from former times.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-61344e90-51c4-4d4c-8a33-b1b8a50941eb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-61344e90-51c4-4d4c-8a33-b1b8a50941eb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+                Mr. Arthur Greenwood  (Wakefield)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a2925de3-ec8e-40ec-ac1e-04ea758d3576" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The House will, of course, feel unhappy but proud to associate itself with the finely expressed tribute of the Prime Minister. The United Nations have suffered a great loss, and Poland has suffered a great loss. We mourn with Poland in her loss and take pride in the achievements of her lost leader. I would say also that I am sure all of us are deeply grieved by the loss of two of our number on war duties and share with those whom they have left behind that sorrow which they must so deeply feel.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a2925de3-ec8e-40ec-ac1e-04ea758d3576" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-a2925de3-ec8e-40ec-ac1e-04ea758d3576">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1948" class="column-number column-only" data-column-number="1948"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+                Colonel Harold Mitchell  (Brentford and Chiswick)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Perhaps the House will allow me to add a short personal tribute to the memory of General Sikorski. I first met him in France in May, 1940, when he was engaged in re-forming the Polish Army at that time, to which the Prime Minister has just referred in his very eloquent and moving words. The next occasion when I saw the General was a few weeks later in London. It was at the end of a long day during which he had been making the final arrangements with our Government for the evacuation of the Polish troops from France to come over here and continue the struggle, and he was due to go back by air that very next morning to Bordeaux on a hazardous flight. On that occasion, he asked me to help him in the task which he had undertaken, and I was appointed the liaison officer to the Polish Forces for welfare matters. During those first days in Scotland, when the Army was being re-formed, for several weeks he made his headquarters in my home, and I had many opportunities then of talks with him, and was able to appreciate his many fine qualities. I shall never forget the moment when the Polish Forces first took their place alongside our own troops after they had been reorganised. General Sikorski said to the British general concerned, "I am handing over to you the most precious thing left to Poland—her Army." He was a man of great personal magnetism and great charm. He was loved by his men and was never so happy as when with them. He was intensely patriotic, but he loved this country too, and many times he expressed to me the gratitude he felt for the opportunities which Britain had afforded him and his people of preparing for the day of victory. I count it a great privilege to have known him, and, to-day, when Poland mourns the loss of a great leader and the world the loss of a great statesman, I mourn the loss of a valued friend.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-8d4ef685-fcb9-43c9-ba3d-97ed8b74d16b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+                Mr. Graham White  (Birkenhead, East)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1cbcb59b-471a-41f9-9410-ade9dd60f98e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I wish in words, whose number will be no measure of their sincerity, to associate my right hon. and hon. Friends on these benches with the words which have been spoken by the Prime Minister, who, on this, as on all such occasions, has so admirably expressed the feelings of the House. Our hearts are profoundly moved with sympathy towards Madame Sikorska, President Raczkiewicz, and the <span id="1949" class="column-number" data-column-number="1949"></span> sorely tried Polish people. We cannot estimate the full effects and consequences of this new calamity which has befallen them, but we believe that that spirit which has enabled the Polish people to hold up their heads through centuries of misfortune will also enable them to carry on with undiminished resolution, until the day of liberation arid the opportunities of peace come to them. In tendering our sympathy to the Polish people, we remember that the United Nations have lost a valiant soldier, one who had rendered great service and who would have rendered even greater service in the time to come; and in expressing our sympathy to them, we also express our sense of our obligations and commitments to the people of Poland.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1cbcb59b-471a-41f9-9410-ade9dd60f98e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-1cbcb59b-471a-41f9-9410-ade9dd60f98e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7627ba37-9948-4e00-b285-a59a003d342c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7627ba37-9948-4e00-b285-a59a003d342c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7627ba37-9948-4e00-b285-a59a003d342c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7627ba37-9948-4e00-b285-a59a003d342c">
+                Captain Alan Graham  (Wirral)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7627ba37-9948-4e00-b285-a59a003d342c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-7627ba37-9948-4e00-b285-a59a003d342c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I hope that as a member of the Anglo-Polish Committee I may be allowed to add a few words to the eloquent tributes which have already been paid to the memory of the late General Sikorski. Both in public and in private he always seemed to me the very embodiment of chivalry—of that chivalry which never counted the cost before unhesitatingly launching itself whole-heartedly upon some noble and generous enterprise. Like that King of Poland, John Sobieski, who, in 1683, rushed to the defence of Vienna and of Christian civilisation which he saved by his defeat of the Turks, so, in 1940, General Sikorski, gathering every Pole from France and all quarters of the world, came to Britain and brought them to us in our hour of mortal danger. In 1941, when our Ally, Soviet Russia, was hard-pressed, General Sikorski, showing the highest spirit of magnanimity and vision characteristic of true leadership, courageously turned his back on all that Poland had suffered in the past from Russia and pledged to Marshal Stalin his country's friendship and alliance.<p></p> Further, in the Government of his own country he steadfastly set his face against any discrimination against Polish citizens of the Jewish race and insisted that if they fulfilled the obligations of citizenship, they were entitled to all the privileges of it. In this he gave a sign of the truly liberal quality of his statesmanship. His practical ability showed itself in the foundation of the most flourishing pre-war port in the Baltic, Gdynia, as well as in his military achievements. He could not live in a Poland that was non-democratic, <span id="1950" class="column-number" data-column-number="1950"></span> and he therefore was enabled, in his 10 years' exile, to give to Europe by his writings many lessons, many prophetic lessons, in the military tactics of modern warfare. He was very reminiscent to many of us of the late Field Marshal Haig in that capacity which he had of completely subordinating all personal feelings and ambitions to his absolute devotion to the cause of those whom he served. Poland and the United Nations have lost a most gifted and devoted servant and one whose example will be an inspiration, not only to his successor, but to all of us as well.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7627ba37-9948-4e00-b285-a59a003d342c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-7627ba37-9948-4e00-b285-a59a003d342c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-807b3ede-562e-4ff7-9958-08ddda03003e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-807b3ede-562e-4ff7-9958-08ddda03003e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-807b3ede-562e-4ff7-9958-08ddda03003e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-807b3ede-562e-4ff7-9958-08ddda03003e">
+                Captain Cunningham-Reid  (St. Marylebone)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-807b3ede-562e-4ff7-9958-08ddda03003e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-807b3ede-562e-4ff7-9958-08ddda03003e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Could the Prime Minister give any indication to the House as to the cause of the accident?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-807b3ede-562e-4ff7-9958-08ddda03003e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-807b3ede-562e-4ff7-9958-08ddda03003e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-195ce793-3fa5-485c-bc79-ce1b49ecdaeb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">This is not the time for any discussion on the accident.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-195ce793-3fa5-485c-bc79-ce1b49ecdaeb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1943-07-06/debates/592bd99e-4f45-4ed3-8ec8-c3685eebe428/GeneralSikorski#contribution-195ce793-3fa5-485c-bc79-ce1b49ecdaeb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

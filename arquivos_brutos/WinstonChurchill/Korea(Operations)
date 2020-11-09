@@ -1,0 +1,2434 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Korea (Operations) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1951-05-02">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1951-05-02/debates/0b01ce63-86f5-41df-9aba-2b03991c17a9/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/7402f9d7-f599-4c32-b215-fc4c1f6c1f81"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1951-05-02">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1951-05-02/debates/b97cc195-6eff-4355-9ccc-400a15c3cc65/ArmamentStoresShipGibraltar(Explosion)" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Korea (Operations)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1951-05-02/debates/7cd442bc-53dd-410a-9cf9-20b840572e94/SirWilliamTurnerSHospitalAtKlrkleathamBlll" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3111016" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>02 May 1951</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 487</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+                The Minister of Defence (Mr. Shinwell)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e28d2c75-a07b-4bde-bd07-0292b686cd8f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With your permission, Mr. Speaker, and that of the House, I should like to make a further statement on the course of operations in Korea.<p></p> The House will recall that, in my last statement on 21st March, I was able to report a military situation in Korea favourable to the United Nations. This situation continued during the last days of March and the first three weeks in April, during which period the line of the 8th Army was steadily advanced, until the main Chinese supply bases in the centre of the Peninsula, about 12 to 15 miles north of the 38th Parallel, were being threatened.<p></p> United Nations patrols ranged freely ahead of our main positions with little enemy interference, but during April evidence was accumulating that the Chinese were assembling strong reserve forces behind their lines, with the object of taking the offensive. This offensive was launched on the night of 22nd April in overwhelming strength and with a complete disregard for losses.<p></p><span id="1190" class="column-number" data-column-number="1190"></span> The two main thrusts were in the centre along the valley road leading south-west to Seoul, and in the west, southwards towards Seoul from the Imjin river. In the centre, the partial collapse of a South Korean division left a hole through which the Chinese began to penetrate, until they were checked by the 27th British Commonwealth Brigade. The resolute defence put up by this fine brigade, in which the Canadian and Australian battalions were prominent, saved the situation in the central sector, and enabled the remaining units in that area to conduct an orderly withdrawal.<p></p> In the west, the British 29th Brigade were given the task of holding a most vital area on the Imjin River covering the left flank of the corps responsible for this sector. This corps was subsequently forced to withdraw, but the 29th Brigade faced the full flood of the Chinese advance south of the Imjin River.<p></p> We have not yet had the full story, but all the troops concerned, including the Royal Northumberland Fusiliers, the Gloucestershire Regiment and the Royal Ulster Rifles, greatly distinguished themselves. General Robertson is at present in Korea, and I am hoping that we shall soon receive from him a complete report. It is, however, known that the 1st Battalion The Gloucestershire Regiment held their position in isolation and greatly outnumbered, for three days and nights. This magnificent action played a vital part in the operations in the west, since an enemy penetration at this point would have jeopardised the safety of the whole line.<p></p> The House will wish to hear such details of the Gloucesters' action as are in my possession. The attack against the Gloucester Battalion began at 1.20 a.m. on 24th April in the Choksong area, two or three miles south of the Imjin River. By daylight the same day, contact by the Gloucesters with adjacent units had been lost, and the battalion withdrew into a perimeter defence. On 24th April, the 10th Battalion of the Philippines Combat Team, supported by the Tank Company of the American 15th Infantry, attempted to break through to relieve them, but were forced to withdraw. On 25th April, another attempt to reach the isolated Gloucesters was made by one squadron of the 8th Hussars, with their Centurion <span id="1191" class="column-number" data-column-number="1191"></span> tanks, supported by infantry. Unfortunately, this attempt also failed.<p></p> Eventually, a party of four officers and 36 men of the Gloucester Battalion fought their way back to our lines through the South Korean First Division on the left flank of the United States First Corps. From these returned members it was learned that the Battalion Commander split the battalion up into three groups, with instructions that each group was to infiltrate back to friendly positions. Approximately 200 wounded, two medical officers and the battalion commander remained in the area of the initial engagement. The four officers and 36 men who have returned to our lines constitute one of the three groups mentioned above.<p></p> It may be some little time before full details of this remarkable action become known to us. But it is already clear that it will rank as one of the most glorious in which this famous regiment has taken part.<p></p> The present position of the land battle is, therefore, that the United Nations forces are again back on a line covering Seoul in the west and extending from there in a slightly north easterly direction to the east coast. The withdrawal to this line was, in the main, carried out unhurriedly and in an orderly manner, and the morale of the troops remains high. The 29th British Brigade is reforming south of the Han river.<p></p> Once again, in addition to United States troops, French, Belgian, Dutch, Greek and Turkish units have been in the battle.<p></p> It is with deep regret that I have to inform the House that our casualties in the land battle have been heavy, but it is hoped that a high proportion of the men at present missing will eventually make their way back to friendly territory.<p></p> The following casualties in the recent land operations have so far been officially reported up to 12 noon today: <table class="hansardTable"><tr><td colspan="4">Killed—</td></tr><tr><td>Officers</td><td>…</td><td>…</td><td align="right">10</td></tr><tr><td>Other Ranks</td><td>…</td><td>…</td><td align="right">38</td></tr><tr><td colspan="4">Wounded—</td></tr><tr><td>Officers</td><td>…</td><td>…</td><td align="right">17</td></tr><tr><td>Other Ranks</td><td>…</td><td>…</td><td align="right">206</td></tr><tr><td colspan="4">Missing—</td></tr><tr><td>Officers</td><td>…</td><td>…</td><td align="right">37</td></tr><tr><td>Other Ranks</td><td>…</td><td>…</td><td align="right">766</td></tr></table><span id="1192" class="column-number" data-column-number="1192"></span> In the Royal Navy during the period under review, one officer and one rating have been killed, and one officer wounded. Thirteen Royal Marines other ranks are known to be prisoners of war. There have been no casualties in the Royal Air Force. I am sure the House would wish to record its sympathy with the relatives of these men in their loss or anxiety.<p></p> It is difficult in the circumstances to arrive at an accurate estimate of enemy losses. He has certainly suffered very heavily. Lieut.-General Van Fleet, who recently took over command of the armies in the field, announced that, in his estimation, some 300,000 Chinese had been committed in the current offensive, and that the enemy had suffered about 70,000 casualties. The latest information is that enemy pressure has slackened, but massive troop concentrations are still being moved towards the front. These concentrations are under very heavy air attack.<p></p> During the period since 21st March, the strength of British and other Commonwealth Naval Forces in Korean waters has been maintained.<p></p> The light Fleet carrier "Theseus," operating on the west coast alternately with the U.S. Carrier "Bataan," has continued her high aircraft sortie rate, and her Sea Fury aircraft have attacked enemy communications and supply facilities up and down the west coast. From 8th April to 15th, "Theseus" and "Bataan" operated together on the east coast, flying about 100 sorties daily between them. The work by "Theseus" has been described by the Commander-in-Chief, U.S. Pacific Fleet, as "outstanding and a fine example to all."<p></p> This has involved arduous work for long periods for the maintenance parties on board, and much of the credit for the excellent work done by "Theseus" aircraft is due to them. H.M.S. "Glory" has now relieved "Theseus" in Korean waters. Between 8th October, when "Theseus" started operating, and 19th April, her aircraft have flown 3,446 sorties on 86 operating days—an achievement to be proud of under the bad weather conditions and intense cold experienced during the winter months.<p></p> The cruisers "Kenya" and "Belfast" similarly have been fully employed, and one of them, accompanied by destroyers <span id="1193" class="column-number" data-column-number="1193"></span> and frigates, has been continuously on blockade patrol off the west coast. During the last fortnight, British Commonwealth destroyers and frigates have been with the American Naval Force on the east coast bombarding Wonsan.<p></p> The Royal Air Force continues to maintain blockade and maritime patrol over Korean waters with Sunderlands, and aircraft of Transport Command are engaged on reinforcement flights and evacuating wounded members of United Nations Forces. During the month of March, 61 operational sorties were flown, and 119 passengers carried.<p></p> The overall situation, therefore, is that the campaign has entered a new and possibly critical phase. A heavy battle has now been joined. It is still perhaps only in its early stages. Our Forces have suffered loss, but their line is intact and they have inflicted very heavy casualties on the enemy. Certainly, we have no cause so far to be discouraged by the outcome. The thoughts of all in this assembly will be with our men in the field in the days ahead.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e28d2c75-a07b-4bde-bd07-0292b686cd8f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-e28d2c75-a07b-4bde-bd07-0292b686cd8f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+                Mr. Blackburn
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3bbae0bb-49d3-4726-91d1-8c2ca43662c2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">While entirely agreeing with the tone of the statement, may I, nevertheless, very regretfully ask the right hon. Gentleman whether he is aware that between January and March we supplied the Chinese with thousands of tons of steel, with locomotives, ships and aircraft, and whether it is not high time we ceased to supply the people against whom our boys are fighting in Korea with war materials?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3bbae0bb-49d3-4726-91d1-8c2ca43662c2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3bbae0bb-49d3-4726-91d1-8c2ca43662c2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+                Mr. Shin well
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7705e9e2-e83e-4278-bdae-7959cf5987eb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I regret that the hon. Member should have made such an inaccurate statement.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7705e9e2-e83e-4278-bdae-7959cf5987eb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7705e9e2-e83e-4278-bdae-7959cf5987eb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+                Mr. Blackburn
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-51e8be77-a5d5-4c6e-beea-e8f421af049e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is in HANSARD of Monday, column 117.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-51e8be77-a5d5-4c6e-beea-e8f421af049e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-51e8be77-a5d5-4c6e-beea-e8f421af049e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-72d40cd7-24ce-449a-a6ef-4c7a912227d7" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">For several months now, we have placed an embargo on the export of strategic materials to China. No doubt some shipments which were previously arranged for may have arrived in China, but we have done everything possible to prevent strategic materials which could be deployed against our Forces from reaching China.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-72d40cd7-24ce-449a-a6ef-4c7a912227d7" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-72d40cd7-24ce-449a-a6ef-4c7a912227d7">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6dd3d383-d596-42bd-8c34-f9adeee27006">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6dd3d383-d596-42bd-8c34-f9adeee27006">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6dd3d383-d596-42bd-8c34-f9adeee27006">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6dd3d383-d596-42bd-8c34-f9adeee27006">
+                Mr. Clement Davies
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6dd3d383-d596-42bd-8c34-f9adeee27006" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-6dd3d383-d596-42bd-8c34-f9adeee27006">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Does not the right hon. Gentleman agree that the widest possible publicity should be given to the moving story of the gallant conduct <span id="1194" class="column-number" data-column-number="1194"></span> of these great men and will he favourably consider the suggestion made yesterday by the right hon. Member for Warwick and Leamington (Mr. Eden) that it should be broadcast?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6dd3d383-d596-42bd-8c34-f9adeee27006" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-6dd3d383-d596-42bd-8c34-f9adeee27006">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-32676c21-1745-4036-8fa8-a46faebf8dfd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-32676c21-1745-4036-8fa8-a46faebf8dfd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-32676c21-1745-4036-8fa8-a46faebf8dfd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-32676c21-1745-4036-8fa8-a46faebf8dfd">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-32676c21-1745-4036-8fa8-a46faebf8dfd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-32676c21-1745-4036-8fa8-a46faebf8dfd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am much obliged to the right hon. and learned Gentleman. Yesterday, the right hon. Member for Warwick and Leamington was good enough to convey to me the report from the "Christian Science Monitor" and his views that the epic story of the Gloucesters' resistance should be broadcast. I have already consulted people in my office with a view to an arrangement being made so that, at any rate, it could be broadcast, subject to the views of the B.B.C., in the seven o'clock news bulletin. It may be that they can go further, but, after all, this is a matter in the hands of the B.B.C.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-32676c21-1745-4036-8fa8-a46faebf8dfd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-32676c21-1745-4036-8fa8-a46faebf8dfd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+                Mr. Emrys Hughes
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Could the Minister tell us something about Seoul? Is it not a fact that this city is now a mass of ruins, and is that not true of all the cities of Korea? Are there not over three million refugees in Korea, and is the Minister aware that there is a growing sentiment in this country that this senseless and futile war should be brought to an end?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0cd8c699-ca1b-4204-bdb1-c3e6d873c3c9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Who started it?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-d544ebe8-aa1f-4841-b54b-2c04bf69ecd8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b1d30dbc-32cd-4471-bdaf-1efd84543ac5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Everybody—and I am quite sure I speak for every right hon. and hon. Member in this House—regrets that there should be this destruction, but those who were responsible for committing this act of aggression, should have thought of the consequences.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b1d30dbc-32cd-4471-bdaf-1efd84543ac5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b1d30dbc-32cd-4471-bdaf-1efd84543ac5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2e356070-4233-48a2-82dd-39c8a57d37a7">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2e356070-4233-48a2-82dd-39c8a57d37a7">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2e356070-4233-48a2-82dd-39c8a57d37a7">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2e356070-4233-48a2-82dd-39c8a57d37a7">
+                Major Tufton Beamish
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2e356070-4233-48a2-82dd-39c8a57d37a7" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-2e356070-4233-48a2-82dd-39c8a57d37a7">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the right hon. Gentleman two questions? First of all, do the very great casualty lists which have been announced today cover the whole of the major operation in which the 29th Brigade fought so bravely with their supporting armour? Secondly, has the right hon. Gentleman any further information about the way in which the Chinese Communist Forces are treating our prisoners, and whether there is any proper liaison with the International Red Cross.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2e356070-4233-48a2-82dd-39c8a57d37a7" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-2e356070-4233-48a2-82dd-39c8a57d37a7">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6b6d8073-b885-4e42-867a-8d7fede82c76">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6b6d8073-b885-4e42-867a-8d7fede82c76">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6b6d8073-b885-4e42-867a-8d7fede82c76">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6b6d8073-b885-4e42-867a-8d7fede82c76">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6b6d8073-b885-4e42-867a-8d7fede82c76" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-6b6d8073-b885-4e42-867a-8d7fede82c76">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As I said in my statement we are awaiting a full report from General Robertson. If I receive further information which I think would be of <span id="1195" class="column-number" data-column-number="1195"></span> value to the House, I will certainly furnish it. As regards the treatment of prisoners by the Communist Forces, I have no official information. But I have read reports from men who have returned to our lines to the effect that while they were in the custody of the Communist Forces, they were, on the whole, very well treated.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6b6d8073-b885-4e42-867a-8d7fede82c76" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-6b6d8073-b885-4e42-867a-8d7fede82c76">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+                Major Beamish
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">What about the International Red Cross?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0406a21b-d73c-4eb7-bc5e-9a02cc7b4db9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4b63f84a-91f9-46fe-9d35-9d765d7b4d15" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As to that point, I have no information in my possession at the moment. Perhaps the hon. and gallant Gentleman would put down that question.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4b63f84a-91f9-46fe-9d35-9d765d7b4d15" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-4b63f84a-91f9-46fe-9d35-9d765d7b4d15">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+                Surgeon Lieut.-Commander Bennett
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ac2f67c5-42b4-49bc-85c4-820f55d04c57" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the Minister tell the House something about the extent to which the enemy air forces have been involved in the fighting, and what has been the result of encounters with our aircraft?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ac2f67c5-42b4-49bc-85c4-820f55d04c57" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-ac2f67c5-42b4-49bc-85c4-820f55d04c57">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-12f2ff72-4b18-4025-9051-773db2a40ac1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-12f2ff72-4b18-4025-9051-773db2a40ac1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-12f2ff72-4b18-4025-9051-773db2a40ac1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-12f2ff72-4b18-4025-9051-773db2a40ac1">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-12f2ff72-4b18-4025-9051-773db2a40ac1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-12f2ff72-4b18-4025-9051-773db2a40ac1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">There is no evidence that the Chinese air forces have been operating.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-12f2ff72-4b18-4025-9051-773db2a40ac1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-12f2ff72-4b18-4025-9051-773db2a40ac1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+                Lieut.-Commander Gumey Braith-waite
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7ad7ffe4-f5d6-440e-8914-44d30c329db2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the Minister yet in a position to indicate, approximately, how many of the large number of missing are members of the Gloucestershire Regiment, and whether, where possible, the next of kin have been informed?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7ad7ffe4-f5d6-440e-8914-44d30c329db2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7ad7ffe4-f5d6-440e-8914-44d30c329db2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-32d1339e-fda5-4ace-a480-d50bb71da22d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-32d1339e-fda5-4ace-a480-d50bb71da22d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-32d1339e-fda5-4ace-a480-d50bb71da22d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-32d1339e-fda5-4ace-a480-d50bb71da22d">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-32d1339e-fda5-4ace-a480-d50bb71da22d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-32d1339e-fda5-4ace-a480-d50bb71da22d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As to informing the next of kin, that is a matter for the Service Departments. It is not my responsibility. However, I have not the least doubt that it is in hand. I should prefer to wait for fuller information before I replied to the first part of the hon. and gallant Gentleman's supplementary question.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-32d1339e-fda5-4ace-a480-d50bb71da22d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-32d1339e-fda5-4ace-a480-d50bb71da22d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7625d2d5-5ff0-4465-b04b-d72c92614987">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7625d2d5-5ff0-4465-b04b-d72c92614987">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7625d2d5-5ff0-4465-b04b-d72c92614987">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7625d2d5-5ff0-4465-b04b-d72c92614987">
+                Mr. Keeling
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7625d2d5-5ff0-4465-b04b-d72c92614987" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7625d2d5-5ff0-4465-b04b-d72c92614987">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the right hon. Gentleman confirm the story that the Colonel of the Gloucesters sent his Brigade Commander the cheerful and perhaps historic message, "We will will hold out till the cows come home, provided you send us ammunition"?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7625d2d5-5ff0-4465-b04b-d72c92614987" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7625d2d5-5ff0-4465-b04b-d72c92614987">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ecc3a44e-bba3-4845-9d9d-7ede6284a728" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I read this report, and, when my statement was being prepared, I was very anxious to furnish some information about the very gallant commander of the regiment. But I excluded it from my statement because I wanted fuller information. If I have to give <span id="1196" class="column-number" data-column-number="1196"></span> information to the House, I want it to be as accurate as possible.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ecc3a44e-bba3-4845-9d9d-7ede6284a728" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-ecc3a44e-bba3-4845-9d9d-7ede6284a728">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3881b425-b0f8-4903-b6ed-856ad4f1bc13" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the Minister say how many of the 200 wounded are in our hands?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3881b425-b0f8-4903-b6ed-856ad4f1bc13" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3881b425-b0f8-4903-b6ed-856ad4f1bc13">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-10e623c3-6acd-4229-b26a-6c501a451278">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-10e623c3-6acd-4229-b26a-6c501a451278">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-10e623c3-6acd-4229-b26a-6c501a451278">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-10e623c3-6acd-4229-b26a-6c501a451278">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-10e623c3-6acd-4229-b26a-6c501a451278" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-10e623c3-6acd-4229-b26a-6c501a451278">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I thought I had given that information. I believe that they have returned or been brought back to our lines, although I am not quite sure about the actual position. As the right hon. Gentleman will understand, the information is filtering through to the Ministry of Defence and the Service Departments. I have tried to give the most up-to-date information.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-10e623c3-6acd-4229-b26a-6c501a451278" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-10e623c3-6acd-4229-b26a-6c501a451278">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+                Mr. Peter Thorneycroft
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0f1a19e5-db5f-40d6-8cff-15baf28c5a50" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the Minister aware that his statement, that for months past there has been a complete embargo upon the export of strategic materials to China, is inconsistent with the answers given by his colleagues to many Questions upon this subject within that period of time? In view of the importance of this matter, would the right hon. Gentleman consult with his colleagues to see whether an authoritative statement can be made to the House?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0f1a19e5-db5f-40d6-8cff-15baf28c5a50" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-0f1a19e5-db5f-40d6-8cff-15baf28c5a50">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-54329db4-acc8-4a48-b2f3-eaee7125682b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-54329db4-acc8-4a48-b2f3-eaee7125682b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-54329db4-acc8-4a48-b2f3-eaee7125682b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-54329db4-acc8-4a48-b2f3-eaee7125682b">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-54329db4-acc8-4a48-b2f3-eaee7125682b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-54329db4-acc8-4a48-b2f3-eaee7125682b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The hon. Member is quite wrong. I was replying to a question by the hon. Member opposite with regard to the period from January to March, and I said that during that period an embargo had been placed on the export of strategic materials to China.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-54329db4-acc8-4a48-b2f3-eaee7125682b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-54329db4-acc8-4a48-b2f3-eaee7125682b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+                Mr. Gammans
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b9f59100-d850-419c-836e-4bd9c5e12dcf" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the Minister assure the House at this moment that no rubber whatsoever is, being exported to China from any British territory?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b9f59100-d850-419c-836e-4bd9c5e12dcf" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b9f59100-d850-419c-836e-4bd9c5e12dcf">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8dd86329-6d97-4d37-af59-6f87776f3fc5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I should like to see that question on the Order Paper. It is quite impossible for me to say what private exporters might send to China.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8dd86329-6d97-4d37-af59-6f87776f3fc5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-8dd86329-6d97-4d37-af59-6f87776f3fc5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+                Mr. Eden
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e9a4ab4b-f615-4261-920b-5fc976effbfa" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Does not the right hon. Gentleman agree that that is not the issue at all? Is not the position that it is entirely and absolutely in the hands of the Government what exports, if any, go to China? I do not know what their decision is in detail, but, surely, we must not count it the responsibility of anybody but the Government?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e9a4ab4b-f615-4261-920b-5fc976effbfa" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-e9a4ab4b-f615-4261-920b-5fc976effbfa">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-89e35b67-73f4-42e1-a454-a1c827c5741a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-89e35b67-73f4-42e1-a454-a1c827c5741a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-89e35b67-73f4-42e1-a454-a1c827c5741a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-89e35b67-73f4-42e1-a454-a1c827c5741a">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-89e35b67-73f4-42e1-a454-a1c827c5741a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-89e35b67-73f4-42e1-a454-a1c827c5741a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I quite understand the point that the right hon. Gentleman is making. I have given the information that is in my possession, but obviously, <span id="1197" class="column-number" data-column-number="1197"></span> in reply to the question put by the hon. Member opposite, I cannot say whether China is receiving strategic materials from any other source. That is not in my hands, or in the hands of His Majesty's Government. What I say is that we took a decisive step some time ago to prevent, as far as practicable, the export of strategic materials to China.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-89e35b67-73f4-42e1-a454-a1c827c5741a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-89e35b67-73f4-42e1-a454-a1c827c5741a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-24d88b54-9d63-4930-903c-0f60467ab879">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-24d88b54-9d63-4930-903c-0f60467ab879">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-24d88b54-9d63-4930-903c-0f60467ab879">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-24d88b54-9d63-4930-903c-0f60467ab879">
+                Mr. Duncan Sandys
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-24d88b54-9d63-4930-903c-0f60467ab879" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-24d88b54-9d63-4930-903c-0f60467ab879">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the Minister say, regarding this question of the export of strategic materials to China, whether His Majesty's Government have in recent months received any representations from the American Government asking us to tighten up our arrangements?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-24d88b54-9d63-4930-903c-0f60467ab879" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-24d88b54-9d63-4930-903c-0f60467ab879">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-11eac550-9cc0-4aec-b3e6-e81a3fed84af" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I do not think that these questions are calculated to maintain the good relations between the United States and this country. The fact is that in all these matters we are in the closest possible consultation with the authorities of the United States, and work in harmony with them.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-11eac550-9cc0-4aec-b3e6-e81a3fed84af" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-11eac550-9cc0-4aec-b3e6-e81a3fed84af">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+                Mr. Sandys
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3fe8ebbd-b0da-4f89-960e-a0c10f47276f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is it not quite clear from the right hon. Gentleman's reply that the United States Government are not satisfied with the way in which we have carried this out?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3fe8ebbd-b0da-4f89-960e-a0c10f47276f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-3fe8ebbd-b0da-4f89-960e-a0c10f47276f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5a6f3ffc-fa88-483d-9beb-944a09b6523c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The right hon. Gentleman is quite wrong. It is not clear, except in his own mind, and it happens to be a mistake.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5a6f3ffc-fa88-483d-9beb-944a09b6523c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-5a6f3ffc-fa88-483d-9beb-944a09b6523c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+                Mr. Blackburn
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the right hon. Gentleman aware that the statements he has now made are proved untrue in the Written Answer in column <em>117</em> of HANSARD of 30th April in which the President of the Board of Trade set out the United Kingdom exports to China in the months January to March, 1951, including 3,430 tons of iron and steel and manufactures thereof? Did not the right hon. Gentleman know that? The President of the Board of Trade also listed vehicles, including locomotives, ships and aircraft to the value of £71,000.<p></p> Hon. Members: Withdraw.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-9f3b9ed5-6571-42fa-a31a-20ab2bf8a561">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-df0fcfbe-a343-4590-af9b-6ce4cd9eb431" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I have already said that we decided not to export strategic materials to China. The hon. Member can put his own construction on the strategic value of certain goods exported to China. [<em>Interruption.</em>] Reference <span id="1198" class="column-number" data-column-number="1198"></span> has been made to aircraft. No aircraft have been exported to China in the last three months or indeed at any time.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-df0fcfbe-a343-4590-af9b-6ce4cd9eb431" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-df0fcfbe-a343-4590-af9b-6ce4cd9eb431">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+                Mr. Eden
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">To clarify the position—it is desirable that the House should know exactly where it is—would the right hon. Gentleman consider publishing tomorrow a complete list of what the Government themselves regard as strategic raw materials, that is to say those commodities on which it has based an embargo on delivery to China?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7c7fa6c7-6c49-4861-9ed5-aac5aaa1b679">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7c8d30b5-ea80-4f77-acba-c76713b271dd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, I am not prepared to commit myself at this stage. If the right hon. Gentleman or anybody else in the Opposition wants a reply on these matters, questions ought to be addressed to the proper Minister.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7c8d30b5-ea80-4f77-acba-c76713b271dd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7c8d30b5-ea80-4f77-acba-c76713b271dd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4989d237-5408-4c1a-b110-fd0ce41c0208">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4989d237-5408-4c1a-b110-fd0ce41c0208">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4989d237-5408-4c1a-b110-fd0ce41c0208">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4989d237-5408-4c1a-b110-fd0ce41c0208">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4989d237-5408-4c1a-b110-fd0ce41c0208" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-4989d237-5408-4c1a-b110-fd0ce41c0208">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">You do not know anything about it at all.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4989d237-5408-4c1a-b110-fd0ce41c0208" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-4989d237-5408-4c1a-b110-fd0ce41c0208">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+                Mr. Shinwell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b13f9248-98ed-4b68-bbd2-c032833cf3bc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I know more about it than you do.<p></p> Hon. Members: Resign.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b13f9248-98ed-4b68-bbd2-c032833cf3bc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-b13f9248-98ed-4b68-bbd2-c032833cf3bc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7daa5d70-98f7-43ec-acf3-ca4168df5bc3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>rose</em>——</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7daa5d70-98f7-43ec-acf3-ca4168df5bc3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-7daa5d70-98f7-43ec-acf3-ca4168df5bc3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+                Hon. Members
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-277808f5-2c4d-4f78-b13a-ac00d4f87c89" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Resign.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-277808f5-2c4d-4f78-b13a-ac00d4f87c89" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-277808f5-2c4d-4f78-b13a-ac00d4f87c89">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">What are hon. Members thinking about? I am on my feet. Hon. Members should be silent when I am on my feet. They surely should know that by now.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-05-02/debates/7402f9d7-f599-4c32-b215-fc4c1f6c1f81/Korea(Operations)#contribution-a4ac1d41-deb7-493a-8cfa-c5615ba7f6f9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

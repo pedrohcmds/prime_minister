@@ -1,0 +1,1815 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Palace Of Westminster (Services, Maintenance) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-03-18">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-03-18/debates/f421b504-d40f-41c9-82e3-ee5e878734bf/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1948-03-18/debates/88151d32-f9b1-4793-80df-882793b9c482/OralAnswersToQuestions">
+                                    <span class="commons">Oral Answers To Questions</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/df83c20f-e350-4323-ae20-6cc5c5b654df"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-03-18">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-03-18/debates/086b1081-6a1f-4d86-b033-aa614a73ae87/HotelIndustry(AmericanCapital)" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Palace Of Westminster (Services, Maintenance)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1948-03-18/debates/a1dc7313-9637-4feb-a25b-9c3c6ef776d6/ConsolidationBills" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2690213" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>18 March 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 448</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Minister of Labour a Question of which I have given him Private Notice, after ascertaining which was the Department to which I should put the Question? It is: Whether His Majesty's Government will assume to the full their responsibilities for maintaining the normal services of the House of Commons, and, indeed, of Parliament, in a condition of efficiency, and what steps they propose to take for this purpose?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ba6aaff3-ee23-4a74-bc32-ec00bedb99c2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-34203560-9be6-466b-9bfc-4ff3053697de">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-34203560-9be6-466b-9bfc-4ff3053697de">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-34203560-9be6-466b-9bfc-4ff3053697de">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-34203560-9be6-466b-9bfc-4ff3053697de">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-34203560-9be6-466b-9bfc-4ff3053697de" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-34203560-9be6-466b-9bfc-4ff3053697de">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Government accept the fact that they carry a special responsibility for certain buildings, including the Palace of Westminster, and, in discharge of that responsibility, the Government must take steps to maintain the services for which they are directly responsible.<p></p> I think the House will wish to know the circumstances in which the present stoppage has occurred. A claim on behalf of Government engineering employees throughout the country made by the Trade Union Side of the Engineering Trades Joint Council for Government Industrial Establishments was heard by the Council on 8th January. At a meeting of the Council on 4th March, there was failure to agree, and a further meeting was arranged for 12th April to enable the Official Side to make inquiries with a view to other proposals. The bulk of the men at present on strike are employed by the Ministry of Works as engineering attendants and have stopped work against the advice of their unions.<p></p> These men are Government employees, and I regret they have allowed themselves to be misled into action so clearly at variance with their duty and in defiance of the advice of their trade unions. A <span id="2296" class="column-number" data-column-number="2296"></span> continuation of the stoppage by this small minority of the workers concerned in the claim can only hinder progress of the discussions. I hope wiser counsels will prevail, and I would urge them to resume work at once. The established joint machinery has not completed its discussions, and there will be no avoidable delay in reaching a decision.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-34203560-9be6-466b-9bfc-4ff3053697de" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-34203560-9be6-466b-9bfc-4ff3053697de">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The right hon. Gentleman has given a very interesting answer to the House upon the merits of the dispute. I gather from him that all the recognised machinery of trade union negotiation was in full operation, and that this was a breakaway unofficial strike, but the Question I really addressed to the right hon. Gentleman dealt rather with the responsibility of the Government for maintaining the services of the House. It is not suitable that the House of Commons and the House of Lords, where the affairs of the whole country have to be dealt with, should be deprived of what are considered to be the regular normal services of this House, and I should like to know what steps the Government propose to take to make sure that these services are resumed at the earliest moment.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-cafd67b1-9688-4ebf-8b4d-4410c46b4e4e">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ad5f2d1d-0a2d-4359-9766-421f01d886ae" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I will gladly deal with that point. In the very first sentence of my answer, I said that the Government must take steps. The Government will take steps, but—[<em>Interruption.</em>] Perhaps the hon. Gentleman will allow me to answer? Perhaps he would rather have a row than a settlement? The Government will take steps, but, quite obviously, it would be unwise to state what steps we shall take. I am hoping that, this statement having been made, wiser counsels will prevail amongst those who are, after all, our fellow-workers in this building, and that they will come back on the job. I think it is interesting to add that there are 12 trade unions affected with this National Joint Council, and that it is only five of these whose members have disregarded its instructions. The other unions are combining With them to get the men back, and, if we can get them back tonight or tomorrow morning, without taking the steps which we must otherwise take, I think it will be a happier settlement.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ad5f2d1d-0a2d-4359-9766-421f01d886ae" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ad5f2d1d-0a2d-4359-9766-421f01d886ae">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4f4a65a1-a9c3-444d-a287-cc712584718c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4f4a65a1-a9c3-444d-a287-cc712584718c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4f4a65a1-a9c3-444d-a287-cc712584718c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4f4a65a1-a9c3-444d-a287-cc712584718c">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4f4a65a1-a9c3-444d-a287-cc712584718c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-4f4a65a1-a9c3-444d-a287-cc712584718c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I need scarcely say that we wish the right hon. Gentleman to have every opportunity of settling this <span id="2297" class="column-number" data-column-number="2297"></span> matter in the best possible way, but can we have a guarantee that the normal services of this House will be restored by Monday at the latest?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4f4a65a1-a9c3-444d-a287-cc712584718c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-4f4a65a1-a9c3-444d-a287-cc712584718c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-67afef70-37c4-466e-b3bb-23d18128495d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-67afef70-37c4-466e-b3bb-23d18128495d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-67afef70-37c4-466e-b3bb-23d18128495d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-67afef70-37c4-466e-b3bb-23d18128495d">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-67afef70-37c4-466e-b3bb-23d18128495d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-67afef70-37c4-466e-b3bb-23d18128495d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir. I hope they can he restored earlier, but that guarantee is given because the work of Parliament, the Legislature and the Judiciary must be kept going.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-67afef70-37c4-466e-b3bb-23d18128495d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-67afef70-37c4-466e-b3bb-23d18128495d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-02133545-545b-421c-b92b-3e07e284a480">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-02133545-545b-421c-b92b-3e07e284a480">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-02133545-545b-421c-b92b-3e07e284a480">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-02133545-545b-421c-b92b-3e07e284a480">
+                Mr. Attewell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-02133545-545b-421c-b92b-3e07e284a480" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-02133545-545b-421c-b92b-3e07e284a480">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will my right hon. Friend appreciate that, while hon. Members dislike the loss of the services which has taken place, this House will regret any introduction of scab labour into this House?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-02133545-545b-421c-b92b-3e07e284a480" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-02133545-545b-421c-b92b-3e07e284a480">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+                Mr. W. J. Brown
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cbe1dccc-7d13-42c6-bfda-7ca709313dc0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Minister has told us that the claim of the unions on the staff side was heard in January. Could he tell us when that claim was put in?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cbe1dccc-7d13-42c6-bfda-7ca709313dc0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-cbe1dccc-7d13-42c6-bfda-7ca709313dc0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-27908ff4-5e32-424c-a19f-7f7b5860979c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-27908ff4-5e32-424c-a19f-7f7b5860979c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-27908ff4-5e32-424c-a19f-7f7b5860979c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-27908ff4-5e32-424c-a19f-7f7b5860979c">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-27908ff4-5e32-424c-a19f-7f7b5860979c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-27908ff4-5e32-424c-a19f-7f7b5860979c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It was first heard in January. The information I have is that the delay in bringing it to the Council was due to delay among the unions themselves in agreeing on what terms they actually wanted to present. Therefore, it ought to be clear to the members of the unions that the long delay that has occurred since they first asked for an increase is not due to the official machinery but to their own side in delaying a decision.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-27908ff4-5e32-424c-a19f-7f7b5860979c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-27908ff4-5e32-424c-a19f-7f7b5860979c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+                Mr. Brown
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-477c92b4-a629-4d7c-88ca-18f2ce5420db" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Would it be true to say that the delay, prior to January, for which we understand from the Minister the unions themselves are responsible, was of the order of something like 12 months prior to January?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-477c92b4-a629-4d7c-88ca-18f2ce5420db" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-477c92b4-a629-4d7c-88ca-18f2ce5420db">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-17542ead-d3de-4caf-885a-19cbe8dc905a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-17542ead-d3de-4caf-885a-19cbe8dc905a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-17542ead-d3de-4caf-885a-19cbe8dc905a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-17542ead-d3de-4caf-885a-19cbe8dc905a">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-17542ead-d3de-4caf-885a-19cbe8dc905a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-17542ead-d3de-4caf-885a-19cbe8dc905a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I really cannot say. I have not got the figures, but, in the short time at my disposal, I have made inquiries. My Department only comes in when a dispute has been notified, and none has been notified to us. There have been very long discussions between the 12 unions concerned on what should be the basis of negotiation.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-17542ead-d3de-4caf-885a-19cbe8dc905a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-17542ead-d3de-4caf-885a-19cbe8dc905a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+                Mr. Gallacher
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In view of the fact that, whoever is responsible, these men have been waiting on a claim for over a year would it not IA the decent thing, instead of talking about replacing them with other labour, for this House to decide that the men should he granted the moderate increase which they are demanding? Should we not give the men this moderate demand and get them back on the job?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-23ad1ed9-0eeb-470c-a13b-ea4e96fd5588">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="2298" class="column-number column-only" data-column-number="2298"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3f0c6bbd-ee48-46db-b72b-9ea9800c478f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is because the men have listened to advice such as that instead of to the advice of their own trade unions, who have arranged for a further meeting to continue these negotiations, t tat I think they would be well advised to consider their own union advice first.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3f0c6bbd-ee48-46db-b72b-9ea9800c478f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-3f0c6bbd-ee48-46db-b72b-9ea9800c478f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+                Mr. Sydney Silverman
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-39fa5aff-01dc-4e41-a111-788cbfbe2c41" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can my right hon. Friend say whether the majority of these men have, in fact, given loyal service in this House for very many years, that they are not the kind of men who would be stampeded into action of this sort by the wrong kind of leadership, and, therefore, does not it look as though they have reasonable grievances which ought to have been met long ago?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-39fa5aff-01dc-4e41-a111-788cbfbe2c41" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-39fa5aff-01dc-4e41-a111-788cbfbe2c41">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4f587d5b-9cd1-4103-9dc6-13d05fb2059a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">We accept the first part of the question without hesitation. All the men have given loyal service, but it is strange that these men, one after the other, should have taken advice, other than the urgent plea of their colleagues. The number on strike represents only a small minority of the men involved. Owing to their action, they are holding up a settlement of their comrades' claims.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4f587d5b-9cd1-4103-9dc6-13d05fb2059a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-4f587d5b-9cd1-4103-9dc6-13d05fb2059a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b4c572cb-57e6-4035-b8a9-42d7c4a1f271" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class=""><em>rose</em>——</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b4c572cb-57e6-4035-b8a9-42d7c4a1f271" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-b4c572cb-57e6-4035-b8a9-42d7c4a1f271">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-31cda905-f21e-467e-ad08-bbe03e4a7bb5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As there is a choice of the men coming back tomorrow, we had better stop these questions now.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-31cda905-f21e-467e-ad08-bbe03e4a7bb5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-31cda905-f21e-467e-ad08-bbe03e4a7bb5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-873d821e-7801-49e7-a6b7-9c2048b7962c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-873d821e-7801-49e7-a6b7-9c2048b7962c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-873d821e-7801-49e7-a6b7-9c2048b7962c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-873d821e-7801-49e7-a6b7-9c2048b7962c">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-873d821e-7801-49e7-a6b7-9c2048b7962c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-873d821e-7801-49e7-a6b7-9c2048b7962c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I have got up each time to try to put a supplementary question——</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-873d821e-7801-49e7-a6b7-9c2048b7962c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-873d821e-7801-49e7-a6b7-9c2048b7962c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ee9c35c1-a917-45d8-a865-0c2598e0fe4b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">F told the hon. Member that I did not call him for a supplementary, and that is that.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ee9c35c1-a917-45d8-a865-0c2598e0fe4b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-ee9c35c1-a917-45d8-a865-0c2598e0fe4b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-11191ef6-6e1b-4ee4-913d-a7f13de8eaea" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With great respect, Mr. Speaker, I was the only one on my feet at a certain point.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-11191ef6-6e1b-4ee4-913d-a7f13de8eaea" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-11191ef6-6e1b-4ee4-913d-a7f13de8eaea">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c88b820c-bb05-42de-acc9-b20978fcf81f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c88b820c-bb05-42de-acc9-b20978fcf81f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c88b820c-bb05-42de-acc9-b20978fcf81f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c88b820c-bb05-42de-acc9-b20978fcf81f">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c88b820c-bb05-42de-acc9-b20978fcf81f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-c88b820c-bb05-42de-acc9-b20978fcf81f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Even so, that is not a reason why I should call a Member.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c88b820c-bb05-42de-acc9-b20978fcf81f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-c88b820c-bb05-42de-acc9-b20978fcf81f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-75ea9b29-da5e-47d1-9d6c-12de2894168f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to apologise. I thought that was the Rule of the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-75ea9b29-da5e-47d1-9d6c-12de2894168f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-75ea9b29-da5e-47d1-9d6c-12de2894168f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With very great respect, Mr. Speaker, I rise on a point of Order. I was not quite clear on the reasons which you gave for not allowing any more questions on the subject. Was it because you did not wish any questions to be asked which might prejudice the chance of a settlement, and, if so, and with great respect, is not that rather a matter of merit than one of Order?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-91f8bb3e-1e21-40cd-a1d2-afdcc891b3ee">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="2299" class="column-number column-only" data-column-number="2299"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It may be a matter of merit, but I should have thought that it was really rather a matter of common sense. I was watching the questions which were being asked, and it struck me that, possibly, they were going to prejudice the chances of a settlement, rather than help it on. Therefore, with that object in mind, I hope that I have not unfairly used my discretion.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-d88bfbd7-1f13-4686-bb0c-2785e2bf00f6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b30231f5-b210-4c04-a51a-4d710c18f1dd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On that point of Order. I would like, with great respect, to ask you, Mr. Speaker, to make your Ruling clearer. Surely, it is for the House to discuss the merits of the question, if it desires to do so. Of course, you may rule otherwise.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b30231f5-b210-4c04-a51a-4d710c18f1dd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-b30231f5-b210-4c04-a51a-4d710c18f1dd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1211bff7-6d03-4694-aea8-6c2753fbe4cb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">There being no Motion before the House, one could not, of course, discuss it. As a matter of fact, I think it is reasonable to allow the Speaker to have discretion in a rather delicate matter, and that was what was at the back of my mind. I did not want to prejudice the House in any way.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1211bff7-6d03-4694-aea8-6c2753fbe4cb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-1211bff7-6d03-4694-aea8-6c2753fbe4cb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-773e2c25-ba6d-4fa0-8af2-19f00103bc1b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I was simply seeking to put a question on a point of information —strictly a point of information. Could I put such a point?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-773e2c25-ba6d-4fa0-8af2-19f00103bc1b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-773e2c25-ba6d-4fa0-8af2-19f00103bc1b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think I suggested that it was wiser not to put any questions now. I hope the House will agree.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-03-18/debates/df83c20f-e350-4323-ae20-6cc5c5b654df/PalaceOfWestminster(ServicesMaintenance)#contribution-2aeb2235-2d59-4e48-8007-c7c57e8b8ed2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

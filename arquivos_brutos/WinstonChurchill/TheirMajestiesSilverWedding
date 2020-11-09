@@ -1,0 +1,645 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Their Majesties' Silver Wedding - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-04-26">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-04-26/debates/dcbae844-8751-4d78-8c74-2ba4c9822932/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/43bb2636-e75c-446e-a7d3-92ae35e62cdf"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-04-26">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-04-26/debates/31ec9f6e-2ce4-4dfa-b6cf-a92176885731/BusinessOfTheHouse" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Their Majesties&#39; Silver Wedding
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1948-04-26/debates/22cfbc0d-f90d-47d9-a90e-2207b38c7e73/RepresentationOfThePeopleBill" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2731359" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>26 April 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 450</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="34" class="column-number column-only" data-column-number="34"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f63e4dc2-c3cd-4361-95e0-89624637c4b7'>
+            
+<p class="">3.30 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-795feda9-4bfc-4cf0-9b14-2af883179307">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-795feda9-4bfc-4cf0-9b14-2af883179307">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-795feda9-4bfc-4cf0-9b14-2af883179307">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-795feda9-4bfc-4cf0-9b14-2af883179307">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-795feda9-4bfc-4cf0-9b14-2af883179307" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-795feda9-4bfc-4cf0-9b14-2af883179307">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, <blockquote><q>"That an humble Address be presented to Their Majesties to congratulate Them on the Twenty-fifth Anniversary of Their Wedding; and to assure Their Majesties that this House, deeply interested in the personal well-being of the Sovereign and warmly appreciating Their Majesties' unfailing devotion to duty in this time of stress, profoundly shares the sentiments of loyal affection with which Their peoples throughout the world welcome the Anniversary of so felicitous a union; and joins with them in praying earnestly for the continuance during many years of Their Majesties' health and happiness."</q></blockquote> I am sure that few words are needed from me to commend this Resolution to the House. I am sure that all of us would wish to take this opportunity of expressing to Their Majesties our affectionate congratulations on their completion of 25 years of happy married life. A Silver Wedding is essentially a family festival, but as many of us know from personal experience, the joys which it brings to those immediately concerned and to the members of the family are greatly enhanced by the knowledge that good friends have taken the opportunity of expressing their good wishes and regard.<p></p> The Silver Wedding of The King and Queen, who have endeared themselves to their people throughout the Commonwealth, is a cause of lively satisfaction to millions. It is fitting that we in this House, on our own account and on behalf of the people of the United Kingdom whose representatives we are, should send to Their Majesties this Address of congratulation and good wishes.<p></p> Nearly 30 years ago in this House the Prime Minister of the day, Mr. Lloyd George, supported by Mr. Asquith moved a resolution in the same terms on the occasion of the Silver Wedding of King George the Fifth and Queen Mary. At that time the first world war was still in a critical stage, and there were four months to go before the Armistice. Today we are within a few days of the third anniversary of V.E. Day, but world conditions are still very difficult.<p></p> There is here an historical parallel. Like Their predecessors, our King and Queen, who desired earnestly to preserve peace, had to face in the early years of their reign the ordeal of a long and bitter <span id="35" class="column-number" data-column-number="35"></span> war. Like them, they set the highest example for devotion to duty throughout the struggle, and established themselves more firmly than ever in the hearts of their subjects. Let us hope that during the next period of Their Majesties' married life the world may be at peace, and they may celebrate their Golden Wedding in a world from which war has been banished for ever.<p></p> During those 25 years of married life, both in war and peace, Their Majesties have entered fully into the joys and sorrows of their people in the United Kingdom and in the rest of the Commonwealth and Empire. The King, through his experience as a junior naval officer in the first world war and subsequently by his active participation in the work of the Industrial Welfare Society, the Dock Settlements and his own Boys Camps, gained a wide knowledge of the social and economic conditions of the people. After their marriage the King and Queen—both before and after they were called to the Throne—were unsparing in their service to many good causes at home. By a series of visits to almost every part of the Commonwealth and Empire culminating in last year's most successful visit to South Africa, Their Majesties have come to know and to be known to millions of those over whom they reign. We recall that His Majesty was the first British Monarch to visit the United States of America.<p></p> The institution of Monarchy is a great link which binds together many people in a great fellowship, but that link is no impersonal one. The gracious personalities of the King and Queen and of the Princesses strengthen that link, for men and women see in the Royal Family an example of that way of life which unites us all. On many public occasions, Their Majesties by their personal charm and courtesy converted what might have been a formality into something much more friendly and intimate.<p></p> The responsibility which falls upon a constitutional monarch is heavy. I doubt whether many people realise the unending duties which fall upon him without relief. How much then must it mean to have as a background to the burden of public service a happy family life. How much must it mean to have so charming and gracious a Consort as Her Majesty the <span id="36" class="column-number" data-column-number="36"></span> Queen to share in the public burdens of high office and in the felicities of home life. I am sure, too, that this occasion will bring great pleasure to Their Royal Highnesses Princess Elizabeth and Princess Margaret, and to Queen Mary, who is so deeply beloved by the people of this country.<p></p> In conclusion, I would remind the House of the words which His Majesty used on his Accession to the Throne: <blockquote><q>"Now that the duties of sovereignty fall to Me I declare to you My adherence to the strict principles of constitutional government, and My resolve to work before all else for the welfare of the British Commonwealth of Nations. With My wife as helpmeet by My side I take up the heavy task which lies before Me, in which I look for the support of all My peoples."</q></blockquote> We have seen during the past 11 years how well and truly this resolve has been put into action. I am sure that every man and woman in our country will join with this House in wishing Their Majesties and all the Royal Family on this auspicious occasion long life and continuing happiness and prosperity. It would, I think, be appropriate that this Address should be presented to Their Majesties by Privy Councillors representing all parties.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-795feda9-4bfc-4cf0-9b14-2af883179307" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-795feda9-4bfc-4cf0-9b14-2af883179307">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ca171bcd-4885-4021-9f11-c44945dce1dd">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ca171bcd-4885-4021-9f11-c44945dce1dd">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ca171bcd-4885-4021-9f11-c44945dce1dd">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ca171bcd-4885-4021-9f11-c44945dce1dd">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ca171bcd-4885-4021-9f11-c44945dce1dd" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-ca171bcd-4885-4021-9f11-c44945dce1dd">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I rise to associate most cordially with the Motion of the Prime Minister the Conservative Party, and those who constitute what is called His Majesty's Opposition. I feel sure that we, in all parts of the House, have appreciated the dignity and choice of terms in which the Prime Minister has commended this Motion to the House—how many points he has rested on which command the assent not only of all minds, but of all hearts. There is little which I wish to add to what he has said. Certainly, in these days, it has been a great help and inspiration to the whole people to see another example of a happy British home, of family life maintained, in the full glare of publicity which falls upon exalted personages, for a quarter of a century in such a manner as to warm all decent hearts and to give us all a feeling of the great, enduring strength of human relationships and of the institutions of civilised and Christian societies.<p></p> This Silver Wedding celebration has given an opportunity for spontaneous, generous emotions by millions of our <span id="37" class="column-number" data-column-number="37"></span> people from all parts of the country. They have crowded the streets and have cheered the figures of the Sovereign and his Consort. It has all been a spontaneous and, indeed, an irresistible impulse of a wholly unselfish character springing from the hearts of our people. The reign of the King and Queen is less than 10 years, but in that period they have had a hard time. They have had to pass through convulsions and ordeals unequalled even in the whole 60 years of the Imperial splendour of Queen Victoria, and equal stresses of mind have fallen upon them. In an unassuming and simple manner they have shared the perils, sorrows and anxieties of the whole people and of all the Commonwealth beyond the sea, and now at least they have found that the great perils of the late war are over and we have entered a period of peace.<p></p> The Prime Minister has been right to dwell upon these matters and he has also been right in proposing that Privy Councillors representative of all parties should present an Address to the Crown. There is only one point in his speech which I would venture to mention. He spoke of the Golden Wedding which he hoped would be celebrated when the dark fear and horror of war will be for ever banished from the world. Although all of us will not see it, that is a hope which we all cherish and share.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ca171bcd-4885-4021-9f11-c44945dce1dd" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-ca171bcd-4885-4021-9f11-c44945dce1dd">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1564e074-07ff-41b1-ba36-493dac790204">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1564e074-07ff-41b1-ba36-493dac790204">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1564e074-07ff-41b1-ba36-493dac790204">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1564e074-07ff-41b1-ba36-493dac790204">
+                Mr. Clement Davies  (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1564e074-07ff-41b1-ba36-493dac790204" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-1564e074-07ff-41b1-ba36-493dac790204">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On behalf of my colleagues and myself and on behalf of all whom we represent, I desire to add humbly but most sincerely our full concurrence and accord with the Motion proposed by the Prime Minister. The relationship between the Throne and the people is such that, in the long and glorious history of this country, the warmth and tenderness of the loyal affection in which Their Majesties are held by the peoples in these islands and throughout the world has never been exceeded or even equalled. Throughout this quarter of a century their family life has been a model and example. Their public life has been one of unwavering, never failing, constant and consecrated devotion to the welfare of their people everywhere. Wherever they proceed, whatever be the occasion, in times of difficulty and stress, in war and in peace they seem to diffuse an aura of friendliness, of complete understanding that <span id="38" class="column-number" data-column-number="38"></span> brings comfort and new courage to us all. In truth and with deep and real sincerity we pray, "God save and bless Their Majesties."</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1564e074-07ff-41b1-ba36-493dac790204" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-1564e074-07ff-41b1-ba36-493dac790204">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+                Mr. Maclay  (Montrose Burghs)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The members of the National Liberal Party in this House and I am certain those in the country whom we represent would like to join in expressing our loyal and sincere congratulations to Their Majesties on this occasion. It is our earnest hope and prayer that Their Majesties together may have before them continued years of happiness in their private lives and, therefore, in the performance of their manifold and heavy duties and responsibilities.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-26/debates/43bb2636-e75c-446e-a7d3-92ae35e62cdf/TheirMajestiesSilverWedding#contribution-fdfd3ca0-4ca9-48ba-a913-a845ffde0c10">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e42563e5-cac0-40fb-afec-37e8263a5422'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9976ab42-edff-4848-9e32-d67b08cf664e'>
+            
+<p class="">Resolved, <em>nemine contradicente</em>:</p><p class=""> <blockquote><q>"That an humble Address be presented to Their Majesties to congratulate Them on the Twenty-fifth Anniversary of Their Wedding; and to assure Their Majesties that this House, deeply interested in the personal well-being of the Sovereign and warmly appreciating Their Majesties' unfailing devotion to duty in this time of stress, profoundly shares the sentiments of loyal affection with which Their peoples throughout the world welcome the Anniversary of so felicitous a union; and joins with them in praying earnestly for the continuance during many years of Their Majesties' health and happiness."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-61be0ebd-ebb9-4129-a2e2-c67953af4f5f'>
+            
+<p class=""><em>Address to be presented by Privy Councillors or Members of His Majesty's Household.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

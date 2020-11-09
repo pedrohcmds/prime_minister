@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Economic Background - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1951-04-10">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1951-04-10/debates/757b4211-80db-4627-a0a9-9d639eb75b0a/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1951-04-10/debates/95973693-be8b-4961-a4f5-8a37902c5e21/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/b312f8b3-4fe5-4cf7-afbd-947ed9889664"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1951-04-10">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1951-04-10/debates/cd356376-9961-452e-86e2-2f73fe0df160/BudgetProposalsAndEconomicSurvey" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Economic Background
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1951-04-10/debates/eb22d65c-154f-4e18-9309-e29ad669f180/Out-TurnFor1950%E2%80%9351" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-3105126" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-04-10/debates/b312f8b3-4fe5-4cf7-afbd-947ed9889664/EconomicBackground">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>10 April 1951</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 486</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1bd531b9-9e94-45cb-8438-7b1ca685bc6e'>
+            
+<p class="">I must, however, give the Committee some sketch of the economic background, so that we can appreciate the framework in which the Budget has to be considered, and the objectives at which it must aim. In this background it will be generally agreed that three features stand out. First, the massive defence programme with the new call it makes on our resources. Second, there is the way in which the prices we have to pay for our imports have gone up so much more than the prices we get for <span id="827" class="column-number" data-column-number="827"></span> our exports. This is just as real a burden upon us as the defence programme itself, for it means that to buy the same volume of imports we have to send out more exports and so keep less for ourselves at home. Third, shortages of materials, with the check they impose on higher production which could otherwise do so much to help us carry both burdens.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-50e81d9e-5c17-449c-84bf-31db82000ff6'>
+            
+<p class="">Our objectives in this situation have been stated several times—most recently in the Economic Survey. They are to carry through the defence programme as swiftly and smoothly as possible, and to maintain a level of exports sufficient, with the expected surplus on invisibles, to pay for our current import needs, excluding strategic stockpiles. Because the direct impact of the defence programme falls mainly on the engineering industries, we must I fear accept some check to home investment and also some interference with the exports of these industries. But we must keep the former within bounds so as to shield future productivity, and we must try to balance the latter by greater exports of consumer goods; to make this possible, we have to limit consumption at home.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-91ad6d8a-5e43-470e-911a-82f711929298'>
+            
+<p class="">The prospect that faces us may, I suggest, in the main, be summarised as follows. To meet these two new burdens, defence and the adverse terms of trade, we can count on some increase in our production. But given the physical difficulties of obtaining enough raw materials, the probable increase in production will certainly not be enough to meet these extra burdens. Last year our exports were sufficient, with our invisible earnings, not only to pay for our imports but to provide a surplus to build up our reserves and to help in the development of other countries.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-07c80ca4-0253-4a93-97c0-108e2905a950'>
+            
+<p class="">This year we have come reluctantly to the conclusion that we shall not be able to manufacture and sell a bigger volume of exports than will, after allowing for our invisible earnings, just pay for our current imports. To this extent our burden is lightened, and what would otherwise have been a severe curtailment in living standards is modified. But even after taking this alleviation into account as well as that provided by some fall in civil investment, we have to recognise that <span id="828" class="column-number" data-column-number="828"></span> there must be some reduction in our standard of living.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e7c69e47-3958-4e5f-adee-9c76ee575422'>
+            
+<p class="">The task of the Budget in this situation is to ensure as far as possible that the necessary transfer of resources from producing for consumption to producing for defence and exports takes place swiftly and smoothly. As I pointed out in my speech during the defence debate, fiscal and monetary policy alone is not sufficient to achieve this transfer, and physical controls are also needed. But these physical controls will not be nearly so effective if they are working against the tide, and they must therefore be accompanied by a strict fiscal and monetary policy to restrain civilian expenditure.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4e62a8b5-8387-4016-b392-9583534864a2'>
+            
+<p class="">In more precise terms the Budget must ensure, after taking into account any rise in money incomes, including that automatically generated by the rise in production, that what is spent at home is enough, but no more than enough, to buy, at prices which cover their costs, the goods and services we can afford to consume at home. What we can afford for public and private consumption is, of course, what is left over from our total production after adding what is to be imported, and taking away what is required for exports, home investment and defence.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2e32add0-4dda-4bbc-b326-57547ddae987'>
+            
+<p class="">If the Budget fails to limit expenditure accordingly, it will be a case of too much money chasing too few goods; excessive demand will either just lead to higher prices or it will pull more goods into the home market, but at the expense of exports or of defence or of investment. In either case we would have an inflationary Budget. But it is possible to go too far the other way. If home spending is deflated too much, the effect may be not just to speed up defence output, or get more investment or a higher level of exports.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ec3c3fa1-bc9f-4fd6-9c25-e5baaea6f8f9'>
+            
+<p class="">In the case of exports at least, we must have regard, and this is particularly true of consumer goods, not only to our ability to supply, but also to the capacity of overseas markets to absorb—a difficulty which was in part responsible for our decision not to attempt to maintain a surplus in our overseas balance. Thus a too severe Budget might give us losses, unemployment and austerity at home without any substantial benefit to our external position. We do not want deflation of this kind any more than we want inflation.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="829" class="column-number column-only" data-column-number="829"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ad78f54f-d15a-45a4-95f3-98f04a847627'>
+            
+<p class="">This leads me to emphasise that while a sufficiently tough Budget, by its effect on total expenditure, will prevent prices being pushed up by excessive demand, it cannot, by being even tougher, do much to prevent a rise in prices when these are caused by a higher level of costs. In this respect the limitations of the Budget are much the same as those of price control.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c22e2bd3-53f9-43ee-b502-5cf8b7b37773'>
+            
+<p class="">Now at the moment it is a costs inflation which is affecting us. Higher prices for imported raw materials, and to some extent foodstuffs as well, are pushing up our cost of living more and more. A tough Budget can only give limited help here. It can exercise some check; it can, and should, ensure that excessive demand does not add its influence to that of high costs. But it cannot directly reduce a generally high level of costs to any material extent—except through a policy which deliberately creates losses and unemployment.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-97fad8ea-819a-490a-a95a-113daf50c1dc'>
+            
+<p class="">I have already pointed out that the rise in import prices beyond the rise in export prices imposes a very real burden upon us. As a nation we cannot evade this burden, but we have a choice as to how it is borne within the community. If the higher prices of imported raw materials and food are passed on to consumers, the burden is then spread on everyone according to the extra they have to pay; and sacrifice in consumption comes about through higher prices.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-90aa8184-62b9-4530-9655-bad8474c07d2'>
+            
+<p class="">On the other hand, the Government could try to protect consumers from these higher prices by increasing the subsidies on food still further and introducing them again for clothing and many other things. But it would then be essential to raise more money in taxation to pay for these extra subsidies, and the burden would be shifted and have to be paid through higher taxes rather than higher prices.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b3c2e5a9-ee0e-4807-849c-35e49cb67656'>
+            
+<p class="">A decision on this important matter should clearly not be taken on its own. It must be looked at in the light of the Budget as a whole and of any other measures that may be necessary or burdens that may have to be imposed. Equally, whatever decision is reached on the question of increasing subsidies or not doing so, must be taken into account in settling the other details of the Budget.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7f4a28bb-de4b-45b5-a20a-28a3f9a7c04c'>
+            
+<p class="">There is another feature of the situation which is not to be overlooked, though I <span id="830" class="column-number" data-column-number="830"></span> readily admit that its exact significance to some extent depends on the decision taken on subsidies. The way in which the burden falls on different groups is also affected by changes in money incomes; in recent months the incomes of some groups and individuals have been going up, in some cases without any special action or efforts on their part, in others because not unnaturally they have used their bargaining power to try and protect their standard of living.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e8ef4e1d-39dd-4e7b-b197-7fccb1e91041'>
+            
+<p class="">Such increases in incomes push up costs and therefore lead to still higher prices. To some extent higher export prices may bring us some benefit by checking the worsening of the terms of trade. But there are certainly limits to the rise in export prices which can take place without serious danger to our competitive power. Moreover, in so far as particular groups do improve their position in this way—and the improvement often tends to be only temporary or partial—it is primarily at the expense of those whose incomes are relatively stable or completely fixed—and who have now to pay still higher prices with no extra income to help them. We shall have to consider later how far we should, and can, take this development also into account. But can we, and should we, try to interfere with the process itself?</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7faede71-2c7d-4f64-8a19-63fec9055fec'>
+            
+<p class="">I shall return to the subject of profits later, but what of wages and salaries? During the past few years of labour scarcity and the sellers' market the workers have been in a position of unexampled strength and bargaining power; had they considered only their own immediate interest, they could have pressed their advantage home. On the other hand, there was little compulsion on employers to resist claims for improvement in wages and conditions when they knew that they could recoup themselves out of prices. Between these pressures and the menace of runaway inflation stood only the joint bargaining machinery—voluntary for the most part, statutory in certain trades—which has been built up and developed into part of the industrial relations system of this country.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8a35b1b2-0ac0-452f-8556-33c5d5776177'>
+            
+<p class="">It is not surprising that there should have been proposals from many quarters for minimising the potential dangers; that, for example, wages should be controlled by some central, independent authority: or that wages should only be allowed to <span id="831" class="column-number" data-column-number="831"></span> vary in accordance with movements in the cost of living or by reference to some index of production or productivity. Some of these ideas have their attractions; and some their merits. We have spent a good deal of time and thought upon them. But I am bound to tell the Committee that, in my view, they involve far-reaching risks and difficulties—some economic, some psychological. They would imply greater changes than either side of industry is at present willing to contemplate. The Government therefore decided to trust the established system of industrial wage regulating machinery, and to have faith in that sense of responsibility—</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ee0f54e2-c8d0-44ee-9401-82e1100185ae" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-04-10/debates/b312f8b3-4fe5-4cf7-afbd-947ed9889664/EconomicBackground#contribution-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I only venture to assure the right hon. Gentleman that, if he wants more time, it will be gladly accorded by the House, but if he would speak a little slower it would be for the convenience of everybody in understanding these complicated matters.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ee0f54e2-c8d0-44ee-9401-82e1100185ae" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-04-10/debates/b312f8b3-4fe5-4cf7-afbd-947ed9889664/EconomicBackground#contribution-ee0f54e2-c8d0-44ee-9401-82e1100185ae">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+                Mr. Gaitskell
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0993f5d5-f348-43f2-be3d-05fc2c94acbc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1951-04-10/debates/b312f8b3-4fe5-4cf7-afbd-947ed9889664/EconomicBackground#contribution-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am much obliged to the right hon. Gentleman, and I will proceed accordingly.<p></p> I was saying that the Government decided to trust the established system of industrial wage regulating machinery, and to have faith in the sense of responsibility which we believe has been engendered in both sides of industry as the result of the free development during a century or more of voluntary collective bargaining. No one can say that our faith has been misplaced or that guidance which the Government were able to give from time to time was not heeded.<p></p> What kind of guidance does the present situation demand? It is assuredly not a moment when we can afford to cast aside the restraints of the last few years. On the other hand, I do not think we should advocate a return to a complete wages freeze. For one thing, most of us would not wish to see the wages of the low paid workers held down rigidly while prices were going up. But we must beware of going too far. A large proportion of wage earners has recently secured advances. Moreover, increases in wages and salaries beyond what is justified by the growth of productivity are not usually at the expense of profits but push up prices still further and the real losers from general increases are those with fixed incomes, some of them, like old age pensioners, with very low fixed incomes.<p></p><span id="832" class="column-number" data-column-number="832"></span> Finally and more generally, I must draw the attention of the Committee and of the country to a real danger which, because we in this country have in the past successfully avoided it, is often ignored; the danger that, if incomes and prices rise swiftly and continuously, there may be a progressive loss of confidence in the value of money. Were such confidence to be lost we should be plunged into inflation of the most violent kind, which in other countries has on more than one occasion brought the whole fabric of their social and political life to the edge of disaster.<p></p> All these risks and dangers must therefore be borne in mind by those concerned in industry. We have, nevertheless, decided that we can continue to trust the established system of wage negotiation to avoid a rapid and damaging upward spiral of incomes, costs and prices. I am convinced that there is today a far wider understanding, by the leaders of both sides of industry and by the nation as a whole, of the part they must play in preserving a healthy economy, than at any time in our history.<p></p> Now let me summarise, for the Budget itself, the implications of this brief survey of the economic background.<p></p> First, it must clearly be our object, even if, as I have argued, we cannot prevent a cost-inflation by a strict budget, to make sure that there is no aggravation on the demand side, no further impetus to higher prices.<p></p> Secondly, the Budget must help to direct production towards defence and exports, which are the physical tasks before us. It must discourage the use, for consumption at home and for less essential investment, of those resources of labour and materials required for defence and exports.<p></p> Finally, we should take account—so far as budgetary policy can—of the facts that the rise in prices bears most hardly on all lower income groups and that those with fixed incomes will tend to be more severely hit than those whose money incomes are rising.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0993f5d5-f348-43f2-be3d-05fc2c94acbc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1951-04-10/debates/b312f8b3-4fe5-4cf7-afbd-947ed9889664/EconomicBackground#contribution-0993f5d5-f348-43f2-be3d-05fc2c94acbc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

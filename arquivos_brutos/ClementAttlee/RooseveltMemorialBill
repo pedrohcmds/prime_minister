@@ -1,0 +1,809 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Roosevelt Memorial Bill - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1946-10-11">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1946-10-11/debates/52b13908-8759-4e1a-a092-001108a72fe3/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1946-10-11/debates/dc5aaa24-8306-4b59-9440-10f0ae16616f/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/dc37728b-c224-4237-962a-22ffd8c5646f"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1946-10-11">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1946-10-11/debates/4fa4ab59-2315-46e5-a678-59b7c71ef4ac/Prayers" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Roosevelt Memorial Bill
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1946-10-11/debates/839f4752-c07e-4463-b104-caa7da0de50e/RooseveltMemorialMoney" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2274418" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>11 October 1946</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 427</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9ab9cbab-ea1a-4d76-89c2-c53ad6c083ad'>
+            
+<p class="">Order for Second Reading read.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-428fe8ba-0c34-4949-a230-df1442d3030a'>
+            
+<p class="">11.6 a.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-7dbcd197-d505-4337-a75d-15d376508c89">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7dbcd197-d505-4337-a75d-15d376508c89">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7dbcd197-d505-4337-a75d-15d376508c89">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7dbcd197-d505-4337-a75d-15d376508c89">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7dbcd197-d505-4337-a75d-15d376508c89" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-7dbcd197-d505-4337-a75d-15d376508c89">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, "That the Bill be now read a Second time."<p></p> I hope and believe that the Second Reading of this Bill will receive the unanimous support of the House. Early in 1945, soon after the grievous news of the death of President Roosevelt was received, the present Leader of the Opposition proposed the erection of a memorial in this country. He did so not only as the Prime Minister of the United Kingdom, but as one who had been the close friend of the President for many years, and everybody knows what inestimable advantage accrued to this country and to the Allied cause from the intimate comradeship of these two leaders of their peoples.<p></p> The Measure now before the House is designed to enable the proposal then made to be given tangible form. I am glad to know that it has the approval of the right hon. Gentleman opposite and that he will be speaking in support of the Motion. Here, in London, we already have statues in honour of the memories of two great American Presidents, George Washington and Abraham Lincoln. It is altogether fitting that we should pay a similar tribute to Franklin Roosevelt. He whom we desire to honour was, first and foremost, a great American. In peace, he was the man who, in the dark days of trade depression and unemployment, initiated and carried through bold and original policies of reconstruction. In war, he was the leader and inspirer of a great nation fighting in defence of the principles on which it was founded.<p></p><span id="488" class="column-number" data-column-number="488"></span> But he was also a great international statesman who saw his own country, not in isolation, but as a leading actor on the stage of world affairs. He recognised that the great position obtained by the United States among the nations brought with it great responsibilities. Months before America was in the war, he defined five freedoms which set before the common peoples of the world the aims to be realised when peace had been attained. In August, 1941, while America was still at peace, he and the right hon. Gentleman opposite drew up the Atlantic Charter, the text of which I had the privilege of reading to the people of Britain on the wireless Perhaps the greatest example of his foresight and wisdom was the arrangements that he made to ensure that the representatives of the United Nations should meet at San Francisco while the war was still raging in order to lay the foundations of a new organisation for the prevention of war in the future. This action illustrates two of his outstanding qualities—courage and faith. He combined the qualities of the fearless idealist with those of the far-seeing and prudent man of affairs. That same courage which had enabled him to overcome the crippling effects of serious illness, enabled him to reach bold decisions in world affairs, while his practical appreciation of what was possible never hampered the breadth of vision which showed him what was desirable. His political philosophy was simple and straightforward, based on the principles of liberty and social justice which are the foundations of our civilisation. He opposed with unflinching tenacity aggression, whether of individuals or States, in any guise and devoted himself to serving the common man. He died at his post before final victory had been achieved, but not before he had the certitude that the cause for which he worked would be triumphant<p></p> Here, in this House today, we think of him mainly as a great upholder of freedom and democracy, and as the loyal and true friend of this country. No one saw more clearly than did he that our fight against Hitlerism was a fight for freedom all over the world, and he recognised that, in the dark days of 1940, Britain was holding the outpost line of liberty before that realisation had come to many of his countrymen. We may recall today how in 1939 he established the Cash-and-Carry plan in order to admit the sale of armaments to the Allies, how, early in 1941, <span id="489" class="column-number" data-column-number="489"></span> when we were in mortal peril and when many doubted the possibility of our survival, he secured the passage of the generous Lend Lease Act and pushed the American patrols further and further East into the Atlantic Ocean. They were the acts of a faith that demanded that we should not fail, and we did not fail. Any one of these would surely be enough to earn the undying gratitude of our people. Yet they were only the prelude to many similar deeds.<p></p> Let us recall, too, the energy with which he pressed forward with the preparations for the entry of American troops into the North African and European theatres of war. Let us remember the courage with which he undertook difficult journeys in order to concert plans with the other leaders of the Allies. I did not myself meet the President often, but I well recall when I visited him in 1941 only a few weeks before Pearl Harbour, how much he impressed me with his broad human outlook, his practical sagacity and his strategic insight. He stood emphatically for the common man in all countries, and it is, therefore, very fitting that this memorial to be erected in London should be derived from the contributions of the ordinary men and women of this country.<p></p> It is the desire of the Pilgrims Society, under whose auspices these funds are being raised, that the memorial shall represent the feelings of the British people as a whole and not merely of sections of it. This desire is entirely in line with the views of His Majesty's Government. While, therefore, the Pilgrims will accept contributions small or large, they hope that as many people as possible will subscribe not more than 5s. each and thus raise the sum required, now estimated at £40,000. This is the sum which is estimated to be necessary to provide a worthy memorial in Grosvenor Square, a locality in which so many Americans worked during the war. The Duke of Westminster has generously made the site available, and His Majesty's Government will be proud to maintain the statue and the Square as a public garden in perpetuity. It is in order that the Government may carry out their share of the scheme that this Bill is introduced.<p></p> The memorial will be a spontaneous gesture of the respect and admiration of the ordinary men of this country for one <span id="490" class="column-number" data-column-number="490"></span> who was their friend in the time of great need. All the people of this country, and especially the people of London, regret that they did not have the opportunity of greeting President Roosevelt in person and showing him the depth and sincerity of their gratitude. We shall all be proud to take our share in setting up a memorial to one of the greatest and truest friends that this country ever had.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7dbcd197-d505-4337-a75d-15d376508c89" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-7dbcd197-d505-4337-a75d-15d376508c89">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b4c410b2-c7fd-4e21-8c3e-6169aff1e550'>
+            
+<p class="">11.16 a.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a28aaff2-8832-4307-aefc-a3cac9fbd487" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I rise to support the Second Reading of the Measure which the Prime Minister has proposed to us in felicitous terms and with so much feeling. It was my duty, 18 months ago, to address the House on the sad occasion of President Roosevelt's death, and I am sure I did not go beyond historical fact and general conviction in describing him as the greatest American friend we have ever known, and the greatest champion of freedom who had ever brought help and comfort from the new world to the old. It is indeed fitting that a memorial should be raised to him in this island, and that old, mighty, war-scarred London should be the chosen place. I could have wished that the House had taken upon it the charges to erect this monument, as I am sure it would have been most willing to do, but the method chosen of raising money by a great number of small subscriptions has the important advantage that it permits so many people to give effect, by an individual act, to their heartfelt feelings, and it is, I think, in accordance with what President Roosevelt himself would have wished.<p></p> I am obliged to the Prime Minister for the reference which he made to the comradeship which grew between the late President and me during the war, and to the fact that this was of service to the interests of the people of our countries and to the cause for which all the Allies fought so hard and so long. This comradeship in great affairs was founded upon friendship, and roused in my heart a sentiment of sincere affection for this noble, august and charming personality. I received from him so many marks of kindness and good will that I felt buoyed up in the ordeal of the war by the fact of walking hand in hand with this outstanding chief of the American people.<p></p> The Prime Minister has spoken of Washington and Lincoln, and who can doubt that Franklin Roosevelt will take <span id="491" class="column-number" data-column-number="491"></span> his place with them in the history, not only of the United States, but of the world? We are so much nearer to him in point of time that we cannot see his life's work in the perspective and setting which belong to the famous figures of the past, but already none can doubt his rank and stature. There are many tests by which we may try to measure the greatness of the men who have served high causes, but I shall select only one of them this morning, namely, the favourable influence exerted upon the fortunes of mankind. In this, Roosevelt's name gains pre-eminence even over those of the illustrious figures we have mentioned. Reflecting on the past, one has the feeling that the changes associated with Washington would probably have come to pass in due course by the irresistible movement and evolution of events. Nor can we doubt that slavery would have been abolished, even apart from Abraham Lincoln, in the vast spread of the humanities which lighted the 19th century. Of Roosevelt, however, it must be said that had he not acted when he did, in the way he did, had he not felt the generous surge of freedom in his heart, had he not resolved to give aid to Britain and to Europe in the supreme crisis through which we have passed, a hideous fate might well have overwhelmed mankind and made its whole future for centuries sink into shame and ruin. It may well be that the man whom we honour today not only anticipated history but altered its course, and altered it in a manner which has saved the freedom and earned the gratitude of the human race for generations to come. On this side of the House we give our cordial support to the Measure which the Prime Minister has just introduced.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a28aaff2-8832-4307-aefc-a3cac9fbd487" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-a28aaff2-8832-4307-aefc-a3cac9fbd487">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c8379b39-841a-4230-8820-45f3768aa07c'>
+            
+<p class="">11.21 a.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+                Mr. Clement Davies  (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-275cf88c-3b04-4cb3-831e-471f3281f7b3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I, too, desire to support the Second Reading of this Bill. On all occasions when great fundamental human rights were in peril the United States of America have been fortunate in their leaders. Men of sterling character, men of high courage, and men of fine nobility and thought have come forward to lead them. George Washington, Jefferson, Lincoln, Wood-row Wilson—those are men whose names will be recorded through the coming ages, men whose personalities, whose <span id="492" class="column-number" data-column-number="492"></span> work, whose acts and whose words will be studied and treasured. Holding his rightful place among those men, beloved of their fellow men, will stand, rightly and firmly, Franklin Roosevelt.<p></p> We in this country will treasure his memory. We can still hear the ringing, confident tones of his voice calling upon his fellow men, not only in the United States but throughout the world, to stand firm in defence of human rights which were challenged, calling upon us all to be of high courage and not to be, in anyway, daunted by the grim peril which threatened us all. We can hear again his description of the needs of Britain and his determination that America would come forward with all her mighty strength to fulfil those needs. He led the millions of his great and free countrymen into the greatest battle in all history, to defend not only the United States, Britain and the British Commonwealth of Nations, not only stricken Europe but the world, against the cruel aggressor who would have enslaved all men His high moral courage overcame all physical pain and every handicap that would have overwhelmed a lesser man. It is right and fitting that we should have here, in battle-scarred London, a memorial to him, that his memory, deeds, words, actions and lofty thoughts will ever be treasured, and not only treasured but enshrined in all the hearts of the people of this country.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-275cf88c-3b04-4cb3-831e-471f3281f7b3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-275cf88c-3b04-4cb3-831e-471f3281f7b3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+                Mr. Henderson Stewart  (Fife, East)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-76aa1dc1-18b2-41a1-bec8-8e278a577dde" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Since I think it would be the desire of the House that all parties, small as well as large, should be associated with this Motion. I desire on behalf of my hon. Friends to express our warmest support of this Measure and to pay, as others have done, our deepest tribute to this very great American statesman.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-76aa1dc1-18b2-41a1-bec8-8e278a577dde" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-76aa1dc1-18b2-41a1-bec8-8e278a577dde">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-063cc0e8-8bc1-459e-b90d-d4a35dca078a'>
+            
+<p class="">11.24 a.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+                Mr. Keeling  (Twickenham)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Perhaps I may be allowed to mention that the City of Westminster, in which Grosvenor Square is situated, was approached about this proposal and, of course, cordially approved it. We suggested that the Royal Fine Arts Commission should be consulted about the lay-out, and I understand they have been consulted and have made suggestions for improving the proposals made by the Pilgrims Society.<p></p> The Prime Minister referred to the connection of Grosvenor Square with Ameri- <span id="493" class="column-number" data-column-number="493"></span> can troops during the war. Perhaps the House might be interested to have a few facts about the history of the square, especially previous links with the United States. Grosvenor Square was a meadow until the end of the 17th century, and in 1642 Cromwell erected a redoubt there as a protection against Charles I who was advancing upon London after the battle of Edge Hill. That redoubt or mound gave its name to Mount Street. When Sir Richard Grosvenor started building the square in 1695, the garden in which the statue of President Roosevelt is to be erected was laid out by William Kent. George Ill's Prime Minister, Lord North—which is not a name to conjure with in America—lived for over 40 years in Grosvenor Square, and after America had won the War of Independence the first American envoy, John Adams, lived at No. 9. During the Napoleonic Wars Sir William and Lady Hamilton lived at No. 2, and Nelson was often their guest. Then, as now, there was a shortage of bread in London, and it is on record that Nelson's host refused to give Nelson any bread for dinner. There was no bread rationing then, and Nelson gave his servant a shilling to go out and buy a loaf. In the last quarter of the 19th century the father and mother—herself an American—of my right hon. Friend the Leader of the Opposition lived at No. 50, Lord North's old house. Finally, in the war of 30 years ago, Walter Page, the American Ambassador, lived at No. 6.<p></p> There is no more suitable site in the United Kingdom than Westminster for this memorial, for during the war no place was more visited by Americans, whether for duty or pleasure, than Westminster, and in another square in Westminster General Eisenhower planned all his campaigns. Westminster is proud that a statue of President Roosevelt is to stand in its midst.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-ce4be6fe-06bb-4db6-87dc-683f5f7fbb99">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-9e67604b-1afd-47cb-b05f-36075fdcea6b'>
+            
+<p class="">11.28 a.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+                Lieut.-Colonel Sir William Allen  (Armagh)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-bf3ac6fb-2447-4be2-9843-fd17526f8269" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I would have been glad if some of the more eloquent of my colleagues from Ulster had taken this opportunity of paying tribute to the late President Roosevelt. We feel that this is a special reason why we should take part in the erection of a memorial to him, in view of the fact that from that small part of the British Dominions we have supplied, directly or indirectly, at least <span id="494" class="column-number" data-column-number="494"></span> 12 Presidents of the United Stales of America. I would be very happy to lake up a little more time of the House on this subject but this is not the occasion for indulging in long speeches.<p></p> In Ulster we had the historical privilege of receiving the first troops that came from America. We have the happiest recollections of their stay with us. They, in their turn, expressed their delight and pleasure in making the acquaintance of the Ulster people, and they have taken away to their own homes many of the ladies of Ulster to be their helpmates. I think it is only right that we, as a little party from Ulster, should express our satisfaction that such a project as that contained in the Bill is about to be accomplished. Some of us, individually, might feel that this memorial should take the form of something of substantial use to the people of England. A statue is about to be erected in honour of this great man. I feel that if President Roosevelt himself had had the selection of a memorial for himself he would have chosen something substantially useful. However, that is for the opinion of this House and the people of England. I take this opportunity of cordially approving, on behalf of my colleagues and the Ulster people, the Motion that has been moved by the Prime Minister.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-bf3ac6fb-2447-4be2-9843-fd17526f8269" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1946-10-11/debates/dc37728b-c224-4237-962a-22ffd8c5646f/RooseveltMemorialBill#contribution-bf3ac6fb-2447-4be2-9843-fd17526f8269">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1791a2ce-1d28-442e-8144-6f527717ad83'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-fe587084-80cd-4f24-9ad5-b907feaf98b4'>
+            
+<p class="">Bill accordingly read a Second time.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4184bcbc-cc1c-4f1b-8892-3775e661062f'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>"That it is expedient that the Bill be committed to a Joint Committee of Lords and Commons."—[<em>The Prime Minister.</em>]</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-11cb453d-14ce-4619-8a72-91072a6791e0'>
+            
+<p class=""><em>To be communicated to the Lords and their concurrence desired thereto.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

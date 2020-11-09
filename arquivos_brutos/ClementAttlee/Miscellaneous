@@ -1,0 +1,924 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Miscellaneous - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-04-06">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-04-06/debates/c7ae11ef-7fd4-4599-9d67-e52d6e96df52/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1948-04-06/debates/e6cd4fa6-210b-41cf-b819-05792074ce2d/OrdersOfTheDay">
+                                    <span class="commons">Orders Of The Day</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1948-04-06/debates/b624b82b-10ed-4865-ba9f-1931a766bdc5/FinancialAndEconomicStatement">
+                                    <span class="commons">Financial And Economic Statement</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/70f41a45-01e6-4398-a973-1b52a2eed7b0"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-04-06">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-04-06/debates/8d93d3cf-5699-4cd6-9829-81e05b8675df/IncomeTax" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Miscellaneous
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1948-04-06/debates/e872d587-043d-4e9d-8882-def2099d5b20/PrincesHotelHove(Requisitioning)" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2717330" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>06 April 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 449</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-752b9ae2-d55f-4461-8dad-b779b4701117'>
+            
+<p class="">32. <em>Special Contribution</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6714f60b-d9ca-4e7c-90aa-622ca7b8a911'>
+            
+<p class="">Motion made,</p><p class=""> <blockquote><q>"That where the total income of an individual for the year 1947–48, ascertained as Parliament may determine, exceeded two thousand pounds and his investment income for that year, ascertained as aforesaid, <span id="108" class="column-number" data-column-number="108"></span> exceeded two hundred and fifty pounds, there shall be charged a special contribution in accordance with the following Table, together with interest from such time as Parliament may determine:</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e4fea9e8-672b-401f-9678-282507ebbf6a'>
+            
+<p class=""><table class="hansardTable"></p><p class=""> <tr></p><p class="">  <td colspan="3" align="center">TABLE</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td colspan="3">For every pound of—</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td></td></p><p class="">  <td align="right">s.</td></p><p class="">  <td align="center">d</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>the first two hundred and fifty pounds of the excess of his investment income over two hundred and fifty pounds</td></p><p class="">  <td align="right">2</td></p><p class="">  <td align="center">0</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>the next five hundred pounds of the excess</td></p><p class="">  <td align="right">4</td></p><p class="">  <td align="center">0</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>the next thousand pounds of the excess</td></p><p class="">  <td align="right">6</td></p><p class="">  <td align="center">0</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>the next three thousand pounds of the excess</td></p><p class="">  <td align="right">8</td></p><p class="">  <td align="center">0</td></p><p class=""> </tr></p><p class=""> <tr></p><p class="">  <td>the remainder of the excess</td></p><p class="">  <td align="right">10</td></p><p class="">  <td align="center">0</td></p><p class=""> </tr></p><p class=""></table></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+                Mr. Sidney Shephard  (Newark)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-67e92b2f-18e5-47ec-a62e-1a9b73976a61" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On a point of Order. Before the Question is put may I ask if the contribution is on the net amount of the money received? There is no mention of that.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-67e92b2f-18e5-47ec-a62e-1a9b73976a61" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-67e92b2f-18e5-47ec-a62e-1a9b73976a61">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6a43b07f-6794-4c51-9757-d4b460617fea">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6a43b07f-6794-4c51-9757-d4b460617fea">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6a43b07f-6794-4c51-9757-d4b460617fea">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6a43b07f-6794-4c51-9757-d4b460617fea">
+                The Chairman
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6a43b07f-6794-4c51-9757-d4b460617fea" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-6a43b07f-6794-4c51-9757-d4b460617fea">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am sorry, but, according to the Standing Order, Debate is not possible at this stage. With one exception all the Motions have to be put forthwith without Debate.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6a43b07f-6794-4c51-9757-d4b460617fea" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-6a43b07f-6794-4c51-9757-d4b460617fea">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8b967bf0-07e3-42ca-9664-29e4d69776dd'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-cc2bf1f7-af34-48da-b3de-147ab0040e58'>
+            
+<p class="">33. <em>Profits Tax</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-7b245ce1-1591-4f57-9e7d-808df8dbeb38'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>"That the extent and incidence of the Profits Tax (for past and future chargeable accounting periods) shall be varied so as to give effect to amendments affecting the computation of profits or losses or the transactions to be treated as distributions to proprietors or affecting the treatment of the British Electricity Authority and Area Boards established by or under the provisions of the Electricity Act, 1947:"</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b2183f5c-d9ea-4887-9875-c15554559ce1'>
+            
+<p class="">34. <em>Relief from double death duties</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-59820e43-f193-4cb4-8f06-ef1b15350d39'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>"That effect may be given to arrangements between His Majesty's Government in the United Kingdom and the Government of any territory outside the United Kingdom, the laws of which do not provide for a duty similar to estate duty, with a view to affording relief from double taxation in relation to estate duty payable under the laws of the United Kingdom and any duty leviable on, or by reference to, death imposed under the laws of that territory, so far as the arrangements provide for determining the place where any property is to be treated as being situated for the purposes of estate duty; and the arrangements to which effect is given may include provisions as respects deaths occurring on or after the seventh day of April, nineteen hundred and forty-eight, and provisions as to property which is not itself subject to double duty."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="109" class="column-number column-only" data-column-number="109"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c9d357b7-d357-497d-9cd3-dd2c813fe0a4'>
+            
+<p class="">35. <em>Estate Duty</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-03eae219-2dd9-472f-a5a6-4d2c1a608dec'>
+            
+<p class="">Resolved:</p><p class=""> <blockquote><q>"That, for the purposes of estate duty and as respects persons dying on or after the seventh day of April, nineteen hundred and forty-eight, property passing on the death of the deceased shall be deemed to include— <li>(<em>a</em>) money received under a policy of assurance effected by the deceased on his life and wholly or partly kept up out of money comprised in or arising under a settlement made by the deceased; and</li><li>(<em>b</em>) money received under a policy of assurance effected on the life of the deceased under a settlement made by the deceased."</li></q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4b771321-3d06-4d10-9e96-ed276d5e8a00'>
+            
+<p class="">36. <em>Amendment of Law</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f9fe1c6e-e143-43a3-bd0e-00da2f03bb30'>
+            
+<p class="">Motion made, and Question proposed,</p><p class=""> <blockquote><q>"That it is expedient to amend the law with respect to the National Debt and the public revenue, and to make further provision in connection with finance."—[<em>Sir S. Cripps.</em>]</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8d71719c-5af8-4559-92f4-5da5f8909212'>
+            
+<p class="">6.0 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Whatever we may think about the Budget proposals and the general financial situation—and on that point no doubt diverse opinions will be entertained in the different quarters of the Committee—I expect there will be general agreement that the Chancellor of the Exchequer has delivered a comprehensive, lucid statement. Very few words were wasted and the whole vast, complicated panorama of facts and figures appeared to be approached in a spirit of careful analysis and embracing design. It was refreshing to hear a statement of this kind, apart, that is to say, altogether from its substance. We must always remember, in judging the right hon. and learned Gentleman, that the inheritance to which he succeeded so unexpectedly, although it was not subject to new and penal rates of taxation, was at any rate one which did not contain only agreeable features. He is the heir of policies which have been much criticised and are accused of having notably emphasised the danger of inflation and have been accompanied undoubtedly by an ever-declining strength in the purchasing power of money.<p></p> The right hon. and learned Gentleman, therefore, is entitled to every assurance that his proposals will receive careful, precise, thorough and searching attention. We have the advantage also of dealing not only with the Chancellor of the Exchequer, but with the overlord of our <span id="110" class="column-number" data-column-number="110"></span> economic life. I do not know that the burden of the two offices combined is necessarily much greater than if they were divided; probably more can be done in solving problems when they are all under one's own hat than when time has to be taken up in adjusting difference and difficulties with opposite numbers. The right hon. and learned Gentleman has at any rate the advantage that the whole field is at his disposal.<p></p> I have thought it right to thank him for the full account he has given in a speech quite worthy of Budget occasions, in which the Committee always takes special interest. I feel sure that his precise mind and careful legal training will enable him to carry through the detailed discussion and Debates upon this Bill in the same competent manner which has marked his first unfolding of his proposals to the community. It is not my intention now to enter upon any discussion of merits. We wish to have the opportunity of thinking very carefully over what has been said and endeavouring to apply our minds to the problem as a whole, as well as to its special circumstances. There are, of course, great questions to be borne in mind, and the gravity of the situation admits of no difference of opinion in any part of the House. It is indeed, a situation of extreme gravity when a country so strong and proud as ours cannot pay its way and has to lean upon the good offices of a free and generous nation for a large proportion of its actual upkeep. We cannot and are not paying for our keep and our livelihood at present.<p></p> There are also all those grave financial issues which have been touched upon, and the question is whether the policy which the right hon. and learned Gentleman has put before us constitutes the best method of remedying these evils. This problem of "Too much money chasing too few goods," or the question of killing money wherever possible and destroying spending power, sounds all very strange to those who remember the days when we heard so much about increasing the consuming power and allowing money to fructify in the pockets of the people. All that has apparently passed away and there is a school of economists who believe that restriction, frustration, regulation and taxation of every kind e re the prime reagents by which the wealth of nations may be created. These are <span id="111" class="column-number" data-column-number="111"></span> matters which we shall have to consider not only in their financial, but in their economic aspect in the Debates which will take place, and which will be long, upon the general principles of the Budget.<p></p> There are the questions also of the great surplus of over £300 million which the right hon. and learned Gentleman has presented; of whether greater advantage would not be gained by giving further relief to the taxpayers; and whether the present rates of taxation are not onerous in the very last degree. When Chancellors get up nowadays they give away a few minor items this way and that, and parade and preen themselves as great benefactors of the public. It must not be forgotten that the whole of the vast mass of pain§ and penalties under which we totter today was accummulated through the national struggle of the war. It was never contemplated that the expenditure of over £3,000 million should roll forward in time of peace. Such ideas must be carefully probed and examined.<p></p> The only other remark which I would venture to make is one which is not of a general character. The right hon. and learned Gentleman unfolded his plan for a capital levy. He avoided the name but he unfolded his plan for a once-for-all levy on capital. How can he say it will be a once-for-all? It does not rest with him.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-a931bf1b-94b6-4e3a-9301-9c2583b5a1b0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-84180804-a6a3-4bde-927a-eb39001ab2a6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-84180804-a6a3-4bde-927a-eb39001ab2a6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-84180804-a6a3-4bde-927a-eb39001ab2a6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-84180804-a6a3-4bde-927a-eb39001ab2a6">
+                Lieut.-Colonel Lipton  (Brixton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-84180804-a6a3-4bde-927a-eb39001ab2a6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-84180804-a6a3-4bde-927a-eb39001ab2a6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It rests with the Government.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-84180804-a6a3-4bde-927a-eb39001ab2a6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-84180804-a6a3-4bde-927a-eb39001ab2a6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-01cdb42b-172e-452b-bfd6-1ac31e348938">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-01cdb42b-172e-452b-bfd6-1ac31e348938">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-01cdb42b-172e-452b-bfd6-1ac31e348938">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-01cdb42b-172e-452b-bfd6-1ac31e348938">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-01cdb42b-172e-452b-bfd6-1ac31e348938" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-01cdb42b-172e-452b-bfd6-1ac31e348938">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I do not know that the hon. and gallant Member can speak for the Government. He must allow them to speak for themselves and adjust their policies to the ever-changing, varying problems and circumstances of every day. This seems to me a very serious proposition and it may well defeat the objects which it has in view. Generally speaking, I doubt very much whether the right hon. and learned Gentleman's Budget will be found to meet the real difficulties or to apply the right remedies. On the other hand, I feel that it is only right to compliment him on the manner in which he has presented it.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-01cdb42b-172e-452b-bfd6-1ac31e348938" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-01cdb42b-172e-452b-bfd6-1ac31e348938">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-71ff1cd9-49dc-4b0e-814b-e413650c927c'>
+            
+<p class="">6.10 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+                Mr. Norman Smith  (Nottingham, South)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b160a59d-04ca-40aa-9722-e9a09ed7cbb5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think that the right hon. Gentleman the Member for Woodford (Mr. Churchill) must have felt a certain amount of envy <span id="112" class="column-number" data-column-number="112"></span> when he referred to my right hon. and learned Friend as being not only the Chancellor of the Exchequer, but also the overlord of our economic life. When the right hon. Gentleman introduced his Budgets, he was not the overlord of our economic life. He had to reckon with an overlord who was domiciled in the City of London and who was, in fact, Governor of the Bank of England. We are no longer working under the conditions of the Budgets of as long ago as 1925. My right hon. and learned Friend is, in fact, overlord, and he has no excuse for the harm he is doing in this Budget. There are some very grave and serious blots on this Budget. I resent in particular the increase in taxation on beer and tobacco. There is no need for this increase of taxation. Why should the innocent amusements of the people, which are already taxed far more than they need be, have to be subject to these added impositions?<p></p> My right hon. and learned Friend is going to an appalling amount of trouble to achieve' a comparatively small result, which will be obtained in any case. The amortisation of some £300 million is to be achieved 1537 all this juggling of figures, but, surely, Marshall Aid is now a certainty in the ensuing year, as a result of which we shall get some £300 million. If my right hon. and learned Friend does what he ought to do, there will be a <em>pro tanto</em> amortisation in any case of rather more than £300 million. My right hon. and learned Friend did not say what he contemplated doing with the Marshall Aid, which will automatically achieve the results which he proposes to achieve by all this tremendous interference with the pleasures of the people. There is a major fallacy underlying the arguments of my right hon. and learned Friend. He talked about inflation, but he did not prove anything. I would argue that either there is no inflation, or, if there is inflation, it is not due to the incomes of the working classes. The incomes of the working classes are not inflationary.<p></p> If there is inflation, it is obviously the result of our immense National Debt of £25,000 million, to which no reference was made in the long speech we have just heard. When I was a boy, the National Debt was £600 million. At the end of World War 1, it was £8,000 million, but now it is £25,000 million and nothing has been said about it in this <span id="113" class="column-number" data-column-number="113"></span> wide and comprehensive review of our national finances. Certainly there were no proposals for getting rid of the National Debt, or at least for getting rid of part of it, mitigating the appalling burden and the inflationary influence it represents. I suggest that my right hon. and learned Friend should have an inquiry into the National Debt for the precise purpose of finding out exactly how many units of that Debt represent money really lent, and how many units represent mere creations of credit out of nothing. I believe it is true that something like a quarter of the Debt—I am including floating as well as funded debt—never had any more substance than the ink in the fountain pens of the bankers. Most of this Debt was created during the war, and we still have its effects with us. What are the objections to having an inquiry into the composition of the National Debt? Why not ask the alleged lenders to prove their bona fides? If anyone really has parted with money, and lent it to the Government, the Government will obviously honour their obligations; but if the lender did not part with any money, there is no reason under heaven why the obligation should be honoured.<p></p> It is a complete fallacy to propose that to the extent that the Government undertake capital works, the cost of these works must he taken out of the people's current incomes. If that were true, it would be equally right to argue that private investment in private enterprise should come out of the investors' current incomes. The fact is that, to the extent that private enterprise extends its business, it is paid for very largely from funds which have been accumulated in the past, or by bank loans, which are merely a form of created credit with no more substance than the ink in the fountain pens of the bankers. Why does my right hon. and learned Friend insist that, for every pound spent on Government capital expenditure, there must be a pound taken out of the current income of the people, especially when he does not propose the same thing in the case of private enterprise, where, of course, it could not be done? There is no logic in his argument.<p></p><span id="114" class="column-number" data-column-number="114"></span> The right hon. Gentleman the Member for Woodford referred to the Chancellor of the Exchequer as being the overlord of our economic life. He is indeed the overlord of our economic life, and in devising this fantastic Budget he has fallen into the same trap as the Leader of the Opposition fell into in 1925, when he took the advice of the experts and then six years later admitted that he had been wrong. I believe that my right hon. and learned Friend will also admit at some time in the future that he has been wrong in taking this course. There are good features in the Budget, but I do not propose to discuss them. I protest against the increase of taxation on beer and tobacco, which is absolutely unjustifiable. I resent the failure of my right hon. and learned Friend to mention anything about the savings campaign, which, as we all know, was a flop last year because people simply will not risk their savings unless they are sure the pounds they eventually draw out will be worth at least as much as the pounds they put in.<p></p> I suggest that the Chancellor of the Exchequer should abandon the orthodox pretence that money can perform two functions, namely, that of a store of value and that of an instrument of exchange. We have had a succession of orthodox Chancellors of the Exchequer ever since I was interested in politics. The result has been that the country has got into debt to a greater extent than ever before. Every baby born in the country today finds itself automatically in debt to the extent of £500. I hope that the Chancellor will tell the Committee what he proposes to do with the proceeds of Marshall Aid, which will provide this £300 million without all the fuss of getting it in any other way. Does he propose to do nothing about the National Debt, in which case things will continue to go from bad to worse?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b160a59d-04ca-40aa-9722-e9a09ed7cbb5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-04-06/debates/70f41a45-01e6-4398-a973-1b52a2eed7b0/Miscellaneous#contribution-b160a59d-04ca-40aa-9722-e9a09ed7cbb5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-09a3b892-ca7a-473b-a857-bd0ae0842065'>
+            
+<p class="">Ordered: "That the Chairman do report Progress, and ask leave to sit again."—[ <em>Mr. Joseph Henderson.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5c7481ca-540a-43c8-a9fe-3a1bf0198443'>
+            
+<p class="">Resolutions to be reported Tomorrow; Committee report Progress; to sit again Tomorrow.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="115" class="column-number column-only" data-column-number="115"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3a7b7b3d-4e30-4ee2-b57f-4ca35cf522f8'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. Joseph Henderson.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

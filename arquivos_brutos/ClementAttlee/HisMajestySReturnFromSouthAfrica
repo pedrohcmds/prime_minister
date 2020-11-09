@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>His Majesty's Return From South Africa - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1947-05-12">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1947-05-12/debates/83009e8d-de78-4761-ae7b-7ffc45a3c4be/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/1a1421c3-2367-4457-afbb-8b04df4c9e4c"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1947-05-12">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1947-05-12/debates/29a94b19-3c88-4268-b98c-6348a5b6c2af/BusinessOfTheHouse" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                His Majesty&#39;s Return From South Africa
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1947-05-12/debates/6c3d0e65-f47c-4332-9295-5428fdedf007/TownAndCountryPlanningBill" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2440716" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>12 May 1947</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 437</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-96e5b289-199e-4b95-9202-2a51312dfbd3'>
+            
+<p class="">3.35 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+                The Prime Minister (Mr. Attlee)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d718ec06-c8fb-48a9-bc38-d4451e301dca" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, <blockquote><q>"That an humble Address be presented to His Majesty, assuring His Majesty, on the occasion of his return from the Union of South Africa, of the loyal and affectionate welcome of this House to His Majesty, to Her Majesty the Queen and to Their Royal Highnesses the Princess Elizabeth and the Princess Margaret."</q></blockquote> On 27th January I moved that an Address should be presented to His Majesty the King on the occasion of His Majesty's departure with Her Majesty the Queen and Their Royal Highnesses the Princess Elizabeth and the Princess Margaret for South Africa. The whole country is today greeting their safe return home after a most successful visit. This House will wish to express to Their Majesties and Their Royal Highnesses their loyal and affectionate welcome. It is, I think, a happy coincidence that this day is also the tenth anniversary of Their Majesties' Coronation. This occasion, therefore, gives us the opportunity of paying a tribute to the devoted work which they have done throughout these years, both in peace and war—work which has strengthened the bonds which unite people and Throne.<p></p> Throughout these years, Their Majesties have shared in the joys and sorrows of their people and have set us all a fine example. I know that during these weeks of absence Their Majesties have followed with anxious sympathy the hardships which the unforeseen rigours of prolonged and severe winter inflicted on the nation. I know how willingly they would have returned to share them, had it been deemed necessary, but to have done so, would have been to give deep disappointment to our fellow-subjects in South Africa who, for the first time in their history, have been enabled to welcome in person their King and Queen.<p></p><span id="1097" class="column-number" data-column-number="1097"></span> We have all learned from the admirable reports in the Press and on the radio, and from the pictures in the newsreels, the enthusiastic welcome with which Their Majesties have been greeted in every part of South Africa, in the Union, in Northern and Southern Rhodesia and in the three Protectorates. We had not expected anything else, but every account has shown that the warmth of this welcome has exceeded all expectations. South Africa is a country of divers races and varying histories and traditions, but all alike were united in their desire to show their affection and respect for their Sovereign. I think that the people in South Africa were impressed not only by the zeal with which Their Majesties and Their Royal Highnesses carried through their very heavy programme of official functions, but by their actions on less formal occasions which displayed what we have already known so well—their broad human sympathy for all sorts and conditions of men.<p></p> We are grateful to all those who, throughout the tour, have devoted themselves to ensuring the comfort and wellbeing of Their Majesties. We are all glad to have Their Majesties home again, and to know that they have, through this visit, strengthened the ties of friendship between Great Britain and South Africa.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d718ec06-c8fb-48a9-bc38-d4451e301dca" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-d718ec06-c8fb-48a9-bc38-d4451e301dca">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b273d1fc-16c7-43d1-aa2d-0dc91d87c7a5'>
+            
+<p class="">3.40 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+                Mr. Churchill  (Woodford)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I wish to associate myself and the Conservative Opposition with the Motion which the Prime Minister has moved. We are all cordially ranged with the right hon. Gentleman on this question and his happily-worded speech leaves little need for addition. We all sympathise with the feelings of the King and Queen when they were in South African sunshine, while the rigours of the winter descended upon us here. It must have been, we know, a great worry and preoccupation to them not to be with us, as the King and Queen always have been with us in all the dark, unpleasant moments through which we have passed. It appears to me, and, I believe, to my friends on this side, that the constitutional advice, tendered by the Prime Minister and by the Government to the Crown, that the tour should continue, was entirely in the national, Commonwealth and Imperial interest, and was in every respect wise and correct. We have read in the papers of the festivities which have taken place, of the many <span id="1098" class="column-number" data-column-number="1098"></span> picturesque receptions held, of the welcome given by varied races, of the journeys that have been made and of the survey made by their Majesties of the wide panorama of South Africa. One must not forget, although each of these ceremonies in itself is a matter of great pleasure to the principal personages concerned, nevertheless, taken in a long unending routine, they become a very serious strain upon physical, mental and moral strength. To be continually presented with these demonstrations of affection and loyalty, and to receive them with such unfailing graciousness and untiring good will is, indeed, a great achievement, but it must not be supposed that it does not involve heavy toil, nor must it be supposed that it has not brought with it great advantages, as the Prime Minister has said, both to South Africa, and to the larger organism of which South Africa forms so romantic and interesting a part.<p></p> The Prime Minister reminds us also that the homecoming of Their Majesties and the Princesses corresponds with the anniversary of the tenth year of the King's reign. What a period of peril and torment we have had to live through. Yet all the strains and stresses which we have all undergone, and in which the King and Queen and the Royal Family have shared to the utmost of their power, never failing in their duty—all these stresses have only resulted in making more secure and solid the foundations of our institutions in this country, and increasing the loyalty and love formed by all parties to the King and Queen, in the discharge of the great constitutional office entrusted to them.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-cbf45435-cfe6-4026-9f9f-eeb7eb80d21b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-0a79d015-d0cc-49c1-b9d4-e97f882eda76'>
+            
+<p class="">3.44 P.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-87a1e77a-0429-481a-8694-0613425fdb24">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-87a1e77a-0429-481a-8694-0613425fdb24">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-87a1e77a-0429-481a-8694-0613425fdb24">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-87a1e77a-0429-481a-8694-0613425fdb24">
+                Mr. Clement Davies  (Montgomery)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-87a1e77a-0429-481a-8694-0613425fdb24" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-87a1e77a-0429-481a-8694-0613425fdb24">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I, on behalf of my colleagues and myself, be permitted to support the Motion moved by the Prime Minister, and to express the heartfelt gratitude of everyone in this country to Their Majesties who have undertaken this memorable tour? We extend to them our humble and sincere congratulations on the outstanding success they have achieved. It has re-emphasised the bond of friendship and good will which binds all the people of South Africa with this country.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-87a1e77a-0429-481a-8694-0613425fdb24" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-87a1e77a-0429-481a-8694-0613425fdb24">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ad355fb6-4ed5-41d0-b8ed-934b3e259f29'>
+            
+<p class="">3.45 P.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+                Sir Stanley Holmes  (Harwich)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On behalf of my colleagues and myself, I beg to support the Motion. The words so <span id="1099" class="column-number" data-column-number="1099"></span> appropriately used by my right hon. Friends have obviously met with the approval of every Member in the House. The Royal House, for many generations, has increasingly gained the loyalty and affection of the people of this country and of the Empire, by reason of the high characters of our Kings and Queens, and their deep devotion to the public service. Within the memory of some of us Queen Victoria, King Edward and Queen Alexandra, King George and Queen Mary have all displayed these supreme qualities of sovereignty. Today, we can acclaim that our present King and Queen and the Princesses are tried and worthy followers in the same tradition. It is therefore right and fitting that at the conclusion of their long and arduous visit to South Africa, we as a House, on behalf of the people of this country, should humbly declare our homage, our regard and our gratitude.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1947-05-12/debates/1a1421c3-2367-4457-afbb-8b04df4c9e4c/HisMajestySReturnFromSouthAfrica#contribution-fa9a2c39-5cb5-4b45-ae5c-1479736f81f9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-b7ad5393-db49-48a5-80d7-38e0c9725aa8'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c8e3acbb-282b-4a01-8724-80cde9413132'>
+            
+<p class="">Resolved, <em>nemine contradicente</em>:</p><p class=""> <blockquote><q>"That an humble Address be presented to His Majesty, assuring His Majesty, on the occasion of his return from the Union of South Africa, of the loyal and affectionate welcome of this House to His Majesty, to Her Majesty the Queen and to Their Royal Highnesses the Princess Elizabeth and the Princess Margaret."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-1171894e-79bf-421e-8227-695ad1d9a269'>
+            
+<p class=""><em>To be presented by Privy Councillors or Members of His Majesty's Household.</em></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

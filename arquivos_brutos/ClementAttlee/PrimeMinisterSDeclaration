@@ -1,0 +1,826 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Prime Minister's Declaration - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1941-12-08">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1941-12-08/debates/69c3f0a8-0a71-4247-a124-1c0e223b51b5/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1941-12-08/debates/41ce7923-704c-4bec-b09c-0451e1ed105e/WarWithJapan">
+                                    <span class="commons">War With Japan</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1941-12-08">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1941-12-08/debates/984a2223-c12b-4e6a-9589-b9821cb82865/DeathOfAMember" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Prime Minister&#39;s Declaration
+            </div>
+
+            <div class="right-arrow">
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1475572" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>08 December 1941</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 376</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-36b895d8-6bd6-4e5f-9ef8-5d9b19a019b0'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."— [ <em>Mr. James Stuart.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="1358" class="column-number column-only" data-column-number="1358"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6a1b49a9-8d30-44d1-90a2-97977b69bbd9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As soon as I heard, last night, that Japan had attacked the United States, I felt it necessary that Parliament should be immediately summoned. It is indispensable to our system of government that Parliament should play its full part in all the important acts of State and at all the crucial moments of the war; and I am glad to see that so many Members have been able to be in their places, despite the shortness of the notice. With the full approval of the nation, and of the Empire, I pledged the word of Great Britain, about a month ago, that should the United States be involved in war with Japan, a British declaration of war would follow within the hour. I, therefore, spoke to President Roosevelt on the Atlantic telephone last night, with a view to arranging the timing of our respective declarations. The President told me that he would this morning send a Message to Congress, which, of course, as is well known, can alone make a declaration of war on behalf of the United States, and I then assured him that we would follow immediately.<p></p> However, it soon appeared that British territory in Malaya had also been the object of Japanese attack, and later on it was announced, from Tokyo, that the Japanese High Command—a curious form; not the Imperial Japanese Government—had declared that a state of war existed with Great Britain and the United States. That being so, there was no need to wait for the declaration by Congress. American time is very nearly six hours behind ours. The Cabinet, therefore, which met at 12.30 to-day, authorised an immediate declaration of war upon Japan. Instructions were sent to His Majesty's Ambassador at Tokyo, and a communication was despatched to the Japanese <em>Chargé de Affaires</em> at 1 o'clock to-day to this effect:</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6a1b49a9-8d30-44d1-90a2-97977b69bbd9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-6a1b49a9-8d30-44d1-90a2-97977b69bbd9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-88053ef3-c656-464c-9bab-7ff321f114a4'>
+            
+<p class="">Foreign Office, December 8th.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-581e2e2d-1d2f-4e71-ae13-a729bca1c09e'>
+            
+<p class="">SIR,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-04ff15ce-60a0-4cad-ae3a-936e18a1cbfe'>
+            
+<p class="">On the evening of December 7th His Majesty's Government in the United Kingdom learned that Japanese forces, without previous warning, either in the form of a declaration of war or of an ultimatum with a conditional declaration of war, had attempted a landing on the coast of Malaya and bombed Singapore and Hong Kong.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-73d6c9c2-1b5b-4373-b8aa-75d3aff10fec'>
+            
+<p class="">(2) In view of these wanton acts of unprovoked aggression, committed in flagrant violation of international law, and particularly of Article 1 of the Third Hague Convention, relative to the opening of hostilities, to which <span id="1359" class="column-number" data-column-number="1359"></span> both Japan and the United Kingdom are parties, His Majesty's Ambassador at Tokyo has been instructed to inform the Imperial Japanese Government, in the name of His Majesty's Government in the United Kingdom that a state of war exists. between the two countries.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-56fbf99a-cdbc-42d7-a6b8-b8722bfc6d23'>
+            
+<p class="">I have the honour to be, with high consideration,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-5b178206-fb03-480d-bdc4-bce0848766f0'>
+            
+<p class="">Sir,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ee5c4b10-fa85-4ff9-98ab-5fb6c9d18139'>
+            
+<p class="">Your obedient servant,</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-821bf0f8-dfd5-4d06-b612-97d96a9715fe'>
+            
+<p class="">(Sgd.) WINSTON S. CHURCHILL.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-29bce549-b4bc-46d8-b781-e8c2d1bb9471'>
+            
+<p class="">Meanwhile, hostilities have already begun. The Japanese began a landing in British territory in Northern Malaya at about 6 o'clock—1 a.m. local time—yesterday, and they were immediately engaged by our Forces, which were in readiness. The Home Office measures against Japanese nationals were set in motion at 10.45 last night. The House will see, therefore, that no time has been lost, and that we are actually ahead of our engagements.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-616928e2-a0c2-4152-80e7-8d1ecbd04a78'>
+            
+<p class="">The Royal Netherlands Government at once marked their solidarity with Great Britain and the United States at 3 o'clock in the morning.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-456930b5-ac40-4230-929f-5dd7f7d330c3'>
+            
+<p class="">The Netherlands Minister informed the Foreign Office that his Government were telling the Japanese Government that, in view of the hostile acts perpetrated by Japanese forces against two Powers with whom the Netherlands maintained particularly close relations, they considered that, as a consequence, a state of war now exists between the Kingdom of the Netherlands and Japan.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-0c8758cd-2b91-4601-be73-0cd0ea6eba49'>
+            
+<p class="">I do not yet know what part Siam, or Thailand, will be called upon to play in this fresh war, but a report has reached us that the Japanese have landed troops at Singora, which is in Siamese territory, on the frontier of Malaya, not far from the landing they had made on the British side of the frontier. Meanwhile, just before Japan had gone to war, I had sent the Siamese Prime Minister the following message. It was sent off on Sunday, early in the morning:</p><p class=""> <blockquote><q>"There is a possibility of imminent Japanese invasion of your country. If you are attacked, defend yourself. The preservation of the full independence and sovereignty of Thailand is a British interest, and we shall regard an attack on you as an attack on ourselves."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d442cb89-cab4-4928-b0fb-86fb82778054'>
+            
+<p class="">It is worth while looking for a moment at the manner in which the Japanese have begun their assault upon the English-speaking world. Every circumstance of calculated and characteristic Japanese <span id="1360" class="column-number" data-column-number="1360"></span> treachery was employed against the United States. The Japanese envoys, Nomura and Kurusu, were ordered to prolong their mission in the United States, in order to keep the conversations going while a surprise attack was being prepared, to be made before a declaration of war could be delivered. The President's appeal to the Emperor, which I have no doubt many Members will have read—it has been published largely in the papers here—reminding him of their ancient friendship and of the importance of preserving the peace of the Pacific, has received only this base and brutal reply. No one can doubt that every effort to bring about a peaceful solution had been made by the Government of the United States, and that immense patience and composure had been shown in face of the growing Japanese menace.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-d4ae4b8a-c84a-44ff-a162-70f901748b59'>
+            
+<p class="">Now that the issue is joined in the most direct manner, it only remains for the two great democracies to face their task with whatever strength God may give them. We must hold ourselves very fortunate, and I think we may rate our affairs not wholly ill-guided, that we were not attacked alone by Japan in our period of weakness after Dunkirk, or at any time in 1940, before the United States had fully realised the dangers which threatened the whole world and had made much advance in its military preparation. So precarious and narrow was the margin upon which we then lived that we did not dare to express the sympathy which we have all along felt for the heroic people of China. We were even forced for a short time, in the summer of 1940, to agree to closing the Burma Road. But later on, at the beginning of this year, as soon as we could regather our strength, we reversed that policy, and the House will remember that both I and the Foreign Secretary have felt able to make increasingly outspoken declarations of friendship for the Chinese people and their great leader, General Chiang Kai-Shek.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-2a4dc59a-bcde-42e4-9fe3-9ac89273193c'>
+            
+<p class="">We have always been friends. Last night I cabled to the Generalissimo assuring him that henceforward we would face the common foe together. Although the imperative demands of the war in Europe and in Africa have strained our resources, vast and growing though they are, the House and the Empire will notice that some of the finest ships in the Royal Navy have reached their stations in the Far East at a very convenient moment. Every <span id="1361" class="column-number" data-column-number="1361"></span> preparation in our power has been made, and I do not doubt that we shall give a good account of ourselves. The closest accord has been established with the powerful American forces, both naval and air, and also with the strong, efficient forces belonging to the Royal Netherlands Government in the Netherlands East Indies. We shall all do our best. When we think of the insane ambition and insatiable appetite which have caused this vast and melancholy extension of the war, we can only feel that Hitler's madness has infected the Japanese mind, and that the root of the evil and its branch must be extirpated together.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-85c2bfa4-0d40-4300-b33d-92223eb44a4d'>
+            
+<p class="">It is of the highest importance that there should be no under-rating of the gravity of the new dangers we have to meet, either here or in the United States. The enemy has attacked with an audacity which may spring from recklessness but which may also spring from a conviction of strength. The ordeal to which the English-speaking world and our heroic Russian Allies are being exposed will certainly be hard, especially at the outset, and will probably be long, yet when we look around us over the sombre panorama of the world, we have no reason to doubt the justice of our cause or that our strength and will-power will be sufficient to sustain it. We have at least four-fifths of the population of the globe upon our side. We are responsible for their safety and for their future. In the past we have had a light which flickered, in the present we have a light which flames, and in the future there will be a light which shines over all the land and sea.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+                Mr. Lees-Smith  (Keighley)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I. have been asked by my hon. Friends to express our complete approval and support of the declaration which the Prime Minister has made, and I think that in that I am speaking not only for those with whom I sit in the House but for the House as a whole. We are confronted with the initiation of a war carried out with a perfidy and an infamy which are equal to those of Hitler and Mussolini themselves. The attack upon Pearl Harbour took place without any warning, but we have had warnings that a new war was likely to break, and, thank God, that warning has been heeded, and, as the Prime Minister has mentioned, the Royal Navy now has a stretch which covers the Battle of the Atlantic, the Battle of the <span id="1362" class="column-number" data-column-number="1362"></span> Mediterranean and the Battle of the Far Eastern oceans at the same time.<p></p> We are at this moment—British, Imperial and United States Forces— fighting side by side against a common enemy who is the ally of Germany and whose attack upon the United States is part of the grand strategy of the German war machine. I foresee, therefore, that this event may have very far-reaching consequences indeed, but undoubtedly the first consequence, I imagine, will be that the equipment from the United States may be delayed and to some extent diverted. This occasion, therefore, once again calls for unceasing toil from the workers of this country, and for unceasing effort to improve and maintain efficiency from management and control. The Prime Minister referred to the period which we went through after Dunkirk. During those long months, when we held the citadel alone and when we had to fight that lonely fight, the people never faltered, and now that we have by our side millions of man-power and of munition-power, almost beyond measure, we confront the new situation as resolute as and more united than ever before.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-081b544e-b5e6-41e7-a2d9-0295bcaf7a8b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-048fcc25-4e0c-4468-9a95-e2923ad21218">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-048fcc25-4e0c-4468-9a95-e2923ad21218">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-048fcc25-4e0c-4468-9a95-e2923ad21218">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-048fcc25-4e0c-4468-9a95-e2923ad21218">
+                Sir Percy Harris  (Bethnal Green, South-West)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-048fcc25-4e0c-4468-9a95-e2923ad21218" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-048fcc25-4e0c-4468-9a95-e2923ad21218">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I make no apology for intervening for a very few moments on this great occasion—an occasion which gives us an opportunity to show the unity of the House of Commons behind the Government at this critical time. It will be also, as the Prime Minister indicated, a message to Congress, which is now meeting, that the Government have behind them a united nation. As the Prime Minister so well indicated, this treachery, this ruthless, bitter treachery of Japan has not even been surpassed by Hitler himself, though no doubt it was inspired by him. The war has now stretched to two hemispheres and will be over four continents and seven seas. I had hoped that the New World might have been spared some of the horrors of war. Now the coasts of the Dominion of Canada, the Commonwealth of Australia, and the Dominion of New Zealand will be inside the fighting line. Of course, this is a serious threat to the Pacific, which is no longer a safe sea for our shipping, and obviously it must interfere with our supplies to North Africa and the Red Sea. I emphasise this, because there are some—I have already heard it—who think that now that <span id="1363" class="column-number" data-column-number="1363"></span> the United States of America is in the shooting war our obligations and dangers are lessened, but, of course, the exact contrary is the case. We must, as the right hon. Member for Keighley (Mr. Lees-Smith) said, now redouble our efforts. More and more must we be thrown upon our own resources. Therefore we must close our ranks and show our solidarity behind the Government. More than ever this is a struggle between civilisation and barbarism, and I have no doubt that civilisation will win.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-048fcc25-4e0c-4468-9a95-e2923ad21218" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-048fcc25-4e0c-4468-9a95-e2923ad21218">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+                Mr. Hore-Belisha  (Devonport)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Prime Minister, as always in a moment of crisis, has addressed a united Parliament and a united nation. My right hon. Friend, in an act which recalls what he did as First Lord of the Admiralty in 1914, is to be congratulated on having a British fleet ready in the Pacific. That was a decision of great foresight, for which the nation—and more than one nation—has cause to be grateful. The Government are also to be congratulated on the prompt measures they have taken in regard to the Home Office precautions and the necessary warnings which have been issued in the Far East. This piece of treachery, as my right hon. Friend has said, was foreseen, and it was only the moment of its perpetration that was not foreseen. Thus we have cause to be grateful for the time given to us to perfect certain of our preparations.<p></p> The setting of the world war is now complete. The United States—for it is only, I imagine, a question of hours now —Russia, China and the British Empire are now ranged against the totalitarian Powers. It is noticeable that we have an enormous preponderance of man-power, not only in sum but in each separate Continent. We also have an enormous superiority of resources. We have all the raw materials, oil, rubber, and tin in which Japan is chiefly lacking, except to the extent to which she has accumulated <span id="1364" class="column-number" data-column-number="1364"></span> stocks. If, however, we have these advantages, the Axis has the greater striking power. The Germans have taught the world a new method of waging war. It is total war; it is not war by military means alone. We have to put into practice that lesson ourselves. My right hon. Friend the Member for Keighley (Mr. Lees-Smith), who spoke from the front Opposition Bench, made an appeal for further productive activity. I think we should get that activity and our task of waging total war into perspective if we always spoke, not of three fighting Services but of four—if, in the same breath, we spoke of the Royal Navy, the Army, the Royal Air Force and industry.<p></p> It is a coincidence that the Government are just asking for the National Service Bill to demand further exertion from the man-power of the nation. There must follow an intensification of our industrial organisation. Two detrimental effects follow from the act of Japan, apart from the operations which will be involved. Ourselves and Russia will be deprived of some of those munitions on which we had counted. We can prove equal to the additional task, and there is no sacrifice which my right hon. Friend will demand from the nation which will be denied. Another detrimental consequence is the effect upon our shipping, upon our lifeline, because plainly America will not be able to give the same sustenance to us in that particular as she did before. Therefore, if we have to curtail still further the goods we consume and which involve the use of shipping, we shall do what is required. I congratulate my right hon. Friend on having foreseen this crisis, on having prepared for it and on having roused the nation, as he will have done to-day, by that admirable speech.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-12-08/debates/c03b1f60-a0d3-4cf9-85ab-3595c7ac80e3/PrimeMinisterSDeclaration#contribution-d34e3ef9-b440-4f6a-b3bc-7f68146ea80f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-fb1eabdd-b8a1-4499-b70b-6d85006d8ef8'>
+            
+<p class="">Question, "That this House do now adjourn," put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3f7cb314-a4cf-495f-9983-cca45f6b4ad1'>
+            
+<p class="">Adjourned accordingly at Twenty-nine Minutes before Four o'Clock.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

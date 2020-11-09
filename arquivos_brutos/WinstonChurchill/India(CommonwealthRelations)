@@ -1,0 +1,818 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>India (Commonwealth Relations) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1949-04-28">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1949-04-28/debates/14830c78-ab78-496e-be40-fd3d414e22be/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/9613905e-dffb-48b2-86c7-8ca62dc8ed6e"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1949-04-28">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1949-04-28/debates/efc3be80-c973-4211-8769-17d59c18c3d1/QuestionsToMinisters" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                India (Commonwealth Relations)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1949-04-28/debates/34bfcf39-8dd2-472b-934b-dd16c45d5a84/IronAndSteelBill" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2865520" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>28 April 1949</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 464</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8845afd0-1053-424d-92b6-b29275c1fa09'>
+            
+<p class="">3.23 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-7961277d-7694-4302-bb56-05a6bad508ad">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-7961277d-7694-4302-bb56-05a6bad508ad">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-7961277d-7694-4302-bb56-05a6bad508ad">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-7961277d-7694-4302-bb56-05a6bad508ad">
+                The Lord President of the Council (Mr. Herbert Morrison)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-7961277d-7694-4302-bb56-05a6bad508ad" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-7961277d-7694-4302-bb56-05a6bad508ad">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With your permission, Mr. Speaker, I should like on behalf of the Prime Minister to make a statement about the meeting of Commonwealth Prime Minister's which has just been concluded. Hon. Members will already have seen the announcement in today's newspapers. It will, of course, be realised that it was necessary to make the results of the Conference known in this way in order to facilitate simultaneous announcements in all the self-governing countries of the Commonwealth. Nevertheless, I think the House would wish to hear the terms of this statement so that a decision which will, I feel sure, be regarded as an historic one in the evolution of the Commonwealth may take its place in the records of the <span id="370" class="column-number" data-column-number="370"></span> House with the least possible delay. The communiqué is as follows:</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-7961277d-7694-4302-bb56-05a6bad508ad" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-7961277d-7694-4302-bb56-05a6bad508ad">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e36d6b19-765e-40c9-8ca5-8fe39e66d015'>
+            
+<p class="">MEETING OF PRIME MINISTERS</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-43f2bf01-ebd5-40c7-967a-180013288f93'>
+            
+<p class="">During the past week the Prime Ministers of the United' Kingdom, Australia, New Zealand, South Africa, India, Pakistan and Ceylon, and the Canadian Secretary of State for External Affairs have met in London to exchange views upon the important constitutional issues arising from India's decision to adopt a republican form of constitution and her desire to continue her membership of the Commonwealth.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-ba6df2e8-4313-4f07-9b38-b41b7362c51d'>
+            
+<p class="">The discussions have been concerned with the effects of such a development upon the existing structure of the Commonwealth and the constitutional relations between its members. They have been conducted in an atmosphere of good will and mutual understanding, and have had as their historical background the traditional capacity of the Commonwealth to strengthen its unity of purpose, while adapting its organisation and procedures to changing circumstances.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-6b56bd75-774d-4315-85ab-de6e19395af1'>
+            
+<p class="">After full discussion the representatives of the Governments of all the Commonwealth countries have agreed that the conclusions reached should be placed on record in the following declaration:—</p><p class=""> <blockquote><q>"The Governments of the United Kingdom, Canada, Australia, New Zealand, South Africa, India, Pakistan and Ceylon, whose countries are united as Members of the British Commonwealth of Nations and owe a common allegiance to the Crown, which is also the symbol of their free association, have considered the impending constitutional changes in India.</q></blockquote> <blockquote><q>"The Government of India have informed the other Governments of the Commonwealth of the intention of the Indian people that under the new constitution which is about to be adopted India shall become a sovereign independent republic. The Government of India have however declared and affirmed India's desire to continue her full membership of the Commonwealth of Nations and her acceptance of The King as the symbol of the free association of its independent member nations and as such the Head of the Commonwealth.</q></blockquote> <blockquote><q>"The Governments of the other countries of the Commonwealth, the basis of whose membership of the Commonwealth is not hereby changed, accept and recognise India's continuing membership in accordance with the terms of this declaration.</q></blockquote> <blockquote><q>"Accordingly the United Kingdom, Canada, Australia, New Zealand, South Africa, India, Pakistan and Ceylon hereby declare that they remain united as free and equal members of the Commonwealth of Nations, freely co-operating in the pursuit of peace, liberty, and progress."</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-c427983c-1237-4f03-8cfe-6535bd22b6bd'>
+            
+<p class="">These constitutional questions have been, the sole subject of discussion at the full meetings of Prime Ministers.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3f8474c3-6d36-4ecc-b191-43ad3f50608d'>
+            
+<p class="">That is the statement. I hope the House will bear with me if I venture to <span id="371" class="column-number" data-column-number="371"></span> suggest that any full discussion of this matter, if it is the wish of the House that this should take place, might more appropriately be deferred until a later occasion. I say this, having regard particularly to the fact that the leaders of delegations from the other countries of the Commonwealth are naturally not yet in a position to report personally to their own Governments or Parliaments.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Perhaps I may be allowed to ask whether the Lord President is aware of the deep interest with which we have listened to his statement. I am well aware of the difficulties of clock time and sun time throughout the British Empire and Commonwealth of Nations—and I do not say that they have been satisfactorily solved on this occasion,—which seem to assign to London and Great Britain 2 a.m. as the moment of release for an important declaration. One would think this might be a matter for further consideration on future occasions. But I am all the more glad that His Majesty's Government have met the request which I made to them with the full support of my right hon. and learned Friend the Leader of the Liberal Party, that the joint declaration of the Commonwealth Prime Ministers should be reported formally to the House and thus take its place not merely—or, perhaps, I ought to say, not only—in the newspapers, but in our Parliamentary records. Any other course, I feel, would be derogatory to Parliament and especially to the Mother of Parliaments.<p></p> Final judgment on matters of such gravity and far-reaching merit is impossible today. Debates have to take place not only here, but in the Parliaments which are concerned and which are located in the five continents of the globe. There are many questions which arise and which are unanswered, and there are possible consequences, some of them potentially adverse, which cannot yet be measured. Nevertheless, I feel that I should be failing in my duty as Leader of the Conservative Party if on this occasion I failed to express, under all proper and necessary reserves, a definite view. The test question which, it seems to me, we ought to ask ourselves, and which I have asked myself, is: Do we wish India to remain of her own free will and desire within the Commonwealth or not? I <span id="372" class="column-number" data-column-number="372"></span> have no doubt whatever that nearly all of us in all parts of the House would answer that question "Aye."<p></p> I do not in any way retract or regret the views I have expressed over so many years, and I am very glad not to be responsible for much that has been done in the past<span id="vol457_col251" class="cross-reference" data-house-id="1" data-column-number="251" data-volume-number="457">—[HON. MEMBERS: "Hear, hear"]—and in the recent past. But we are all of us governed by events which we cannot control, and by the actions of majorities duly elected to the House of Commons. Six months ago I said in this House in the Debate on the King's Speech: <blockquote><q>"We must look forward. It is our duty, whatever part we have taken in the past, to hope and pray for the well being and happiness of all the peoples of India, of whatever race, religion, social condition or historic character they may be. We must wish them all well and do what we can to help them on their road. Sorrow may lie in our hearts but bitterness and malice must be purged from them, and in our future more remote relations with India we must rise above all prejudice and partiality"—</q></blockquote> [HON. MEMBERS: "Hear, hear."] I said this six months ago— <blockquote><q>"and not allow our vision to be clouded by memories of glories that are gone for ever."—[OFFICIAL REPORT, 28th October, 1948; Vol. 457, c. 251.]</q></blockquote> The present attitude of India seems to me more favourable to continued association than it did when those words were spoken. [HON. MEMBERS: "Hear, hear."] It is more favourable. I am unfeignedly glad that an impassable gulf has not opened between the new India and the British Empire and Commonwealth of Nations or between our famous past in India and our anxious present all over the world. I am sure that this will be a help for all in the future. I am well aware of the arguments about equal sacrifices and contributions, belonging to the club and taking the advantages and not contributing to the rules but, as the Bible says, "It is more blessed to give than to receive." It is certainly more agreeable to have the power to give rather than the need to receive. We do not always find ourselves in that position in respect to some other countries in the world.<p></p> If, on the whole, we most of us feel able to answer the test question in the affirmative and wish to have India associated with us in the future, it is fortunate that the institution of the Monarchy, never more deeply enshrined in the <span id="373" class="column-number" data-column-number="373"></span> hearts of its proud and willing subjects and citizens all over the world than at the present time, should not have been a barrier to the inclusion of India as a Republic in the Commonwealth.<p></p> Some time ago, when, by courtesy of Ministers, I had some indication of what was afoot, I foresaw some danger that the symbol of the Crown, which had hitherto been the circle of unity for the whole British Empire and Commonwealth of Nations, might become an exclusive instrument in respect of India in its new guise. I am sure it has been wise to avoid any chance of that. I cannot feel that either the majesty of the Crown or the personal dignity of the King is impaired by the conditions under which India remains in the Commonwealth. On the contrary, the final significance, the vital significance and value of the Monarchy, seems to be enhanced both by the latest proofs of its enduring importance to the other Dominions, as testified by their responsible Prime Ministers, and to the fact— [HON. MEMBERS "This is out of Order."] I take it that it is in the public interest, when an important statement is made in the House by the Government, that the views of other parties should be ascertained, and I have no doubt that the Adjournment could be moved if that were desired by the Government.<p></p> It seems to me that the personal dignity of the King is not impaired by the conditions under which India remains in the Commonwealth. The final significance and value of the Monarchy seems to be enhanced by the way in which the King is acknowledged by the Republic of India and by the Commonwealth monarchies alike. [<em>Interruption.</em>]</span> It is astonishing how far below the level of events hon. Gentlemen are showing themselves to fall.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-cdb46dfc-ae2b-4251-8c74-f93a4bcf8e81">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+                Mr. Warbey  (Luton)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-78cdf69f-8992-4f2d-9626-0796bb2e23a9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On a point of Order, Mr. Speaker. May I ask your guidance whether we are to have a series of extensive comments on this statement and, if so, on what Motion those comments are to be made?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-78cdf69f-8992-4f2d-9626-0796bb2e23a9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-78cdf69f-8992-4f2d-9626-0796bb2e23a9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+                Mr. Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-00ad7640-dc01-4db0-935f-f90d72d1ac9a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">One knows perfectly well that on these formal occasions it is the right of leaders of political parties to state their party's point of view. Rather than have an Adjournment, I gave my consent to this, and I take full responsibility for it. Realising that the Guillo- <span id="374" class="column-number" data-column-number="374"></span> tine has to fall at 5.30 and that, therefore, there is little time for discussion on the Steel Bill, I thought this was the quickest way out: that statements should be made by the responsible leaders of the Opposition parties. It is not for me to tell them how long or how short they should be.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-00ad7640-dc01-4db0-935f-f90d72d1ac9a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-00ad7640-dc01-4db0-935f-f90d72d1ac9a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b748b43a-a770-47c1-932c-efd148cf3e2b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b748b43a-a770-47c1-932c-efd148cf3e2b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b748b43a-a770-47c1-932c-efd148cf3e2b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b748b43a-a770-47c1-932c-efd148cf3e2b">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b748b43a-a770-47c1-932c-efd148cf3e2b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-b748b43a-a770-47c1-932c-efd148cf3e2b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I should like to put this point. It seems to me that, far from being any derogation of the Monarchy, the proof of the attachment and importance that all the Dominions gives to it has shown the strength and vitality of that institution.<p></p> We cannot, of course, tell how all this will work out in practice, and obviously there are many difficult questions and dangers to be surmounted. There is no doubt however—this I say to all my friends on this side—that it is the duty of us all, wherever we sit, to try our best to make this new expression of the unity of the world-wide association of States and nations a practical and lasting success, and that is the course which we on this side of the House intend to steer. I feel that the tides of the world are favourable to our voyage. The pressure of dangers and duties that are shared in common by all of us in these days may well make new harmonies with India and, indeed, with large parts of Asia. We may also see coming into view an even larger and wider synthesis of States and nations comprising both the United States of America and united Europe which may one day, and perhaps not a distant day, bring to harassed and struggling humanity, real security for peace and freedom and for hearth and home.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b748b43a-a770-47c1-932c-efd148cf3e2b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-b748b43a-a770-47c1-932c-efd148cf3e2b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+                Mr. Clement Davies
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5dad7292-3be7-4a29-a58f-13f6614e4cfc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Inasmuch as there is to be further Debate on this at some later stage, may I content myself with merely saying at the moment that I believe there is general satisfaction in every freedom-loving country throughout the world that the Prime Ministers, each one of them with a heavy sense of responsibility for his own country, have nevertheless been able to arrive at this arrangement. I am sure that it is the sincere hope of us all that, using the words of this declaration, there will be even closer cooperation for those causes of liberty, peace and progress which are the desire of all of us.<p></p> Let me add this. I think it is only right that we should—and I desire to <span id="375" class="column-number" data-column-number="375"></span> do so most sincerely—congratulate the Prime Minister on calling these Prime Ministers from the various countries together. I am quite sure that his tact and understanding have played a major part in bringing about this historical agreement and declaration.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5dad7292-3be7-4a29-a58f-13f6614e4cfc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-5dad7292-3be7-4a29-a58f-13f6614e4cfc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+                Mr. H. Morrison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c609161b-b030-4dca-a69d-eaa374a3cb4a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">If I may, I would say on behalf of the Prime Minister and of the Secretary of State for Commonwealth Relations that we express our thanks for and appreciation of the generally friendly observations that have been made about this matter by the Leader of the Opposition and the Leader of the Liberal Party. It is a good thing—a very good thing and not a bad thing—that there should be general harmony about this matter between the parties in the House. Therefore I cordially welcome what the Leader of the Opposition has said. He took his time, but I make no complaint about it. I cordially welcome what he said, and thank him for his observations, and no less the Leader of the Liberal Party. In these Commonwealth matters, the more we can march together in this House, the better it is for everybody.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c609161b-b030-4dca-a69d-eaa374a3cb4a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1949-04-28/debates/9613905e-dffb-48b2-86c7-8ca62dc8ed6e/India(CommonwealthRelations)#contribution-c609161b-b030-4dca-a69d-eaa374a3cb4a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

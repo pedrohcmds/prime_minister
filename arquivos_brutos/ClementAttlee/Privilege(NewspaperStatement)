@@ -1,0 +1,1796 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Privilege (Newspaper Statement) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1941-03-20">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1941-03-20/debates/d7079483-4f00-4cef-a5b1-3dd07e980259/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1941-03-20">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1941-03-20/debates/9aba1bc2-fecc-4d88-b6e2-1b4ec892b024/NoticesOfMotions" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Privilege (Newspaper Statement)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1941-03-20/debates/389a5a24-25b7-45b1-aa5f-8808f0698330/LandDrainage(Scotland)Bill" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1342527" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>20 March 1941</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 370</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-5244ce83-8a17-4382-9ec0-9989cedf718f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5244ce83-8a17-4382-9ec0-9989cedf718f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5244ce83-8a17-4382-9ec0-9989cedf718f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5244ce83-8a17-4382-9ec0-9989cedf718f">
+                Mr. Mander
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5244ce83-8a17-4382-9ec0-9989cedf718f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5244ce83-8a17-4382-9ec0-9989cedf718f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I desire to call your attention, Mr. Deputy-Speaker, to a matter which appears to involve a question of a breach of Privilege. I may say that I raise this matter with the deepest regret and reluctance, but I feel it is my duty to the House to do so. It has reference to certain remarks made by the hon. Member for East Aberdeen (Mr. Boothby) in Scotland during the course of the last few days. The particular passage to which I refer is taken from the "Aberdeen Press and Journal" of 17th March. It reads as follows: <blockquote><q>"After the meeting, Mr. Boothby said to a 'Press and Journal' representative: 'I am in course of preparing a confidential memorandum which contains the full story which could not be put before the Select Committee or any one else at the present time. I propose to hand a copy of this memorandum to Colonel Duff'"—</q></blockquote> I think he is chairman of the association— <blockquote><q>"' and as soon as the facts can be revealed, I will gladly appeal to the judgment of the constituency as a whole '."</q></blockquote> I submit to you, Mr. Deputy-Speaker, that that is treating the Select Committee of this House with contempt. The hon. Member for East Aberdeen had the fullest opportunity of presenting the full facts to the Select Committee. He now discloses that he deliberately did not do so, but he is prepared to disclose those facts to the chairman of his local association. I ask for your Ruling.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5244ce83-8a17-4382-9ec0-9989cedf718f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5244ce83-8a17-4382-9ec0-9989cedf718f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2c264f4b-2c12-4f82-bf67-47520782a900">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2c264f4b-2c12-4f82-bf67-47520782a900">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2c264f4b-2c12-4f82-bf67-47520782a900">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2c264f4b-2c12-4f82-bf67-47520782a900">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2c264f4b-2c12-4f82-bf67-47520782a900" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-2c264f4b-2c12-4f82-bf67-47520782a900">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">My attention had been drawn to this question shortly before the Sitting, and I have had some opportunity of considering it. As I understand it, there appeared in the newspaper in question a statement, or allegation, that the hon. Member for East Aberdeen (Mr. Boothby) made a statement to a Press representative, which the hon. Member for East Wolverhampton (Mr. Mander) has just read. It is clear to me—and this is the only point which I have to <span id="297" class="column-number" data-column-number="297"></span> decide— that there is at least a <em>prima facie</em> case of a breach of Privilege on the part of the hon. Member for East Aberdeen if this statement in the newspaper is correct. In those circumstances, it will be for the House to take such action as they think fit, which must, of course, involve in the first instance ascertaining what the hon. Member for East Aberdeen has to say, whether he admits that he did make that statement or whether he denies that he made the statement alleged and in that case any explanation he desires to make.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2c264f4b-2c12-4f82-bf67-47520782a900" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-2c264f4b-2c12-4f82-bf67-47520782a900">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+                The Prime Minister (Mr. Churchill)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a9222663-8a88-4ebb-8a4c-45429a6b8311" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I beg to move, <blockquote><q>"That the House do take into consideration on the next Sitting Day the statement which has just been made to the House, and that the hon. Member for East Aberdeen (Mr. Boothby) be ordered to be in his place on that occasion."</q></blockquote> I move that Motion, Mr. Deputy-Speaker, in consequence of the Ruling which you have given that there is a <em>prima facie</em> case of a breach of Privilege.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a9222663-8a88-4ebb-8a4c-45429a6b8311" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-a9222663-8a88-4ebb-8a4c-45429a6b8311">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+                Sir Irving Albery
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-eee2d01c-1699-4bf4-b397-cbcf3ad571e5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I wish to put a point to you, Sir. It appears to me that if the House takes this action, it assumes that a Member has committed a breach of Privilege purely upon the statement, at present unsupported, of a third party. Therefore, it seems to me—and I most respectfully submit it to you—that if it would be in order, it would be more proper that the House should call before it the person who has published the statement to justify his statement, before calling upon the hon. Member concerned.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-eee2d01c-1699-4bf4-b397-cbcf3ad571e5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-eee2d01c-1699-4bf4-b397-cbcf3ad571e5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-bc5269a2-0ee9-4ec1-861f-cab3c151242d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I point out that the procedure proposed is the usual procedure that has been followed in dozens of cases in the past? Obviously, the first person whose views should be heard on the subject is the hon. Member for East Aberdeen himself, and if—I am not, of course, attempting to prophesy the course of the Debate—if he states that the statement in the newspaper is false, then the point raised by my hon. Friend the Member for Gravesend (Sir I. Albery) will arise, and the House will have to decide whether it will require the attendance of the proprietor of the newspaper at the Bar of the House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-bc5269a2-0ee9-4ec1-861f-cab3c151242d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-bc5269a2-0ee9-4ec1-861f-cab3c151242d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+                Sir I. Albery
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-76ebb6f2-4cf1-40c2-8642-cb85cafe2177" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I have nothing like the Parliamentary experience of the right hon. Gentleman the Member for Horsham <span id="298" class="column-number" data-column-number="298"></span> (Earl Winterton), but it seems to me that if that is in fact the procedure of the House, it means that any person outside at any time can state that a Member of the House had made some statement and the Member has then to be involved in what is, after all, a quite exceptional and highly unusual procedure. In such cases I should think there must be some other procedure that could be followed. For instance, the hon. Member's attention will now have been drawn to this matter, and it seems to me that in the ordinary way he should have the opportunity to attend in his place in the House and repudiate that statement without being expressly called.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-76ebb6f2-4cf1-40c2-8642-cb85cafe2177" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-76ebb6f2-4cf1-40c2-8642-cb85cafe2177">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a3e345ee-927a-4dc7-8b4a-7e249924c7ba" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The hon. Member scarcely seems to have followed the statement which I made with very great care. I referred to the point that the first question was what the hon. Member for East Aberdeen had to say—I am not sure of the exact words I used, but I intimated that it might be possible that the hon. Member for East Aberdeen would deny the statement. If the House took the course which has now been suggested, it would certainly not in any way prejudge the hon. Member, but it would merely give him an opportunity, which I agree he should have, which is also his duty, of giving the House information in regard to a statement which has been published in a newspaper.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a3e345ee-927a-4dc7-8b4a-7e249924c7ba" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-a3e345ee-927a-4dc7-8b4a-7e249924c7ba">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+                Sir I. Albery
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1460cef6-1d3e-425b-a1ca-0f357f9812e1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Having heard what you, Sir, have just said, I still respectfully submit that it has been stated in this House that a <em>prima facie</em> case exists against the hon. Member. It seems to me that before this House is prepared to state even that, the hon. Member should be given the opportunity, without being ordered, to attend this House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1460cef6-1d3e-425b-a1ca-0f357f9812e1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-1460cef6-1d3e-425b-a1ca-0f357f9812e1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-bf35d469-5940-4c95-aed2-f16945e53b45">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-bf35d469-5940-4c95-aed2-f16945e53b45">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-bf35d469-5940-4c95-aed2-f16945e53b45">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-bf35d469-5940-4c95-aed2-f16945e53b45">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-bf35d469-5940-4c95-aed2-f16945e53b45" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-bf35d469-5940-4c95-aed2-f16945e53b45">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I must again correct the hon. Member. I stated that If the hon. Member for East Aberdeen had said what it is alleged he said then there would be a <em>prima facie</em> case, but I am not for one moment assuming that what is stated in the newspaper is correct.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-bf35d469-5940-4c95-aed2-f16945e53b45" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-bf35d469-5940-4c95-aed2-f16945e53b45">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+                Mr. Garro Jones
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I point out that there is notorious pressure upon space in newspapers and particularly on the newspaper concerned, as I well know, representing a neighbouring constituency? Therefore, there would be nothing to prevent the hon. Member for East Aberdeen, <span id="299" class="column-number" data-column-number="299"></span> when he attends, from coming armed with a statement, if necessary corroborative of his own, from the newspaper concerned of what he actually did say. That may dispose of the matter.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-c5c9b2e3-7eac-4f4c-b3ed-33332ce450a6">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+                Mr. A. Bevan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6391ca8b-b508-4285-b09f-4d6e1247aec1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I understand that it will still be open to the hon. Member for East Aberdeen, if he so wishes, to correct the statement in the newspaper before Monday—because if the many statements which are attributed to Members from time to time are to be made the basis of complaint in Parliament, we shall find ourselves in this position on many occasions. The hon. Member for East Aberdeen may, in my submission, if he so wishes, correct the statement in the newspaper, and if that correction removes the suspicion, then the matter will not arise. Do I take it, Sir, that that is in accordance with your view, and that if the hon. Member corrects the report in the newspaper, the matter will not arise?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6391ca8b-b508-4285-b09f-4d6e1247aec1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-6391ca8b-b508-4285-b09f-4d6e1247aec1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-8b3424d2-2b28-4764-9dd9-733c05a92775">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8b3424d2-2b28-4764-9dd9-733c05a92775">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8b3424d2-2b28-4764-9dd9-733c05a92775">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8b3424d2-2b28-4764-9dd9-733c05a92775">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8b3424d2-2b28-4764-9dd9-733c05a92775" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-8b3424d2-2b28-4764-9dd9-733c05a92775">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Whatever the hon. Member for East Aberdeen may do in the meantime, he will have to attend this House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8b3424d2-2b28-4764-9dd9-733c05a92775" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-8b3424d2-2b28-4764-9dd9-733c05a92775">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-ad4c0c39-758b-442e-9d29-351644ffd712">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-ad4c0c39-758b-442e-9d29-351644ffd712">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-ad4c0c39-758b-442e-9d29-351644ffd712">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-ad4c0c39-758b-442e-9d29-351644ffd712">
+                Sir William Davison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-ad4c0c39-758b-442e-9d29-351644ffd712" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-ad4c0c39-758b-442e-9d29-351644ffd712">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is it not the invariable practice of this House that, when a reflection of any kind is being made by one hon. Member on another, notice should be given to the hon. Member in question so that he can be in his place and meet any charges or reflections which may be made upon him? I should like to know whether notice was given to the hon. Member for East Aberdeen so that he could be in his place to-day and not be put in the invidious position of having to be summoned and ordered to attend the House, as if it were being taken for granted and assumed that there might be charges for him to meet.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-ad4c0c39-758b-442e-9d29-351644ffd712" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-ad4c0c39-758b-442e-9d29-351644ffd712">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5f4300b2-1d8f-4bb4-b17d-a447de3345c5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is it not also a fact that if a Member desires to raise a question, which in his opinion constitutes a breach of Privilege, he must raise it at the earliest possible opportunity? Is it not a fact that if my hon. Friend desired to raise the matter later, he would be too late to do so, and that he has to raise it on the first day?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5f4300b2-1d8f-4bb4-b17d-a447de3345c5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5f4300b2-1d8f-4bb4-b17d-a447de3345c5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+                Sir W. Davison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-24eb41a9-d845-4477-bd89-b9d74f53bb34" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is not that a hypothetical point? It would be quite possible to telephone or telegraph the hon. Member for East Aberdeen. I should like to know whether that has been done.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-24eb41a9-d845-4477-bd89-b9d74f53bb34" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-24eb41a9-d845-4477-bd89-b9d74f53bb34">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="300" class="column-number column-only" data-column-number="300"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-d374a39b-7d13-4d08-9c44-a198c304696d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d374a39b-7d13-4d08-9c44-a198c304696d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d374a39b-7d13-4d08-9c44-a198c304696d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d374a39b-7d13-4d08-9c44-a198c304696d">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d374a39b-7d13-4d08-9c44-a198c304696d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-d374a39b-7d13-4d08-9c44-a198c304696d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">That is a matter on which I cannot give any answer; but so far as it is raised as a point of Order, it would be entirely outside any question of order. The hon. Member who raised the question has raised it in a perfectly proper way, and I venture to hope that I have dealt with it in a perfectly proper way. I should like to repeat, for the information of the House generally, that this Motion which has been made should not be regarded as in any way prejudging the hon. Member for East Aberdeen. It is merely the proper, usual and customary course in cases of this kind, and enables the House to obtain the information which they think they are entitled to have from the hon. Member for East Aberdeen—information which he is entitled to give to the House in his own words.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d374a39b-7d13-4d08-9c44-a198c304696d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-d374a39b-7d13-4d08-9c44-a198c304696d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+                Mr. Mander
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5b4d42eb-2259-482d-8fe9-c08da78e5b78" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">When a question of this kind has to be brought before the House, as has been said, it has to be done at the earliest possible moment to be in order. It had to be done to-day. I received a communication on the subject yesterday, and I at once brought the question to the attention of the authorities, and certain consultations have been going on. I was not the only hon. Member interested in the matter, and it was only decided—I think I am entitled to say this—a very short time ago that the task of raising this matter should fall upon me. It had to be done to-day or not at all, and I venture to say that in the circumstances I had no opportunity of communicating with the hon. Member for East Aberdeen. The case was clearly stated to me, and it was explained that no action would be taken until the hon. Member was here.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5b4d42eb-2259-482d-8fe9-c08da78e5b78" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-5b4d42eb-2259-482d-8fe9-c08da78e5b78">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+                Mr. Bevan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-85c77cb8-3ddf-4f1f-886c-9c9673a86575" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The point which was made by the hon. Member for Gravesend (Sir I. Albery) is a point of substance. There are statements appearing in the Press from time to time which are so telescoped—</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-85c77cb8-3ddf-4f1f-886c-9c9673a86575" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-85c77cb8-3ddf-4f1f-886c-9c9673a86575">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-44a74076-c00f-4388-bd84-b547c79b7aeb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-44a74076-c00f-4388-bd84-b547c79b7aeb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-44a74076-c00f-4388-bd84-b547c79b7aeb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-44a74076-c00f-4388-bd84-b547c79b7aeb">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-44a74076-c00f-4388-bd84-b547c79b7aeb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-44a74076-c00f-4388-bd84-b547c79b7aeb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Technically the hon. Member has exhausted his right to speak.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-44a74076-c00f-4388-bd84-b547c79b7aeb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-44a74076-c00f-4388-bd84-b547c79b7aeb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+                Commander Sir Archibald Southby
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f2767bd7-6c39-4c88-91dc-fc1c8cc93930" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I suggest to the Prime Minister, in view of the fact that the hon. Member for East Aberdeen did not have the usual notice to attend when this matter was <span id="301" class="column-number" data-column-number="301"></span> raised, that in the circumstances it might be better to substitute the word "invited" for the word "ordered" to attend, since the word "ordered" leads the public to believe that the hon. Member has been prejudged?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f2767bd7-6c39-4c88-91dc-fc1c8cc93930" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-f2767bd7-6c39-4c88-91dc-fc1c8cc93930">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d247a18e-4c43-4498-a407-c741d1d5ab27">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d247a18e-4c43-4498-a407-c741d1d5ab27">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d247a18e-4c43-4498-a407-c741d1d5ab27">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d247a18e-4c43-4498-a407-c741d1d5ab27">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d247a18e-4c43-4498-a407-c741d1d5ab27" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-d247a18e-4c43-4498-a407-c741d1d5ab27">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I moved the Motion in the proper form, which I am bound to do on the Rulings of Mr. Deputy-Speaker.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d247a18e-4c43-4498-a407-c741d1d5ab27" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-d247a18e-4c43-4498-a407-c741d1d5ab27">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4619c235-f262-4fd7-a949-54e2fd412490">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4619c235-f262-4fd7-a949-54e2fd412490">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4619c235-f262-4fd7-a949-54e2fd412490">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4619c235-f262-4fd7-a949-54e2fd412490">
+                Mr. Denman
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4619c235-f262-4fd7-a949-54e2fd412490" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-4619c235-f262-4fd7-a949-54e2fd412490">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is true that it is essential that this matter should be raised today for the purpose of being in order, but it is not essential that the House should come to a decision on the point to-day. Is not the simplest procedure, therefore, that we should postpone this Motion until the next Sitting Day, so as to give the hon. Member concerned an opportunity of writing to Mr. Speaker, and perhaps blowing up a whole mare's nest? If it is in order to do so, I would like to move that the Debate be adjourned.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4619c235-f262-4fd7-a949-54e2fd412490" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-4619c235-f262-4fd7-a949-54e2fd412490">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+                Mr. Deputy-Speaker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-1b9d320a-9945-4999-8c97-08e7c1ab4dc1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">What we are proposing to do is to postpone the matter until the next Sitting Day.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-1b9d320a-9945-4999-8c97-08e7c1ab4dc1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-1b9d320a-9945-4999-8c97-08e7c1ab4dc1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e08710d0-739b-401b-b0be-1f673b943351">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e08710d0-739b-401b-b0be-1f673b943351">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e08710d0-739b-401b-b0be-1f673b943351">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e08710d0-739b-401b-b0be-1f673b943351">
+                Mr. Denman
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e08710d0-739b-401b-b0be-1f673b943351" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-e08710d0-739b-401b-b0be-1f673b943351">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">We are, in fact, summoning to attend that Sitting the hon. Member, who may be engaged on other work, and travel in these days is not too easy. I suggest that the matter could easily be resolved through the medium of the post and that that would be far better than the extremely formal procedure which is now proposed.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e08710d0-739b-401b-b0be-1f673b943351" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-e08710d0-739b-401b-b0be-1f673b943351">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e9d3960f-560e-4350-946f-cfd85bc716ec">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e9d3960f-560e-4350-946f-cfd85bc716ec">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e9d3960f-560e-4350-946f-cfd85bc716ec">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e9d3960f-560e-4350-946f-cfd85bc716ec">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e9d3960f-560e-4350-946f-cfd85bc716ec" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-e9d3960f-560e-4350-946f-cfd85bc716ec">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">On a point of Order. I hesitate to bring up a matter which has unpleasant recollections for me, but may I point out that I brought exactly the same kind of charge against an hon. Member in a former Parliament and that exactly the same procedure as that now proposed was followed in that case? It is the procedure which is constantly followed. In the case to which I refer, the hon. Member came to the House and made a statement in regard to whether or not he had really said what he was supposed to have said.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e9d3960f-560e-4350-946f-cfd85bc716ec" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-e9d3960f-560e-4350-946f-cfd85bc716ec">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+                Sir W. Davison
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-4df40eb5-4878-4e3c-a4fc-1619ea6bc313" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Did you give him notice?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-4df40eb5-4878-4e3c-a4fc-1619ea6bc313" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-4df40eb5-4878-4e3c-a4fc-1619ea6bc313">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+                Earl Winterton
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, I did not, because I could not. It was physically impossible to do so.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1941-03-20/debates/748cf3bc-1fa7-4b25-ae6f-70ca49f3aaf6/Privilege(NewspaperStatement)#contribution-c298cd75-9ab0-4b61-8e7a-a8a3521c4fb1">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-e03421bd-19b5-43e4-aee4-c33513d93420'>
+            
+<p class="">Question put, and agreed to.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="302" class="column-number column-only" data-column-number="302"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4b2fd394-d0f9-4402-95be-03408d42f201'>
+            
+<p class="">Resolved,</p><p class=""> <blockquote><q>"That this House will take the said Complaint into consideration upon the next Sitting Day." —[<em>The Prime Minister.</em>]</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-cdf9d370-5fdf-4982-a753-bbc6516b66c2'>
+            
+<p class="">Ordered,</p><p class=""> <blockquote><q>"That Mr. Boothby do attend in his place upon the next Sitting Day"—[<em>The Prime Minister.</em>']</q></blockquote></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

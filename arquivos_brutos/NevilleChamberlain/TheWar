@@ -1,0 +1,1035 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>The War - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1939-12-14">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1939-12-14/debates/6c6f575b-a0d8-4212-a090-4b79f479a457/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/Commons/1939-12-14/debates/45f57188-1f45-487a-8d61-c6e435566239/Adjournment(Christmas)">
+                                    <span class="commons">Adjournment (Christmas)</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/42812234-bff2-474a-9b91-f9707bd4e56b"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1939-12-14">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1939-12-14/debates/b45a6272-32e2-4f06-9438-616e625fd067/MessageFromTheLords" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                The War
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1939-12-14/debates/46bf158d-f819-48ba-ba31-b3152155b445/MilkPricesAndAgriculturalPolicy" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-1112050" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>14 December 1939</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 355</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-66f01c2f-abb2-4e56-8546-aa8f68a447da'>
+            
+<p class="">Motion made, and Question proposed, "That this House do now adjourn."—[ <em>Mr. James Stuart.</em>]</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-3f1d5b45-a166-4445-a389-508d2fc2406d'>
+            
+<p class="">1.0 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-95833764-a5ae-4286-8e6e-1a52d37084b5">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-95833764-a5ae-4286-8e6e-1a52d37084b5">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-95833764-a5ae-4286-8e6e-1a52d37084b5">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-95833764-a5ae-4286-8e6e-1a52d37084b5">
+                The Prime Minister (Mr. Chamberlain)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-95833764-a5ae-4286-8e6e-1a52d37084b5" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-95833764-a5ae-4286-8e6e-1a52d37084b5">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">A fortnight ago, on the day when the first attack was launched on Finland by Soviet forces, I gave the House some account of the circumstances which had led up to this attack. Since then the Finns have been defending their country with the courage and determination which were to be expected of that gallant people, and it is clear that the Finnish Army has proved itself by far the better fighting force in everything but numbers. It is too soon to attempt any forecast of the outcome of this unequal struggle, but its political consequences have already been far-reaching. By their act of aggression the Soviet Government have outraged the conscience of the whole world. The German Government, however, have publicly ranged themselves on the side of the aggressor, whom they have even attempted to assist by an insolent and violent campaign against the other Scandinavian countries for their moral support of the Finnish cause.<p></p> As the House will be aware, it was generally agreed during the deliberations at Geneva in September of last year that each member of the League should decide for itself, in the light of its own position and conscience, on the nature of the sanctions which it could apply under Article 16 of the Covenant against an aggressor State. His Majesty's Government, for their part, have always held the view that no member State ought to remain indifferent to a clear case of aggression of the sort with which we are now faced. At the outset of the attack on Finland, and before the question had been raised at Geneva, they decided to permit the release and immediate delivery to Finland by the manufacturers concerned of a number of fighter aircraft of which the Finnish Government stood in urgent need; and they intend similarly to release other material which will be of assistance to the Finnish Government. Generous help for Finland has been forthcoming from several other countries, including the United States. It is known that several European countries have recently <span id="1338" class="column-number" data-column-number="1338"></span> supplied war material to Finland, and would have supplied more but for the fact that the German Government made difficulties in regard to transit.<p></p> As a result of Finland's appeal to the League of Nations, the dispute is now under consideration at Geneva, and the House will not expect me to speak at length on this aspect of the question while the deliberations of the Council and Assembly are still proceeding. The attitude of His Majesty's Government has already been made abundantly clear; while strongly condemning the Soviet aggression, they considered that every effort should be made to utilise the League machinery for its primary purpose, namely, the peaceful settlement of the dispute, and, if that should prove impossible, for affording practical assistance to the victim of aggression.<p></p> The Council of the League of Nations was summoned to meet on 9th December to consider the appeal by the Finnish Government, under Articles 11 and 15 of the Covenant, against the attack upon Finland by the armed forces of the Soviet Union. The Finnish representative, in accordance with his rights under Article 15, paragraph 9, of the Covenant, requested the Council to refer the dispute between his Government and the Soviet Union to the Assembly without delay. The Council acceded to this request.<p></p> The Assembly of the League of Nations had been summoned to meet on 11th December. The Norwegian delegate was elected President and, as soon as the necessary preliminaries had been completed, a special committee was appointed to examine the Finnish appeal. After the Assembly had heard a most moving statement by the Finnish delegate, this committee held its first meeting, and decided to send an urgent appeal to the Soviet Government and the Finnish Government to cease hostilities and open immediate negotiations under the mediation of the committee with a view to restoring peace. The Soviet Government were informed that Finland, which was present at the meeting, accepted this appeal.<p></p> The Soviet Government replied on 12th December that they were unable to accept the invitation to take part in the discussion of the Finnish question at Geneva for reasons which they had already stated in a communication of 4th December. The <span id="1339" class="column-number" data-column-number="1339"></span> reasons then given were <em>inter alia</em> that the Soviet Union was not at war with Finland and did not threaten the Finnish nation with war; that the Soviet Union maintained peaceful relations with the Democratic Republic of Finland, whose Government on 2nd December had signed with the Soviet Union a pact of assistance and friendship; and that the persons on whose behalf the Finnish delegate, M. Holsti, had approached the League could not be regarded as mandatories of the Finnish people. On 13th December the Assembly held a further meeting to hear a statement by the Argentine delegate to the effect that if in the circumstances the Soviet Union remained a member of the League of Nations, the Argentine Government would be obliged to withdraw from it. In the meantime, the special committee of the Assembly had been preparing a report setting out the facts and circumstances of the case. This committee has now made a report and presented a draft resolution to the Assembly, which is at this moment considering it.<p></p> It would clearly be inappropriate to enlarge on the terms of a resolution which has not yet been adopted, but in general the draft expresses strong condemnation of the action of the Soviet Union and proposes the organisation of assistance to Finland with, if possible, the co-operation of States which are not members of the League. The second part of the resolution, after describing the refusal of the U.S.S.R. to attend the League and to observe one of its most essential covenants, goes on to say that the U.S.S.R. has thereby placed itself outside the Covenant and invites the Council to pronounce upon the question of expulsion. It will be appreciated that the League has handled the appeal of Finland with the utmost speed and despatch.<p></p> I should like, further, to say a few words about the bearing of the Finnish conflict upon our war aims. The opportunity provided by this conflict has been eagerly seized upon by the German propaganda machine, and by many people acting consciously or unconsciously in its service, to deflect attention from the primary objective of the Allied war effort, which is the defeat of Nazi Germany. We must never lose sight of <span id="1340" class="column-number" data-column-number="1340"></span> that objective. We must never forget that it was German aggression which paved the way for the Soviet attack on Poland and Finland, and that Germany, alone among the nations, is even now abetting by word and deed the Russian aggressor. We must all give what help and support we can spare to the latest victim of these destructive forces; but meanwhile it is only by concentrating on our task of resistance to German aggression, and thus attacking the evil at its root, that we can hope to save the nations of Europe from the fate which must otherwise overtake them.<p></p> Hon. Members are already familiar with the chief events which have taken place in the various theatres of war.<p></p> We all read with pleasure the accounts of the lengthy visit to the front line with which His Majesty the King honoured his troops. All ranks were stimulated by his presence among them and gave to the King the warmest of welcomes. His Majesty also visited certain parts of the French line.<p></p> British troops have now taken their place in a sector of the Maginot Line, side by side with our French Allies. Certain British units are now facing the enemy in the out-post line of this sector, whence patrols maintain touch with the enemy. The British Commander in this sector is under the orders of a senior French Formation Commander, but has himself certain French troops under his command, thus giving fresh proof of the mutual confidence which the armies of the Allied Powers have in each other.<p></p> At sea, the chief event has been the action which has taken place in South American waters. There is little that I can add at present to the reports which have already appeared. Shortly after 6 o'clock yesterday morning, Commodore Harwood, in the 6-inch gun cruiser "Ajax," reported that he was in contact with a German pocket-battleship. Thereupon, in company with the 8-inch gun cruiser "Exeter" and the 6-inch gun "Achilles," he attacked the enemy, who made off in the direction of Montevideo. During the action which was of a severe character, His Majesty's Ship "Exeter" received damage which reduced her speed, and forced her to drop out of the fight. The two 6-inch gun cruisers, however, continued the pursuit, and at about midnight the German ship, <span id="1341" class="column-number" data-column-number="1341"></span> which turned out to be the "Admiral Graf Spee" carrying six 11-inch guns, took refuge within territorial waters and is now anchored off Montevideo.<p></p> A statement issued through the German Minister to Uruguay admitted that the "Admiral Graf Spee" has 36 dead and 60 wounded, and alleges that these losses were due to the use by the British cruisers of mustard gas. This characteristic statement is, of course, entirely without foundation. No gas shells or gas grenades have been made for or used by any ships of His Majesty's Navy.<p></p> Although full details are not yet available, I think it is already apparent that a very gallant action has been fought by three comparatively small British ships against a much more heavily armed adversary, the result of which may well be to free the South Atlantic from the depredations of this raider.<p></p> Hon. Members will also have welcomed the news that the same British submarine which reported that she had sighted the "Bremen" has sunk a U-boat and torpedoed an enemy cruiser.<p></p> Air operations have been hampered by bad weather and poor visibility, but hon. Members will have read with interest and pride of the engagement between our fighters and seven Heinkels over the coast of Scotland on Thursday last and of the continuous patrols which were carried out by our bomber aircraft on the night of 12th December over enemy bases in the Heligoland Bight, repeated again last night. The House will also have welcomed the full and encouraging statement which my right hon. Friend the Secretary of State for Air made on Tuesday last.<p></p> Since my last statement to the House was made, the discussions with visiting Ministers from the Dominions and the representatives of India have been completed. There has been a full and frank exchange of views, which have proved to be of the highest value both on the general strategical and diplomatic aspects of the war and also on particular problems affecting individual Members of the British Commonwealth.<p></p> We have had, indeed, in recent weeks many practical demonstrations of the loyal co-operation of the Empire. Australia and New Zealand have announced their intention to despatch at an early date land forces trained in those Dominions for <span id="1342" class="column-number" data-column-number="1342"></span> service overseas, and my right hon. Friend the Secretary of State for Air gave particulars in his speech on Tuesday of the help our air defence is receiving from Canada, Australia, New Zealand and South Africa.<p></p> Detailed plans have now been drawn up to carry out the Empire Air Training scheme which was so readily accepted in principle by the Governments concerned when it was first launched.<p></p> I would also remind the House of the valuable contribution which Newfoundland is making to the success of our cause, both in providing men for our Services and in assisting to reduce the measure of financial assistance from the United Kingdom Exchequer by means of increased taxation.<p></p> In India, the political differences with which hon. Members are familiar have in no way diminished the universal abhorrence of Hitlerism and all it stands for. My Noble Friend the Secretary of State for India is making a statement in another place to-day, and I need only say that nowhere in India is there any disposition to let these differences hamper the common effort to win the war, Money continues to flow into the Viceroy's War Purposes Fund. There is no lack of men ready to answer any call. The production of essential war materials is steadily growing. We greatly appreciate India's contribution to the war effort and we confidently look forward to its continuance in increasing measure. We also recognise with gratitude the readiness of the Government and people of Burma to take their part in the common task.<p></p> In this country we do not overlook the vital importance of employing to the full the vast material resources of the Empire. The great potentialities of the Dominions in this respect have been fully explored, important contracts have been placed for munitions, raw materials and foodstuffs and discussions are being energetically pursued for the purchase of materials of all kinds essential for the successful prosecution of the war.<p></p> Similar measures are being taken in the Colonies. Arrangements have been made for increased output of important raw materials such as copper, tin and rubber, and of essential foodstuffs for local consumption. Steps have also been taken to secure supplies for the use of other <span id="1343" class="column-number" data-column-number="1343"></span> Empire countries and of our Allies of certain of the more important Colonial crops such as sugar, cocoa and vegetable oils.<p></p> The war has had a serious adverse effect upon the budgets of nearly all the Colonies; but the Colonial peoples have clearly shown their determination to contribute their full share to the final victory, and have loyally accepted new measures of taxation which are required partly for their own administrative and defence services, and partly to help the United Kingdom by direct financial contributions. There has been a great expansion of Colonial defence forces during the past two years, but much valuable man-power is still available. Discussions are proceeding between the Departments concerned and also the Colonial Governments as to the best manner of utilising this man-power for the common good.<p></p> Time will not permit me to say much to-day about developments on the Home Front. I know that the country has accepted with patriotic resolution the hardships, discomforts and inconveniences caused by the restrictions and regulations which have had to be imposed in the interest of national safety. These restrictions and regulations are, however, being kept under constant review and it has already been possible to make modifications and adjustments to them. There is evidence that the black-out restrictions are found to be even more trying than other and more serious hardships and hazards of war, but we must not rashly relax them since we may at any time be subjected to air raids. Nevertheless, my right hon. Friend the Home Secretary has announced to-day modifications which it is thought can now be made with safety and which will mean a material improvement. I am aware, also, of the difficulties and hardships imposed on so many families by the evacuation scheme and it is possible that some parents will wish to bring their children back to London during the Christmas holidays. I earnestly trust that wiser counsels will prevail. We shall surely all agree that, whatever other dangers it may be able to confront, we must take no unnecessary risk for children.<p></p> I have only a few more words to say to conclude a statement which, on this <span id="1344" class="column-number" data-column-number="1344"></span> occasion, has necessarily been long. It is a statement made on the eve of the Christmas Recess. I know that for the people of this country the coming Christmas must lack much of its usual atmosphere of cheerfulness and gaiety. It is a part of the tragedy of war that there will be in so many homes in all the belligerent countries the same longing for the peaceful enjoyment of the simple and happy things of life and that that longing will be denied. The responsibility of those who, for their own ambition, have imposed such a tragedy upon the world is terrible indeed. Yet for us in this country the message of Christmas is not, in truth, a tragic contrast, but a reminder that we are fighting to defend principles and ideals which for 2,000 years have inspired the minds of men and lifted up their hearts.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-95833764-a5ae-4286-8e6e-1a52d37084b5" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-95833764-a5ae-4286-8e6e-1a52d37084b5">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-483a1e92-44d7-41e6-b4cd-e99ee3360f1a'>
+            
+<p class="">1.24 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-de684543-00a7-4bc5-8489-721127b6bfd8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-de684543-00a7-4bc5-8489-721127b6bfd8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-de684543-00a7-4bc5-8489-721127b6bfd8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-de684543-00a7-4bc5-8489-721127b6bfd8">
+                Mr. Attlee
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-de684543-00a7-4bc5-8489-721127b6bfd8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-de684543-00a7-4bc5-8489-721127b6bfd8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am sure that no one in the House will complain that the Prime Minister has given us a more lengthy review than usual, and I am certain that his last words found an echo in all our hearts. When we contrast the spirit of Christmas with the spirit that is ruling in the world to-day, we all hope that another Christmas will see us at peace and that the peace will be a lasting one.<p></p> In regard to the telegrams dealing with the naval action in the South Atlantic, we all desire to join in the tribute paid to the gallantry of our sailors. It is one of the almost inevitable conditions of sea warfare that so much of the fighting is done between adversaries of very different strengths, and the way in which our ships, despite their smaller gun-power, tackled and stuck to this very powerful enemy vessel and forced her to take refuge, is worthy of the highest traditions of the British Navy.<p></p> The Prime Minister has given us some account of what is occurring at Geneva in the League of Nations. On this side we are opposed to aggression whoever is the aggressor, and we see nothing whatever that can condone this gross attack on Finland. While we are anxious that all possible help that can be given should be given by other nations to the Finnish people, I cannot help contrasting the speed with which the League has worked in this case with the slowness with which it has worked in others. If the same activity by the British Government and <span id="1345" class="column-number" data-column-number="1345"></span> by other League States had been shown in previous acts of aggression, we should not, in my opinion, have been at war to-day.<p></p> I desire to refer to one other matter which the Prime Minister mentioned, and that is the position of children at Christmas time. I agree that it is necessary for parents to resist the very natural longing to bring their children back to the dangerous areas, but we have to recognise the strength of that feeling. It is a feeling which is the basis of our family life and of great importance to the country. I feel that more should be done in other directions, and that is to take parents down to see their children. That is the real preventive for a precipitate bringing back of the children to the evacuated areas, particularly in cases where the children are far away. Many of the children from my own constituency are right away in Devonshire. It is a lovely county, but it is quite remote from Limehouse, and the provisions at present do not allow parents to see their children. Human nature demands that; and the utmost ought to be done to enable parents to visit their children if we are to prevent them from crowding back into the dangerous areas.<p></p> The Prime Minister dealt with other matters, but I do not intend to follow him any further, except to say that as we ate going for a brief holiday all our thoughts all the time will be for the men in the air, on land and on the sea who are fighting our battles, and also of their relatives and friends at home in their anxieties.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-de684543-00a7-4bc5-8489-721127b6bfd8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-de684543-00a7-4bc5-8489-721127b6bfd8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f1328e68-1032-4838-a017-21fa74f38bd4'>
+            
+<p class="">1.30 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+                Sir Archibald Sinclair
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e309bc3c-633e-4d24-a77d-3eefb842acb9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">We are all grateful to the Prime Minister for the statement he has made this morning. He said that it was a long statement, but we would not have had it shorter by a single word. We are also very grateful to him for the moving Christmas message with which he ended his remarks, a message with which we find ourselves in complete accord.<p></p> In his opening remarks, the Prime Minister condemned the aggression of Russia upon Finland. I want to say that my friends and I equally condemn aggression by whomever it is done. We have consistently condemned the many instances of aggression which have occurred in the last few years, and we condemn, <span id="1346" class="column-number" data-column-number="1346"></span> no less forcibly and no less wholeheartedly, the aggression of which Finland has been the victim. If the Prime Minister will allow me to say so, we welcome the note of warmth, which has been lacking in some of his recent remarks in regard to the League of Nations, to which he returned this morning. The Government, apparently, have re-discovered the League of Nations and have shown their awareness of its still existing moral authority in the world. We rejoice that they have done so, and we believe that Finland was well guided in making her appeal to the League.<p></p> At the same time, I very strongly agree with the Prime Minister that our prime object at the moment must be the defeat of Nazi Germany. We must never allow ourselves to forget what a gigantic enterprise that is, and we must never allow the people of this country to forget it. If, therefore, His Majesty's Government have to follow a policy of non-intervention in Finland we hope that they will pursue it energetically and as vigorously as circumstances permit, and we shall give our full support to the Government in lending such help as they can to the Finnish people in their brave struggle to defend themselves against a powerful aggressor.<p></p> On behalf of my friends and myself I should like to join in the tribute which the Prime Minister and the Leader of the Opposition paid to the gallant officers and men of the squadron which has been engaged with the "Graf von Spee." It is an epic fight between three cruisers two mounting only 6-inch guns and this powerful battleship with its 11-inch guns. It is a fight which is worthy to stand in history and live in the memory of the British people alongside the fight of the "Chesapeake" and the "Shannon." When the Prime Minister went on to refer to the action in which a British submarine sunk a German U-boat and torpedoed a cruiser, I wish we could have had more details. They must by now be known to the Germans, and I hope that the Government will be able to let us know soon what class of cruiser it was, where the action took place and the condition of the German cruiser now.<p></p> My last word is this: There is one subject with which, I must confess, I thought the Prime Minister would have dealt this morning. No doubt it was outside the scope which he had in his mind for his speech, but it is a very im- <span id="1347" class="column-number" data-column-number="1347"></span> portant subject on which we have had no more than a brief answer to a parliamentary question so far. It is the recent financial agreement with France. As far as I understand that agreement from what is published in the OFFICIAL REPORT, it is one of far-reaching importance, and one which I, personally, welcome whole-heartedly. It seems to me that His Majesty's Government and the French Republic have made an omelette which it will be difficult to unscramble, and I rejoice that it will be difficult to unscramble. It seems to me that we are committed by this far-reaching agreement, to a lasting economic and financial co-operation with France. I hope that soon after the House reassembles some opportunity will be provided in which the Prime Minister or the Chancellor of the Exchequer will give to the House a statement on the wider issues which are involved in the agreement.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e309bc3c-633e-4d24-a77d-3eefb842acb9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-e309bc3c-633e-4d24-a77d-3eefb842acb9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+                Mr. Ammon
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-9230a796-ed2d-4aaa-a9fb-e63c5b70d750" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the Prime Minister whether he can add to his statement on naval operations anything concerning the reported loss of a destroyer?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-9230a796-ed2d-4aaa-a9fb-e63c5b70d750" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-9230a796-ed2d-4aaa-a9fb-e63c5b70d750">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-86e40ddf-5a1f-4eef-9624-d9f3894fe6dc'>
+            
+<p class="">1.36 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+                Commander Sir Archibald Southby
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-12daa45a-4f19-4962-924b-f0f82e6e3ab0" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I should like to ask my right hon. Friend one question arising out of his statement. Would it be possible to give to the House and the country the name of the officer commanding the submarine who so worthily maintained the traditions not only of the Service, but of the submarine service, in action against a German submarine and a German cruiser yesterday, particularly in view of the fact that this officer has been held up to a considerable amount of contempt in foreign countries? It may be that certain naval circumstances make it impossible to disclose the officer's name at the present time, for reasons which will be obvious to hon. Members; but I should like to ask my right hon. Friend whether a disclosure of the name could be made at the earliest possible moment, so that the country might know who the officer is who has fought such an extraordinarily good action in the North Sea.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-12daa45a-4f19-4962-924b-f0f82e6e3ab0" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-12daa45a-4f19-4962-924b-f0f82e6e3ab0">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-23295954-d860-46dc-9b57-da963be442b8">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-23295954-d860-46dc-9b57-da963be442b8">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-23295954-d860-46dc-9b57-da963be442b8">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-23295954-d860-46dc-9b57-da963be442b8">
+                Mr. Noel-Baker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-23295954-d860-46dc-9b57-da963be442b8" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-23295954-d860-46dc-9b57-da963be442b8">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I should like to ask the Prime Minister a question which I will not press him to answer if he does not feel it is right to do so. Arising out of what he said about the League of Nations and Finland, is it not now <span id="1348" class="column-number" data-column-number="1348"></span> becoming increasingly plain that unless the smaller countries of Europe find some way of standing together against aggression, their independence will be destroyed one by one?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-23295954-d860-46dc-9b57-da963be442b8" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-23295954-d860-46dc-9b57-da963be442b8">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-8ef80442-ff36-4cf8-96ab-0bd7da7bf733'>
+            
+<p class="">1.37 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-0dde0ed6-d218-429a-b6da-b69d88e564cc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In answer to the last question, I think that has been plain for a long time. I should like to thank the right hon. Gentleman the Member for Caithness and Sutherland (Sir A. Sinclair) for calling special attention to the Anglo-French Agreement, which he rightly says is one of really first-rate importance, the effect of which may be more far-reaching and last longer than was even in the minds of those who originally felt it necessary to make such an agreement. I did not refer to it in my statement, because it was, perhaps, a little out of the way, and the Chancellor has already given some account of it, but undoubtedly it is not a matter which can be left out of sight, and when the House meets again, no doubt further statements can be made on it.<p></p> With regard to the question of my hon. and gallant Friend the Member for Epsom (Sir A. Southby) about giving the name of the commander of the submarine who performed such notable service at very great risk, I should like very much to give the name, but I am informed that to do so would enable the enemy to identify the submarine, because the officer's name has already been published as commander of that particular vessel, and as we do not wish the submarine to be identified, I am afraid that, for the present at any rate, we must refrain from making the name public.<p></p> As to the question asked by the hon. Member for North Camberwell (Mr. Ammon), I had not seen the announcement in the Press, and I would not like to say anything more than what is stated in the newspaper announcement which I have before me. The hon. Member will have noted that this was not a loss in action, but was an accident, of the sort which, I suppose, is almost inevitable in darkness, without lights, as is the natural condition that exists nowadays. I am afraid it is another case where there is heavy loss of life. The Navy are suffering very severely. The bulk of the burden of the war is at present falling on the Navy. They are doing their duty, <span id="1349" class="column-number" data-column-number="1349"></span> as they have always done; they are suffering losses; but they are also preserving the safety of the country.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-0dde0ed6-d218-429a-b6da-b69d88e564cc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-0dde0ed6-d218-429a-b6da-b69d88e564cc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-4cdcae19-ad89-406b-bc5c-e07766208f0c'>
+            
+<p class="">1.40 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+                Mr. A. V. Alexander
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3f069c77-b5fe-4171-a3d8-0800254f3c12" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With regard to the officer to whom the hon. and gallant Member for Epsom (Sir A. Southby) referred, would it not be well, if the Government could so arrange it, for a wider statement to be made of the circumstances in which the "Bremen" was allowed to pass? There is a great deal of criticism of that action which, I think, is quite unjustifiable. The specific questions put in a London newspaper this morning are not helpful. In my view, in the particular area in which the incident occurred, and having regard to the future of our action in relation to existing enemy ships at the end of the war, I believe that the commander of the submarine did exactly the right thing. I hope the Government will take steps to see that that is specifically and adequately stated.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3f069c77-b5fe-4171-a3d8-0800254f3c12" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-3f069c77-b5fe-4171-a3d8-0800254f3c12">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9  content-container " id='contribution-f4bf0f5d-38a4-46e5-9d3f-1480d02323ba'>
+            
+<p class="">1.41 p.m.</p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-f9658373-a670-40b2-93ef-2162aea11662">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f9658373-a670-40b2-93ef-2162aea11662">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f9658373-a670-40b2-93ef-2162aea11662">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f9658373-a670-40b2-93ef-2162aea11662">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f9658373-a670-40b2-93ef-2162aea11662" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-f9658373-a670-40b2-93ef-2162aea11662">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I have already called the attention of my right hon. Friend the First Lord of the Admiralty to the desirability of giving further information, because I saw that questions were being asked which seemed to be entirely unjustified and largely founded on misunderstanding; and my right hon. Friend did, in fact, give information to the Press yesterday which, I think, in most newspapers, is reproduced in different forms. It is clear that the only possible action which the submarine could have taken to stop this vessel would have been to torpedo her. To do that would have been to do ourselves what we are denouncing the enemy for doing. The more one sees accounts of the results of enemy action, the more one hates and despises an enemy who behaves in that way; and the last thing we ought to do is to put ourselves in the same position.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f9658373-a670-40b2-93ef-2162aea11662" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-f9658373-a670-40b2-93ef-2162aea11662">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+                Mr. Noel-Baker
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8271f1b6-a694-4442-9936-a83f3ee69b3b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will the Prime Minister also ask the Ministry of Information to make a special effort to put this view of the matter across in the neutral countries, in order to show the spirit in which we are conducting the war at sea?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8271f1b6-a694-4442-9936-a83f3ee69b3b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-8271f1b6-a694-4442-9936-a83f3ee69b3b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+                The Prime Minister
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">That has been done already.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1939-12-14/debates/42812234-bff2-474a-9b91-f9707bd4e56b/TheWar#contribution-b0710278-ea9a-40eb-9d6e-e2a627fb6b9a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

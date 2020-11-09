@@ -1,0 +1,1623 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Man-Power (Re-Allocation) - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1945-08-23">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1945-08-23/debates/e6b69377-968e-457c-8d7b-87da0d8063a3/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1945-08-23">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1945-08-23/debates/41a5b169-b5fb-45ff-97b4-f3bcc77b0c67/PrisonersOfWarAndCivilianInterneesFarEast" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Man-Power (Re-Allocation)
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1945-08-23/debates/c6148317-9ec8-4848-8059-4f5288c4a26d/BusinesssOfTheHouse" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2047543" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>23 August 1945</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 413</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="794" class="column-number column-only" data-column-number="794"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8bfd1e11-0a88-4375-a381-2f66251e5a82" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">By leave of the House, I wish to make the following statement:<p></p> The scheme for release from the Armed Forces after the defeat of Germany was presented to Parliament last September by my right hon. Friend the Secretary of State for Foreign Affairs. It was described as a scheme for the Re-allocation of Manpower between the Armed Forces and Civilian Employment during any interim period between the defeat of Germany and the defeat of Japan. We have now passed that interim period, but, as stated by the Prime Minister last Thursday, we have not, for the reasons which he gave, yet come to the time for full demobilisation, and it is intended to continue the orderly release of men and women from the Armed Forces on the basis of the present scheme. In the Debateon 16th May, my right hon. Friend said that it was hoped that the releases of men and women from the Forces up to the end of 1945 would reach three-quarters of a million. That represented an increase on earlier estimates. This was subsequently confirmed on31st May by my predecessor in office. In view of developments since then, it has been possible at once to accelerate the rate of release with the result that we may now expect that nearly 900,000 men and over 100,000 women will be released in Class A this year. A further review of military requirements is now taking place. The release scheme came into operation in the middle of June when the numbers released in the first groups were comparatively small. Nevertheless in the first six weeks, that is, up to the end of July, about 120,000 men and women were released. The numbers are increasing progressively and rapidly each month as the scheme gets under way, so that the main bulk of releases will fall in the last quarter of the year and will stretch to the uttermost the machinery provided.<p></p> In addition to the release of men in Class A we are proceeding as quickly as possible with the release of men in Class B for urgent reconstruction work. The majority of the releases in Class B will be for the housing programme, but there will be substantial releases for other industries and services including coalmining and teaching. It has also been decided to introduce a scheme for release of women <span id="795" class="column-number" data-column-number="795"></span> in Class B under which women will be released if they are willing to return to their employment in such important civilian industries as textiles, clothing, boots and shoes and laundries, where experienced workers are urgently needed. Any releases in Class B will be controlled so that the total numbers both for men and women will not exceed ten per cent. of releases in Class A.<p></p> On the civilian side, the end of the Japanese war has made it possible to bring about very rapid reductions in munitions production and so to make large numbers of workpeople available for reallocation to other work. The Supply Departments expect to release about 1,150,000 workers from war production in the next two months. It is the Government's aim, working in co-operation with employers and workpeople, to make the change-over as smooth and speedy as possible, and at the same time to assist the permanent resettlement in civilian employment of workers whose services are no longer needed in war work.<p></p> Some of those released from war work will remain with their present employers for work in civilian production. Others, and particularly married women with household responsibilities, may wish to leave employment altogether. But there will obviously be large numbers whom we shall wish to see resettled in permanent employment. No one will think that this unwinding process will be easy. Difficulties are bound to arise in particular areas where alternative employment may not be immediatly available on the scale required completely to offset the cuts in munitions. Special attention will be given to such cases.<p></p> With regard to the procedure for dealing with these releases we shall continue, as far as possible, the arrangements which have operated successfully during the war in connection with changes in production programmes. Where there is a choice, cuts in production will ordinarily be made first in those areas where the demands for labour for civilian production and services are most urgent. It is hoped that employers affected by cuts will tell their local Employment Exchange in advance without waiting to give formal notice under the Essential Work Orders. This will help both in the release of workpeople and in arranging for alternative employment.<p></p><span id="796" class="column-number" data-column-number="796"></span> In this period of rapid readjustment an orderly redistribution of workers is of the greatest importance if the most urgent needs of the nation are to be satisfied first—if homes are to be built and furnished, household goods replenished and exports raised in order to pay for our raw materials and food. Our aim must be to encourage workers who are seeking fresh employment to enter those civilian industries and services which have lost so much of their labour force during the war and are essential to the work of reconstruction. For the time being some control of this movement of labour must be maintained. I am examining urgently the operation of the existing controls, and I shall be ready to make such changes as seem to be necessary to meet the new situation. In the meantime we have simplified the arrangements made under the Essential Work Orders for release of workers no longer required for war work. Under the order of release it will still be necessary to select first, young men required for the Forces. Then release will be given to those living away from home who wish to return Where time permits we shall select those who volunteer for certain other work of national importance. Finally the employer will nominate workers for discharge with due regard to any industrial agreements to which he is a party. Consultation with representatives of the workers will be maintained.<p></p> For the conduct of the war we have had full mobilisation of the man-power resources of the country. This achievement has been made possible only with the full co-operation of employers and trade unions and of individual men and women. I am glad to be able to inform the House that I have received a full assurance of the continued help and advice of both sides of organised industry in meeting the problems of the change over from war to peace. No one can pretend that there will not be difficulties, but I am confident that they can be overcome with good will and by harnessing to the work of reconstruction the energy which has been generated for the purposes of war.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8bfd1e11-0a88-4375-a381-2f66251e5a82" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-8bfd1e11-0a88-4375-a381-2f66251e5a82">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-e2ce341f-eed2-4691-b72c-2f6235683996">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-e2ce341f-eed2-4691-b72c-2f6235683996">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-e2ce341f-eed2-4691-b72c-2f6235683996">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-e2ce341f-eed2-4691-b72c-2f6235683996">
+                Mr. R. A. Butler
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-e2ce341f-eed2-4691-b72c-2f6235683996" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-e2ce341f-eed2-4691-b72c-2f6235683996">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the right hon. Gentleman whether he realises that, however welcome his statement may be, it goes very little further than the Press release issued by the Ministry last Friday evening? Will he give an assurance that the further review of military requirements <span id="797" class="column-number" data-column-number="797"></span> which he says is now taking place will be continued with the utmost despatch, with a view to putting civilian needs in this country predominantly above all others; and secondly, will he give an assurance that it will be possible, under the scheme of B release for women, for a substantial release of women in addition to those he has already announced?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-e2ce341f-eed2-4691-b72c-2f6235683996" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-e2ce341f-eed2-4691-b72c-2f6235683996">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-83689bde-2450-4c17-b7b6-768e52391819">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-83689bde-2450-4c17-b7b6-768e52391819">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-83689bde-2450-4c17-b7b6-768e52391819">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-83689bde-2450-4c17-b7b6-768e52391819">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-83689bde-2450-4c17-b7b6-768e52391819" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-83689bde-2450-4c17-b7b6-768e52391819">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think perhaps I may add to the information I have given, in reply to the question by the right hon. Gentleman. The acceleration in release will enable the Army to begin to release men in Group 23 by the end of the year, and to complete the release of women in group 34. In the Royal Air Force it is estimated that Group 23 will in general be reached in the case of men, but release may fall short of this in certain sections. The release of women in the R.A.F.will reach Group 35, but may not go so far in certain trades. In the Royal Navy it is hoped to reach Group 26 for the majority of ratings, and as far as women are concerned it is hoped to reach Group 49. As to the other points which he has mentioned, I will see that they receive consideration.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-83689bde-2450-4c17-b7b6-768e52391819" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-83689bde-2450-4c17-b7b6-768e52391819">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can we have the figures of the ration strength of the Armed Forces at the present time, if possible with the theatres; and will the right hon. Gentleman give figures at intervals on the progress of demobilisation from these total ration strengths?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-a979c9e8-b64c-43e9-8eb7-cba1b5ea8b4d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c5525031-057d-47ae-8d75-bc2c5feb137a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c5525031-057d-47ae-8d75-bc2c5feb137a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c5525031-057d-47ae-8d75-bc2c5feb137a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c5525031-057d-47ae-8d75-bc2c5feb137a">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c5525031-057d-47ae-8d75-bc2c5feb137a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c5525031-057d-47ae-8d75-bc2c5feb137a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I must ask the right hon. Gentleman to give me notice of the first part of the question. On the second part, I think I can give some information on that point. The hundred thousand releases already taking place have been allocated as follow: Building and civil engineering operatives, 60,000; building material workers, 10,000; underground coalminers, 30,000;and school teachers, 10,000. We are proceeding with this allocation of labour in accordance with priorities which may vary from time to time with national requirements.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c5525031-057d-47ae-8d75-bc2c5feb137a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c5525031-057d-47ae-8d75-bc2c5feb137a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">My point was whether we could be informed of the total numbers at present held in the Armed Forces, because that is the datum line from which the right hon. Gentleman starts—I do not mean now, but can we be informed in a few days, or in a week?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-2188844f-5bdf-4b72-9c2b-2c0eafc16dbc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="798" class="column-number column-only" data-column-number="798"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I think that is not entirely a question for the Ministry of Labour, but I can undertake that it will be considered by the Service Ministers and the matter will have attention in the hope that we can do as the right hon. Gentleman requires.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-8d7e86cc-3e2b-4fe3-87c5-f23965ceb928">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+                Mr. H. Hynd
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c079e6e5-0478-46bf-97d1-f511f6e8a32d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can my right hon. Friend say why the releases in Class B must be restricted to 10 per cent. of the releases in Class A? Is that a purely arbitrary figure or is there any real reason for it?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c079e6e5-0478-46bf-97d1-f511f6e8a32d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c079e6e5-0478-46bf-97d1-f511f6e8a32d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6d96da88-29ff-4492-871c-4eba4882f240">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6d96da88-29ff-4492-871c-4eba4882f240">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6d96da88-29ff-4492-871c-4eba4882f240">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6d96da88-29ff-4492-871c-4eba4882f240">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6d96da88-29ff-4492-871c-4eba4882f240" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-6d96da88-29ff-4492-871c-4eba4882f240">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is was an understanding that was reached in the beginning in order to secure some measure of fairness.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6d96da88-29ff-4492-871c-4eba4882f240" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-6d96da88-29ff-4492-871c-4eba4882f240">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+                Captain Crowder
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d703b0a1-67c3-40c9-bbab-d0da850a06ba" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Can the right hon. Gentleman make it clear whether his National Service officers will still have the power to direct men and women released under Class A, or whether they will be free to take whatever jobs they like with out consulting the National Service officer?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d703b0a1-67c3-40c9-bbab-d0da850a06ba" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d703b0a1-67c3-40c9-bbab-d0da850a06ba">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f15d8828-76b8-496f-9b6e-6e738faf04ef" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I did mention in the statement that the question of direction and reservation must for the time being be reserved, but it is being examined. In any case the national interest will be the active consideration, but it is hoped to remove these restrictions in due course.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f15d8828-76b8-496f-9b6e-6e738faf04ef" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-f15d8828-76b8-496f-9b6e-6e738faf04ef">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+                Mr. Lipson
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c0d51449-e100-48b2-8a4e-ee3aa1539919" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the right hon. Gentleman aware that the Parliamentary Secretary to the Ministry of Labour in the Coalition Government, before the end of the Japanese war, stated in this House that it was hoped that up to the middle twenties would be released by the end of the year, and in view of that fact is it not disappointing to hear that with the changed circumstances it is only hoped to go up to Group 23?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c0d51449-e100-48b2-8a4e-ee3aa1539919" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-c0d51449-e100-48b2-8a4e-ee3aa1539919">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-292e3430-931f-40f2-bd65-88c83a2f83e9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-292e3430-931f-40f2-bd65-88c83a2f83e9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-292e3430-931f-40f2-bd65-88c83a2f83e9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-292e3430-931f-40f2-bd65-88c83a2f83e9">
+                Mr. Driberg
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-292e3430-931f-40f2-bd65-88c83a2f83e9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-292e3430-931f-40f2-bd65-88c83a2f83e9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask my right hon. Friend if he will circulate to the Services and publish as widely as possible a clear explanation of the technique of the Class B releases, because there is a good deal of uncertainty about who initiates the application and so on; and, secondly, may I ask him whether a building trade worker released under Class B, if he is a man who had a small family building business, is to be allowed to return to it or is he necessarily directed elsewhere?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-292e3430-931f-40f2-bd65-88c83a2f83e9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-292e3430-931f-40f2-bd65-88c83a2f83e9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-97b62147-eba9-47b8-8738-2a2c84a943c2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-97b62147-eba9-47b8-8738-2a2c84a943c2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-97b62147-eba9-47b8-8738-2a2c84a943c2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-97b62147-eba9-47b8-8738-2a2c84a943c2">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-97b62147-eba9-47b8-8738-2a2c84a943c2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-97b62147-eba9-47b8-8738-2a2c84a943c2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I would not like to give a definite answer to the second part of <span id="799" class="column-number" data-column-number="799"></span> the question without an opportunity of looking into the point. As regards the first part of the question, it is our hope to make it perfectly clear to all in the Forces what are the real facts of the situation, in view of same of the misinformed statements that have been published.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-97b62147-eba9-47b8-8738-2a2c84a943c2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-97b62147-eba9-47b8-8738-2a2c84a943c2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-05f92a11-b8fd-4d11-9adc-138c997827cc">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-05f92a11-b8fd-4d11-9adc-138c997827cc">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-05f92a11-b8fd-4d11-9adc-138c997827cc">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-05f92a11-b8fd-4d11-9adc-138c997827cc">
+                Mr. David Eccles
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-05f92a11-b8fd-4d11-9adc-138c997827cc" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-05f92a11-b8fd-4d11-9adc-138c997827cc">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In view of the very large number of war workers who are to be released in a very short time and the difficulty they will have in finding houses near their new jobs, can the Minister state whether there are plans for assisted transport to take them from where they are living now to where they have their new jobs in civilian production?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-05f92a11-b8fd-4d11-9adc-138c997827cc" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-05f92a11-b8fd-4d11-9adc-138c997827cc">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-31895cdc-1c56-4928-8220-50595615785c">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-31895cdc-1c56-4928-8220-50595615785c">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-31895cdc-1c56-4928-8220-50595615785c">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-31895cdc-1c56-4928-8220-50595615785c">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-31895cdc-1c56-4928-8220-50595615785c" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-31895cdc-1c56-4928-8220-50595615785c">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I am rather new to my Department, and I am not sure whether the provision of transport is one of the tasks that comes under the Minister of Labour. If the hon. Member will be good enough to put down his question I will see that he gets an answer.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-31895cdc-1c56-4928-8220-50595615785c" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-31895cdc-1c56-4928-8220-50595615785c">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-d546e856-a010-4978-a3db-7e294af7897b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d546e856-a010-4978-a3db-7e294af7897b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d546e856-a010-4978-a3db-7e294af7897b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d546e856-a010-4978-a3db-7e294af7897b">
+                Captain Cecil Poole
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d546e856-a010-4978-a3db-7e294af7897b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d546e856-a010-4978-a3db-7e294af7897b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Will the Minister give us an assurance that the review of the Services' position will not be left to the Services chiefs themselves, because if that be so we shall still have many men kept in the Services doing nothing?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d546e856-a010-4978-a3db-7e294af7897b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d546e856-a010-4978-a3db-7e294af7897b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b324df0f-c9e1-4e0e-84ea-abad35bb5514" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I can assure the hon. and gallant Member that this is a question which is reserved for the Government and will be decided by the Government.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b324df0f-c9e1-4e0e-84ea-abad35bb5514" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-b324df0f-c9e1-4e0e-84ea-abad35bb5514">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+                Mr. Blackburn
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b650ea31-8296-4470-9c00-b85ecb0d42eb" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is the right hon. Gentleman aware that it will cause great satisfaction that he has to-day co-ordinated estimates from all three Services and can we be assured that he will continue to co-ordinate the estimates of all three Services for the purpose of ending confusion?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b650ea31-8296-4470-9c00-b85ecb0d42eb" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-b650ea31-8296-4470-9c00-b85ecb0d42eb">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5ccdd81c-2754-43f3-87d9-f98aa07702a9" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5ccdd81c-2754-43f3-87d9-f98aa07702a9" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-5ccdd81c-2754-43f3-87d9-f98aa07702a9">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-319d7b99-2d7b-4f43-abf9-f08389c14871">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-319d7b99-2d7b-4f43-abf9-f08389c14871">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-319d7b99-2d7b-4f43-abf9-f08389c14871">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-319d7b99-2d7b-4f43-abf9-f08389c14871">
+                Viscount Hinchingbrooke
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-319d7b99-2d7b-4f43-abf9-f08389c14871" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-319d7b99-2d7b-4f43-abf9-f08389c14871">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">With regard to the statement of the Minister that the machinery of demobilisation would be seriously considered towards the end of the year, is consideration being given to the expansion of the machinery?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-319d7b99-2d7b-4f43-abf9-f08389c14871" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-319d7b99-2d7b-4f43-abf9-f08389c14871">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6dfbfc63-463c-433a-8493-34c7d3656b96">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6dfbfc63-463c-433a-8493-34c7d3656b96">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6dfbfc63-463c-433a-8493-34c7d3656b96">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6dfbfc63-463c-433a-8493-34c7d3656b96">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6dfbfc63-463c-433a-8493-34c7d3656b96" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-6dfbfc63-463c-433a-8493-34c7d3656b96">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Yes, Sir.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6dfbfc63-463c-433a-8493-34c7d3656b96" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-6dfbfc63-463c-433a-8493-34c7d3656b96">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+                Lieut.-Colonel Sir Ian Fraser
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-3d3183a1-c92a-49be-ab27-36f4296e71a3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In view of the grim food position can the right hon. Gentleman say whether there is any hope that the agricultural industry can have additional releases under Class B?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-3d3183a1-c92a-49be-ab27-36f4296e71a3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-3d3183a1-c92a-49be-ab27-36f4296e71a3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="800" class="column-number column-only" data-column-number="800"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+                Mr. Isaacs
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-d9e3a4fb-621d-4a9a-a820-7210d648ee0a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">No, Sir, The Minister of Agriculture I think has this matter under his consideration, but once you begin to give preference to one and another under Class B the whole thing will fall to pieces.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-d9e3a4fb-621d-4a9a-a820-7210d648ee0a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1945-08-23/debates/1964a3dd-7806-4871-9d6b-7ad6e5d26e6c/Man-Power(Re-Allocation)#contribution-d9e3a4fb-621d-4a9a-a820-7210d648ee0a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>

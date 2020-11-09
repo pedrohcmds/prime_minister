@@ -1,0 +1,1160 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Artificial Limbs - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="">
+        <div id="main" class="content">
+            
+
+<!-- House coloured header bar -->
+<div class="background-commons house-header col-xs-12">
+    <div class="container">
+        <span>House of Commons <strong>Hansard</strong></span>
+        <div class="survey">
+    <div class="message">
+        <!-- Populated via JavaScript -->
+    </div>
+    <a href="#" class="close-button" title="Tap to hide survey banner">x</a>
+</div>
+    </div>
+</div>
+
+<div class="">
+    
+
+<div class="row content debate-content">
+    <div class="col-xs-12">
+        <!-- the breadcrumb is to navigate around the day and go back to the date picker-->
+        <div class="breadcrumb-container breadcrumb-desktop hidden-xs">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/Commons/1948-07-01">
+                            <strong>Contents</strong>
+                        </a>
+                    </li>
+                        <li>
+                                <a href="/Commons/1948-07-01/debates/698ce1e4-0e5a-4e91-a8cf-b13628b34fb4/CommonsChamber">
+                                    <span class="commons">Commons Chamber</span>
+                                </a>
+                        </li>
+
+                    <li>
+                        <div class="hidden-sm download-as-text">
+                            <a class="link-text" href="/debates/GetDebateAsText/625f477e-0574-4fad-a5ff-7923d12d2e5a"><span class="glyphicon glyphicon-file"></span> Text only</a>
+                        </div>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="breadcrumb breadcrumb-mobile visible-xs">
+            <a class="btn btn-wide" href="/Commons/1948-07-01">
+                Back to Contents
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12">
+<div class="clearfix"></div>
+<div class="alert-area">
+    <div id="process-warning" class="alert-outer alert-hidden" data-processing-url="/processing/getcurrentlyprocessing">
+    <div class="alert alert-info">
+        <div class="alert-inner">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span id="process-warning-message"></span>
+        </div>
+    </div>
+</div>
+
+
+            <div class="alert-outer">
+                <div class="alert alert-info">
+                    <div class="alert-inner">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                        The text on this page has been created from Hansard archive content, it may contain typographical errors.
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="col-xs-12 header">
+        <div class="container">
+            <div class="left-arrow">
+                    <a href="/Commons/1948-07-01/debates/58a7cb2e-3f20-4360-93f8-f8454b6d3995/BusinessOfTheHouse" class="previous" title="Go to the previous debate">
+
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+            </div>
+
+            <div class="title">
+                Artificial Limbs
+            </div>
+
+            <div class="right-arrow">
+                    <a href="/Commons/1948-07-01/debates/4d9e23dd-cc00-49f7-a512-3833a629a66d/BusinessOfTheHouse" class="next" title="Go to the next debate">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+            <div class="col-xs-12">
+                <div class="actions">
+                    <div class="share-debate">
+                        <a href="#debate-2757481" rel="popover" class="link-to-contribution link-text" title="Share this debate" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs">
+                            <div class="share-icon">&nbsp;</div> Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+    <div class="col-xs-12 debate-date">
+        <strong>01 July 1948</strong>
+    </div>
+
+    <div class="col-xs-12 debate-date">Volume 452</div>
+
+    <div class="col-xs-12 col-md-12">
+        <div class="container">
+            <div id="debateContent">
+                <div class="highlightedSearchTerms"></div>
+                <div class="content-container">
+<div class="content-item" id="contribution-50198d99-225a-4087-b2b4-93dd89f2036d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-50198d99-225a-4087-b2b4-93dd89f2036d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-50198d99-225a-4087-b2b4-93dd89f2036d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-50198d99-225a-4087-b2b4-93dd89f2036d">
+                The Minister of Pensions (Mr. Buchanan)
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-50198d99-225a-4087-b2b4-93dd89f2036d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-50198d99-225a-4087-b2b4-93dd89f2036d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">I will, with permission, make a statement to the House on artificial limbs.<p></p> As I told the House on 22nd June, I have been holding discussions with representatives of the artificial limb industry regarding supplies of these articles for the disabled as a part of the National Health Service. I am now glad to say that satisfactory arrangements have been agreed between us which will enable every firm in the industry, which is able to produce a limb of high quality, to continue in production. These arrangements will be as follow: <li>(1) Every patient requiring an artificial limb will be asked to attend at one of my Ministry's limb fitting centres reasonably close to his home. He will there be examined by a Ministry of Pensions experienced and highly qualified limb fitting surgeon who, in consultation with the surgeon who performed the amputation, will prescribe the type of limb required for his particular stump.</li><li>(2) The patient will then be given all necessary information to enable him to make his choice of limb from lists of makers whose limbs have been approved by the Ministry of Pensions and who have entered into a contract for this purpose.</li><li>(3) If he chooses a limb such as is now being supplied to war disabled pensioners he will get this as a free issue. If he chooses an approved limb of some other make and this costs more, he will be charged the excess.</li><li>(4) If he chooses the free limb, he will be dealt with throughout at the Ministry's limb fitting centre. If, however, he chooses another approved limb he will be put into touch with the maker who will arrange for measurements to be taken and fittings to be given. He will be required to attend at the Ministry's limb fitting centre when he has been satisfactorily fitted in this manner, where he will be examined by the limb fitting surgeon, who will ensure that the limb is satisfactory in all respects.</li> The considerations I have had in mind in making these arrangements are, firstly, <span id="2378" class="column-number" data-column-number="2378"></span> that the patient should, on the one hand, have a reasonable selection in regard to the type of limb and maker, while, on the other hand, he has at his disposal all the specialised medical skill acquired by the Ministry's limb fitting service during the last 30 years, and it is for this latter reason that I attach great importance to the patient visiting the limb fitting centre both at the beginning and at the conclusion of the limb fitting operation. So far as the limb makers are concerned, these arrangements will enable private firms making high quality limbs to continue production under reasonably favourable conditions whilst, at the same time, safeguarding the adequacy and quality of the supply of artificial limbs which are likely to be required under the National Health Service Act.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-50198d99-225a-4087-b2b4-93dd89f2036d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-50198d99-225a-4087-b2b4-93dd89f2036d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-fb848efb-d53c-4923-a7be-4bafedb35028">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fb848efb-d53c-4923-a7be-4bafedb35028">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fb848efb-d53c-4923-a7be-4bafedb35028">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fb848efb-d53c-4923-a7be-4bafedb35028">
+                Mr. Churchill
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fb848efb-d53c-4923-a7be-4bafedb35028" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-fb848efb-d53c-4923-a7be-4bafedb35028">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I congratulate the right hon. Gentleman on his benevolent swan song, and may I, with indulgence, express the feelings of Members in all parts of the House in wishing him a fruitful career of public service in the course which he has chosen?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fb848efb-d53c-4923-a7be-4bafedb35028" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-fb848efb-d53c-4923-a7be-4bafedb35028">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+                Mr. J. S. C. Reid
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-03d3a5cb-9da5-4e4e-a004-c2360a3671d4" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I ask the right hon. Gentleman questions on two points, which I am sure are not fundamental to this scheme? In regard to the final approval, is it really necessary, where there is a surgeon in the National Health Service who has performed the amputation and has approved the type of limb, for the Ministry of Pensions to be brought in for final approval? Could not the National Health Service surgeon certify final approval? Is it really necessary for the person in that case to go to the pensions centre? The right hon. Gentleman referred to consultations between the two surgeons, and that may entail a good deal of difficulty for the National Health Service surgeon. Cannot the National Health Service surgeon enable the patient to be put into direct touch with the firm concerned?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-03d3a5cb-9da5-4e4e-a004-c2360a3671d4" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-03d3a5cb-9da5-4e4e-a004-c2360a3671d4">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+                Mr. Buchanan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-44bbb657-d7ed-44f9-8c7d-917fda61fa54" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">These matters have been the subject of discussion, and I have gone into this scheme very thoroughly. I hope that this scheme will not go on without a review at a comparatively early period, but in the early stages I must insist on a limb fitting surgeon. These are men in the medical profession who are accepted as knowing their job extremely well. While I am on my feet, may I say to <span id="2379" class="column-number" data-column-number="2379"></span> the right hon. Gentleman the Member for Woodford (Mr. Churchill), with whom I have been associated: "Thank you very much?"</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-44bbb657-d7ed-44f9-8c7d-917fda61fa54" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-44bbb657-d7ed-44f9-8c7d-917fda61fa54">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+                Dr. Haden Guest
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-6d3086dc-c122-4877-b95d-d1ddd579ada2" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Has my right hon. Friend anything to say about improvements to artificial limbs in the future?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-6d3086dc-c122-4877-b95d-d1ddd579ada2" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-6d3086dc-c122-4877-b95d-d1ddd579ada2">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-5388561e-3c64-4524-9c98-e226f716d70f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-5388561e-3c64-4524-9c98-e226f716d70f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-5388561e-3c64-4524-9c98-e226f716d70f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-5388561e-3c64-4524-9c98-e226f716d70f">
+                Mr. Buchanan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-5388561e-3c64-4524-9c98-e226f716d70f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-5388561e-3c64-4524-9c98-e226f716d70f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">The Ministry have a service at their disposal in connection with improvements to artificial limbs, and we spend a considerable amount of money and time on research. It is our purpose not only to make the results of this research available to the main Government contractors, but to make them available to every maker of artificial limbs.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-5388561e-3c64-4524-9c98-e226f716d70f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-5388561e-3c64-4524-9c98-e226f716d70f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+                Sir Henry Morris-Jones
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-b4871f53-68ce-4d2a-b1d7-81217cf599a3" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">While congratulating the right hon. Gentleman on this very fine gesture as a last act before he leaves the House, may I ask him to give further consideration to a closer contact between patients and individual firms in view of the record of individual firms in the manufacture of artificial limbs?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-b4871f53-68ce-4d2a-b1d7-81217cf599a3" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-b4871f53-68ce-4d2a-b1d7-81217cf599a3">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-c88deef6-323f-458a-ae12-05f0f6ca3877">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-c88deef6-323f-458a-ae12-05f0f6ca3877">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-c88deef6-323f-458a-ae12-05f0f6ca3877">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-c88deef6-323f-458a-ae12-05f0f6ca3877">
+                Mr. Buchanan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-c88deef6-323f-458a-ae12-05f0f6ca3877" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-c88deef6-323f-458a-ae12-05f0f6ca3877">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">This scheme is a fair compromise, and I trust that Members will give it a chance to work. At the end of a reasonable period of time the matter can be reviewed again.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-c88deef6-323f-458a-ae12-05f0f6ca3877" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-c88deef6-323f-458a-ae12-05f0f6ca3877">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f6c3a588-dd26-4bc0-a473-950082749362">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f6c3a588-dd26-4bc0-a473-950082749362">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f6c3a588-dd26-4bc0-a473-950082749362">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f6c3a588-dd26-4bc0-a473-950082749362">
+                Mr. Leslie Hale
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f6c3a588-dd26-4bc0-a473-950082749362" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-f6c3a588-dd26-4bc0-a473-950082749362">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">Is my right hon. Friend aware that the statement he has made will allay a good many doubts and will be received with general satisfaction, as most of his recent statements have been; and that if occasion does arise for him to leave the House, he will leave it with the gratitude and respect of ex-Service men everywhere and with the esteem of his colleagues in this House?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f6c3a588-dd26-4bc0-a473-950082749362" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-f6c3a588-dd26-4bc0-a473-950082749362">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 Division content-container " id='contribution-ad2df97c-c47b-4de8-8423-1b2ea1a6cfc5'>
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" Division "></span>
+
+<p class="Division"><division></p><p class="Division"> <table type="span"></p><p class="Division">  <tr></p><p class="Division"> <td align="center"></p><p class="Division">  <b>Division No. 251.]</b></p><p class="Division"> </td></p><p class="Division"> <td align="center"></p><p class="Division">  <b>AYES.</b></p><p class="Division"> </td></p><p class="Division"> <td align="right"></p><p class="Division">  <b>[3.50 p.m.</b></p><p class="Division"> </td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Acland, Sir Richard</td></p><p class="Division"> <td>Berry, H.</td></p><p class="Division"> <td>Chater, D.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, Richard (Balham)</td></p><p class="Division"> <td>Beswick, F.</td></p><p class="Division"> <td>Chetwynd, G. R.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Adams, W. T. (Hammersmith, South)</td></p><p class="Division"> <td>Binns, J.</td></p><p class="Division"> <td>Cluse, W. S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Allen, A. C. (Bosworth)</td></p><p class="Division"> <td>Blackburn, A. R.</td></p><p class="Division"> <td>Cocks, F. S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Allen, Scholefield (Crewe)</td></p><p class="Division"> <td>Blenkinsop, A.</td></p><p class="Division"> <td>Coldrick, W.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Alpass, J. H.</td></p><p class="Division"> <td>Boardman, H.</td></p><p class="Division"> <td>Collindridge, F.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Anderson, A. (Motherwell)</td></p><p class="Division"> <td>Bottomley, A. G.</td></p><p class="Division"> <td>Collins, V. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Attewell, H. C.</td></p><p class="Division"> <td>Bowden, Flg. Offr, H. W.</td></p><p class="Division"> <td>Colman, Miss G. M.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Attlee, Rt. Hon. C. R.</td></p><p class="Division"> <td>Bowles, F. G. (Nuneaton)</td></p><p class="Division"> <td>Cooper, Wing-Comdr. G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Awbery, S. S.</td></p><p class="Division"> <td>Braddock, Mrs. E. M. (L'pl. Exch'ge)</td></p><p class="Division"> <td>Corlett, Dr. J.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ayles, W. H.</td></p><p class="Division"> <td>Braddock, T. (Mitcham)</td></p><p class="Division"> <td>Cove, W. G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Ayrton Gould, Mrs. B.</td></p><p class="Division"> <td>Brook, D. (Halifax)</td></p><p class="Division"> <td>Crawley, A.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bacon, Miss A.</td></p><p class="Division"> <td>Brown, T. J. (Ince)</td></p><p class="Division"> <td>Crossman, R. H. S.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Balfour, A.</td></p><p class="Division"> <td>Bruce, Maj. D. W. T.</td></p><p class="Division"> <td>Dalton, Rt. Hon. H.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Barstow, P. G.</td></p><p class="Division"> <td>Burke, W. A.</td></p><p class="Division"> <td>Davies, Haydn (St. Pancras, S.W.)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Battley, J. R.</td></p><p class="Division"> <td>Butler, H. W. (Hackney, S.)</td></p><p class="Division"> <td>Davies, R. J. (Westhoughton)</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bechervaise, A. E.</td></p><p class="Division"> <td>Carmichael, James</td></p><p class="Division"> <td>Deer, G.</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Bellenger, Rt. Hon. F. J.</td></p><p class="Division"> <td>Chamberlain, R. A.</td></p><p class="Division"> <td>de Freitas, Geoffrey</td></p><p class="Division">  </tr></p><p class="Division">  <tr></p><p class="Division"> <td>Benson, G.</td></p><p class="Division"> <td>Champion, A. J.</td></p><p class="Division"> <td>Dodds, N. N.</td></p><p class="Division">  </tr></p><p class="Division"> </table></p><p class="Division"></division></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div>
+
+<div class="content-item other-content">
+        <!-- START statement -->
+        <div class="statement col-md-9 hs_ColumnNumber content-container " >
+                <span data-toggle="tooltip" data-hop-debug-tooltip class="glyphicon glyphicon-info-sign hidden hidden-xs" data-placement="bottom" title=" hs_ColumnNumber "></span>
+
+<p class="hs_ColumnNumber"><span id="2380" class="column-number column-only" data-column-number="2380"></span></p>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            </div>
+        <div class="clearfix"></div>
+        <!-- END statement -->
+</div><div class="content-item" id="contribution-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+                Mr. Spearman
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">As one who is very particularly concerned, may I pay my respect to the Minister for his bigness in going back on his original policy, and may I express my gratification that he has adopted this course which will help so many of us who have lost limbs?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-844a2d97-6ea7-40eb-ab41-d8cd7fcefd5f">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-65613a4f-bfdf-490e-afea-026a01280eac">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-65613a4f-bfdf-490e-afea-026a01280eac">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-65613a4f-bfdf-490e-afea-026a01280eac">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-65613a4f-bfdf-490e-afea-026a01280eac">
+                Mr. Percy Wells
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-65613a4f-bfdf-490e-afea-026a01280eac" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-65613a4f-bfdf-490e-afea-026a01280eac">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">What is the position in regard to repairs to existing artificial limbs?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-65613a4f-bfdf-490e-afea-026a01280eac" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-65613a4f-bfdf-490e-afea-026a01280eac">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+                Mr. Buchanan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">It is assumed that the person concerned will go back to the maker of the limb. We have come to an arrangement with the makers of these limbs that the Government will pay the proper costs of repair.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-f3a8ebac-4d08-4454-a7cb-a2f6909ffb3a">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-bf985c2d-dac2-42d9-8181-8b321833b50b">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-bf985c2d-dac2-42d9-8181-8b321833b50b">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-bf985c2d-dac2-42d9-8181-8b321833b50b">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-bf985c2d-dac2-42d9-8181-8b321833b50b">
+                Mr. William Ross
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-bf985c2d-dac2-42d9-8181-8b321833b50b" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-bf985c2d-dac2-42d9-8181-8b321833b50b">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">In view of the fact that a patient may have to travel quite a long distance to a limb-fitting centre, will the Minister be still more benevolent and pay the travelling expenses?</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-bf985c2d-dac2-42d9-8181-8b321833b50b" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-bf985c2d-dac2-42d9-8181-8b321833b50b">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+                Mr. Buchanan
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">That is one of the reasons for setting up these centres. If it is a reasonable distance which has to be travelled we will meet the reasonable costs, as we do now.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-fb461ce4-c1fd-4a10-88ef-a82fa3fa8584">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+<div class="content-item" id="contribution-07f9f00d-7382-4810-8702-b95291e0bc1d">
+    <div class="col-md-9 edit-fail-error">
+        <div class="alert alert-danger" id="alert-07f9f00d-7382-4810-8702-b95291e0bc1d">
+            <span class="glyphicon glyphicon-info-sign"></span>The edit just sent has not been saved.  The following error was returned:
+        </div>
+    </div>
+    <div class="col-md-9 multiple-edit-warning">
+        <div class="alert alert-warning" id="warning-07f9f00d-7382-4810-8702-b95291e0bc1d">
+            <span class="glyphicon glyphicon-info-sign"></span>This content has already been edited and is awaiting review.
+        </div>
+    </div>
+
+        <div class="col-md-9 nohighlight member-container">
+            <h2 class="memberLink col-md-9" id="member-link-07f9f00d-7382-4810-8702-b95291e0bc1d">
+                Sir Ian Fraser
+            </h2>
+        </div>
+            <div class="col-md-3 hidden-sm hidden-xs right-column ">
+            <a href="#contribution-07f9f00d-7382-4810-8702-b95291e0bc1d" rel="popover" class="link-to-contribution link-text" title="Share this contribution" data-placement="top"
+               data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+               data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-07f9f00d-7382-4810-8702-b95291e0bc1d">
+                <div class="share-icon">&nbsp;</div><span class="share-text">Share</span>
+            </a>
+        </div>
+
+    
+
+
+    <div class="inner">
+        <div class="col-md-9 contribution content-container">
+
+
+
+<p class="">May I, with the indulgence of the House, ask the right hon. Gentleman to take away with him the good wishes of ex-Service men generally whom he has served very faithfully in this House.</p>                    <div class="hidden-md hidden-lg" style="padding-left: 0px;">
+                        <a href="#contribution-07f9f00d-7382-4810-8702-b95291e0bc1d" rel="popover" class="link-to-contribution link-to-contribution-mobile link-text" title="Share this contribution" data-placement="top"
+                           data-hop-url-shorten-url="/UrlShortener/ShorternUrl"
+                           data-hop-popover="http://hansard.parliament.uk/Commons/1948-07-01/debates/625f477e-0574-4fad-a5ff-7923d12d2e5a/ArtificialLimbs#contribution-07f9f00d-7382-4810-8702-b95291e0bc1d">
+                            <div class="share-icon">&nbsp;</div>&nbsp;Share
+                        </a>
+                    </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="divisionListModal">
+</div>
+
+
+<div class="modal fade" id="suggestedEditModal" data-toggle="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Suggest Correction</h4>
+        </div>
+        <form id="suggestedEditForm">
+            <div class="modal-body">
+                <div id="info" class="error-message"></div>
+                <input type="text" name="debate-section-external-id" id="debate-section-external-id" hidden />
+                <input type="text" name="item-external-id" id="item-external-id" hidden />
+                <input type="text" name="house" id="house" hidden />
+                <input type="text" name="sitting-date" id="sitting-date" hidden />
+                <span class="error" aria-live="polite"></span>
+                <div class="form-group">
+                    <label>Your Details:</label>
+                    <input id="commentor-name" type="text" name="name" class="form-control" placeholder="Enter your full name" required maxlength="250" />
+                </div>
+                <div class="form-group">
+                    <input id="commentor-email" type="email" class="form-control" placeholder="Enter your email" required maxlength="250" />
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <label for="comment-content">Enter your suggested correction:</label>
+                        <span class="pull-right">
+                            <span id="character">0</span>/1000
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <textarea id="comment-content" class="form-control" rows="8" required maxlength="1000"></textarea>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="recaptcha-container">
+                            <div class="instruction">
+                                Please prove you are not a robot.
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LelpEsUAAAAAGGd13jUXWJzPjehV1Ls9EcMXfWM"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="suggestion-submit-btn" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>
