@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 
 class Pronunciamento:
-    def __init__(self, url, ministro="Attlee"):
+    def __init__(self, url, ministro="Churchill"):
         with open(url, encoding="utf8", errors="ignore") as f:
             self.ministro = ministro
             self.soup = BeautifulSoup(f, "lxml")
@@ -17,7 +17,7 @@ class Pronunciamento:
     @staticmethod
     def get_linha():
         num_linhas = 0
-        file = open("tabela_Attlee.csv")
+        file = open("tabela_Churchill.csv")
         for line in file:
             if line != "\n":
                 num_linhas = +1
@@ -93,12 +93,13 @@ class Pronunciamento:
     def insere_na_tabela(self, autor, texto):
         nome_arquivo = f"{self.data}-{self.ministro}-{self.camara}-{autor}.txt"
         palavras = len(texto.split())
-        with open("tabela_Attlee.csv", "a") as f:
-            f.write(f"{nome_arquivo};{self.data};{self.titulo};{palavras};{texto}\n")
+        local_arquivo = f"/home/labri_pedro/prime_minister/{nome_arquivo}"
+        with open("tabela_Churchill.csv", "a") as f:
+            f.write(f"{local_arquivo};{nome_arquivo};{self.data};{self.titulo};{autor};{palavras};{texto}\n")
 
     def cria_txt(self, autor, texto):
         nome_arquivo = f"{self.data}-{self.ministro}-{self.camara}-{self.titulo}-{autor}.txt"
-        with open(f".//arquivos_limpos//ClementAttlee//{nome_arquivo}", "a") as file:
+        with open(f".//arquivos_limpos//WinstonChurchill//{nome_arquivo}", "a") as file:
             file.write(texto)
             file.write("\n")
 
